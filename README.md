@@ -28,10 +28,11 @@ You can start developing by editing the files inside the **app** directory. This
 ## Run with IOS Simulator
 
    ```bash
-   npx expo start
+   npx expo start --dev-client
    ```
 
 --dev-client tells expo start to connect to your development build instead of Expo Go.
+Press `i` to launch the IOS Simulator.
 
 ## Get a fresh project
 
