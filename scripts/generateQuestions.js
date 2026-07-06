@@ -34,6 +34,23 @@ function sleep(ms) {
 }
 
 
+// convert html special character tags to text
+function decodeHtml(str) {
+    const map = {
+    "&quot;": '"',
+    "&#039;": "'",
+    "&amp;": "&",
+    "&lt;": "<",
+    "&gt;": ">",
+    "&eacute;": "é",
+    "&rsquo;": "’",
+    };
+
+    // replace every "&something;" pattern using the map above.
+    return str.replace(/&[a-z0-9#]+;/gi, (match) => map[match] ?? match);
+}
+
+
 // fetch ONE batch of questions for one OpenTDB category + one difficulty.
 async function fetchBatch(opentdbId, difficulty, amount) {
     const url = `https://opentdb.com/api.php?amount=${amount}&category=${opentdbId}&difficulty=${difficulty}&type=multiple`;
@@ -50,11 +67,12 @@ async function fetchBatch(opentdbId, difficulty, amount) {
     
     // Pull out just the question + correct answer tag the difficulty.
     return data.results.map((item) => ({
-        question: item.question,
-        answer: item.correct_answer,
+        question: decodeHtml(item.question),
+        answer:  decodeHtml(item.correct_answer),
         difficulty,
     }));
 }
+
 
 // build ONE full category of questions
 async function buildCategory(categoryConfig) {
