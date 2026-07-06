@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "history-001",
+    "category": "History",
+    "question": "Who succeded Josef Stalin as the leader of the Soviet Union?",
+    "answer": "Nikita Krushchev",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-002",
+    "category": "History",
+    "question": "Who was the first prime minister of Canada?",
+    "answer": "John Macdonald",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-003",
+    "category": "History",
+    "question": "According to legend, the ancient Greeks constructed a huge wooden model of which animal to gain entrance to Troy?",
+    "answer": "Horse",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-004",
+    "category": "History",
+    "question": "How was Socrates executed?",
+    "answer": "Poison",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-005",
+    "category": "History",
+    "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+    "answer": "The Polish President",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-006",
+    "category": "History",
+    "question": "What year did World War I begin?",
+    "answer": "1914",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-007",
+    "category": "History",
+    "question": "Pol Pot was the former dictator of which country?",
+    "answer": "Cambodia",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-008",
+    "category": "History",
+    "question": "Which of these countries remained neutral during World War II?",
+    "answer": "Switzerland",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-009",
+    "category": "History",
+    "question": "What does the United States of America celebrate during the 4th of July?",
+    "answer": "The signing of the Declaration of Independence",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-010",
+    "category": "History",
+    "question": "Where did first known lesbian rights organization in the United States, Daughters of Bilitis, start?",
+    "answer": "San Francisco",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-011",
+    "category": "History",
+    "question": "When was Google founded?",
+    "answer": "September 4, 1998",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-012",
+    "category": "History",
+    "question": "King Henry VIII was the second monarch of which European royal house?",
+    "answer": "Tudor",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-013",
+    "category": "History",
+    "question": "How long did World War II last?",
+    "answer": "6 years",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-014",
+    "category": "History",
+    "question": "Which famous world leader is famed for the saying, \"Let them eat cake\", yet is rumored that he/she never said it at all?",
+    "answer": "Marie Antoinette",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-015",
+    "category": "History",
+    "question": "Which game was the Game of the Year in 2018?",
+    "answer": "God of War",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-016",
+    "category": "History",
+    "question": "The \"Trail of Tears\" was a result of which United States President's Indian Removal Policy?",
+    "answer": "Andrew Jackson",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-017",
+    "category": "History",
+    "question": "What year did World War II end?",
+    "answer": "1945",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-018",
+    "category": "History",
+    "question": "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?",
+    "answer": "Nagasaki",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-019",
+    "category": "History",
+    "question": "How many Sister Ships were related to the TItanic?",
+    "answer": "2",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-020",
+    "category": "History",
+    "question": "What was Manfred von Richthofen's nickname?",
+    "answer": "The Red Baron",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-021",
+    "category": "History",
+    "question": "A collection of Sanskrit hymns and verses known as the Vedas are sacred texts in what religion?",
+    "answer": "Hinduism",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-022",
+    "category": "History",
+    "question": "What is the historical name of Sri Lanka?",
+    "answer": "Ceylon",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-023",
+    "category": "History",
+    "question": "The Ottoman Empire was dissolved after their loss in which war?",
+    "answer": "World War I",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-024",
+    "category": "History",
+    "question": "What battle was the longest in World War I, lasting approximately 303 days?",
+    "answer": "Battle of Verdun ",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-025",
+    "category": "History",
+    "question": "The original Roman alphabet lacked the following letters EXCEPT:",
+    "answer": "X",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-026",
+    "category": "History",
+    "question": "In what year did the Great Northern War, between Russia and Sweden, end?",
+    "answer": "1721",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-027",
+    "category": "History",
+    "question": "Which of these landmarks is not included in the original 'Seven Wonders of the Ancient World'?",
+    "answer": "Great Wall of China",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-028",
+    "category": "History",
+    "question": "When did the Byzantine Empire collapse?",
+    "answer": "1453",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-029",
+    "category": "History",
+    "question": "In what year did the Wall Street Crash take place?",
+    "answer": "1929",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-030",
+    "category": "History",
+    "question": "Which of the following African countries was most successful in resisting colonization?",
+    "answer": "Ethiopia",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-031",
+    "category": "History",
+    "question": "What was the official German currency until 2002?",
+    "answer": "Mark",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-032",
+    "category": "History",
+    "question": "What war did George Orwell famously volunteer for and nearly died in?",
+    "answer": "Spanish Civil War",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-033",
+    "category": "History",
+    "question": "In which year was Nelson Mandela released from prison",
+    "answer": "1990",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-034",
+    "category": "History",
+    "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+    "answer": "Paul Revere",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-035",
+    "category": "History",
+    "question": "These two countries held a commonwealth from the 16th to 18th century.",
+    "answer": "Poland and Lithuania",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-036",
+    "category": "History",
+    "question": "What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?",
+    "answer": "Silk Road",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-037",
+    "category": "History",
+    "question": "Which of the following ancient peoples was NOT classified as Hellenic (Greek)?",
+    "answer": "Illyrians",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-038",
+    "category": "History",
+    "question": "The collapse of the Soviet Union took place in which year?",
+    "answer": "1991",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-039",
+    "category": "History",
+    "question": "In which year did the Invasion of Kuwait by Iraq occur?",
+    "answer": "1990",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-040",
+    "category": "History",
+    "question": "In what year did the nuclear power plant in Chernobyl melt down?",
+    "answer": "1986",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-041",
+    "category": "History",
+    "question": "Who discovered Penicillin?",
+    "answer": "Alexander Flemming",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-042",
+    "category": "History",
+    "question": "In what year was the M1911 pistol designed?",
+    "answer": "1911",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-043",
+    "category": "History",
+    "question": "Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?",
+    "answer": "Hannibal",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-044",
+    "category": "History",
+    "question": "Which one of these countries was NOT in the Central Powers during WWI?",
+    "answer": "Spain",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-045",
+    "category": "History",
+    "question": "In 1720, England was in massive debt and became involved in the South Sea Bubble. Who was the main mastermind behind it?",
+    "answer": "John Blunt",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-046",
+    "category": "History",
+    "question": "In 1939, Britain and France declared war on Germany after it invaded which country?",
+    "answer": "Poland",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-047",
+    "category": "History",
+    "question": "Which of the following countries was not an axis power during World War II?",
+    "answer": " Soviet Union",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-048",
+    "category": "History",
+    "question": "Which country was Josef Stalin born in?",
+    "answer": "Georgia",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-049",
+    "category": "History",
+    "question": "What was William Frederick Cody better known as?",
+    "answer": "Buffalo Bill",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-050",
+    "category": "History",
+    "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+    "answer": "Turkey",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "history-051",
+    "category": "History",
+    "question": "Adolf Hitler was born on which date?",
+    "answer": "April 20, 1889",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-052",
+    "category": "History",
+    "question": "Which of these facilities was not present on the Titanic?",
+    "answer": "Fainting room",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-053",
+    "category": "History",
+    "question": "What was the bloodiest single-day battle during the American Civil War?",
+    "answer": "The Battle of Antietam",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-054",
+    "category": "History",
+    "question": "What year did the Vietnam War end?",
+    "answer": "1975",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-055",
+    "category": "History",
+    "question": "The creator of the Enigma Cypher and Machine was of what nationality?",
+    "answer": "German",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-056",
+    "category": "History",
+    "question": "On which day did the attempted coup d'etat of 1991 in the Soviet Union begin?",
+    "answer": "August 19",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-057",
+    "category": "History",
+    "question": "The Little Entente was an alliance formed against which nation?",
+    "answer": "Hungary",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-058",
+    "category": "History",
+    "question": "Who famously coined the phrase \"I think, therefore I am\"?",
+    "answer": "Descartes",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-059",
+    "category": "History",
+    "question": "When did the Battle of the Bulge end?",
+    "answer": "January 25, 1945",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-060",
+    "category": "History",
+    "question": "The Tsar Bomba, the most powerful nuclear bomb ever tested, had a yield of 50 megatons but theoretically had a maximum yield of how much?",
+    "answer": "100 Megatons",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-061",
+    "category": "History",
+    "question": "Which dictator killed the most people?",
+    "answer": "Mao Zedong",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-062",
+    "category": "History",
+    "question": "Which of his six wives was Henry VIII married to the longest?",
+    "answer": "Catherine of Aragon",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-063",
+    "category": "History",
+    "question": "When did Norway become free from Sweden?",
+    "answer": "1905",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-064",
+    "category": "History",
+    "question": "After his loss at the Battle of Waterloo, Napoleon Bonaparte was exiled to which island?",
+    "answer": "St. Helena",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-065",
+    "category": "History",
+    "question": "Which Greek god was the god of the Sun?",
+    "answer": "Helios",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-066",
+    "category": "History",
+    "question": "What is the name of the ship which was only a few miles away from the RMS Titanic when it struck an iceberg on April 14, 1912?",
+    "answer": "Californian",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-067",
+    "category": "History",
+    "question": "When did construction of the Suez Canal finish?",
+    "answer": "1869",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-068",
+    "category": "History",
+    "question": "What was the unofficial name for Germany between 1919 and 1933?",
+    "answer": "Weimar Republic",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-069",
+    "category": "History",
+    "question": "Which country attacked the USS Liberty on June 8, 1967?",
+    "answer": "Israel",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-070",
+    "category": "History",
+    "question": "Where and when was the first cardboard box made for industrial use?",
+    "answer": "England, 1817",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-071",
+    "category": "History",
+    "question": "America's Strategic Defense System during the Cold War was nicknamed after this famous movie.",
+    "answer": "Star Wars",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-072",
+    "category": "History",
+    "question": "Which of these founding fathers of the United States of America later became president?",
+    "answer": "James Monroe",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-073",
+    "category": "History",
+    "question": "What year was the Italian firearms manufacturer Beretta founded?",
+    "answer": "1526",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-074",
+    "category": "History",
+    "question": "In what year did the Berlin Wall fall?",
+    "answer": "1989",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-075",
+    "category": "History",
+    "question": "Which U.S. President was famously 'attacked' by a swimming rabbit?",
+    "answer": "Jimmy Carter",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-076",
+    "category": "History",
+    "question": "In 1845, a series of wars named after which indigenous people began in New Zealand?",
+    "answer": "Māori",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-077",
+    "category": "History",
+    "question": " What Russian automatic gas-operated assault rifle was developed in the Soviet Union in 1947, and is still popularly used today?",
+    "answer": "AK-47",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-078",
+    "category": "History",
+    "question": "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?",
+    "answer": "USS Pueblo",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-079",
+    "category": "History",
+    "question": "Which of the following is NOT classified as a Semetic language?",
+    "answer": "Sumerian",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-080",
+    "category": "History",
+    "question": "When was \"The Gadget\", the first nuclear device to be detonated, tested?",
+    "answer": "July 16, 1945",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-081",
+    "category": "History",
+    "question": "The catastrophic nuclear accident that occurred in Ukraine in 1986 occurred at which power plant?",
+    "answer": "Chernobyl",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-082",
+    "category": "History",
+    "question": "The Herero genocide was perpetrated in Africa by which of the following colonial nations?",
+    "answer": "Germany",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-083",
+    "category": "History",
+    "question": "Who was the first Chancellor of a united Germany in 1871? ",
+    "answer": "Otto Von Bismark",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-084",
+    "category": "History",
+    "question": "Which of the following ancient Near Eastern peoples still exists as a modern ethnic group?",
+    "answer": "Assyrians",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-085",
+    "category": "History",
+    "question": "Which of the following years is commonly referred to as the \"Year Without a Summer\"?",
+    "answer": "1816",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-086",
+    "category": "History",
+    "question": "What was the name of the national hero of the Philippines who inspired and lead the Philippine Revolution against colonial Spain?",
+    "answer": "José Rizal",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-087",
+    "category": "History",
+    "question": "What year were the Marian Reforms instituted in the Roman Republic?",
+    "answer": "107 BCE",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-088",
+    "category": "History",
+    "question": "Who was the first wife of King Henry VIII?",
+    "answer": "Catherine of Aragon",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-089",
+    "category": "History",
+    "question": "As poverty and racial tensions pushed African-Americans out of the southern US, many of them moved north in an event known as what?",
+    "answer": "The Great Migration",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-090",
+    "category": "History",
+    "question": "The seed drill was invented by which British inventor?",
+    "answer": "Jethro Tull",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-091",
+    "category": "History",
+    "question": "What was Genghis Khan's real name?",
+    "answer": "Tem&uuml;jin",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-092",
+    "category": "History",
+    "question": "Which of these countries was NOT a part of the Soviet Union?",
+    "answer": "Afghanistan",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-093",
+    "category": "History",
+    "question": "Who was the first President of the People's Republic of China?",
+    "answer": "Mao Zedong",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-094",
+    "category": "History",
+    "question": "What year did Australia become a federation?",
+    "answer": "1901",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-095",
+    "category": "History",
+    "question": "During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?",
+    "answer": "Siege of Petersburg",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-096",
+    "category": "History",
+    "question": "Which Nation did NOT have a Colony in modern-day North America?",
+    "answer": "Portugal",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-097",
+    "category": "History",
+    "question": "How old was Lyndon B. Johnson when he assumed the role of President of the United States?",
+    "answer": "55",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-098",
+    "category": "History",
+    "question": "When was the United States National Security Agency established?",
+    "answer": "November 4, 1952",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-099",
+    "category": "History",
+    "question": "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?",
+    "answer": "Shamshi-Adad III",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-100",
+    "category": "History",
+    "question": "Who was the first president born in the independent United States?",
+    "answer": "Martin Van Buren",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "history-101",
+    "category": "History",
+    "question": "What was Napoleon Bonaparte's name before he changed it?",
+    "answer": "Napoleone di Buonaparte",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-102",
+    "category": "History",
+    "question": "Which King of England was faced with the Peasants' Revolt in 1381?",
+    "answer": "Richard II",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-103",
+    "category": "History",
+    "question": "The Battle of Hastings was fought in which year?",
+    "answer": "1066",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-104",
+    "category": "History",
+    "question": "What age was King Henry V when he died?",
+    "answer": "35",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-105",
+    "category": "History",
+    "question": "The pantheon in Rome was used to worship what god?",
+    "answer": "Any god they wanted",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-106",
+    "category": "History",
+    "question": "The assassination of which royal led to the start of World War I?",
+    "answer": "Archduke Franz Ferdinand",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-107",
+    "category": "History",
+    "question": "When was the \"Siege of Leningrad\" lifted during World War II?",
+    "answer": "January 1944",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-108",
+    "category": "History",
+    "question": "When did the French Revolution begin?",
+    "answer": "1789",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-109",
+    "category": "History",
+    "question": "The first Legoland park was opened in 1968 in which of these cities?",
+    "answer": "Billund, Denmark",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-110",
+    "category": "History",
+    "question": "What year was the first Pizza Hut restaurant opened?",
+    "answer": "1958",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-111",
+    "category": "History",
+    "question": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+    "answer": "Franklin Pierce",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-112",
+    "category": "History",
+    "question": "Which of the following was not one of Joseph Stalin's ten blows during World War II?",
+    "answer": "Vistula-Oder Offensive",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-113",
+    "category": "History",
+    "question": "What micro-state is considered to have the oldest constitution still in effect?",
+    "answer": "San Marino",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-114",
+    "category": "History",
+    "question": "In addition to his career as an astrologer and \"prophet\", Nostradamus published a 1555 treatise that included a section on what?",
+    "answer": "Making jams and jellies",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-115",
+    "category": "History",
+    "question": "What did the first vending machines in the early 1880's dispense?",
+    "answer": "Post cards",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-116",
+    "category": "History",
+    "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+    "answer": "Aragon",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-117",
+    "category": "History",
+    "question": "Which of these positions did the astronomer and physicist Isaac Newton not hold?",
+    "answer": "Surveyor to the City of London",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-118",
+    "category": "History",
+    "question": "When did the French Revolution begin?",
+    "answer": "May 05 1789",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-119",
+    "category": "History",
+    "question": "Who invented the \"Flying Shuttle\" in 1738; one of the key developments in the industrialization of weaving?",
+    "answer": "John Kay",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-120",
+    "category": "History",
+    "question": "When was the SS or Schutzstaffel established?",
+    "answer": "April 4th, 1925",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-121",
+    "category": "History",
+    "question": "Which country did the Eureka Rebellion, an 1856 battle against colonial rule, take place in?",
+    "answer": "Australia",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-122",
+    "category": "History",
+    "question": "What was the Canada's first capital?",
+    "answer": "Kingston",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-123",
+    "category": "History",
+    "question": "What was the original name of New York City?",
+    "answer": "New Amsterdam",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-124",
+    "category": "History",
+    "question": "Bohdan Khmelnytsky was which of the following?",
+    "answer": "Leader of the Ukrainian Cossacks",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-125",
+    "category": "History",
+    "question": "What did the abbreviation \"RMS\" stand for in the RMS Titanic in 1912?",
+    "answer": "Royal Mail Ship",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-126",
+    "category": "History",
+    "question": "The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?",
+    "answer": "Threw them out of a window",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-127",
+    "category": "History",
+    "question": "Where was Napoleon Bonaparte born?",
+    "answer": "Corsica",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-128",
+    "category": "History",
+    "question": "When was Adolf Hitler appointed as Chancellor of Germany?",
+    "answer": "January 30, 1933",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-129",
+    "category": "History",
+    "question": "Who assassinated President James A. Garfield?",
+    "answer": "Charles Guiteau",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-130",
+    "category": "History",
+    "question": "Which is the hull NO. of the Fletcher class destroyer Fletcher?",
+    "answer": "DD-445",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-131",
+    "category": "History",
+    "question": "What was found in 1946 by two young shepards near a cave?",
+    "answer": "Dead Sea Scrolls",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-132",
+    "category": "History",
+    "question": "Which day did World War I begin?",
+    "answer": "July 28",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-133",
+    "category": "History",
+    "question": "What Southeast Asian country was formerly known as 'Lan Xang'?",
+    "answer": "Laos",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-134",
+    "category": "History",
+    "question": "Which countries participated in the Lobster War?",
+    "answer": "France and Brazil",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-135",
+    "category": "History",
+    "question": "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+    "answer": "Justinian I",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-136",
+    "category": "History",
+    "question": "Who was the first man to travel into outer space?",
+    "answer": "Yuri Gagarin",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-137",
+    "category": "History",
+    "question": "In which year did the Tokyo Subway Sarin Attack occur?",
+    "answer": "1995",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-138",
+    "category": "History",
+    "question": "What was the last colony the UK ceded marking the end of the British Empire?",
+    "answer": "Hong Kong",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-139",
+    "category": "History",
+    "question": "Who was the British Prime Minister at the outbreak of the Second World War in 1939?",
+    "answer": "Neville Chamberlain",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-140",
+    "category": "History",
+    "question": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed \"the Kingmaker\"?",
+    "answer": "Richard Neville",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-141",
+    "category": "History",
+    "question": "During World War I, which nation's monarchs were blood related?",
+    "answer": "England, Germany, Russia",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-142",
+    "category": "History",
+    "question": "Which country were potatoes originally grown?",
+    "answer": "Peru",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-143",
+    "category": "History",
+    "question": "What year was Canada founded in?",
+    "answer": "1867",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-144",
+    "category": "History",
+    "question": "The coat of arms of the King of Spain contains the arms from the monarchs of Castille, Leon, Aragon and which other former Iberian kingdom?",
+    "answer": "Navarre",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-145",
+    "category": "History",
+    "question": "The son of which pope supposedly held a lecherous f&ecirc;te involving 50 courtesans in the papal palace?",
+    "answer": "Alexander VI",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-146",
+    "category": "History",
+    "question": "Which Australian Prime Minister disappeared in 1967 and was never found?",
+    "answer": "Harold Holt",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-147",
+    "category": "History",
+    "question": "In what year did the Battle of Verdun take place?",
+    "answer": "1916",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-148",
+    "category": "History",
+    "question": "The main objective of the German operation \"Case Blue\" during World War II was originally to capture what?",
+    "answer": "Caucasus",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-149",
+    "category": "History",
+    "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+    "answer": "Culper Ring",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "history-150",
+    "category": "History",
+    "question": "Which one of these rulers did not belong to the Habsburg dynasty?",
+    "answer": "Philip V",
+    "difficulty": "hard",
+    "points": 3
+  }
+]

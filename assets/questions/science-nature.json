@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "science-nature-001",
+    "category": "Science and Nature",
+    "question": "Which of the following bones is not in the leg?",
+    "answer": "Radius",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-002",
+    "category": "Science and Nature",
+    "question": "How many moons does Pluto have?",
+    "answer": "Five",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-003",
+    "category": "Science and Nature",
+    "question": "71% of the Earth's surface is made up of",
+    "answer": "Water",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-004",
+    "category": "Science and Nature",
+    "question": "How many chromosomes are in your body cells?",
+    "answer": "23",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-005",
+    "category": "Science and Nature",
+    "question": "This element, when overcome with extreme heat and pressure, creates diamonds.",
+    "answer": "Carbon",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-006",
+    "category": "Science and Nature",
+    "question": "How many planets make up our Solar System?",
+    "answer": "8",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-007",
+    "category": "Science and Nature",
+    "question": "Which is the most abundant element in the universe?",
+    "answer": "Hydrogen",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-008",
+    "category": "Science and Nature",
+    "question": "What name is given to all baby marsupials?",
+    "answer": "Joey",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-009",
+    "category": "Science and Nature",
+    "question": "What is the standard SI unit for time?",
+    "answer": "Second",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-010",
+    "category": "Science and Nature",
+    "question": "The medical term for the belly button is which of the following?",
+    "answer": "Umbilicus",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-011",
+    "category": "Science and Nature",
+    "question": "Which noble gas has the lowest atomic number?",
+    "answer": "Helium",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-012",
+    "category": "Science and Nature",
+    "question": "Which of these bones is hardest to break?",
+    "answer": "Femur",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-013",
+    "category": "Science and Nature",
+    "question": "Naturally occuring uranium primarily consists of which isotope?",
+    "answer": "238",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-014",
+    "category": "Science and Nature",
+    "question": "The element involved in making human blood red is which of the following?",
+    "answer": "Iron",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-015",
+    "category": "Science and Nature",
+    "question": "What is the chemical makeup of water?",
+    "answer": "H20",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-016",
+    "category": "Science and Nature",
+    "question": "How many planets are in our Solar System?",
+    "answer": "Eight",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-017",
+    "category": "Science and Nature",
+    "question": "What is the official name of the star located closest to the North Celestial Pole?",
+    "answer": "Polaris",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-018",
+    "category": "Science and Nature",
+    "question": "What is the hottest planet in the Solar System?",
+    "answer": "Venus",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-019",
+    "category": "Science and Nature",
+    "question": "Which gas forms about 78% of the Earth’s atmosphere?",
+    "answer": "Nitrogen",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-020",
+    "category": "Science and Nature",
+    "question": "What is the standard SI unit for distance?",
+    "answer": "Metre",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-021",
+    "category": "Science and Nature",
+    "question": "Which Apollo mission was the first one to land on the Moon?",
+    "answer": "Apollo 11",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-022",
+    "category": "Science and Nature",
+    "question": "About what percentage of the Earth's surface is water? ",
+    "answer": "70%",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-023",
+    "category": "Science and Nature",
+    "question": "What does LASER stand for?",
+    "answer": "Light amplification by stimulated emission of radiation",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-024",
+    "category": "Science and Nature",
+    "question": "How many moons does the Earth have?",
+    "answer": "1",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-025",
+    "category": "Science and Nature",
+    "question": "What produces the green colour of most plant leaves?",
+    "answer": "Chlorophyll",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-026",
+    "category": "Science and Nature",
+    "question": " What is the chemical symbol for Helium?",
+    "answer": "He",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-027",
+    "category": "Science and Nature",
+    "question": "The biggest distinction between a eukaryotic cell and a prokaryotic cell is:",
+    "answer": "The presence or absence of a nucleus",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-028",
+    "category": "Science and Nature",
+    "question": "How many laws of thermodynamics are there?",
+    "answer": "Four",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-029",
+    "category": "Science and Nature",
+    "question": "What does DNA stand for?",
+    "answer": "Deoxyribonucleic Acid",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-030",
+    "category": "Science and Nature",
+    "question": "Which of these Elements is a metalloid?",
+    "answer": "Antimony",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-031",
+    "category": "Science and Nature",
+    "question": "What is the atomic mass of Carbon?",
+    "answer": "12",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-032",
+    "category": "Science and Nature",
+    "question": "Which of the following blood vessels carries deoxygenated blood?",
+    "answer": "Pulmonary Artery",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-033",
+    "category": "Science and Nature",
+    "question": "How many bones are in the human body?",
+    "answer": "206",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-034",
+    "category": "Science and Nature",
+    "question": "What is the thin, outermost layer of the Earth?",
+    "answer": "Crust",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-035",
+    "category": "Science and Nature",
+    "question": "What is the \"powerhouse\" of the Eukaryotic animal cell?",
+    "answer": "Mitochondria",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-036",
+    "category": "Science and Nature",
+    "question": "What is the unit of electrical resistance?",
+    "answer": "Ohm",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-037",
+    "category": "Science and Nature",
+    "question": "What is the common name of the chemical compound \"dihydrogen monoxide\"?",
+    "answer": "Water",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-038",
+    "category": "Science and Nature",
+    "question": "What is the powerhouse of the cell?",
+    "answer": "Mitochondria",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-039",
+    "category": "Science and Nature",
+    "question": "Which element has the chemical symbol 'Fe'?",
+    "answer": "Iron",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-040",
+    "category": "Science and Nature",
+    "question": "What does the letter 'S' stand for in 'NASA'?",
+    "answer": "Space",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-041",
+    "category": "Science and Nature",
+    "question": "Which of the following is not one of the groups on the periodic table?",
+    "answer": "Fluorines",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-042",
+    "category": "Science and Nature",
+    "question": "Dry ice is the solid form of what substance?",
+    "answer": "Carbon dioxide",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-043",
+    "category": "Science and Nature",
+    "question": "What is the first element on the periodic table?",
+    "answer": "Hydrogen",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-044",
+    "category": "Science and Nature",
+    "question": "Rhinoplasty is a surgical procedure on what part of the human body?",
+    "answer": "Nose",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-045",
+    "category": "Science and Nature",
+    "question": "What is the standard atomic weight of a Plutonium nucleus?",
+    "answer": "244",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-046",
+    "category": "Science and Nature",
+    "question": "What is the largest planet in the Solar System?",
+    "answer": "Jupiter",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-047",
+    "category": "Science and Nature",
+    "question": "What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?",
+    "answer": "Sputnik 1",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-048",
+    "category": "Science and Nature",
+    "question": "What is the elemental symbol for mercury?",
+    "answer": "Hg",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-049",
+    "category": "Science and Nature",
+    "question": "What animal takes part in Schr&ouml;dinger's most famous thought experiment?",
+    "answer": "Cat",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-050",
+    "category": "Science and Nature",
+    "question": "Who discovered the Law of Gravity?",
+    "answer": "Sir Isaac Newton",
+    "difficulty": "easy",
+    "points": 1
+  },
+  {
+    "id": "science-nature-051",
+    "category": "Science and Nature",
+    "question": "On which mission did the Space Shuttle Columbia break up upon re-entry?",
+    "answer": "STS-107",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-052",
+    "category": "Science and Nature",
+    "question": "At what depth should you make a decompression stop, or safety stop, on a typical scuba dive?",
+    "answer": "15 Feet / 5 Meters",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-053",
+    "category": "Science and Nature",
+    "question": "What mineral has the lowest number on the Mohs scale?",
+    "answer": "Talc",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-054",
+    "category": "Science and Nature",
+    "question": "Which chemical element was originally known as Alabamine?",
+    "answer": "Astatine",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-055",
+    "category": "Science and Nature",
+    "question": "What is the chemical symbol for lead?",
+    "answer": "Pb",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-056",
+    "category": "Science and Nature",
+    "question": "The \"Tibia\" is found in which part of the body?",
+    "answer": "Leg",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-057",
+    "category": "Science and Nature",
+    "question": "Who made the discovery of X-rays?",
+    "answer": "Wilhelm Conrad R&ouml;ntgen",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-058",
+    "category": "Science and Nature",
+    "question": "What is radiation measured in?",
+    "answer": "Gray ",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-059",
+    "category": "Science and Nature",
+    "question": "What was the first living creature in space?",
+    "answer": "Fruit Flies ",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-060",
+    "category": "Science and Nature",
+    "question": "The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.",
+    "answer": "low, all",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-061",
+    "category": "Science and Nature",
+    "question": "Which NASA Space Shuttle broke apart during atmospheric re-entry on February 1, 2003? ",
+    "answer": "Columbia",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-062",
+    "category": "Science and Nature",
+    "question": "What are the smallest blood vessels in the human body?",
+    "answer": "Capillaries",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-063",
+    "category": "Science and Nature",
+    "question": "The medical condition osteoporosis affects which part of the body?",
+    "answer": "Bones",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-064",
+    "category": "Science and Nature",
+    "question": "What is the scientific term for 'taste'?",
+    "answer": "Gustatory Perception",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-065",
+    "category": "Science and Nature",
+    "question": "What is the unit of electrical capacitance?",
+    "answer": "Farad",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-066",
+    "category": "Science and Nature",
+    "question": "What is the name of the cognitive bias wherein a person with low ability in a particular skill mistake themselves as being superior?",
+    "answer": "Dunning-Kruger effect",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-067",
+    "category": "Science and Nature",
+    "question": "Which of these two plates are best know for forming earthquakes and tsunami's? ",
+    "answer": "Convergent Plate Boundaries/Oceanic Crust",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-068",
+    "category": "Science and Nature",
+    "question": "What is the mathematical formula of Ohm's law?",
+    "answer": "V = I*R",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-069",
+    "category": "Science and Nature",
+    "question": "Which of these is a type of stretch/deep tendon reflex?",
+    "answer": "Ankle jerk reflex",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-070",
+    "category": "Science and Nature",
+    "question": "What is the Linnean name of the domestic apple tree?",
+    "answer": "Malus pumila",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-071",
+    "category": "Science and Nature",
+    "question": "What does CPR, the emergency procedure to assist someone who has suffered cardiac arrest, stand for?",
+    "answer": "Cardiopulmonary resuscitation",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-072",
+    "category": "Science and Nature",
+    "question": "Deionized water is water with which of the following removed?",
+    "answer": "Iron",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-073",
+    "category": "Science and Nature",
+    "question": "In Psychology, which need appears highest in the \"Maslow's hierarchy of needs\" pyramid?",
+    "answer": "Esteem",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-074",
+    "category": "Science and Nature",
+    "question": "What is the medical term for low blood sugar?",
+    "answer": "Hypoglycemia",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-075",
+    "category": "Science and Nature",
+    "question": "Who developed the first successful polio vaccine in the 1950s?",
+    "answer": "Jonas Salk",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-076",
+    "category": "Science and Nature",
+    "question": "Which of the following is NOT a passive electrical component?",
+    "answer": "Transistor",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-077",
+    "category": "Science and Nature",
+    "question": "Which of these is NOT a bone found in the human arm?",
+    "answer": "Tibia",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-078",
+    "category": "Science and Nature",
+    "question": "Which part of the body does glaucoma affect?",
+    "answer": "Eyes",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-079",
+    "category": "Science and Nature",
+    "question": "What is the molecular formula of the active component of chili peppers(Capsaicin)?",
+    "answer": "C18H27NO3",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-080",
+    "category": "Science and Nature",
+    "question": "Which of these is NOT a part of the structure of a typical neuron?",
+    "answer": "Islets of Langerhans",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-081",
+    "category": "Science and Nature",
+    "question": "Which element has the atomic number of 7?",
+    "answer": "Nitrogen",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-082",
+    "category": "Science and Nature",
+    "question": "Myopia is the scientific term for which condition?",
+    "answer": "Shortsightedness",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-083",
+    "category": "Science and Nature",
+    "question": "How many hearts does an octopus have?",
+    "answer": "Three",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-084",
+    "category": "Science and Nature",
+    "question": "How old is the universe?",
+    "answer": "13.8 Billion Years",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-085",
+    "category": "Science and Nature",
+    "question": "At what temperature does water boil?",
+    "answer": "212&deg;F",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-086",
+    "category": "Science and Nature",
+    "question": "What is the atomic number of the element Strontium?",
+    "answer": "38",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-087",
+    "category": "Science and Nature",
+    "question": "What do you study if you are studying entomology?",
+    "answer": "Insects",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-088",
+    "category": "Science and Nature",
+    "question": "A positron is an antiparticle of a what?",
+    "answer": "Electron",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-089",
+    "category": "Science and Nature",
+    "question": "What is the standard SI unit for electric current?",
+    "answer": "Ampere",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-090",
+    "category": "Science and Nature",
+    "question": "How many officially recognized dwarf planets in the solar system are named after Polynesian deities?",
+    "answer": "2",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-091",
+    "category": "Science and Nature",
+    "question": "Which of these elements on the Periodic Table is a Noble Gas?",
+    "answer": "Neon",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-092",
+    "category": "Science and Nature",
+    "question": "Which planet did the \"Viking 1\" spacecraft send surface images of, starting in 1976?",
+    "answer": "Mars",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-093",
+    "category": "Science and Nature",
+    "question": "To the nearest minute, how long does it take for light to travel from the Sun to the Earth?",
+    "answer": "8 Minutes",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-094",
+    "category": "Science and Nature",
+    "question": "Which planet in the Solar System is the closest to the Sun?",
+    "answer": "Mercury",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-095",
+    "category": "Science and Nature",
+    "question": "What is the colour of unoxidized blood?",
+    "answer": "Red",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-096",
+    "category": "Science and Nature",
+    "question": "How many teeth does the average adult mouth have (except for wisdom teeth)?",
+    "answer": "32",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-097",
+    "category": "Science and Nature",
+    "question": "Which psychological term refers to the stress of holding contrasting beliefs?",
+    "answer": "Cognitive Dissonance",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-098",
+    "category": "Science and Nature",
+    "question": "What is the atomic number of Uranium ",
+    "answer": "92",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-099",
+    "category": "Science and Nature",
+    "question": "In human biology, a circadium rhythm relates to a period of roughly how many hours?",
+    "answer": "24",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-100",
+    "category": "Science and Nature",
+    "question": "What is the lowest layer of the Earth's atmosphere named?",
+    "answer": "Troposphere",
+    "difficulty": "medium",
+    "points": 2
+  },
+  {
+    "id": "science-nature-101",
+    "category": "Science and Nature",
+    "question": "What is the unit of electrical inductance?",
+    "answer": "Henry",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-102",
+    "category": "Science and Nature",
+    "question": "\"The Big Bang Theory\" was first theorized by a priest of what religious ideology?",
+    "answer": "Catholic",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-103",
+    "category": "Science and Nature",
+    "question": "What is the scientific name for the extinct hominin known as \"Lucy\"?",
+    "answer": "Australopithecus Afarensis",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-104",
+    "category": "Science and Nature",
+    "question": "What is considered the rarest form of color blindness?",
+    "answer": "Blue",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-105",
+    "category": "Science and Nature",
+    "question": "The word \"science\" stems from the word \"scire\" meaning what?",
+    "answer": "To know",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-106",
+    "category": "Science and Nature",
+    "question": "What is the name for the auditory illusion of a note that seems to be rising infinitely?",
+    "answer": "Shepard Tone",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-107",
+    "category": "Science and Nature",
+    "question": "What was the first organic compound to be synthesized from inorganic compounds?",
+    "answer": "Urea",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-108",
+    "category": "Science and Nature",
+    "question": "Which of the following plastic is commonly used for window frames, gutters and drain pipes?",
+    "answer": "Polyvinylchloride (PVC) ",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-109",
+    "category": "Science and Nature",
+    "question": "Which Landsat Satellite failed to reach orbit?",
+    "answer": "Landsat 6",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-110",
+    "category": "Science and Nature",
+    "question": "Burning which of these metals will produce a bright white flame?",
+    "answer": "Magnesium",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-111",
+    "category": "Science and Nature",
+    "question": "What is the molecular formula of Glucose?",
+    "answer": "C6H12O6",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-112",
+    "category": "Science and Nature",
+    "question": "Which major extinction event was caused by an asteroid collision and eliminated the majority of non-avian dinosaurs?",
+    "answer": "Cretaceous-Paleogene",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-113",
+    "category": "Science and Nature",
+    "question": "Which of these is a stop codon in DNA?",
+    "answer": "TAA",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-114",
+    "category": "Science and Nature",
+    "question": "Which moon is the only satellite in our solar system to possess a dense atmosphere?",
+    "answer": "Titan",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-115",
+    "category": "Science and Nature",
+    "question": "Which of the following elements is typically used in the doping of the semiconductor silicon?",
+    "answer": "Boron",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-116",
+    "category": "Science and Nature",
+    "question": "A comet's gaseous envelope (which creates the tail) is called what?",
+    "answer": "The coma",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-117",
+    "category": "Science and Nature",
+    "question": "What is the scientific name of the red fox?",
+    "answer": "Vulpes Vulpes",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-118",
+    "category": "Science and Nature",
+    "question": "Which country first successfully farm-hatched and raised bluefin tuna in 1979?",
+    "answer": "Japan",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-119",
+    "category": "Science and Nature",
+    "question": "Which of the following is the term for \"surgical complications resulting from surgical sponges left inside the patient's body?",
+    "answer": "Gossypiboma",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-120",
+    "category": "Science and Nature",
+    "question": "Autosomal-dominant Compelling Helio-Ophthalmic Outburst syndrome is the need to do what when seeing the Sun?",
+    "answer": "Sneeze",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-121",
+    "category": "Science and Nature",
+    "question": "What does the term \"isolation\" refer to in microbiology?",
+    "answer": "The separation of a strain from a natural, mixed population of living microbes",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-122",
+    "category": "Science and Nature",
+    "question": "Which constellation contains the center of the Milky Way?",
+    "answer": "Sagittarius",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-123",
+    "category": "Science and Nature",
+    "question": "Botanically speaking, which of these fruits is NOT a berry?",
+    "answer": "Strawberry",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-124",
+    "category": "Science and Nature",
+    "question": "What is the scientific name of the knee cap?",
+    "answer": "Patella",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-125",
+    "category": "Science and Nature",
+    "question": "What common name is given to the medial condition, tibial stress syndrome (MTSS)?",
+    "answer": "Shin Splints",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-126",
+    "category": "Science and Nature",
+    "question": "Which horizon in a soil profile consists of bedrock?",
+    "answer": "R",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-127",
+    "category": "Science and Nature",
+    "question": "In physics, conservation of energy and conservation of momentum are both consequences of which of the following?",
+    "answer": "Noether's Theorem",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-128",
+    "category": "Science and Nature",
+    "question": "Which scientific unit is named after an Italian nobleman?",
+    "answer": "Volt",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-129",
+    "category": "Science and Nature",
+    "question": "What causes the sound of a heartbeat?",
+    "answer": "Closure of the heart valves",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-130",
+    "category": "Science and Nature",
+    "question": "Which is the chemical name of H2O?",
+    "answer": "Dihydrogen Monoxide",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-131",
+    "category": "Science and Nature",
+    "question": "What nucleotide pairs with guanine?",
+    "answer": "Cytosine",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-132",
+    "category": "Science and Nature",
+    "question": "Which of the following liquids is least viscous? Assume temperature is 25&deg;C.",
+    "answer": "Acetone",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-133",
+    "category": "Science and Nature",
+    "question": "Which of these chemical compounds is NOT found in gastric acid?",
+    "answer": "Sulfuric acid",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-134",
+    "category": "Science and Nature",
+    "question": "What physics principle relates the net electric flux out of a closed surface to the charge enclosed by that surface?",
+    "answer": "Gauss's Law",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-135",
+    "category": "Science and Nature",
+    "question": "All of the following human genetic haplogroup names are shared between Y-chromosome and mitochondrial DNA haplogroups EXCEPT:",
+    "answer": "Haplogroup U",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-136",
+    "category": "Science and Nature",
+    "question": "Coulrophobia is the irrational fear of what?",
+    "answer": "Clowns",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-137",
+    "category": "Science and Nature",
+    "question": "Which one of these is scientific term for \"Brain Freeze\"?",
+    "answer": "Sphenopalatine Ganglioneuralgia",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-138",
+    "category": "Science and Nature",
+    "question": "What does the scientific name of the Cambrian-Period sea creature Anomalocaris mean?",
+    "answer": "Abnormal Shrimp",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-139",
+    "category": "Science and Nature",
+    "question": "How much radiation does a banana emit?",
+    "answer": "0.1 Microsievert",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-140",
+    "category": "Science and Nature",
+    "question": "Which Landsat Satellite currently has had the longest operational life?",
+    "answer": "Landsat 5",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-141",
+    "category": "Science and Nature",
+    "question": "How many types of quarks are there in the standard model of physics?",
+    "answer": "6",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-142",
+    "category": "Science and Nature",
+    "question": "How long is a light-year?",
+    "answer": "9.461 Trillion Kilometres",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-143",
+    "category": "Science and Nature",
+    "question": "Which of the following is NOT a word used to describe an earthquake?",
+    "answer": "Drop-slide",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-144",
+    "category": "Science and Nature",
+    "question": "What is the standard SI unit for luminous intensity?",
+    "answer": "Candela",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-145",
+    "category": "Science and Nature",
+    "question": "Which of the following are cells of the adaptive immune system?",
+    "answer": "Cytotoxic T cells",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-146",
+    "category": "Science and Nature",
+    "question": "Which of the following is NOT a real element?",
+    "answer": "Vitrainium",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-147",
+    "category": "Science and Nature",
+    "question": "Which of these is a semiconductor amplifying device?",
+    "answer": "transistor",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-148",
+    "category": "Science and Nature",
+    "question": "The core of the Sun can reach which temperature?",
+    "answer": "27&deg; Million F (15&deg; Million C)",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-149",
+    "category": "Science and Nature",
+    "question": "On the Beaufort Scale of wind force, what wind name is given to number 8?",
+    "answer": "Gale",
+    "difficulty": "hard",
+    "points": 3
+  },
+  {
+    "id": "science-nature-150",
+    "category": "Science and Nature",
+    "question": "What genetic disease is caused by having an extra Y chromosome (XYY)?",
+    "answer": "Jacob's Syndrome",
+    "difficulty": "hard",
+    "points": 3
+  }
+]
