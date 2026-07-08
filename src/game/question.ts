@@ -22,12 +22,12 @@ export function loadQuestions(): Question[] {
     return ALL_QUESTIONS;
 }
 
-// (helper) get all questions within a category
-export function getByCategory(category: Category): Question[] {
-    return ALL_QUESTIONS.filter((q) => q.category === category);
+// (helper) get questions of a given category
+export function getByCategory(questions: Question[], category: Category): Question[] {
+    return questions.filter((q) => q.category === category);
 }
 
-// (helper) get all questions of a difficulty within a given set
+// (helper) get questions of a difficulty within a given set
 export function filterByDifficulty(questions: Question[], difficulty: Difficulty): Question[] {
     return questions.filter((q) => q.difficulty === difficulty);
 }
@@ -35,7 +35,7 @@ export function filterByDifficulty(questions: Question[], difficulty: Difficulty
 
 // function to return a random question from CATEGORY C of DIFFICULTY D
 export function pickByCatDif(category: Category, difficulty: Difficulty): Question | null {
-    const cat_questions = getByCategory(category);
+    const cat_questions = getByCategory(ALL_QUESTIONS, category);
     const catdif_questions = filterByDifficulty(cat_questions, difficulty);
 
     const n = catdif_questions.length;
