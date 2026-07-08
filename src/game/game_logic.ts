@@ -64,8 +64,8 @@ export function isGameOver(state: GameState): boolean {
     if (state.remaining.length === 0) return true;
 
     const target = state.winningScore;
-    if (target !== null && state.players.some((p) => p.score >= target)) {
-        return true;
+    if (state.players.some((p) => p.score >= target)) {
+        return true
     }
 
     return false;
