@@ -28,6 +28,7 @@ export type GameStatus = "start" | "playing" | "finished";
 export interface GameState {
     status: GameStatus;
     players: Player[];
-    questions: Question[];
-    currentIndex: number;
+    remaining: Question[] // starts as all questions, reduces as game goes on
+    currentQuestion: Question | null;
+    currentPlayerIndex: number;
     }
