@@ -65,10 +65,22 @@ export function isGameOver(state: GameState): boolean {
 
     const target = state.winningScore;
     if (state.players.some((p) => p.score >= target)) {
-        return true
+        return true;
     }
 
     return false;
+}
+
+
+// return the winner - if tie then all top scorers are returned
+export function getWinners(state: GameState): Player[] {
+    if (!isGameOver(state)) return [];
+
+    const topScore = state.players.reduce(
+        (max, p) => (p.score > max ? p.score : max),
+        state.players[0].score
+    );
+    return state.players.filter((p) => p.score === topScore);
 }
 
 
