@@ -34,8 +34,8 @@ export function filterByDifficulty(questions: Question[], difficulty: Difficulty
 
 
 // function to return a random question from CATEGORY C of DIFFICULTY D
-export function pickByCatDif(category: Category, difficulty: Difficulty): Question | null {
-    const cat_questions = getByCategory(ALL_QUESTIONS, category);
+export function pickByCatDif(questions: Question[], category: Category, difficulty: Difficulty): Question | null {
+    const cat_questions = getByCategory(questions, category);
     const catdif_questions = filterByDifficulty(cat_questions, difficulty);
 
     const n = catdif_questions.length;
