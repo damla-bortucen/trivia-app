@@ -1,29 +1,39 @@
 import { useState } from "react";
 import { Text, View, Pressable, StyleSheet } from "react-native";
-import { Link } from 'expo-router';
+import { startGame } from "@/game/game_logic";
+import { GameState } from "@/game/types";
 
 import { colors, spacing, radius, font } from "@/ui/theme";
 
 export default function Index() {
-  const [started, setStarted] = useState(false); 
-  // creates a piece of state - started is the current value (false) 
+  const [game, setGame] = useState<GameState | null>(null); 
+  // creates either a GameState or null
   // and setStarted is the only way to change it
 
-  // --------- Game Screen ------------
-    if (started) {
-        return (
-            <View style={styles.screen}>
-                <Text style={styles.title}>Game started!</Text>
-            </View>
-        );
-    }
+  // --------- Home Screen -----------
+  if (game == null) {
+    return (
+      <View style={styles.screen}>
+          <Text style={styles.title}>Trivia</Text>
+          
+          <Pressable 
+              style={styles.button} 
+              onPress={() => setGame(startGame(["Alice", "Bob"], 10))}
+          >
+            <Text style={styles.buttonText}>Play</Text>
+          </Pressable>
+      </View>   
+    );
+  }
 
+  // --------- Game Screen -----------
   return (
     <View style={styles.screen}>
-      <Text style={styles.title}>Home Screen</Text>
-      <Pressable style={styles.button} onPress={() => setStarted(true)}>
-        <Text style={styles.buttonText}>Play</Text>
-      </Pressable>
+      <Text style={styles.title}>Playing</Text>
+      <Text style={styles.body}>
+          {game.players[game.currentPlayerIndex].name}'s turn
+      </Text>
+      <Text style={styles.body}>{game.remaining.length} questions left</Text>
     </View>
   );
 }
@@ -50,6 +60,10 @@ const styles = StyleSheet.create({
   title: {
     fontFamily: font.display,   // Georgia serif
     fontSize: font.sizes.title,
+    color: colors.text,
+  },
+  body: {
+    fontSize: font.sizes.body,
     color: colors.text,
   },
 });
