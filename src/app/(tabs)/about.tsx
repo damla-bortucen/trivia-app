@@ -1,17 +1,34 @@
-import { Text, View, StyleSheet } from 'react-native';
+import { Text, ScrollView, StyleSheet } from 'react-native';
+
+import { colors, spacing, radius, font } from "@/ui/theme";
 
 export default function AboutScreen() {
   return (
-    <View style={styles.container}>
-      <Text>About screen for Rules of the Game</Text>
-    </View>
+    <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
+      <Text style={styles.title}>How to Play</Text>
+      <Text style={styles.body}>About screen for Rules of the Game</Text>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  screen: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: colors.background,
+  },
+  content: {
+    padding: spacing.lg,
+    gap: spacing.md,
+  },
+  title: {
+    fontFamily: font.display,
+    fontSize: font.sizes.title,
+    color: colors.text,
+    marginBottom: spacing.sm,
+  },
+  body: {
+    fontSize: font.sizes.body,
+    color: colors.text,
+    lineHeight: 26,
   },
 });
