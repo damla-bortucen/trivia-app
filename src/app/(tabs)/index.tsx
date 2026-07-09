@@ -1,6 +1,8 @@
 import { Text, View, Pressable, StyleSheet } from "react-native";
 import { Link } from 'expo-router';
 
+import { colors, spacing, radius, font } from "@/ui/theme";
+
 export default function Index() {
   return (
     <View style={styles.container}>
@@ -18,12 +20,20 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  title: {
-    fontSize: 32,
-    fontWeight: "bold",
-  },
   button: {
-    fontSize: 18,
-    textDecorationLine: 'underline',
+    backgroundColor: colors.accent,
+    paddingVertical: spacing.sm,
+    paddingHorizontal: spacing.xl,
+    borderRadius: radius.pill,
+  },
+  buttonText: {
+    color: colors.accentText,
+    fontSize: font.sizes.body,
+    fontWeight: font.weight.bold,
+  },
+  title: {
+    fontFamily: font.display,   // Georgia serif
+    fontSize: font.sizes.title,
+    color: colors.text,
   },
 });
