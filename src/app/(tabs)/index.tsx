@@ -5,6 +5,9 @@ import {
     spinWheel,
     getAvailableDifficulties,
     drawQuestion,
+    givePoints,
+    deductPoints,
+    skip,
 } from "@/game/game_logic";
 import { GameState, Category } from "@/game/types";
 
@@ -16,6 +19,16 @@ export default function Index() {
   const [player1, setPlayer1] = useState("");
   const [player2, setPlayer2] = useState("");
   const [category, setCategory] = useState<Category | null>(null);
+  const [revealed, setRevealed] = useState(false);
+
+
+  // ends the turn
+  const finishTurn = (next: GameState) => {
+      setGame(next);
+      setCategory(null);
+      setRevealed(false);
+  };
+
 
   // --------- Home Screen -----------
   if (game == null) {
@@ -52,16 +65,47 @@ export default function Index() {
 
   // --------- Game Screen -----------
   
-  // display question
+  // display question card
   if (game.currentQuestion) {
+    const q = game.currentQuestion;
     return (
       <View style={styles.screen}>
         <Text style={styles.body}>{category}</Text>
-        <Text style={styles.title}>{game.currentQuestion.question}</Text>
+        <Text style={styles.title}>{q.question}</Text>
+
+        {!revealed ? (
+          <Pressable style={styles.button} onPress={() => setRevealed(true)}>
+            <Text style={styles.buttonText}>Reveal answer</Text>
+          </Pressable>
+         ) : (
+          <>
+            <Text style={styles.answer}>{q.answer}</Text>
+            <View style={styles.scoreRow}>
+              <Pressable
+                style={[styles.scoreButton, { backgroundColor: colors.easy }]}
+                onPress={() => finishTurn(givePoints(game))}
+              >
+                <Text style={styles.scoreButtonText}>+</Text>
+              </Pressable>
+              <Pressable
+                style={[styles.scoreButton, { backgroundColor: colors.hard }]}
+                onPress={() => finishTurn(deductPoints(game))}
+              >
+                <Text style={styles.scoreButtonText}>−</Text>
+              </Pressable>
+
+            </View>
+
+            <Pressable onPress={() => finishTurn(skip(game))}>
+              <Text style={styles.button}>Skip (no points)</Text>
+            </Pressable>
+          </>
+         )}
       </View>
     );
   }
 
+  // player's turn - no question
   return (
     <View style={styles.screen}>
       <Text style={styles.title}>Playing</Text>
@@ -69,7 +113,6 @@ export default function Index() {
           {game.players[game.currentPlayerIndex].name}'s turn
       </Text>
 
-      {/* show the spun category, or a prompt if we haven't spun yet */}
       <Text style={styles.heading}>
           {category ?? "Spin the wheel!"}
       </Text>
@@ -142,4 +185,21 @@ const styles = StyleSheet.create({
     fontSize: font.sizes.heading,
     color: colors.text,
   },
+  scoreRow: {
+        flexDirection: "row",
+        justifyContent: "center",
+        gap: spacing.lg,
+    },
+    scoreButton: {
+        width: 64,
+        height: 64,
+        borderRadius: radius.pill,
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    scoreButtonText: {
+        color: "#fff",
+        fontSize: 28,
+        fontWeight: font.weight.bold,
+    },
 });
