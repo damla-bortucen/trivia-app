@@ -13,9 +13,10 @@ import {
 import { GameState, Category } from "@/game/types";
 
 import { colors, spacing, radius, font } from "@/ui/theme";
+import InputSpinner from "react-native-input-spinner";
 
 const MAX_PLAYERS = 6;
-const WINNING_SCORE = 3;
+const DEFAULT_WINNING_SCORE = 3;
 
 export default function Index() {
   const [game, setGame] = useState<GameState | null>(null);
@@ -23,6 +24,7 @@ export default function Index() {
   const [names, setNames] = useState<string[]>(["", ""]);
   const [category, setCategory] = useState<Category | null>(null);
   const [revealed, setRevealed] = useState(false);
+  const [winningScore, setWinningScore] = useState(String(DEFAULT_WINNING_SCORE));
 
   // change one name in the list
   const updateName = (index: number, value: string) =>
@@ -40,17 +42,18 @@ export default function Index() {
 
   // ends the turn
   const finishTurn = (next: GameState) => {
-      setGame(next);
-      setCategory(null);
-      setRevealed(false);
+    setGame(next);
+    setCategory(null);
+    setRevealed(false);
   };
 
   // back to the start screen - new game
     const playAgain = () => {
-        setGame(null);
-        setNames(["", ""]);
-        setCategory(null);
-        setRevealed(false);
+      setGame(null);
+      setNames(["", ""]);
+      setCategory(null);
+      setRevealed(false);
+      setWinningScore(String(DEFAULT_WINNING_SCORE));
     };
 
 
@@ -77,11 +80,26 @@ export default function Index() {
               <Text style={styles.link}>+ Add player</Text>
             </Pressable>
           )}
+
+          <Text style={styles.label}>Winning score</Text>
+          <InputSpinner
+            min={1}
+            step={1}
+            colorMin={colors.surface}
+            value={winningScore}
+            onChange={setWinningScore}
+            width={130}
+            height={40}
+            colorRight={colors.border}
+            colorLeft={colors.border}
+            colorPress={colors.accent}
+            buttonTextColor={colors.text}
+          />
           
           <Pressable 
               style={[styles.button, !canStart && styles.buttonDisabled]} 
               disabled={!canStart}
-              onPress={() => setGame(startGame(filledNames, WINNING_SCORE))}
+              onPress={() => setGame(startGame(filledNames, Number(winningScore)))}
           >
             <Text style={styles.buttonText}>Play</Text>
           </Pressable>
@@ -294,4 +312,5 @@ const styles = StyleSheet.create({
       fontSize: font.sizes.heading,
       color: colors.text,
   },
+  label: { fontSize: font.sizes.caption, color: colors.textMuted, textAlign: "center" },
 });
