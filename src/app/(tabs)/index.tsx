@@ -1,24 +1,40 @@
+import { useState } from "react";
 import { Text, View, Pressable, StyleSheet } from "react-native";
 import { Link } from 'expo-router';
 
 import { colors, spacing, radius, font } from "@/ui/theme";
 
 export default function Index() {
+  const [started, setStarted] = useState(false); 
+  // creates a piece of state - started is the current value (false) 
+  // and setStarted is the only way to change it
+
+  // --------- Game Screen ------------
+    if (started) {
+        return (
+            <View style={styles.screen}>
+                <Text style={styles.title}>Game started!</Text>
+            </View>
+        );
+    }
+
   return (
-    <View style={styles.container}>
+    <View style={styles.screen}>
       <Text style={styles.title}>Home Screen</Text>
-      <Link href="/about" style={styles.button}>
-        Go to About screen
-      </Link>
+      <Pressable style={styles.button} onPress={() => setStarted(true)}>
+        <Text style={styles.buttonText}>Play</Text>
+      </Pressable>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  screen: {
     flex: 1,
+    backgroundColor: colors.background,
     alignItems: "center",
     justifyContent: "center",
+    gap: spacing.lg,
   },
   button: {
     backgroundColor: colors.accent,
