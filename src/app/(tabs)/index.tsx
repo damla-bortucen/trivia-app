@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { Text, View, Pressable, StyleSheet, TextInput } from "react-native";
-import { startGame, spinWheel } from "@/game/game_logic";
+import {
+    startGame,
+    spinWheel,
+    getAvailableDifficulties,
+    drawQuestion,
+} from "@/game/game_logic";
 import { GameState, Category } from "@/game/types";
 
 import { colors, spacing, radius, font } from "@/ui/theme";
@@ -46,6 +51,17 @@ export default function Index() {
   }
 
   // --------- Game Screen -----------
+  
+  // display question
+  if (game.currentQuestion) {
+    return (
+      <View style={styles.screen}>
+        <Text style={styles.body}>{category}</Text>
+        <Text style={styles.title}>{game.currentQuestion.question}</Text>
+      </View>
+    );
+  }
+
   return (
     <View style={styles.screen}>
       <Text style={styles.title}>Playing</Text>
@@ -58,12 +74,29 @@ export default function Index() {
           {category ?? "Spin the wheel!"}
       </Text>
 
-      <Pressable
-          style={styles.button}
-          onPress={() => setCategory(spinWheel(game))}
-      >
-          <Text style={styles.buttonText}>Spin</Text>
-      </Pressable>
+      {category === null ? (
+        <>
+        <Pressable
+            style={styles.button}
+            onPress={() => setCategory(spinWheel(game))}
+        >
+            <Text style={styles.buttonText}>Spin</Text>
+        </Pressable>
+        </>
+      ) : (
+        <>
+          <Text style={styles.title}>{category}</Text>
+          {getAvailableDifficulties(game, category).map((d) => (
+            <Pressable
+              key={d}
+              style={styles.button}
+              onPress={() => setGame(drawQuestion(game, category, d))}
+            >
+              <Text style={styles.buttonText}>{d}</Text>
+            </Pressable>
+          ))}
+        </>
+      )}
     </View>
   );
 }
