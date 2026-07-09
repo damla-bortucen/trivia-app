@@ -67,6 +67,7 @@ export default function Index() {
               placeholder={`Player ${i + 1}`}
               placeholderTextColor={colors.textMuted}
               value={name}
+              autoCorrect={false}
               onChangeText={(t) => updateName(i, t)}
             />
           ))}
@@ -157,7 +158,25 @@ export default function Index() {
   // player's turn - no question
   return (
     <View style={styles.screen}>
+
+      <View style={styles.scoreboard}>
+        {game.players.map((p, i) => (
+          <View key={p.id} style={styles.scoreItem}>
+            <Text
+              style={[
+                styles.scoreName,
+                i === game.currentPlayerIndex && styles.scoreNameActive,
+              ]}
+            >
+              {p.name}
+            </Text>
+            <Text style={styles.scoreValue}>{p.score}</Text>
+          </View>
+        ))}
+      </View>
+
       <Text style={styles.title}>Playing</Text>
+
       <Text style={styles.body}>
           {game.players[game.currentPlayerIndex].name}'s turn
       </Text>
@@ -259,4 +278,20 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   link: { color: colors.textMuted, fontSize: font.sizes.body, textAlign: "center" },
+  scoreboard: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    gap: spacing.lg,
+    marginBottom: spacing.lg,
+
+  },
+  scoreItem: { alignItems: "center" },
+  scoreName: { fontSize: font.sizes.caption, color: colors.textMuted },
+  scoreNameActive: { color: colors.text, fontWeight: font.weight.bold },
+  scoreValue: {
+      fontFamily: font.display,
+      fontSize: font.sizes.heading,
+      color: colors.text,
+  },
 });
