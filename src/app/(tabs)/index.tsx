@@ -147,7 +147,7 @@ export default function Index() {
             </View>
 
             <Pressable onPress={() => finishTurn(skip(game))}>
-              <Text style={styles.button}>Skip (no points)</Text>
+              <Text style={styles.link}>Skip (no points)</Text>
             </Pressable>
           </>
          )}
