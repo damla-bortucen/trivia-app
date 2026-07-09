@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Text, View, Pressable, StyleSheet, TextInput } from "react-native";
-import { startGame } from "@/game/game_logic";
-import { GameState } from "@/game/types";
+import { startGame, spinWheel } from "@/game/game_logic";
+import { GameState, Category } from "@/game/types";
 
 import { colors, spacing, radius, font } from "@/ui/theme";
 
@@ -10,6 +10,7 @@ export default function Index() {
   // creates either a GameState or null and setGame is the only way to change it
   const [player1, setPlayer1] = useState("");
   const [player2, setPlayer2] = useState("");
+  const [category, setCategory] = useState<Category | null>(null);
 
   // --------- Home Screen -----------
   if (game == null) {
@@ -51,7 +52,18 @@ export default function Index() {
       <Text style={styles.body}>
           {game.players[game.currentPlayerIndex].name}'s turn
       </Text>
-      <Text style={styles.body}>{game.remaining.length} questions left</Text>
+
+      {/* show the spun category, or a prompt if we haven't spun yet */}
+      <Text style={styles.heading}>
+          {category ?? "Spin the wheel!"}
+      </Text>
+
+      <Pressable
+          style={styles.button}
+          onPress={() => setCategory(spinWheel(game))}
+      >
+          <Text style={styles.buttonText}>Spin</Text>
+      </Pressable>
     </View>
   );
 }
@@ -90,6 +102,11 @@ const styles = StyleSheet.create({
     borderRadius: radius.sm,
     padding: spacing.md,
     fontSize: font.sizes.body,
+    color: colors.text,
+  },
+  heading: {
+    fontFamily: font.display,
+    fontSize: font.sizes.heading,
     color: colors.text,
   },
 });
