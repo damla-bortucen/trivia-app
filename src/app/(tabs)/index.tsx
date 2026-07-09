@@ -14,13 +14,28 @@ import { GameState, Category } from "@/game/types";
 
 import { colors, spacing, radius, font } from "@/ui/theme";
 
+const MAX_PLAYERS = 6;
+const WINNING_SCORE = 3;
+
 export default function Index() {
   const [game, setGame] = useState<GameState | null>(null);
   // creates either a GameState or null and setGame is the only way to change it
-  const [player1, setPlayer1] = useState("");
-  const [player2, setPlayer2] = useState("");
+  const [names, setNames] = useState<string[]>(["", ""]);
   const [category, setCategory] = useState<Category | null>(null);
   const [revealed, setRevealed] = useState(false);
+
+  // change one name in the list
+  const updateName = (index: number, value: string) =>
+    setNames(names.map((n, i) => (i === index ? value : n)));
+
+  // add an empty name box, up to the max
+  const addPlayer = () => {
+    if (names.length < MAX_PLAYERS) setNames([...names, ""]);
+  };
+
+  // need at least 2 non-empty names to start
+  const filledNames = names.map((n) => n.trim()).filter((n) => n.length > 0);
+  const canStart = filledNames.length >= 2;
 
 
   // ends the turn
@@ -33,6 +48,7 @@ export default function Index() {
   // back to the start screen - new game
     const playAgain = () => {
         setGame(null);
+        setNames(["", ""]);
         setCategory(null);
         setRevealed(false);
     };
@@ -44,26 +60,27 @@ export default function Index() {
       <View style={styles.screen}>
           <Text style={styles.title}>Trivia</Text>
 
-          <TextInput
-            style={styles.input}
-            placeholder="Player 1"
-            placeholderTextColor={colors.textMuted}
-            value={player1}
-            onChangeText={setPlayer1}
-            autoCorrect={false}
-          />
-          <TextInput
-            style={styles.input}
-            placeholder="Player 2"
-            placeholderTextColor={colors.textMuted}
-            value={player2}
-            onChangeText={setPlayer2}
-            autoCorrect={false}
-          />
+          {names.map((name, i) => (
+            <TextInput
+              key={i}
+              style={styles.input}
+              placeholder={`Player ${i + 1}`}
+              placeholderTextColor={colors.textMuted}
+              value={name}
+              onChangeText={(t) => updateName(i, t)}
+            />
+          ))}
+
+          {names.length < MAX_PLAYERS && (
+            <Pressable onPress={addPlayer}>
+              <Text style={styles.link}>+ Add player</Text>
+            </Pressable>
+          )}
           
           <Pressable 
-              style={styles.button} 
-              onPress={() => setGame(startGame([player1, player2], 10))}
+              style={[styles.button, !canStart && styles.buttonDisabled]} 
+              disabled={!canStart}
+              onPress={() => setGame(startGame(filledNames, WINNING_SCORE))}
           >
             <Text style={styles.buttonText}>Play</Text>
           </Pressable>
@@ -190,6 +207,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.xl,
     borderRadius: radius.pill,
   },
+  buttonDisabled: { opacity: 0.4 },
   buttonText: {
     color: colors.accentText,
     fontSize: font.sizes.body,
@@ -240,4 +258,5 @@ const styles = StyleSheet.create({
     color: colors.text,
     textAlign: "center",
   },
+  link: { color: colors.textMuted, fontSize: font.sizes.body, textAlign: "center" },
 });
