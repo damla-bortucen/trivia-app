@@ -8,6 +8,7 @@ import {
     givePoints,
     deductPoints,
     skip,
+    getWinners,
 } from "@/game/game_logic";
 import { GameState, Category } from "@/game/types";
 
@@ -28,6 +29,13 @@ export default function Index() {
       setCategory(null);
       setRevealed(false);
   };
+
+  // back to the start screen - new game
+    const playAgain = () => {
+        setGame(null);
+        setCategory(null);
+        setRevealed(false);
+    };
 
 
   // --------- Home Screen -----------
@@ -55,13 +63,37 @@ export default function Index() {
           
           <Pressable 
               style={styles.button} 
-              onPress={() => setGame(startGame([player1, player2], 30))}
+              onPress={() => setGame(startGame([player1, player2], 10))}
           >
             <Text style={styles.buttonText}>Play</Text>
           </Pressable>
       </View>   
     );
   }
+
+  // --------- Results Screen -----------
+  if (game.status === "finished") {
+    const winners = getWinners(game);
+    const heading =
+        winners.length === 1 ? `${winners[0].name} wins!` : "It's a tie!";
+
+    return (
+      <View style={styles.screen}>
+        <Text style={styles.title}>{heading}</Text>
+
+        {game.players.map((p) => (
+          <Text key={p.id} style={styles.body}>
+              {p.name}: {p.score}
+          </Text>
+        ))}
+
+        <Pressable style={styles.button} onPress={playAgain}>
+          <Text style={styles.buttonText}>Play again</Text>
+        </Pressable>
+      </View>
+    );
+  }
+
 
   // --------- Game Screen -----------
   
@@ -186,20 +218,26 @@ const styles = StyleSheet.create({
     color: colors.text,
   },
   scoreRow: {
-        flexDirection: "row",
-        justifyContent: "center",
-        gap: spacing.lg,
-    },
-    scoreButton: {
-        width: 64,
-        height: 64,
-        borderRadius: radius.pill,
-        alignItems: "center",
-        justifyContent: "center",
-    },
-    scoreButtonText: {
-        color: "#fff",
-        fontSize: 28,
-        fontWeight: font.weight.bold,
-    },
+    flexDirection: "row",
+    justifyContent: "center",
+    gap: spacing.lg,
+  },
+  scoreButton: {
+    width: 64,
+    height: 64,
+    borderRadius: radius.pill,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  scoreButtonText: {
+    color: "#fff",
+    fontSize: 28,
+    fontWeight: font.weight.bold,
+  },
+  answer: {
+    fontFamily: font.display,
+    fontSize: font.sizes.heading,
+    color: colors.text,
+    textAlign: "center",
+  },
 });
