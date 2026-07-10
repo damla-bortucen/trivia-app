@@ -15,6 +15,8 @@ import { GameState, Category } from "@/game/types";
 import { colors, spacing, radius, font } from "@/ui/theme";
 import InputSpinner from "react-native-input-spinner";
 
+ import { Scoreboard } from "@/components/scoreboard";
+
 const MAX_PLAYERS = 6;
 const DEFAULT_WINNING_SCORE = 3;
 
@@ -177,21 +179,7 @@ export default function Index() {
   return (
     <View style={styles.screen}>
 
-      <View style={styles.scoreboard}>
-        {game.players.map((p, i) => (
-          <View key={p.id} style={styles.scoreItem}>
-            <Text
-              style={[
-                styles.scoreName,
-                i === game.currentPlayerIndex && styles.scoreNameActive,
-              ]}
-            >
-              {p.name}
-            </Text>
-            <Text style={styles.scoreValue}>{p.score}</Text>
-          </View>
-        ))}
-      </View>
+      <Scoreboard game={game} />
 
       <Text style={styles.title}>Playing</Text>
 
@@ -296,21 +284,5 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   link: { color: colors.textMuted, fontSize: font.sizes.body, textAlign: "center" },
-  scoreboard: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    gap: spacing.lg,
-    marginBottom: spacing.lg,
-
-  },
-  scoreItem: { alignItems: "center" },
-  scoreName: { fontSize: font.sizes.caption, color: colors.textMuted },
-  scoreNameActive: { color: colors.text, fontWeight: font.weight.bold },
-  scoreValue: {
-      fontFamily: font.display,
-      fontSize: font.sizes.heading,
-      color: colors.text,
-  },
   label: { fontSize: font.sizes.caption, color: colors.textMuted, textAlign: "center" },
 });
