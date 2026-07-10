@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { Text, View, Pressable, StyleSheet, TextInput } from "react-native";
+import { Text, View, Pressable, StyleSheet } from "react-native";
 import {
-    startGame,
     spinWheel,
     getAvailableDifficulties,
     drawQuestion,
@@ -13,34 +12,17 @@ import {
 import { GameState, Category } from "@/game/types";
 
 import { colors, spacing, radius, font } from "@/ui/theme";
-import InputSpinner from "react-native-input-spinner";
 
  import { Scoreboard } from "@/components/scoreboard";
  import { Results } from "@/components/results_screen";
+ import { Start } from "@/components/start_screen";
 
-const MAX_PLAYERS = 6;
-const DEFAULT_WINNING_SCORE = 3;
 
 export default function Index() {
   const [game, setGame] = useState<GameState | null>(null);
   // creates either a GameState or null and setGame is the only way to change it
-  const [names, setNames] = useState<string[]>(["", ""]);
   const [category, setCategory] = useState<Category | null>(null);
   const [revealed, setRevealed] = useState(false);
-  const [winningScore, setWinningScore] = useState(String(DEFAULT_WINNING_SCORE));
-
-  // change one name in the list
-  const updateName = (index: number, value: string) =>
-    setNames(names.map((n, i) => (i === index ? value : n)));
-
-  // add an empty name box, up to the max
-  const addPlayer = () => {
-    if (names.length < MAX_PLAYERS) setNames([...names, ""]);
-  };
-
-  // need at least 2 non-empty names to start
-  const filledNames = names.map((n) => n.trim()).filter((n) => n.length > 0);
-  const canStart = filledNames.length >= 2;
 
 
   // ends the turn
@@ -51,63 +33,16 @@ export default function Index() {
   };
 
   // back to the start screen - new game
-    const playAgain = () => {
-      setGame(null);
-      setNames(["", ""]);
-      setCategory(null);
-      setRevealed(false);
-      setWinningScore(String(DEFAULT_WINNING_SCORE));
-    };
+  const playAgain = () => {
+    setGame(null);
+    setCategory(null);
+    setRevealed(false);
+  };
 
 
   // --------- Home Screen -----------
   if (game == null) {
-    return (
-      <View style={styles.screen}>
-          <Text style={styles.title}>Trivia</Text>
-
-          {names.map((name, i) => (
-            <TextInput
-              key={i}
-              style={styles.input}
-              placeholder={`Player ${i + 1}`}
-              placeholderTextColor={colors.textMuted}
-              value={name}
-              autoCorrect={false}
-              onChangeText={(t) => updateName(i, t)}
-            />
-          ))}
-
-          {names.length < MAX_PLAYERS && (
-            <Pressable onPress={addPlayer}>
-              <Text style={styles.link}>+ Add player</Text>
-            </Pressable>
-          )}
-
-          <Text style={styles.label}>Winning score</Text>
-          <InputSpinner
-            min={1}
-            step={1}
-            colorMin={colors.surface}
-            value={winningScore}
-            onChange={setWinningScore}
-            width={130}
-            height={40}
-            colorRight={colors.border}
-            colorLeft={colors.border}
-            colorPress={colors.accent}
-            buttonTextColor={colors.text}
-          />
-          
-          <Pressable 
-              style={[styles.button, !canStart && styles.buttonDisabled]} 
-              disabled={!canStart}
-              onPress={() => setGame(startGame(filledNames, Number(winningScore)))}
-          >
-            <Text style={styles.buttonText}>Play</Text>
-          </Pressable>
-      </View>   
-    );
+    return <Start onStart={setGame} />;
   }
 
   // --------- Results Screen -----------
