@@ -16,6 +16,7 @@ import { colors, spacing, radius, font } from "@/ui/theme";
 import InputSpinner from "react-native-input-spinner";
 
  import { Scoreboard } from "@/components/scoreboard";
+ import { Results } from "@/components/results_screen";
 
 const MAX_PLAYERS = 6;
 const DEFAULT_WINNING_SCORE = 3;
@@ -111,25 +112,7 @@ export default function Index() {
 
   // --------- Results Screen -----------
   if (game.status === "finished") {
-    const winners = getWinners(game);
-    const heading =
-        winners.length === 1 ? `${winners[0].name} wins!` : "It's a tie!";
-
-    return (
-      <View style={styles.screen}>
-        <Text style={styles.title}>{heading}</Text>
-
-        {game.players.map((p) => (
-          <Text key={p.id} style={styles.body}>
-              {p.name}: {p.score}
-          </Text>
-        ))}
-
-        <Pressable style={styles.button} onPress={playAgain}>
-          <Text style={styles.buttonText}>Play again</Text>
-        </Pressable>
-      </View>
-    );
+    return <Results game={game} onPlayAgain={playAgain} />;
   }
 
 
