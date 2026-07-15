@@ -1,6 +1,6 @@
 import { Text, View, StyleSheet } from "react-native";
 import { GameState } from "@/game/types";
-import { colors, spacing, font } from "@/ui/theme";
+import { colors, spacing, font, radius } from "@/ui/theme";
 
 export function Scoreboard({ game }: { game: GameState }) {
     return (
@@ -22,11 +22,17 @@ export function Scoreboard({ game }: { game: GameState }) {
 
 const styles = StyleSheet.create({
     scoreboard: {
+        alignSelf: "stretch",
         flexDirection: "row",
         flexWrap: "wrap",
         justifyContent: "center",
         gap: spacing.lg,
-        marginBottom: spacing.lg,
+        marginLeft: spacing.xl,
+        marginRight: spacing.xl,
+        marginTop: spacing.lg,
+        borderColor: colors.border,
+        borderRadius: radius.sm,
+        borderWidth: 1,
     },
     scoreItem: { alignItems: "center" },
     scoreName: { fontSize: font.sizes.caption, color: colors.textMuted },

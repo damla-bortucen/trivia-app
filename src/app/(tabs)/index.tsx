@@ -60,39 +60,41 @@ export default function Index() {
 
       <Scoreboard game={game} />
 
-      <Text style={styles.title}>Playing</Text>
+      <View style={styles.content}>
+        <Text style={styles.title}>Playing</Text>
 
-      <Text style={styles.body}>
-          {game.players[game.currentPlayerIndex].name}'s turn
-      </Text>
+        <Text style={styles.body}>
+            {game.players[game.currentPlayerIndex].name}'s turn
+        </Text>
 
-      <Text style={styles.heading}>
-          {category ?? "Spin the wheel!"}
-      </Text>
+        <Text style={styles.heading}>
+            {category ?? "Spin the wheel!"}
+        </Text>
 
-      {category === null ? (
-        <>
-        <Pressable
-            style={styles.button}
-            onPress={() => setCategory(spinWheel(game))}
-        >
-            <Text style={styles.buttonText}>Spin</Text>
-        </Pressable>
-        </>
-      ) : (
-        <>
-          <Text style={styles.title}>{category}</Text>
-          {getAvailableDifficulties(game, category).map((d) => (
-            <Pressable
-              key={d}
+        {category === null ? (
+          <>
+          <Pressable
               style={styles.button}
-              onPress={() => setGame(drawQuestion(game, category, d))}
-            >
-              <Text style={styles.buttonText}>{d}</Text>
-            </Pressable>
-          ))}
-        </>
-      )}
+              onPress={() => setCategory(spinWheel(game))}
+          >
+              <Text style={styles.buttonText}>Spin</Text>
+          </Pressable>
+          </>
+        ) : (
+          <>
+            <Text style={styles.title}>{category}</Text>
+            {getAvailableDifficulties(game, category).map((d) => (
+              <Pressable
+                key={d}
+                style={styles.button}
+                onPress={() => setGame(drawQuestion(game, category, d))}
+              >
+                <Text style={styles.buttonText}>{d}</Text>
+              </Pressable>
+            ))}
+          </>
+        )}
+      </View>
     </View>
   );
 }
@@ -101,7 +103,16 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     backgroundColor: colors.background,
+  },
+  content: {
+    flex: 1,
     alignItems: "center",
+    justifyContent: "center",
+    gap: spacing.lg,
+  },
+  scorescreen: {
+    flex: 1,
+    backgroundColor: colors.background,
     justifyContent: "center",
     gap: spacing.lg,
   },
