@@ -20,37 +20,39 @@ export function QuestionCard({ game, category, onFinishTurn, }: {
 
     return (
           <View style={styles.screen}>
-            <Text style={styles.body}>{category}</Text>
-            <Text style={styles.title}>{q.question}</Text>
-    
-            {!revealed ? (
-              <Pressable style={styles.button} onPress={() => setRevealed(true)}>
-                <Text style={styles.buttonText}>Reveal answer</Text>
-              </Pressable>
-             ) : (
-              <>
-                <Text style={styles.answer}>{q.answer}</Text>
-                <View style={styles.scoreRow}>
-                  <Pressable
-                    style={[styles.scoreButton, { backgroundColor: colors.easy }]}
-                    onPress={() => onFinishTurn(givePoints(game))}
-                  >
-                    <Text style={styles.scoreButtonText}>+</Text>
-                  </Pressable>
-                  <Pressable
-                    style={[styles.scoreButton, { backgroundColor: colors.hard }]}
-                    onPress={() => onFinishTurn(deductPoints(game))}
-                  >
-                    <Text style={styles.scoreButtonText}>−</Text>
-                  </Pressable>
-    
-                </View>
-    
-                <Pressable onPress={() => onFinishTurn(skip(game))}>
-                  <Text style={styles.link}>Skip (no points)</Text>
+            <View style={styles.card}>
+              <Text style={styles.body}>{category}</Text>
+              <Text style={styles.title}>{q.question}</Text>
+      
+              {!revealed ? (
+                <Pressable style={styles.button} onPress={() => setRevealed(true)}>
+                  <Text style={styles.buttonText}>Reveal answer</Text>
                 </Pressable>
-              </>
-             )}
+              ) : (
+                <>
+                  <Text style={styles.answer}>{q.answer}</Text>
+                  <View style={styles.scoreRow}>
+                    <Pressable
+                      style={[styles.scoreButton, { backgroundColor: colors.easy }]}
+                      onPress={() => onFinishTurn(givePoints(game))}
+                    >
+                      <Text style={styles.scoreButtonText}>+</Text>
+                    </Pressable>
+                    <Pressable
+                      style={[styles.scoreButton, { backgroundColor: colors.hard }]}
+                      onPress={() => onFinishTurn(deductPoints(game))}
+                    >
+                      <Text style={styles.scoreButtonText}>−</Text>
+                    </Pressable>
+      
+                  </View>
+      
+                  <Pressable onPress={() => onFinishTurn(skip(game))}>
+                    <Text style={styles.link}>Skip (no points)</Text>
+                  </Pressable>
+                </>
+              )}
+            </View>
           </View>
         );
 }
@@ -62,6 +64,21 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         gap: spacing.lg,
+    },
+    card: {
+        backgroundColor: colors.surface,
+        gap: spacing.lg,
+        marginLeft: spacing.xl,
+        marginRight: spacing.xl,
+        marginTop: spacing.lg,
+        marginBottom: spacing.lg,
+        borderColor: colors.border,
+        borderRadius: radius.sm,
+        borderWidth: 2,
+        paddingTop: spacing.md,
+        paddingBottom: spacing.md,
+        paddingLeft: spacing.md,
+        paddingRight: spacing.md,
     },
     title: {
         fontFamily: font.display,   // Georgia serif
