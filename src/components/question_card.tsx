@@ -6,7 +6,7 @@ import {
     deductPoints,
     skip,
 } from "@/game/game_logic";
-import { colors, spacing, radius, font } from "@/ui/theme";
+import { colors, spacing, radius, font, categoryColors } from "@/ui/theme";
 
 export function QuestionCard({ game, category, onFinishTurn, }: { 
     game: GameState,
@@ -18,6 +18,8 @@ export function QuestionCard({ game, category, onFinishTurn, }: {
     const q = game.currentQuestion;
     if (!q) return null;
 
+    const accent = categoryColors[q.category];
+
     return (
           <View style={styles.screen}>
             <View style={styles.card}>
@@ -25,7 +27,7 @@ export function QuestionCard({ game, category, onFinishTurn, }: {
               <Text style={styles.title}>{q.question}</Text>
       
               {!revealed ? (
-                <Pressable style={styles.button} onPress={() => setRevealed(true)}>
+                <Pressable style={[styles.button, {backgroundColor: accent}]} onPress={() => setRevealed(true)}>
                   <Text style={styles.buttonText}>Reveal answer</Text>
                 </Pressable>
               ) : (
