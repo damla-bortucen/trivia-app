@@ -4,6 +4,7 @@ import InputSpinner from "react-native-input-spinner";
 import { startGame } from "@/game/game_logic";
 import { GameState } from "@/game/types";
 import { colors, spacing, radius, font } from "@/ui/theme";
+import { Button } from "@/components/button";
 
 const MAX_PLAYERS = 6;
 const DEFAULT_WINNING_SCORE = 3;
@@ -39,9 +40,7 @@ export function Start({ onStart }: { onStart: (game: GameState) => void }) {
             ))}
 
             {names.length < MAX_PLAYERS && (
-                <Pressable onPress={addPlayer}>
-                    <Text style={styles.link}>+ Add player</Text>
-                </Pressable>
+                <Button label="+ Add player" variant="link" onPress={addPlayer} />
             )}
 
             <Text style={styles.label}>Winning score</Text>
@@ -59,13 +58,11 @@ export function Start({ onStart }: { onStart: (game: GameState) => void }) {
                 buttonTextColor={colors.text}
             />
 
-            <Pressable
-                style={[styles.button, !canStart && styles.buttonDisabled]}
+            <Button
+                label="Play"
                 disabled={!canStart}
                 onPress={() => onStart(startGame(filledNames, Number(winningScore)))}
-            >
-                <Text style={styles.buttonText}>Play</Text>
-            </Pressable>
+            />
         </View>
     );
 }
@@ -88,14 +85,5 @@ const styles = StyleSheet.create({
         fontSize: font.sizes.body,
         color: colors.text,
     },
-    link: { color: colors.textMuted, fontSize: font.sizes.body, textAlign: "center" },
     label: { fontSize: font.sizes.caption, color: colors.textMuted, textAlign: "center" },
-    button: {
-        backgroundColor: colors.accent,
-        paddingVertical: spacing.sm,
-        paddingHorizontal: spacing.xl,
-        borderRadius: radius.pill,
-    },
-    buttonDisabled: { opacity: 0.4 },
-    buttonText: { color: colors.accentText, fontSize: font.sizes.body, fontWeight: font.weight.bold },
 });

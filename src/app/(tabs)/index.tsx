@@ -5,7 +5,7 @@ import {
 } from "@/game/game_logic";
 import { Category, GameState } from "@/game/types";
 import { useState } from "react";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 import { colors, font, radius, spacing, categoryColors } from "@/ui/theme";
 
@@ -13,6 +13,7 @@ import { QuestionCard } from "@/components/question_card";
 import { Results } from "@/components/results_screen";
 import { Scoreboard } from "@/components/scoreboard";
 import { Start } from "@/components/start_screen";
+import { Button } from "@/components/button"
 
 export default function Index() {
   const [game, setGame] = useState<GameState | null>(null);
@@ -48,12 +49,10 @@ export default function Index() {
   
   // Question Card
   if (game.currentQuestion) {
-    return (
-        <QuestionCard game={game} onFinishTurn={finishTurn} />
-    );
+    return <QuestionCard game={game} onFinishTurn={finishTurn} />;
   }
 
-  // player's turn - no question
+  // player's turn - spin & pick difficulty
   return (
     <View style={styles.screen}>
 
@@ -76,24 +75,15 @@ export default function Index() {
         </Text>
 
         {category === null ? (
-          <Pressable
-              style={styles.button}
-              onPress={() => setCategory(spinWheel(game))}
-          >
-              <Text style={styles.buttonText}>Spin</Text>
-          </Pressable>
+          <Button label="Spin" onPress={() => setCategory(spinWheel(game))} />
         ) : (
-          <>
-            {getAvailableDifficulties(game, category).map((d) => (
-              <Pressable
+            getAvailableDifficulties(game, category).map((d) => (
+              <Button
                 key={d}
-                style={styles.button}
+                label={d}
                 onPress={() => setGame(drawQuestion(game, category, d))}
-              >
-                <Text style={styles.buttonText}>{d}</Text>
-              </Pressable>
-            ))}
-          </>
+              />
+            ))
         )}
       </View>
     </View>
@@ -110,17 +100,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     gap: spacing.lg,
-  },
-  button: {
-    backgroundColor: colors.accent,
-    paddingVertical: spacing.sm,
-    paddingHorizontal: spacing.xl,
-    borderRadius: radius.pill,
-  },
-  buttonText: {
-    color: colors.accentText,
-    fontSize: font.sizes.body,
-    fontWeight: font.weight.bold,
   },
   title: {
     fontFamily: font.display,   // Georgia serif

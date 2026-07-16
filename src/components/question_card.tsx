@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Text, View, Pressable, StyleSheet } from "react-native";
-import { GameState, Category } from "@/game/types";
+import { GameState } from "@/game/types";
 import {
     givePoints,
     deductPoints,
     skip,
 } from "@/game/game_logic";
 import { colors, spacing, radius, font, categoryColors } from "@/ui/theme";
+import { Button } from "@/components/button";
 
 export function QuestionCard({ game, onFinishTurn, }: { 
     game: GameState,
@@ -20,42 +21,42 @@ export function QuestionCard({ game, onFinishTurn, }: {
     const accent = categoryColors[q.category];
 
     return (
-          <View style={styles.screen}>
-            <View style={styles.card}>
-              <Text style={[styles.category, { color: accent }]}>{q.category}</Text>
-              <Text style={styles.title}>{q.question}</Text>
-      
-              {!revealed ? (
-                <Pressable style={[styles.button, {backgroundColor: accent}]} onPress={() => setRevealed(true)}>
-                  <Text style={styles.buttonText}>Reveal answer</Text>
+      <View style={styles.screen}>
+        <View style={styles.card}>
+          <Text style={[styles.category, { color: accent }]}>{q.category}</Text>
+          <Text style={styles.title}>{q.question}</Text>
+  
+          {!revealed ? (
+            <Button label="Reveal answer" onPress={() => setRevealed(true)} />
+          ) : (
+            <>
+              <Text style={styles.answer}>{q.answer}</Text>
+              <View style={styles.scoreRow}>
+                <Pressable
+                  style={[styles.scoreButton, { backgroundColor: colors.easy }]}
+                  onPress={() => onFinishTurn(givePoints(game))}
+                >
+                  <Text style={styles.scoreButtonText}>+</Text>
                 </Pressable>
-              ) : (
-                <>
-                  <Text style={styles.answer}>{q.answer}</Text>
-                  <View style={styles.scoreRow}>
-                    <Pressable
-                      style={[styles.scoreButton, { backgroundColor: colors.easy }]}
-                      onPress={() => onFinishTurn(givePoints(game))}
-                    >
-                      <Text style={styles.scoreButtonText}>+</Text>
-                    </Pressable>
-                    <Pressable
-                      style={[styles.scoreButton, { backgroundColor: colors.hard }]}
-                      onPress={() => onFinishTurn(deductPoints(game))}
-                    >
-                      <Text style={styles.scoreButtonText}>−</Text>
-                    </Pressable>
-      
-                  </View>
-      
-                  <Pressable onPress={() => onFinishTurn(skip(game))}>
-                    <Text style={styles.link}>Skip (no points)</Text>
-                  </Pressable>
-                </>
-              )}
-            </View>
-          </View>
-        );
+                <Pressable
+                  style={[styles.scoreButton, { backgroundColor: colors.hard }]}
+                  onPress={() => onFinishTurn(deductPoints(game))}
+                >
+                  <Text style={styles.scoreButtonText}>−</Text>
+                </Pressable>
+  
+              </View>
+  
+              <Button
+                  label="Skip (no points)"
+                  variant="link"
+                  onPress={() => onFinishTurn(skip(game))}
+              />
+            </>
+          )}
+        </View>
+      </View>
+    );
 }
 
 const styles = StyleSheet.create({
@@ -85,17 +86,6 @@ const styles = StyleSheet.create({
         fontSize: font.sizes.body,
         color: colors.text,
     },
-    button: {
-        backgroundColor: colors.accent,
-        paddingVertical: spacing.sm,
-        paddingHorizontal: spacing.xl,
-        borderRadius: radius.pill,
-    },
-    buttonText: { 
-        color: colors.accentText, 
-        fontSize: font.sizes.body, 
-        fontWeight: font.weight.bold 
-    },
     scoreRow: {
         flexDirection: "row",
         justifyContent: "center",
@@ -119,8 +109,6 @@ const styles = StyleSheet.create({
         color: colors.text,
         textAlign: "center",
     },
-    link: { color: colors.textMuted, fontSize: font.sizes.body, textAlign: "center" },
-    label: { fontSize: font.sizes.caption, color: colors.textMuted, textAlign: "center" },
     category: {
         fontSize: font.sizes.caption,
         fontWeight: font.weight.bold,

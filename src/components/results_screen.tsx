@@ -2,6 +2,7 @@ import { Text, View, StyleSheet, Pressable } from "react-native";
 import { GameState } from "@/game/types";
 import { getWinners } from "@/game/game_logic";
 import { colors, spacing, font, radius } from "@/ui/theme";
+import { Button } from "@/components/button";
 
 export function Results({ game, onPlayAgain }: { game: GameState, onPlayAgain: () => void }) {
     const winners = getWinners(game);
@@ -17,9 +18,7 @@ export function Results({ game, onPlayAgain }: { game: GameState, onPlayAgain: (
             </Text>
             ))}
 
-            <Pressable style={styles.button} onPress={onPlayAgain}>
-            <Text style={styles.buttonText}>Play again</Text>
-            </Pressable>
+            <Button label="Play again" onPress={onPlayAgain} />
         </View>
     );
 }
@@ -38,15 +37,4 @@ const styles = StyleSheet.create({
         color: colors.text,
     },
     body: { fontSize: font.sizes.body, color: colors.text },
-    button: {
-        backgroundColor: colors.accent,
-        paddingVertical: spacing.sm,
-        paddingHorizontal: spacing.xl,
-        borderRadius: radius.pill,
-    },
-    buttonText: {
-        color: colors.accentText,
-        fontSize: font.sizes.body,
-        fontWeight: font.weight.bold,
-    },
 });
