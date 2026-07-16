@@ -113,19 +113,12 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     gap: spacing.lg,
   },
-  scorescreen: {
-    flex: 1,
-    backgroundColor: colors.background,
-    justifyContent: "center",
-    gap: spacing.lg,
-  },
   button: {
     backgroundColor: colors.accent,
     paddingVertical: spacing.sm,
     paddingHorizontal: spacing.xl,
     borderRadius: radius.pill,
   },
-  buttonDisabled: { opacity: 0.4 },
   buttonText: {
     color: colors.accentText,
     fontSize: font.sizes.body,
@@ -140,19 +133,9 @@ const styles = StyleSheet.create({
     fontSize: font.sizes.body,
     color: colors.text,
   },
-  input: {
-    borderWidth: 1,
-    borderColor: colors.border,
-    borderRadius: radius.sm,
-    padding: spacing.md,
-    fontSize: font.sizes.body,
-    color: colors.text,
-  },
   heading: {
     fontFamily: font.display,
     fontSize: font.sizes.heading,
     color: colors.text,
   },
-  link: { color: colors.textMuted, fontSize: font.sizes.body, textAlign: "center" },
-  label: { fontSize: font.sizes.caption, color: colors.textMuted, textAlign: "center" },
 });
