@@ -76,14 +76,12 @@ export default function Index() {
         </Text>
 
         {category === null ? (
-          <>
           <Pressable
               style={styles.button}
               onPress={() => setCategory(spinWheel(game))}
           >
               <Text style={styles.buttonText}>Spin</Text>
           </Pressable>
-          </>
         ) : (
           <>
             {getAvailableDifficulties(game, category).map((d) => (
