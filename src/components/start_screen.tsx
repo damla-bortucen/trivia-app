@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Text, View, Pressable, StyleSheet, TextInput } from "react-native";
+import { Text, View, StyleSheet, TextInput } from "react-native";
 import InputSpinner from "react-native-input-spinner";
 import { startGame } from "@/game/game_logic";
 import { GameState } from "@/game/types";

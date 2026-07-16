@@ -1,4 +1,4 @@
-import { Text, View, StyleSheet, Pressable } from "react-native";
+import { Text, View, StyleSheet } from "react-native";
 import { GameState } from "@/game/types";
 import { getWinners } from "@/game/game_logic";
 import { colors, spacing, font, radius } from "@/ui/theme";
