@@ -1,19 +1,18 @@
-import { useState } from "react";
-import { Text, View, Pressable, StyleSheet } from "react-native";
 import {
-    spinWheel,
-    getAvailableDifficulties,
-    drawQuestion,
+  drawQuestion,
+  getAvailableDifficulties,
+  spinWheel,
 } from "@/game/game_logic";
-import { GameState, Category } from "@/game/types";
+import { Category, GameState } from "@/game/types";
+import { useState } from "react";
+import { Pressable, StyleSheet, Text, View } from "react-native";
 
-import { colors, spacing, radius, font } from "@/ui/theme";
+import { colors, font, radius, spacing, categoryColors } from "@/ui/theme";
 
-import { Scoreboard } from "@/components/scoreboard";
-import { Results } from "@/components/results_screen";
-import { Start } from "@/components/start_screen";
 import { QuestionCard } from "@/components/question_card";
-
+import { Results } from "@/components/results_screen";
+import { Scoreboard } from "@/components/scoreboard";
+import { Start } from "@/components/start_screen";
 
 export default function Index() {
   const [game, setGame] = useState<GameState | null>(null);
@@ -67,8 +66,13 @@ export default function Index() {
             {game.players[game.currentPlayerIndex].name}'s turn
         </Text>
 
-        <Text style={styles.heading}>
-            {category ?? "Spin the wheel!"}
+        <Text
+          style={[
+            styles.heading,
+            category && { color: categoryColors[category] },
+          ]}
+        >
+          {category ?? "Spin the wheel!"}
         </Text>
 
         {category === null ? (
@@ -82,7 +86,6 @@ export default function Index() {
           </>
         ) : (
           <>
-            <Text style={styles.title}>{category}</Text>
             {getAvailableDifficulties(game, category).map((d) => (
               <Pressable
                 key={d}
