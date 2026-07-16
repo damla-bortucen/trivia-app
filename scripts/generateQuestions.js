@@ -51,6 +51,35 @@ function decodeHtml(str) {
 }
 
 
+// helper to check if multiple choice options needed for the question
+function needsOptions(question) {
+    return /which of the following|which of these|following (is|are|was|were)/i.test(question);
+}
+
+
+// shuffle options to have the correct answer in a random spot - Fisher-Yates
+function shuffle(arr) { 
+    const result = [...arr]; // Copy so the original isn't modified
+
+    for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [result[i], result[j]] = [result[j], result[i]];
+    }
+
+    return result;
+}
+
+
+// append options to question
+function appendOptions(question, correct, incorrect) {
+    const labels = ["A", "B", "C", "D", "E", "F"];
+    const list = shuffle([correct, ...incorrect])
+        .map((opt, i) => `${labels[i]}) ${opt}`)
+        .join("\n");
+    return `${question}\n\n${list}`;
+}
+
+
 // fetch ONE batch of questions for one OpenTDB category + one difficulty.
 async function fetchBatch(opentdbId, difficulty, amount) {
     const url = `https://opentdb.com/api.php?amount=${amount}&category=${opentdbId}&difficulty=${difficulty}&type=multiple`;
@@ -66,11 +95,19 @@ async function fetchBatch(opentdbId, difficulty, amount) {
     }
     
     // Pull out just the question + correct answer tag the difficulty.
-    return data.results.map((item) => ({
-        question: decodeHtml(item.question),
-        answer:  decodeHtml(item.correct_answer),
-        difficulty,
-    }));
+    return data.results.map((item) => {
+        const question = decodeHtml(item.question);
+        const correct = decodeHtml(item.correct_answer);
+        const incorrect = item.incorrect_answers.map(decodeHtml);
+
+        return {
+            question: needsOptions(question)
+                ? appendOptions(question, correct, incorrect)
+                : question,
+            answer: correct,
+            difficulty,
+        };
+    });
 }
 
 
