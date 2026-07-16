@@ -8,9 +8,8 @@ import {
 } from "@/game/game_logic";
 import { colors, spacing, radius, font, categoryColors } from "@/ui/theme";
 
-export function QuestionCard({ game, category, onFinishTurn, }: { 
+export function QuestionCard({ game, onFinishTurn, }: { 
     game: GameState,
-    category: Category | null,
     onFinishTurn: (next: GameState) => void;
 }) {
     const [revealed, setRevealed] = useState(false);
@@ -23,7 +22,7 @@ export function QuestionCard({ game, category, onFinishTurn, }: {
     return (
           <View style={styles.screen}>
             <View style={styles.card}>
-              <Text style={styles.body}>{category}</Text>
+              <Text style={[styles.category, { color: accent }]}>{q.category}</Text>
               <Text style={styles.title}>{q.question}</Text>
       
               {!revealed ? (
@@ -70,17 +69,12 @@ const styles = StyleSheet.create({
     card: {
         backgroundColor: colors.surface,
         gap: spacing.lg,
-        marginLeft: spacing.xl,
-        marginRight: spacing.xl,
-        marginTop: spacing.lg,
-        marginBottom: spacing.lg,
+        marginHorizontal: spacing.xl,
+        marginVertical: spacing.lg,
         borderColor: colors.border,
-        borderRadius: radius.sm,
-        borderWidth: 2,
-        paddingTop: spacing.md,
-        paddingBottom: spacing.md,
-        paddingLeft: spacing.md,
-        paddingRight: spacing.md,
+        borderRadius: radius.md,
+        borderWidth: 1.5,
+        padding: spacing.lg,
     },
     title: {
         fontFamily: font.display,   // Georgia serif
@@ -127,4 +121,10 @@ const styles = StyleSheet.create({
     },
     link: { color: colors.textMuted, fontSize: font.sizes.body, textAlign: "center" },
     label: { fontSize: font.sizes.caption, color: colors.textMuted, textAlign: "center" },
+    category: {
+        fontSize: font.sizes.caption,
+        fontWeight: font.weight.bold,
+        letterSpacing: 1.25,
+        textTransform: "uppercase",
+  },
 });

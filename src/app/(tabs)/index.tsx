@@ -49,7 +49,7 @@ export default function Index() {
   // Question Card
   if (game.currentQuestion) {
     return (
-        <QuestionCard game={game} category={category} onFinishTurn={finishTurn} />
+        <QuestionCard game={game} onFinishTurn={finishTurn} />
     );
   }
 
