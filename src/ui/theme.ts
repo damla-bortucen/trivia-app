@@ -45,6 +45,6 @@ export const font = {
     // serif for big display headings (Georgia ships on iOS/Android/web)
     display: "Georgia",
     // system sans for everything else
-    sizes: { title: 34, heading: 22, body: 17, caption: 14 },
+    sizes: { title: 32, heading: 22, body: 17, caption: 14 },
     weight: { regular: "400", bold: "700" } as const,
 };
