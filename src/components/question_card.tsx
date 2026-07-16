@@ -24,7 +24,17 @@ export function QuestionCard({ game, onFinishTurn, }: {
       <View style={styles.screen}>
         <View style={styles.card}>
           <Text style={[styles.category, { color: accent }]}>{q.category}</Text>
-          <Text style={styles.title}>{q.question}</Text>
+          
+          <View style={styles.questionArea}>
+            <Text
+                style={styles.title}
+                adjustsFontSizeToFit
+                numberOfLines={16}
+                minimumFontScale={0.6}
+            >
+                {q.question}
+            </Text>
+          </View>
   
           {!revealed ? (
             <Button label="Reveal answer" onPress={() => setRevealed(true)} />
@@ -76,6 +86,11 @@ const styles = StyleSheet.create({
         borderRadius: radius.md,
         borderWidth: 1.5,
         padding: spacing.lg,
+        maxHeight: "85%",
+    },
+    questionArea: {
+        flexShrink: 1,          // gives up space when the card hits maxHeight
+        justifyContent: "center",
     },
     title: {
         fontFamily: font.display,   // Georgia serif
