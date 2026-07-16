@@ -31,5 +31,5 @@ export interface GameState {
     remaining: Question[] // starts as all questions, reduces as game goes on
     currentQuestion: Question | null;
     currentPlayerIndex: number;
-    winningScore: number | 30; // default 30
+    winningScore: number;
     }

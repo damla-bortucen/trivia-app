@@ -1,3 +1,5 @@
+import { Category } from "@/game/types";
+
 export const colors = {
     // base
     background: "#FFFFFF",
@@ -15,6 +17,15 @@ export const colors = {
     medium: "#C9A227",       // amber
     hard: "#C13A32",         // red
 };
+
+export const categoryColors = {
+    "Entertainment": "#C13A32",
+    "General Knowledge": "#b3a7fe",
+    "Geography": "#fb9b00",
+    "History": "#C9A227",
+    "Science and Nature": "#6AAA64",
+    "Sports": "#daa8d0",
+} as Record<Category, string>;
 
 export const spacing = {
     xs: 4,
