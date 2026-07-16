@@ -19,10 +19,10 @@ export const colors = {
 };
 
 export const categoryColors = {
-    "Entertainment": "#C13A32",
+    "Entertainment": "#fc716b",
     "General Knowledge": "#b3a7fe",
     "Geography": "#fb9b00",
-    "History": "#C9A227",
+    "History": "#f7da21",
     "Science and Nature": "#6AAA64",
     "Sports": "#daa8d0",
 } as Record<Category, string>;
