@@ -1,10 +1,10 @@
 import { Text, View, StyleSheet } from "react-native";
 import { GameState } from "@/game/types";
 import { getWinners } from "@/game/game_logic";
-import { colors, spacing, font, radius } from "@/ui/theme";
+import { colors, spacing, font } from "@/ui/theme";
 import { Button } from "@/components/button";
 
-export function Results({ game, onPlayAgain }: { game: GameState, onPlayAgain: () => void }) {
+export function Results({ game, onPlayAgain, onRematch }: { game: GameState, onPlayAgain: () => void, onRematch: () => void }) {
     const winners = getWinners(game);
     const heading = winners.length === 1 ? `${winners[0].name} wins!` : "It's a tie!";
 
@@ -17,8 +17,9 @@ export function Results({ game, onPlayAgain }: { game: GameState, onPlayAgain: (
                 {p.name}: {p.score}
             </Text>
             ))}
-
-            <Button label="Play again" onPress={onPlayAgain} />
+            
+            <Button label="Rematch" onPress={onRematch} />
+            <Button label="New Game" onPress={onPlayAgain} />
         </View>
     );
 }

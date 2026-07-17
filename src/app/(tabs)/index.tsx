@@ -3,11 +3,11 @@ import {
   getAvailableDifficulties,
   spinWheel,
 } from "@/game/game_logic";
-import { Category, GameState } from "@/game/types";
+import { Category, GameState, StartValues } from "@/game/types";
 import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-import { colors, font, radius, spacing, categoryColors } from "@/ui/theme";
+import { colors, font, spacing, categoryColors } from "@/ui/theme";
 
 import { QuestionCard } from "@/components/question_card";
 import { Results } from "@/components/results_screen";
@@ -19,6 +19,7 @@ export default function Index() {
   const [game, setGame] = useState<GameState | null>(null);
   // creates either a GameState or null and setGame is the only way to change it
   const [category, setCategory] = useState<Category | null>(null);
+  const [prefill, setPrefill] = useState<StartValues | null>(null);
 
 
   // ends the turn
@@ -27,21 +28,33 @@ export default function Index() {
     setCategory(null);
   };
 
-  // back to the start screen - new game
-  const playAgain = () => {
+  const startRematch = () => {
+    if (game == null) return;
+    setPrefill({
+      names: game.players.map((p) => p.name),
+      winningScore: game.winningScore,
+      categories: game.categories,
+    });
     setGame(null);
     setCategory(null);
   };
 
+  // back to the start screen - new game
+  const playAgain = () => {
+    setGame(null);
+    setCategory(null);
+    setPrefill(null);
+  };
 
-  // --------- Home Screen -----------
+
+  // --------- Start Screen -----------
   if (game == null) {
-    return <Start onStart={setGame} />;
+    return <Start onStart={setGame} initial={prefill} />;
   }
 
   // --------- Results Screen -----------
   if (game.status === "finished") {
-    return <Results game={game} onPlayAgain={playAgain} />;
+    return <Results game={game} onPlayAgain={playAgain} onRematch={startRematch} />;
   }
 
 
@@ -62,7 +75,7 @@ export default function Index() {
         <Text style={styles.title}>Playing</Text>
 
         <Text style={styles.body}>
-            {game.players[game.currentPlayerIndex].name}'s turn
+            {game.players[game.currentPlayerIndex].name}&apos;s turn
         </Text>
 
         <Text

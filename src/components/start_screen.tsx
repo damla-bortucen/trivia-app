@@ -1,19 +1,24 @@
 import { useState } from "react";
-import { Text, View, StyleSheet, TextInput, Pressable, ScrollView } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
+import { Text, View, StyleSheet, TextInput, Pressable } from "react-native";
 import InputSpinner from "react-native-input-spinner";
 import { startGame } from "@/game/game_logic";
-import { GameState, Category, ALL_CATEGORIES } from "@/game/types";
+import { GameState, Category, StartValues, ALL_CATEGORIES } from "@/game/types";
 import { colors, spacing, radius, font, categoryColors } from "@/ui/theme";
 import { Button } from "@/components/button";
 
 const MAX_PLAYERS = 6;
 const DEFAULT_WINNING_SCORE = 3;
 
-export function Start({ onStart }: { onStart: (game: GameState) => void }) {
-    const [names, setNames] = useState<string[]>(["", ""]);
-    const [winningScore, setWinningScore] = useState(String(DEFAULT_WINNING_SCORE));
+// accepts initial values if rematch otherwise starts fresh
+export function Start({ onStart, initial }: { 
+    onStart: (game: GameState) => void;
+    initial?: StartValues | null;
+}) {
+    const [names, setNames] = useState<string[]>(initial?.names ?? ["", ""]);
+    const [winningScore, setWinningScore] = useState<number>(initial?.winningScore ?? DEFAULT_WINNING_SCORE);
 
-    const [categories, setCategories] = useState<Category[]>([...ALL_CATEGORIES]);
+    const [categories, setCategories] = useState<Category[]>(initial?.categories ?? [...ALL_CATEGORIES]);
   
     const toggleCategory = (c: Category) =>
         setCategories((prev) =>
@@ -27,11 +32,27 @@ export function Start({ onStart }: { onStart: (game: GameState) => void }) {
         if (names.length < MAX_PLAYERS) setNames([...names, ""]);
     };
 
+    const reset = () => {
+        setNames(["", ""]);
+        setWinningScore(DEFAULT_WINNING_SCORE);
+        setCategories([...ALL_CATEGORIES]);
+    };
+
     const filledNames = names.map((n) => n.trim()).filter((n) => n.length > 0);
     const canStart = filledNames.length >= 2 && categories.length > 0;
 
     return (
         <View style={styles.screen}>
+            <Pressable style={styles.refresh} onPress={reset} hitSlop={8}>
+                {({ pressed }) => (
+                    <Ionicons
+                        name="refresh"
+                        size={24}
+                        color={pressed ? colors.text : colors.textMuted}
+                    />
+                )}
+            </Pressable>
+
             <Text style={styles.title}>Trivia</Text>
 
             <View style={styles.group}>
@@ -95,7 +116,7 @@ export function Start({ onStart }: { onStart: (game: GameState) => void }) {
             <Button
                 label="Play"
                 disabled={!canStart}
-                onPress={() => onStart(startGame(filledNames, Number(winningScore), categories))}
+                onPress={() => onStart(startGame(filledNames, winningScore, categories))}
             />
         </View>
     );
@@ -141,4 +162,10 @@ const styles = StyleSheet.create({
     },
     chipText: { fontSize: font.sizes.caption, color: colors.text },
     chipTextOn: { color: colors.accentText },
+    refresh: {
+        position: "absolute",
+        top: spacing.xs,
+        left: spacing.lg,
+        zIndex: 1,
+    },
 });

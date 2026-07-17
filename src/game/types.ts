@@ -39,4 +39,11 @@ export interface GameState {
     currentQuestion: Question | null;
     currentPlayerIndex: number;
     winningScore: number;
+    categories: Category[];
     }
+
+export type StartValues = {
+    names: string[];
+    winningScore: number;
+    categories: Category[];
+};
