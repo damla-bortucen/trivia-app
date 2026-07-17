@@ -1,6 +1,6 @@
 import { Text, ScrollView, StyleSheet } from 'react-native';
 
-import { colors, spacing, radius, font } from "@/ui/theme";
+import { colors, spacing, font } from "@/ui/theme";
 
 export default function AboutScreen() {
   return (
@@ -19,7 +19,7 @@ export default function AboutScreen() {
         mediums are 2 and hard ones are 3.{"\n"}
         3. Read the question, answer and then tap Reveal answer.{"\n"}
         4. Tap + if you got it right to add the points, − if you got it 
-        wrong to subtract them, or Skip to pass if you didn't answer.
+        wrong to subtract them, or Skip to pass if you didn&apos;t answer.
       </Text>
 
       <Text style={styles.heading}>Winning</Text>
