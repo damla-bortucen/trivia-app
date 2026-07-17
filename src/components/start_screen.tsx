@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Text, View, StyleSheet, TextInput, Pressable } from "react-native";
+import { Text, View, StyleSheet, TextInput, Pressable, ScrollView } from "react-native";
 import InputSpinner from "react-native-input-spinner";
 import { startGame } from "@/game/game_logic";
 import { GameState, Category, ALL_CATEGORIES } from "@/game/types";
@@ -38,7 +38,7 @@ export function Start({ onStart }: { onStart: (game: GameState) => void }) {
                 {names.map((name, i) => (
                     <TextInput
                         key={i}
-                        style={styles.input}
+                        style={[styles.input, (names.length >= 4) && styles.inputCompact]}
                         placeholder={`Player ${i + 1}`}
                         placeholderTextColor={colors.textMuted}
                         value={name}
@@ -121,6 +121,9 @@ const styles = StyleSheet.create({
         padding: spacing.md,
         fontSize: font.sizes.body,
         color: colors.text,
+    },
+    inputCompact: {
+        padding: spacing.sm,
     },
     label: { fontSize: font.sizes.caption, color: colors.textMuted, textAlign: "center" },
     chips: {
