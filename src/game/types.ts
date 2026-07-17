@@ -41,3 +41,9 @@ export interface GameState {
     winningScore: number;
     categories: Category[];
     }
+
+export type StartValues = {
+    names: string[];
+    winningScore: number;
+    categories: Category[];
+};
