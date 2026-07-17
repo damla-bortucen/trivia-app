@@ -10,8 +10,7 @@ export function startGame(player_names: string[], winningScore: number, categori
         score: 0,
     }));
 
-    const selected = categories.length > 0 ? categories : ALL_CATEGORIES;
-    const remaining = loadQuestions().filter((q) => selected.includes(q.category));
+    const remaining = loadQuestions().filter((q) => categories.includes(q.category));
 
     return {
         status: "playing",
@@ -20,6 +19,7 @@ export function startGame(player_names: string[], winningScore: number, categori
         remaining,
         currentQuestion: null,
         winningScore,
+        categories: categories,
     };
 }
 

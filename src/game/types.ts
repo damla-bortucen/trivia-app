@@ -39,4 +39,5 @@ export interface GameState {
     currentQuestion: Question | null;
     currentPlayerIndex: number;
     winningScore: number;
+    categories: Category[];
     }
