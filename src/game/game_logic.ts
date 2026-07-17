@@ -1,32 +1,23 @@
-import { Category, Difficulty, Player, GameState } from "./types";
+import { Category, Difficulty, Player, GameState, ALL_CATEGORIES, ALL_DIFFICULTIES } from "./types";
 import { loadQuestions, getByCategory, filterByDifficulty, pickByCatDif } from "./question";
 
 
-const ALL_CATEGORIES: Category[] = [
-    "Entertainment",
-    "General Knowledge",
-    "Geography",
-    "History",
-    "Science and Nature",
-    "Sports",
-];
-const ALL_DIFFICULTIES: Difficulty[] = ["easy", "medium", "hard"];
-
-
-
 // return initial game state
-export function startGame(player_names: string[], winningScore: number): GameState {
+export function startGame(player_names: string[], winningScore: number, categories: Category[]): GameState {
     const players: Player[] = player_names.map((name, i) => ({
         id: `player-${i}`,
         name,
         score: 0,
     }));
 
+    const selected = categories.length > 0 ? categories : ALL_CATEGORIES;
+    const remaining = loadQuestions().filter((q) => selected.includes(q.category));
+
     return {
         status: "playing",
         players,
         currentPlayerIndex: 0,
-        remaining: loadQuestions(),
+        remaining,
         currentQuestion: null,
         winningScore,
     };

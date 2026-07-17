@@ -1,12 +1,19 @@
-export type Difficulty = 'easy' | 'medium' | 'hard';
+export const ALL_DIFFICULTIES = ["easy", "medium", "hard"] as const;
 
-export type Category =
-    | 'Entertainment'
-    | 'General Knowledge'
-    | 'Geography'
-    | 'History'
-    | 'Science and Nature'
-    | 'Sports';
+export type Difficulty = typeof ALL_DIFFICULTIES[number];
+//   Difficulty  ===  "easy" | "medium" | "hard"
+
+
+export const ALL_CATEGORIES = [
+    "Entertainment",
+    "General Knowledge",
+    "Geography",
+    "History",
+    "Science and Nature",
+    "Sports",
+] as const;
+
+export type Category = typeof ALL_CATEGORIES[number];
 
 export interface Question {
     id: string;
