@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Ionicons } from "@expo/vector-icons";
 import { Text, View, StyleSheet, TextInput, Pressable } from "react-native";
 import InputSpinner from "react-native-input-spinner";
 import { startGame } from "@/game/game_logic";
@@ -31,11 +32,27 @@ export function Start({ onStart, initial }: {
         if (names.length < MAX_PLAYERS) setNames([...names, ""]);
     };
 
+    const reset = () => {
+        setNames(["", ""]);
+        setWinningScore(DEFAULT_WINNING_SCORE);
+        setCategories([...ALL_CATEGORIES]);
+    };
+
     const filledNames = names.map((n) => n.trim()).filter((n) => n.length > 0);
     const canStart = filledNames.length >= 2 && categories.length > 0;
 
     return (
         <View style={styles.screen}>
+            <Pressable style={styles.refresh} onPress={reset} hitSlop={8}>
+                {({ pressed }) => (
+                    <Ionicons
+                        name="refresh"
+                        size={24}
+                        color={pressed ? colors.text : colors.textMuted}
+                    />
+                )}
+            </Pressable>
+
             <Text style={styles.title}>Trivia</Text>
 
             <View style={styles.group}>
@@ -145,4 +162,10 @@ const styles = StyleSheet.create({
     },
     chipText: { fontSize: font.sizes.caption, color: colors.text },
     chipTextOn: { color: colors.accentText },
+    refresh: {
+        position: "absolute",
+        top: spacing.xs,
+        left: spacing.lg,
+        zIndex: 1,
+    },
 });
