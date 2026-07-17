@@ -28,6 +28,12 @@ export default function Index() {
     setPrefill(null);
   };
 
+  // quit mid-game - abandon and return to a clean start screen
+  const quitGame = () => {
+    setGame(null);
+    setPrefill(null);
+  };
+
 
   // --------- Start Screen -----------
   if (game == null) {
@@ -41,10 +47,10 @@ export default function Index() {
 
   // --------- Game Screen -----------
   if (game.currentQuestion) {
-    return <QuestionCard game={game} onFinishTurn={setGame} />;
+    return <QuestionCard game={game} onFinishTurn={setGame} onQuit={quitGame} />;
   }
 
-  return <GameScreen game={game} onDraw={setGame} />;
+  return <GameScreen game={game} onDraw={setGame} onQuit={quitGame} />;
 
 
 }
