@@ -7,11 +7,14 @@ import {
     skip,
 } from "@/game/game_logic";
 import { colors, spacing, radius, font, categoryColors } from "@/ui/theme";
-import { Button } from "@/components/button";
 
-export function QuestionCard({ game, onFinishTurn, }: { 
+import { Button } from "@/components/button";
+import { Quit } from "@/components/quit";
+
+export function QuestionCard({ game, onFinishTurn, onQuit }: { 
     game: GameState,
     onFinishTurn: (next: GameState) => void;
+    onQuit: () => void;
 }) {
     const [revealed, setRevealed] = useState(false);
 
@@ -22,48 +25,51 @@ export function QuestionCard({ game, onFinishTurn, }: {
 
     return (
       <View style={styles.screen}>
-        <View style={styles.card}>
-          <Text style={[styles.category, { color: accent }]}>{q.category}</Text>
-          
-          <View style={styles.questionArea}>
-            <Text
-                style={styles.title}
-                adjustsFontSizeToFit
-                numberOfLines={16}
-                minimumFontScale={0.6}
-            >
-                {q.question}
-            </Text>
+        <Quit onQuit={onQuit} />
+        <View style={styles.cardScreen}>
+          <View style={styles.card}>
+            <Text style={[styles.category, { color: accent }]}>{q.category}</Text>
+            
+            <View style={styles.questionArea}>
+              <Text
+                  style={styles.title}
+                  adjustsFontSizeToFit
+                  numberOfLines={16}
+                  minimumFontScale={0.6}
+              >
+                  {q.question}
+              </Text>
+            </View>
+    
+            {!revealed ? (
+              <Button label="Reveal answer" onPress={() => setRevealed(true)} />
+            ) : (
+              <>
+                <Text style={styles.answer}>{q.answer}</Text>
+                <View style={styles.scoreRow}>
+                  <Pressable
+                    style={[styles.scoreButton, { backgroundColor: colors.easy }]}
+                    onPress={() => onFinishTurn(givePoints(game))}
+                  >
+                    <Text style={styles.scoreButtonText}>+</Text>
+                  </Pressable>
+                  <Pressable
+                    style={[styles.scoreButton, { backgroundColor: colors.hard }]}
+                    onPress={() => onFinishTurn(deductPoints(game))}
+                  >
+                    <Text style={styles.scoreButtonText}>−</Text>
+                  </Pressable>
+    
+                </View>
+    
+                <Button
+                    label="Skip (no points)"
+                    variant="link"
+                    onPress={() => onFinishTurn(skip(game))}
+                />
+              </>
+            )}
           </View>
-  
-          {!revealed ? (
-            <Button label="Reveal answer" onPress={() => setRevealed(true)} />
-          ) : (
-            <>
-              <Text style={styles.answer}>{q.answer}</Text>
-              <View style={styles.scoreRow}>
-                <Pressable
-                  style={[styles.scoreButton, { backgroundColor: colors.easy }]}
-                  onPress={() => onFinishTurn(givePoints(game))}
-                >
-                  <Text style={styles.scoreButtonText}>+</Text>
-                </Pressable>
-                <Pressable
-                  style={[styles.scoreButton, { backgroundColor: colors.hard }]}
-                  onPress={() => onFinishTurn(deductPoints(game))}
-                >
-                  <Text style={styles.scoreButtonText}>−</Text>
-                </Pressable>
-  
-              </View>
-  
-              <Button
-                  label="Skip (no points)"
-                  variant="link"
-                  onPress={() => onFinishTurn(skip(game))}
-              />
-            </>
-          )}
         </View>
       </View>
     );
@@ -73,9 +79,11 @@ const styles = StyleSheet.create({
     screen: {
         flex: 1,
         backgroundColor: colors.background,
+    },
+    cardScreen: {
+        flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        gap: spacing.lg,
     },
     card: {
         backgroundColor: colors.surface,
