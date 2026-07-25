@@ -17,7 +17,7 @@ export function loadGame() {
 
 
 export function clearGame() {
-  storage.delete(STORAGE_KEY);
+  storage.remove(STORAGE_KEY);
 }
 
 
