@@ -5,11 +5,23 @@ import { QuestionCard } from "@/components/question_card";
 import { Results } from "@/components/results_screen";
 import { Start } from "@/components/start_screen";
 import { GameScreen } from "@/components/game_screen";
+import { loadGame, saveGame, clearGame } from "@/game/storage"
 
 export default function Index() {
-  const [game, setGame] = useState<GameState | null>(null);
   // creates either a GameState or null and setGame is the only way to change it
+  // react only invokes loadGame() when it needs an initial value
+  const [game, setGameState] = useState<GameState | null>(() => loadGame());
   const [prefill, setPrefill] = useState<StartValues | null>(null);
+
+  // wrap setGame so every update persists or clears
+  const setGame = (next: GameState | null) => {
+    setGameState(next);
+    if (next == null || next.status === "finished") {
+      clearGame();
+    } else {
+      saveGame(next);
+    }
+  };
 
 
   const startRematch = () => {
