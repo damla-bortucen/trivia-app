@@ -24,8 +24,8 @@ export function clearGame() {
 
 
 // --------------- Packs -----------------
-export function savePacks(state : GameState) {
-  storage.set(PACKS_KEY, JSON.stringify(state));
+export function savePacks(ids : string[]) {
+  storage.set(PACKS_KEY, JSON.stringify(ids));
 }
 
 
