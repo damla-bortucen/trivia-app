@@ -14,6 +14,9 @@ const OUTPUT_DIR = path.join(__dirname, "..", "assets", "questions");
 // how many questions to fetch per difficulty
 const QUESTIONS_PER_DIFFICULTY = 50;
 
+// pause between API calls to bypass rate-limits
+const API_DELAY_MS = 5500;
+
 // map "easy" to 1 etc.
 const DIFFICULTY_POINTS = { easy: 1, medium: 2, hard: 3 };
 
@@ -21,14 +24,17 @@ const CATEGORIES = [
     { slug: "sports", label: "Sports", opentdbIds: [21] },
     { slug: "history", label: "History", opentdbIds: [23] },
     { slug: "geography", label: "Geography", opentdbIds: [22] },
-    { slug: "science-nature", label: "Science and Nature", opentdbIds: [17] },
+    // Science and Nature and Animals combined
+    { slug: "science-nature", label: "Science and Nature", opentdbIds: [17, 27] },
     { slug: "general-knowledge", label: "General Knowledge", opentdbIds: [9] },
-    // Books, Film, Music, Musicals & Theatres combined into one "Entertainment" bucket.
-    { slug: "entertainment", label: "Entertainment", opentdbIds: [10, 11, 12, 13] },
+    // Books, Film, Music, Musicals & Theatres, TV combined into one "Entertainment" bucket.
+    { slug: "entertainment", label: "Entertainment", opentdbIds: [10, 11, 12, 13, 14] },
+    { slug: "mythology", label: "Mythology", opentdbIds: [20] },
+    { slug: "art", label: "Art", opentdbIds: [25] },
 ];
 
 
-// sleep between API calls - rate limits for ever 5s
+// sleep between API calls
 function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -80,34 +86,76 @@ function appendOptions(question, correct, incorrect) {
 }
 
 
-// fetch ONE batch of questions for one OpenTDB category + one difficulty.
-async function fetchBatch(opentdbId, difficulty, amount) {
-    const url = `https://opentdb.com/api.php?amount=${amount}&category=${opentdbId}&difficulty=${difficulty}&type=multiple`;
-    
-    const response = await fetch(url);
+// how many questions OpenTDB has per difficulty. this counts true/false questions as well
+async function fetchCounts(opentdbId) {
+    const response = await fetch(`https://opentdb.com/api_count.php?category=${opentdbId}`);
     const data = await response.json();
-    
-    // response_code 0 means "success". Anything else means no questions were found.
-    if (data.response_code !== 0) {
-        console.warn(`  ! No ${difficulty} questions found for category ${opentdbId}`);
-        console.log(`${data.response_code}`)
-        return [];
-    }
-    
-    // Pull out just the question + correct answer tag the difficulty.
-    return data.results.map((item) => {
-        const question = decodeHtml(item.question);
-        const correct = decodeHtml(item.correct_answer);
-        const incorrect = item.incorrect_answers.map(decodeHtml);
+    const counts = data.category_question_count;
 
+    return {
+        easy: counts.total_easy_question_count,
+        medium: counts.total_medium_question_count,
+        hard: counts.total_hard_question_count,
+    };
+}
+
+
+// turn an OpenTDB result into the correct shape to store
+function toQuestion(item) {
+    const question = decodeHtml(item.question);
+    const correct = decodeHtml(item.correct_answer);
+    const incorrect = item.incorrect_answers.map(decodeHtml);
+
+    // handle true or false questions
+    if (item.type === "boolean") {
         return {
-            question: needsOptions(question)
-                ? appendOptions(question, correct, incorrect)
-                : question,
+            question: `True or false?\n\n${question}`,
             answer: correct,
-            difficulty,
+            difficulty: item.difficulty,
         };
-    });
+    }
+
+    return {
+        question: needsOptions(question)
+            ? appendOptions(question, correct, incorrect)
+            : question,
+        answer: correct,
+        difficulty: item.difficulty,
+    };
+}
+
+
+// fetch a batch of questions for one OpenTDB category + one difficulty.
+// OpenTDB returns nothing rather than a short list, so halve and retry until request met
+async function fetchBatch(opentdbId, difficulty, amount) {
+    let want = amount; // reassignable var
+
+    while (want > 0) {
+        const url = `https://opentdb.com/api.php?amount=${want}&category=${opentdbId}&difficulty=${difficulty}`;
+
+        const response = await fetch(url);
+        const data = await response.json();
+
+        // response_code 0 means success
+        if (data.response_code === 0) {
+            if (want < amount) {
+                console.log(`  ~ ${difficulty}: got ${want}, asked for ${amount}`);
+            }
+            return data.results.map(toQuestion);
+        }
+
+        // 1 means not enough questions for the query
+        if (data.response_code !== 1) {
+            console.warn(`  ! ${difficulty}: response_code ${data.response_code}`);
+            return [];
+        }
+
+        want = Math.floor(want / 2);
+        await sleep(API_DELAY_MS)
+    }
+
+    console.warn(`  ! No ${difficulty} questions found for category ${opentdbId}`);
+    return [];
 }
 
 
@@ -124,11 +172,16 @@ async function buildCategory(categoryConfig) {
     
     const allQuestions = [];
     
-    for (const difficulty of difficulties) {
-        for (const opentdbId of categoryConfig.opentdbIds) {
-        const batch = await fetchBatch(opentdbId, difficulty, amountPerId);
-        allQuestions.push(...batch);
-        await sleep(5500); // pause between requests
+    for (const opentdbId of categoryConfig.opentdbIds) {
+        const counts = await fetchCounts(opentdbId);
+        await sleep(API_DELAY_MS);
+
+        for (const difficulty of difficulties) {
+            // never ask for more than exists
+            const want = Math.min(amountPerId, counts[difficulty]);
+            const batch = await fetchBatch(opentdbId, difficulty, want);
+            allQuestions.push(...batch);
+            await sleep(API_DELAY_MS);
         }
     }
     

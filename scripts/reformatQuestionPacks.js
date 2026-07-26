@@ -48,6 +48,18 @@ const PACKS = {
     description: "Teams, records and the people who set them.",
     color: "#daa8d0",
   },
+  "mythology.json": {
+    id: "mythology",
+    name: "Mythology",
+    description: "Gods, monsters and ancient legends.",
+    color: "#7ba8ef",
+  },
+  "art.json": {
+    id: "art",
+    name: "Art",
+    description: "Painters, sculptors and famous works.",
+    color: "#c0ddd9",
+  },
 };
 
 async function main() {
