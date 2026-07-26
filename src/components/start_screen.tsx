@@ -3,12 +3,17 @@ import { Ionicons } from "@expo/vector-icons";
 import { Text, View, StyleSheet, TextInput, Pressable } from "react-native";
 import InputSpinner from "react-native-input-spinner";
 import { startGame } from "@/game/game_logic";
-import { GameState, Category, StartValues, ALL_CATEGORIES } from "@/game/types";
-import { colors, spacing, radius, font, categoryColors } from "@/ui/theme";
+import { GameState, Category, StartValues } from "@/game/types";
+import { getPacks } from "@/game/packs";
+import { colors, spacing, radius, font } from "@/ui/theme";
 import { Button } from "@/components/button";
 
 const MAX_PLAYERS = 6;
+const MAX_PACKS = 6;
 const DEFAULT_WINNING_SCORE = 3;
+
+const PACKS = getPacks();
+const DEFAULT_PACKS = PACKS.slice(0, MAX_PACKS).map((p) => p.id);
 
 // accepts initial values if rematch otherwise starts fresh
 export function Start({ onStart, initial }: { 
@@ -18,12 +23,15 @@ export function Start({ onStart, initial }: {
     const [names, setNames] = useState<string[]>(initial?.names ?? ["", ""]);
     const [winningScore, setWinningScore] = useState<number>(initial?.winningScore ?? DEFAULT_WINNING_SCORE);
 
-    const [categories, setCategories] = useState<Category[]>(initial?.categories ?? [...ALL_CATEGORIES]);
+    const [categories, setCategories] = useState<Category[]>(initial?.categories ?? DEFAULT_PACKS);
+    const atLimit = categories.length >= MAX_PACKS;
   
     const toggleCategory = (c: Category) =>
-        setCategories((prev) =>
-        prev.includes(c) ? prev.filter((x) => x !== c) : [...prev, c]
-    );
+        setCategories((prev) => {
+        if (prev.includes(c)) return prev.filter((x) => x !== c); // if category already selected, deselect
+        if (prev.length >= MAX_PACKS) return prev; // at cap ignore
+        return [...prev, c]; // otherwise add category to current selection
+    });
 
     const updateName = (index: number, value: string) =>
         setNames(names.map((n, i) => (i === index ? value : n)));
@@ -35,7 +43,7 @@ export function Start({ onStart, initial }: {
     const reset = () => {
         setNames(["", ""]);
         setWinningScore(DEFAULT_WINNING_SCORE);
-        setCategories([...ALL_CATEGORIES]);
+        setCategories(DEFAULT_PACKS);
     };
 
     const filledNames = names.map((n) => n.trim()).filter((n) => n.length > 0);
@@ -92,21 +100,24 @@ export function Start({ onStart, initial }: {
             </View>
 
             <View style={styles.group}>
-                <Text style={styles.label}>Categories</Text>
+                <Text style={styles.label}>Categories ({categories.length}/{MAX_PACKS})</Text>
                 <View style={styles.chips}>
-                    {ALL_CATEGORIES.map((c) => {
-                        const on = categories.includes(c);
+                    {PACKS.map((p) => {
+                        const on = categories.includes(p.id);
+                        const locked = !on && atLimit;
                         return (
                             <Pressable
-                                key={c}
-                                onPress={() => toggleCategory(c)}
+                                key={p.id}
+                                onPress={() => toggleCategory(p.id)}
+                                disabled={locked}
                                 style={[
                                     styles.chip,
-                                    { borderColor: categoryColors[c] },
-                                    on && { backgroundColor: categoryColors[c] },
+                                    { borderColor: p.color },
+                                    on && { backgroundColor: p.color },
+                                    locked && styles.chipLocked,
                                 ]}
                             >
-                                <Text style={[styles.chipText, on && styles.chipTextOn]}>{c}</Text>
+                                <Text style={[styles.chipText, on && styles.chipTextOn]}>{p.name}</Text>
                             </Pressable>
                         );
                     })}
@@ -162,6 +173,7 @@ const styles = StyleSheet.create({
     },
     chipText: { fontSize: font.sizes.caption, color: colors.text },
     chipTextOn: { color: colors.accentText },
+    chipLocked: { opacity: 0.35 },
     refresh: {
         position: "absolute",
         top: spacing.xs,
