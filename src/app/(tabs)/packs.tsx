@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Text, View, ScrollView, StyleSheet, Pressable } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
-import { Category } from "@/game/types";
+import { Category, Pack } from "@/game/types";
 import { getPacks } from "@/game/packs";
 import { loadPacks, savePacks } from "@/game/storage";
 import { colors, spacing, radius, font } from "@/ui/theme";
@@ -14,7 +14,7 @@ const MAX_PACKS = 6;
 const DEFAULT_IDS = PACKS.slice(0, MAX_PACKS).map((p) => p.id);
 
 export default function PacksScreen() {
-    const [selected, setSelected] = useState<Category[]>(() => PACKS.map((p) => p.id));
+    const [selected, setSelected] = useState<Category[]>(() => loadPacks() ?? DEFAULT_IDS);
 
 
     // persist whenever the selection changes
@@ -34,42 +34,53 @@ export default function PacksScreen() {
             return on ? prev.filter((x) => x !== id) : [...prev, id];
         }); 
 
+    const chosen = PACKS.filter((p) => selected.includes(p.id));
+    const available = PACKS.filter((p) => !selected.includes(p.id));
+    
+
+    const renderCard = (pack: Pack) => {
+        const on = selected.includes(pack.id);
+        const locked = !on && selected.length >= MAX_PACKS;
+        const last = on && selected.length === 1;
+
+        return (
+            <View
+                key={pack.id}
+                style={[styles.card, { borderColor: pack.color }, on && styles.cardOn]}
+            >
+                <Text style={styles.name} numberOfLines={2}>{pack.name}</Text>
+                <Text style={styles.count}>{pack.questions.length} questions</Text>
+
+                <Pressable
+                    style={styles.check}
+                    hitSlop={10}
+                    onPress={() => toggle(pack.id)}
+                    disabled={locked || last}
+                >
+                    <Ionicons
+                        name={on ? "checkmark-circle" : "ellipse-outline"}
+                        size={24}
+                        color={on ? pack.color : locked ? colors.border : colors.textMuted}
+                    />
+                </Pressable>
+            </View>
+        );
+    };
+
 
     return (
         <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
             <Text style={styles.title}>Packs</Text>
-            <Text style={styles.counter}>{selected.length} of {MAX_PACKS} selected</Text>
+            <Text style={styles.counter}>Selected ({selected.length}/{MAX_PACKS})</Text>
 
-            <View style={styles.grid}>
-                {PACKS.map((pack) => {
-                    const on = selected.includes(pack.id);
-                    const locked = !on && selected.length >= MAX_PACKS;
-                    const last = on && selected.length === 1;
+            <View style={styles.grid}>{chosen.map(renderCard)}</View>
 
-                    return(
-                        <View
-                            key={pack.id}
-                            style={[styles.card, { borderColor: pack.color }, on && styles.cardOn]}
-                        >
-                            <Text style={styles.name} numberOfLines={2}>{pack.name}</Text>
-                            <Text style={styles.count}>{pack.questions.length} questions</Text>
-
-                            <Pressable
-                                style={styles.check}
-                                hitSlop={8}
-                                onPress={() => toggle(pack.id)}
-                                disabled={locked || last}
-                            >
-                                <Ionicons
-                                    name={on ? "checkmark-circle" : "ellipse-outline"}
-                                    size={24}
-                                    color={on ? pack.color : colors.textMuted}
-                                />
-                            </Pressable>
-                        </View>
-                    );
-                })}
-            </View>
+            {available.length > 0 && (
+                <>
+                    <Text style={styles.counter}>Available ({available.length})</Text> 
+                    <View style={styles.grid}>{available.map(renderCard)}</View>
+                </>
+            )}
         </ScrollView>
     );
 }
