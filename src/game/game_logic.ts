@@ -1,5 +1,5 @@
 import { Category, Difficulty, Player, GameState, ALL_DIFFICULTIES } from "./types";
-import { getByCategory, filterByDifficulty, pickRandom } from "./question";
+import { getByCategory, filterByDifficulty } from "./question";
 import { getPackQuestions } from "./packs"
 
 
