@@ -6,7 +6,8 @@ import {
     deductPoints,
     skip,
 } from "@/game/game_logic";
-import { colors, spacing, radius, font, categoryColors } from "@/ui/theme";
+import { getPackById } from "@/game/packs";
+import { colors, spacing, radius, font } from "@/ui/theme";
 
 import { Button } from "@/components/button";
 import { Quit } from "@/components/quit";
@@ -21,14 +22,15 @@ export function QuestionCard({ game, onFinishTurn, onQuit }: {
     const q = game.currentQuestion;
     if (!q) return null;
 
-    const accent = categoryColors[q.category];
+    const pack = getPackById(q.category);
+    const accent = pack?.color;
 
     return (
       <View style={styles.screen}>
         <Quit onQuit={onQuit} />
         <View style={styles.cardScreen}>
           <View style={styles.card}>
-            <Text style={[styles.category, { color: accent }]}>{q.category}</Text>
+            <Text style={[styles.category, { color: accent }]}>{pack?.name}</Text>
             
             <View style={styles.questionArea}>
               <Text

@@ -6,8 +6,9 @@ import {
 } from "@/game/game_logic";
 import { StyleSheet, Text, View } from "react-native";
 import { Category, GameState } from "@/game/types";
+import { getPackById } from "@/game/packs";
 
-import { colors, font, spacing, categoryColors } from "@/ui/theme";
+import { colors, font, spacing } from "@/ui/theme";
 
 import { Scoreboard } from "@/components/scoreboard";
 import { Button } from "@/components/button";
@@ -19,6 +20,8 @@ export function GameScreen({ game, onDraw, onQuit }: {
     onQuit: () => void;
 }) {
     const [category, setCategory] = useState<Category | null>(null);
+
+    const pack = category ? getPackById(category) : undefined;
 
     return (
     <View style={styles.screen}>
@@ -35,10 +38,10 @@ export function GameScreen({ game, onDraw, onQuit }: {
             <Text
             style={[
                 styles.heading,
-                category && { color: categoryColors[category] },
+                pack && { color: pack.color },
             ]}
             >
-            {category ?? "Spin the wheel!"}
+            {category ? pack?.name ?? category : "Spin the wheel!"}
             </Text>
 
             {category === null ? (
