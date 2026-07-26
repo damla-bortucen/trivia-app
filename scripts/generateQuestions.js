@@ -135,7 +135,6 @@ async function buildCategory(categoryConfig) {
     // turn the raw list into the final shape our app expects, with a unique id per question
     return allQuestions.map((q, index) => ({
         id: `${categoryConfig.slug}-${String(index + 1).padStart(3, "0")}`,
-        category: categoryConfig.label,
         question: q.question,
         answer: q.answer,
         difficulty: q.difficulty,
@@ -147,6 +146,7 @@ async function buildCategory(categoryConfig) {
 
 async function main() {
     // make sure the output folder exists (creates it if it doesn't)
+    // no category - identified by pack
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     
     for (const categoryConfig of CATEGORIES) {

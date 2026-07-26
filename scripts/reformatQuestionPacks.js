@@ -58,7 +58,15 @@ async function main() {
 
         fs.writeFileSync(
             path.join(OUTPUT_DIR, file),
-            JSON.stringify({ ...meta, questions }, null, 2) + "\n"
+            JSON.stringify(
+                {
+                    ...meta,
+                    // category comes from the pack id so the two can never disagree
+                    questions: questions.map((q) => ({ ...q, category: meta.id })),
+                },
+                null,
+                2
+            ) + "\n"
         );
 
         console.log(`${file}: ${questions.length} questions -> ${meta.id}`);
