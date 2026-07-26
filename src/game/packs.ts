@@ -6,6 +6,8 @@ import geography from "@/assets/packs/geography.json";
 import history from "@/assets/packs/history.json";
 import scienceNature from "@/assets/packs/science-nature.json";
 import sports from "@/assets/packs/sports.json";
+import mythology from "@/assets/packs/mythology.json";
+import art from "@/assets/packs/art.json";
 
 const PACKS = [
     entertainment,
@@ -14,6 +16,8 @@ const PACKS = [
     history,
     scienceNature,
     sports,
+    mythology,
+    art,
 ] as Pack[];
 
 export function getPacks(): Pack[] {
