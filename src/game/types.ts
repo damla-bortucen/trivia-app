@@ -4,8 +4,7 @@ export type Difficulty = typeof ALL_DIFFICULTIES[number];
 //   Difficulty  ===  "easy" | "medium" | "hard"
 
 
-// a category IS a pack - packs are the unit of content and the wheel's segments.
-// the id is open-ended so generated packs can add themselves without a code change
+// a category is a pack
 export type Category = string;
 
 export interface Pack {
