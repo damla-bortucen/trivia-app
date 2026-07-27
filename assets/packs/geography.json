@@ -1,0 +1,1208 @@
+{
+  "id": "geography",
+  "name": "Geography",
+  "description": "Countries, capitals and landmarks.",
+  "color": "#fb9b00",
+  "questions": [
+    {
+      "id": "geography-001",
+      "question": "True or false?\n\nBosnia and Herzegovina is a country located in the Baltic region in Europe.",
+      "answer": "False",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-002",
+      "question": "What is the Capital of the United States?",
+      "answer": "Washington, D.C.",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-003",
+      "question": "Which ocean borders the west coast of the United States?",
+      "answer": "Pacific",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-004",
+      "question": "Which of the following languages does NOT use the Latin alphabet?\n\nA) Vietnamese\nB) Turkish\nC) Georgian\nD) Swahili",
+      "answer": "Georgian",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-005",
+      "question": "True or false?\n\nThere is an island in Japan called Ōkunoshima, A.K.A. \"Rabbit Island\", so named because of it's huge population of rabbits.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-006",
+      "question": "How many countries does Mexico border?",
+      "answer": "3",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-007",
+      "question": "What is the 15th letter of the Greek alphabet?",
+      "answer": "Omicron (&Omicron;)",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-008",
+      "question": "How many time zones does China have?",
+      "answer": "1",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-009",
+      "question": "Which of the following Arab countries does NOT have a flag containing only Pan-Arab colours?\n\nA) Qatar\nB) Jordan\nC) Kuwait\nD) United Arab Emirates",
+      "answer": "Qatar",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-010",
+      "question": "About how many countries are there in the world?",
+      "answer": "200",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-011",
+      "question": "The Space Needle is located in which city?",
+      "answer": "Seattle",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-012",
+      "question": "True or false?\n\nUntil 1939, Laos was called Siam.",
+      "answer": "False",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-013",
+      "question": "What is the capital of Scotland?",
+      "answer": "Edinburgh",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-014",
+      "question": "What is the official language of Costa Rica?",
+      "answer": "Spanish",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-015",
+      "question": "The body of the Egyptian Sphinx was based on which animal?",
+      "answer": "Lion",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-016",
+      "question": "Which US state has the highest population?",
+      "answer": "California",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-017",
+      "question": "Which of these is NOT an Australian state or territory?\n\nA) New South Wales\nB) Queensland\nC) Victoria\nD) Alberta",
+      "answer": "Alberta",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-018",
+      "question": "What is the only state in the United States that does not have a flag in a shape with 4 edges?",
+      "answer": "Ohio",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-019",
+      "question": "True or false?\n\nArgentina's name comes from the latin name for Silver.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-020",
+      "question": "Which US state is furthest north east?",
+      "answer": "Maine",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-021",
+      "question": "Which of these African regions does *not* directly border the Democratic Republic of The Congo?\n\nA) Central African Republic\nB) Zambia\nC) Tanzania\nD) Sudan",
+      "answer": "Sudan",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-022",
+      "question": "On which continent does the Andes mountain range lie?",
+      "answer": "South America",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-023",
+      "question": "True or false?\n\nThere are no deserts in Europe.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-024",
+      "question": "What name was historically used for the Turkish city currently known as Istanbul?",
+      "answer": "Constantinople",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-025",
+      "question": "True or false?\n\nPortugal's modern territory was once a part of the Roman Empire.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-026",
+      "question": "What is the capital of South Korea?",
+      "answer": "Seoul",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-027",
+      "question": "Which country does Austria not border?",
+      "answer": "France",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-028",
+      "question": "Which of the following Japanese islands is the biggest?\n\nA) Kyushu\nB) Hokkaido\nC) Honshu\nD) Shikoku",
+      "answer": "Honshu",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-029",
+      "question": "All of the following are classified as Finno-Ugric languages EXCEPT:\n\nA) Finnish\nB) Estonian\nC) Hungarian\nD) Samoyedic",
+      "answer": "Samoyedic",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-030",
+      "question": "True or false?\n\nColombia is named after Christopher Columbus.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-031",
+      "question": "What is the nickname for the US state Delaware?",
+      "answer": "The First State",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-032",
+      "question": "Which Russian oblast forms a border with Poland?",
+      "answer": "Kaliningrad",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-033",
+      "question": "What is the name of New Zealand's indigenous people?",
+      "answer": "Maori",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-034",
+      "question": "What is the smallest country in the world?",
+      "answer": "Vatican City",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-035",
+      "question": "Where would you find the \"Spanish Steps\"?",
+      "answer": "Rome, Italy",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-036",
+      "question": "What is the largest hot desert in the world?",
+      "answer": "Sahara",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-037",
+      "question": "True or false?\n\nOttawa is the capital of Canada.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-038",
+      "question": "Which of these African countries list \"Spanish\" as an official language?\n\nA) Cameroon\nB) Angola\nC) Equatorial Guinea\nD) Guinea",
+      "answer": "Equatorial Guinea",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-039",
+      "question": "True or false?\n\nRhode Island is actually located on the US mainland, despite its name.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-040",
+      "question": "What is Laos?",
+      "answer": "Country",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-041",
+      "question": "Which continent is considered the largest and most populous continent in the world?",
+      "answer": "Asia",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-042",
+      "question": "Greenland is a part of which kingdom?",
+      "answer": "Denmark",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-043",
+      "question": "Which US state is nicknamed \"The Golden State\"?",
+      "answer": "California",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-044",
+      "question": "In which country is the city of Rio de Janeiro?",
+      "answer": "Brazil",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-045",
+      "question": "What is the capital of Indonesia?",
+      "answer": "Jakarta",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-046",
+      "question": "In which ocean is the Réunion island?",
+      "answer": "Indian Ocean",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-047",
+      "question": "True or false?\n\nAfrica is a country.",
+      "answer": "False",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-048",
+      "question": "Vatican City, the smallest country in the world, is fully enclosed by which country?",
+      "answer": "Italy",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-049",
+      "question": "What colour is the circle on the Japanese flag?",
+      "answer": "Red",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-050",
+      "question": "Which of these is the name of the largest city in the US state Tennessee?\n\nA) Luxor\nB) Memphis\nC) Thebes\nD) Alexandria",
+      "answer": "Memphis",
+      "difficulty": "easy",
+      "points": 1,
+      "category": "geography"
+    },
+    {
+      "id": "geography-051",
+      "question": "Which of these countries is not a United Nations member state?\n\nA) Tuvalu\nB) Niue\nC) South Sudan\nD) Montenegro",
+      "answer": "Niue",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-052",
+      "question": "What is the only country in the world with a flag that doesn't have four right angles?",
+      "answer": "Nepal",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-053",
+      "question": "Which of the following language families is the most controversial amongst modern linguists?\n\nA) Altaic\nB) Indo-European\nC) Dravidian\nD) Sino-Tibetan",
+      "answer": "Altaic",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-054",
+      "question": "All of the following countries have official claims to territory in Antartica EXCEPT:",
+      "answer": "United States",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-055",
+      "question": "True or false?\n\nIs Tartu the capital of Estonia?",
+      "answer": "False",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-056",
+      "question": "What is the official national language of Pakistan?",
+      "answer": "Urdu",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-057",
+      "question": "True or false?\n\nYou could walk from Norway to North Korea while only passing through Russia.",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-058",
+      "question": "What is the northernmost human settlement with year round inhabitants?",
+      "answer": "Alert, Canada",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-059",
+      "question": "Which one of these countries borders with Poland?",
+      "answer": "Lithuania",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-060",
+      "question": "Where is the Volga River?",
+      "answer": "Russia",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-061",
+      "question": "True or false?\n\nThe capital of the US State Ohio is the city of Chillicothe.",
+      "answer": "False",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-062",
+      "question": "What is the name of the former country that was succeeded by countries such as Serbia, Croatia and Slovenia?",
+      "answer": "Yugoslavia",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-063",
+      "question": "Which state of the United States is the smallest?",
+      "answer": "Rhode Island ",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-064",
+      "question": "Which of these countries is NOT located in Africa?\n\nA) Algeria\nB) Burkina Faso\nC) Suriname\nD) Mozambique",
+      "answer": "Suriname",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-065",
+      "question": "What is the name of the only remaining Grand Duchy in the world ?",
+      "answer": "Luxembourg",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-066",
+      "question": "How many countries are larger than Australia?",
+      "answer": "5",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-067",
+      "question": "What mountain range lines the border between Spain and France?",
+      "answer": "Pyrenees",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-068",
+      "question": "Which of the following cities is the capital of Latvia?\n\nA) Minsk\nB) Vilnius\nC) Riga\nD) Tallinn",
+      "answer": "Riga",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-069",
+      "question": "How many independent countries are there within the continent of South America?",
+      "answer": "12",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-070",
+      "question": "Where is the ancient city of Petra located?",
+      "answer": "Jordan",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-071",
+      "question": "Which of these is NOT a city in Saudi Arabia?\n\nA) Riyadh\nB) Mecca\nC) Medina\nD) Dubai",
+      "answer": "Dubai",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-072",
+      "question": "What is the capital of Peru?",
+      "answer": "Lima",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-073",
+      "question": "Which of the following countries is an island?\n\nA) Djibouti\nB) El Salvador\nC) Cyprus\nD) Azerbaijan",
+      "answer": "Cyprus",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-074",
+      "question": "Bridgetown is the capital of which island country in the Carribean?",
+      "answer": "Barbados",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-075",
+      "question": "Kuala Lumpur is the capital of which country?",
+      "answer": "Malaysia",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-076",
+      "question": "In which English county is the city of Portsmouth?",
+      "answer": "Hampshire",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-077",
+      "question": "True or false?\n\nThe flag of South Africa features 7 colours.",
+      "answer": "False",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-078",
+      "question": "True or false?\n\nThere are no roads in/out of Juneau, Alaska.",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-079",
+      "question": "Which country has three capital cities?",
+      "answer": "South Africa",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-080",
+      "question": "True or false?\n\nThe surface area of Russia is slightly larger than that of the dwarf planet Pluto.",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-081",
+      "question": "True or false?\n\nTasmania is an island state of Australia.",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-082",
+      "question": "The US state of New York has about as many inhabitants as?",
+      "answer": "Romania",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-083",
+      "question": "Montreal is in which Canadian province?",
+      "answer": "Quebec",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-084",
+      "question": "Broome is a town in which state of Australia?",
+      "answer": "Western Australia",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-085",
+      "question": "True or false?\n\nNorway has a larger land area than Sweden.",
+      "answer": "False",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-086",
+      "question": "What was the most populous city in the Americas in 2015?",
+      "answer": "S&atilde;o Paulo",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-087",
+      "question": "In the 2016 Global Peace Index poll, out of 163 countries, what was the United States of America ranked?",
+      "answer": "103",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-088",
+      "question": "Which of these is NOT an island that is part of the Philippines?\n\nA) Java\nB) Mindanao\nC) Luzon\nD) Palawan",
+      "answer": "Java",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-089",
+      "question": "What is the capital city of New Zealand?",
+      "answer": "Wellington",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-090",
+      "question": "What is the fifth largest country by area?",
+      "answer": "Brazil",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-091",
+      "question": " What Texas city is nicknamed \"The Yellow Rose of Texas\"?",
+      "answer": "Amarillo",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-092",
+      "question": "Which of these countries is located the FURTHEST away from the South China Sea?\n\nA) Malaysia\nB) Bangladesh\nC) Philippines\nD) Vietnam",
+      "answer": "Bangladesh",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-093",
+      "question": "True or false?\n\nThe third largest country (by square kilometres) in South America is Colombia.",
+      "answer": "False",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-094",
+      "question": "What is the name of the capital of Turkey?",
+      "answer": "Ankara",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-095",
+      "question": "Which of the following countries is within the Eurozone but outside of the Schengen Area?\n\nA) Cyprus\nB) Greece\nC) Portugal\nD) Malta",
+      "answer": "Cyprus",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-096",
+      "question": "How many timezones does Russia have?",
+      "answer": "11",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-097",
+      "question": "Which of these Mediterranian islands is under the sovereign rule of France?\n\nA) Sardinia\nB) Corsica\nC) Majorca\nD) Malta",
+      "answer": "Corsica",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-098",
+      "question": "Where is the \"Sonoran Desert\" located?",
+      "answer": "North America",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-099",
+      "question": "What's the first National Park designated in the United States?",
+      "answer": "Yellowstone",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-100",
+      "question": "True or false?\n\nThere exists an island named \"Java\".",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2,
+      "category": "geography"
+    },
+    {
+      "id": "geography-101",
+      "question": "How many stations does the Central Line have on the London Underground?",
+      "answer": "49",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-102",
+      "question": "The Maluku islands (informally known as the Spice Islands) belong to which country?",
+      "answer": "Indonesia",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-103",
+      "question": "What is special about Lake Titicaca?",
+      "answer": "Highest navigable lake",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-104",
+      "question": "The prefix Sino- (As in Sino-American) is used to refer to what nationality?",
+      "answer": "Chinese",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-105",
+      "question": "Where is the city of Haarlem located?",
+      "answer": "The Netherlands",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-106",
+      "question": "What is the capital of Burkina Faso?",
+      "answer": "Ouagadougou",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-107",
+      "question": "In which country is Tallinn located?",
+      "answer": "Estonia",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-108",
+      "question": "Which is not a country in Africa?",
+      "answer": "Guyana",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-109",
+      "question": "What is the capital of Suriname?",
+      "answer": "Paramaribo",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-110",
+      "question": "Ouagadougou is the capital of which African country?",
+      "answer": "Burkina Faso",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-111",
+      "question": "What is the largest city and commercial capital of Sri Lanka?",
+      "answer": "Colombo",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-112",
+      "question": "What is the name of one of the Neo-Aramaic languages spoken by the Jewish population from Northwestern Iraq?",
+      "answer": "Lishana Deni",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-113",
+      "question": "How many countries share a land border with Russia? (Not including disputed territories)",
+      "answer": "14",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-114",
+      "question": "The Hunua Ranges is located in...",
+      "answer": "New Zealand",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-115",
+      "question": "Where is Timbuktu located?",
+      "answer": "Mali, Africa",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-116",
+      "question": "What is the most populous Muslim-majority nation in 2010?",
+      "answer": "Indonesia",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-117",
+      "question": "What is the official German name of the Swiss Federal Railways?",
+      "answer": "Schweizerische Bundesbahnen",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-118",
+      "question": "Which of these is NOT a real tectonic plate?\n\nA) Nazca Plate\nB) Atlantic Plate\nC) North American Plate\nD) Eurasian Plate",
+      "answer": "Atlantic Plate",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-119",
+      "question": "True or false?\n\nIn the Canadian province of Alberta, the city of Calgary is located further north than the city of Edmonton.",
+      "answer": "False",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-120",
+      "question": "The mountainous Khyber Pass connects which of the two following countries?",
+      "answer": "Afghanistan and Pakistan",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-121",
+      "question": "True or false?\n\nOnly one country in the world starts with the letter Q.",
+      "answer": "True",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-122",
+      "question": "In 2012 the German-speaking microstate \"Liechtenstein\" in Central Europe had a population of how many inhabitants?",
+      "answer": "36,600",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-123",
+      "question": "What North American tourist attraction is served by the \"Maid of the Mist\" tour company?",
+      "answer": "Niagara Falls",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-124",
+      "question": "When does Finland celebrate their independence day?",
+      "answer": "December 6th",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-125",
+      "question": "True or false?\n\nSwitzerland has four national languages, English being one of them.",
+      "answer": "False",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-126",
+      "question": "Which of these is an official currency of the Cook Islands?\n\nA) British Pound\nB) New Zealand Dollar\nC) Australian Dollar\nD) United States Dollar",
+      "answer": "New Zealand Dollar",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-127",
+      "question": "Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch is located on which Welsh island?",
+      "answer": "Anglesey",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-128",
+      "question": "Which of these is NOT a province in China?\n\nA) Fujian\nB) Yangtze\nC) Sichuan\nD) Guangdong",
+      "answer": "Yangtze",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-129",
+      "question": "True or false?\n\nThere is 47 prefectures in Japan.",
+      "answer": "True",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-130",
+      "question": "What is Canada's largest island?",
+      "answer": "Baffin Island",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-131",
+      "question": "Where is Fort Marlborough located?",
+      "answer": "Bengkulu",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-132",
+      "question": "What is the tallest mountain in Canada?",
+      "answer": "Mount Logan",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-133",
+      "question": "How many islands does Kuwait have?",
+      "answer": "9",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-134",
+      "question": "The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?",
+      "answer": "Crown",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-135",
+      "question": "Which of the following is a castle?\n\nA) Frank Castle\nB) Richard Castle\nC) Elizabeth Castle\nD) Olivia Castle",
+      "answer": "Elizabeth Castle",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-136",
+      "question": "In which city is the Big Nickel located in Canada?",
+      "answer": "Sudbury, Ontario",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-137",
+      "question": "What was the original name of Ho Chi Minh City?",
+      "answer": "Saigon",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-138",
+      "question": "The Andaman and Nicobar Islands in South East Asia are controlled by which country?",
+      "answer": "India",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-139",
+      "question": "Which of these countries is NOT a part of the Asian continent?\n\nA) Russia\nB) Singapore\nC) Suriname\nD) Georgia",
+      "answer": "Suriname",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-140",
+      "question": "Which of these cities is NOT in England?\n\nA) Edinburgh\nB) Southampton\nC) Oxford\nD) Manchester",
+      "answer": "Edinburgh",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-141",
+      "question": "What is the capital city of Bermuda?",
+      "answer": "Hamilton",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-142",
+      "question": "Which of these countries is NOT the only country to start with that letter of the alphabet?\n\nA) Zambia\nB) Qatar\nC) Oman\nD) Yemen",
+      "answer": "Zambia",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-143",
+      "question": "What year is on the flag of the US state Wisconsin?",
+      "answer": "1848",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-144",
+      "question": "Which country is completely landlocked by South Africa?",
+      "answer": "Lesotho",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-145",
+      "question": "What is the second-largest city in Lithuania?",
+      "answer": "Kaunas",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-146",
+      "question": "Which city is the capital of Michigan?",
+      "answer": "Lansing",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-147",
+      "question": "Which country was NOT formerly part of Yugoslavia?",
+      "answer": "Albania",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-148",
+      "question": "Bir Tawil, an uninhabited track of land claimed by no country, is located along the border of which two countries?",
+      "answer": "Egypt and Sudan",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-149",
+      "question": "Which country is the Taedong River in?",
+      "answer": "North Korea",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    },
+    {
+      "id": "geography-150",
+      "question": "What is the capital of Wisconsin, USA?",
+      "answer": "Madison",
+      "difficulty": "hard",
+      "points": 3,
+      "category": "geography"
+    }
+  ]
+}

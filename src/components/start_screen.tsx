@@ -1,14 +1,24 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
+import { useFocusEffect } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { Text, View, StyleSheet, TextInput, Pressable } from "react-native";
 import InputSpinner from "react-native-input-spinner";
 import { startGame } from "@/game/game_logic";
-import { GameState, Category, StartValues, ALL_CATEGORIES } from "@/game/types";
-import { colors, spacing, radius, font, categoryColors } from "@/ui/theme";
+import { GameState, StartValues } from "@/game/types";
+import { getPacks, DEFAULT_PACK_IDS } from "@/game/packs";
+import { loadPacks } from "@/game/storage";
+import { colors, spacing, radius, font } from "@/ui/theme";
 import { Button } from "@/components/button";
 
 const MAX_PLAYERS = 6;
 const DEFAULT_WINNING_SCORE = 3;
+
+const PACKS = getPacks();
+
+function selectedPacks() {
+    const ids = loadPacks() ?? DEFAULT_PACK_IDS;
+    return PACKS.filter((p) => ids.includes(p.id));
+}
 
 // accepts initial values if rematch otherwise starts fresh
 export function Start({ onStart, initial }: { 
@@ -18,12 +28,17 @@ export function Start({ onStart, initial }: {
     const [names, setNames] = useState<string[]>(initial?.names ?? ["", ""]);
     const [winningScore, setWinningScore] = useState<number>(initial?.winningScore ?? DEFAULT_WINNING_SCORE);
 
-    const [categories, setCategories] = useState<Category[]>(initial?.categories ?? [...ALL_CATEGORIES]);
-  
-    const toggleCategory = (c: Category) =>
-        setCategories((prev) =>
-        prev.includes(c) ? prev.filter((x) => x !== c) : [...prev, c]
+    const [packs, setPacks] = useState(() => selectedPacks());
+
+    // the Packs page can change the selection while this screen sits in the background
+    // useFocusEffect reruns setPacks using the Callback hook every time this screen comes back into focus
+    useFocusEffect(
+        useCallback(() => {
+            setPacks(selectedPacks());
+        }, [])
     );
+
+    const categories = packs.map((p) => p.id);
 
     const updateName = (index: number, value: string) =>
         setNames(names.map((n, i) => (i === index ? value : n)));
@@ -35,7 +50,6 @@ export function Start({ onStart, initial }: {
     const reset = () => {
         setNames(["", ""]);
         setWinningScore(DEFAULT_WINNING_SCORE);
-        setCategories([...ALL_CATEGORIES]);
     };
 
     const filledNames = names.map((n) => n.trim()).filter((n) => n.length > 0);
@@ -92,24 +106,16 @@ export function Start({ onStart, initial }: {
             </View>
 
             <View style={styles.group}>
-                <Text style={styles.label}>Categories</Text>
+                <Text style={styles.label}>Categories ({packs.length})</Text>
                 <View style={styles.chips}>
-                    {ALL_CATEGORIES.map((c) => {
-                        const on = categories.includes(c);
-                        return (
-                            <Pressable
-                                key={c}
-                                onPress={() => toggleCategory(c)}
-                                style={[
-                                    styles.chip,
-                                    { borderColor: categoryColors[c] },
-                                    on && { backgroundColor: categoryColors[c] },
-                                ]}
-                            >
-                                <Text style={[styles.chipText, on && styles.chipTextOn]}>{c}</Text>
-                            </Pressable>
-                        );
-                    })}
+                    {packs.map((p) => (
+                        <View
+                            key={p.id}
+                            style={[styles.chip, { borderColor: p.color, backgroundColor: p.color }]}
+                        >
+                            <Text style={styles.chipText}>{p.name}</Text>
+                        </View>
+                    ))}
                 </View>
             </View>
 
@@ -160,8 +166,7 @@ const styles = StyleSheet.create({
         paddingVertical: spacing.xs,
         paddingHorizontal: spacing.md,
     },
-    chipText: { fontSize: font.sizes.caption, color: colors.text },
-    chipTextOn: { color: colors.accentText },
+    chipText: { fontSize: font.sizes.caption,  color: colors.text },
     refresh: {
         position: "absolute",
         top: spacing.xs,

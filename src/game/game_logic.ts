@@ -1,5 +1,13 @@
-import { Category, Difficulty, Player, GameState, ALL_CATEGORIES, ALL_DIFFICULTIES } from "./types";
-import { loadQuestions, getByCategory, filterByDifficulty, pickByCatDif } from "./question";
+import { Category, Difficulty, Player, GameState, ALL_DIFFICULTIES } from "./types";
+import { getByCategory, filterByDifficulty } from "./question";
+import { getPackQuestions } from "./packs"
+
+
+// (helper) return a random item from a set, or null if empty
+function pickRandom<T>(items: T[]): T | null {
+    if (items.length === 0) return null;
+    return items[Math.floor(Math.random() * items.length)];
+}
 
 
 // return initial game state
@@ -10,7 +18,7 @@ export function startGame(player_names: string[], winningScore: number, categori
         score: 0,
     }));
 
-    const remaining = loadQuestions().filter((q) => categories.includes(q.category));
+    const remaining = getPackQuestions(categories);
 
     return {
         status: "playing",
@@ -33,7 +41,7 @@ export function getCurrentPlayer(state: GameState): Player {
 
 // (helper) get available categories for the "wheel" (have at least one question left)
 export function getAvailableCategories(state: GameState): Category[] {
-    return ALL_CATEGORIES.filter(
+    return state.categories.filter(
         (c) => getByCategory(state.remaining, c).length > 0
     );
 }
@@ -114,16 +122,14 @@ export function deductPoints(state: GameState): GameState {
 
 // spin wheel - pick and return a random category
 export function spinWheel(state: GameState): Category | null {
-    const available = getAvailableCategories(state);
-    if (available.length === 0) return null;
-
-    return available[Math.floor(Math.random() * available.length)];
+    return pickRandom(getAvailableCategories(state));
 }
 
 
 // draw question by picking difficulty
 export function drawQuestion(state: GameState, category: Category, difficulty: Difficulty): GameState {
-    const question = pickByCatDif(state.remaining, category, difficulty)
+    const pool = filterByDifficulty(getByCategory(state.remaining, category), difficulty);
+    const question = pickRandom(pool);
 
     if (question == null) return state;
 

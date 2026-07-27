@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
-import { colors, font } from "@/ui/theme";
+import { colors } from "@/ui/theme";
 
 
 export default function TabLayout() {
@@ -25,6 +25,15 @@ export default function TabLayout() {
           title: 'Home',
           tabBarIcon: ({ color, focused }) => (
             <Ionicons name={focused ? 'home-sharp' : 'home-outline'} color={color} size={24} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="packs"
+        options={{
+          title: 'Packs',
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? 'albums-sharp' : 'albums-outline'} color={color} size={24} />
           ),
         }}
       />

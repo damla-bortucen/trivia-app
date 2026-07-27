@@ -4,16 +4,16 @@ export type Difficulty = typeof ALL_DIFFICULTIES[number];
 //   Difficulty  ===  "easy" | "medium" | "hard"
 
 
-export const ALL_CATEGORIES = [
-    "Entertainment",
-    "General Knowledge",
-    "Geography",
-    "History",
-    "Science and Nature",
-    "Sports",
-] as const;
+// a category is a pack
+export type Category = string;
 
-export type Category = typeof ALL_CATEGORIES[number];
+export interface Pack {
+    id: Category;
+    name: string;
+    description: string;
+    color: string;
+    questions: Question[];
+}
 
 export interface Question {
     id: string;
@@ -39,7 +39,7 @@ export interface GameState {
     currentQuestion: Question | null;
     currentPlayerIndex: number;
     winningScore: number;
-    categories: Category[];
+    categories: Category[]; // holds pack ids
     }
 
 export type StartValues = {
