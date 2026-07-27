@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { Text, View, ScrollView, StyleSheet, Pressable } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
+import { Text, View, ScrollView, StyleSheet } from "react-native";
 
 import { Category, Pack } from "@/game/types";
 import { getPacks, MAX_PACKS, DEFAULT_PACK_IDS } from "@/game/packs";
 import { loadPacks, savePacks } from "@/game/storage";
-import { colors, spacing, radius, font } from "@/ui/theme";
+import { PackCard } from "@/components/pack_card";
+import { colors, spacing, font } from "@/ui/theme";
 
 const PACKS = getPacks();
 
@@ -17,51 +17,36 @@ export default function PacksScreen() {
     useEffect(() => { savePacks(selected) }, [selected]);
 
 
+    // the last pack cannot be unticked, and none can be added once six are chosen
+    const isBlocked = (id: Category) =>
+        selected.includes(id)
+            ? selected.length === 1
+            : selected.length >= MAX_PACKS;
+
+    
     // use prev not selected ([...selected, id]) to avoid rapid clicks acting on the same array
-    // prec governed by React so safe
-    const toggle = (id: Category) => 
-        setSelected((prev) => {
-            const on = prev.includes(id);
+    // prev governed by React so safe
+    const toggle = (id: Category) => {
+        if (isBlocked(id)) return;
 
-            // blocked actions
-            if (on && prev.length === 1) return prev; // there has to be one pack
-            if (!on && prev.length >= MAX_PACKS) return prev; // there cant be more than 6
-
-            return on ? prev.filter((x) => x !== id) : [...prev, id];
-        }); 
+        setSelected((prev) =>
+            prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]
+        );
+    };
 
     const chosen = PACKS.filter((p) => selected.includes(p.id));
     const available = PACKS.filter((p) => !selected.includes(p.id));
     
 
-    const renderCard = (pack: Pack) => {
-        const on = selected.includes(pack.id);
-        const locked = !on && selected.length >= MAX_PACKS;
-        const last = on && selected.length === 1;
-
-        return (
-            <View
-                key={pack.id}
-                style={[styles.card, { borderColor: pack.color }, on && styles.cardOn]}
-            >
-                <Text style={styles.name} numberOfLines={2}>{pack.name}</Text>
-                <Text style={styles.count}>{pack.questions.length} questions</Text>
-
-                <Pressable
-                    style={styles.check}
-                    hitSlop={10}
-                    onPress={() => toggle(pack.id)}
-                    disabled={locked || last}
-                >
-                    <Ionicons
-                        name={on ? "checkmark-circle" : "ellipse-outline"}
-                        size={24}
-                        color={on ? pack.color : locked ? colors.border : colors.textMuted}
-                    />
-                </Pressable>
-            </View>
-        );
-    };
+    const renderCard = (pack: Pack) => (
+        <PackCard
+            key={pack.id}
+            pack={pack}
+            selected={selected.includes(pack.id)}
+            disabled={isBlocked(pack.id)}
+            onToggle={() => toggle(pack.id)}
+        />
+    );
 
 
     return (
@@ -100,22 +85,4 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         rowGap: spacing.md,
     },
-    card: {
-        width: "48%",
-        aspectRatio: 1.5,
-        justifyContent: "center",
-        gap: spacing.xs,
-        borderWidth: 1.5,
-        borderRadius: radius.md,
-        padding: spacing.md,
-        backgroundColor: colors.surface,
-    },
-    cardOn: { borderWidth: 2.5 },
-    name: {
-        fontSize: font.sizes.body,
-        color: colors.text,
-        paddingRight: spacing.lg,
-    },
-    count: { fontSize: font.sizes.caption, color: colors.textMuted },
-    check: { position: "absolute", top: spacing.sm, right: spacing.sm },
 });
