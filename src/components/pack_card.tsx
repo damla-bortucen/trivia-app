@@ -4,16 +4,19 @@ import { Pack } from "@/game/types";
 import { colors, spacing, radius, font } from "@/ui/theme";
 
 
-export function PackCard({ pack, selected, disabled, onToggle}: {
+export function PackCard({ pack, selected, disabled, onToggle, onPress}: {
     pack: Pack;
     selected: boolean;
     disabled: boolean;
     onToggle: () => void;
+    onPress: () => void;
 }) {
     return (
         <View style={[styles.card, { borderColor: pack.color }, selected && styles.cardOn]}>
-            <Text style={styles.name} numberOfLines={2}>{pack.name}</Text>
-            <Text style={styles.count}>{pack.questions.length} questions</Text>
+            <Pressable style={styles.body} onPress={onPress}>
+                <Text style={styles.name} numberOfLines={2}>{pack.name}</Text>
+                <Text style={styles.count}>{pack.questions.length} questions</Text>
+            </Pressable>
 
             <Pressable
                 style={styles.check}

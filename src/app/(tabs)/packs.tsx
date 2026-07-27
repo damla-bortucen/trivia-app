@@ -5,12 +5,14 @@ import { Category, Pack } from "@/game/types";
 import { getPacks, MAX_PACKS, DEFAULT_PACK_IDS } from "@/game/packs";
 import { loadPacks, savePacks } from "@/game/storage";
 import { PackCard } from "@/components/pack_card";
+import { PackDetail } from "@/components/pack_detail";
 import { colors, spacing, font } from "@/ui/theme";
 
 const PACKS = getPacks();
 
 export default function PacksScreen() {
     const [selected, setSelected] = useState<Category[]>(() => loadPacks() ?? DEFAULT_PACK_IDS);
+    const [detail, setDetail] = useState<Pack | null>(null);
 
 
     // persist whenever the selection changes
@@ -45,24 +47,31 @@ export default function PacksScreen() {
             selected={selected.includes(pack.id)}
             disabled={isBlocked(pack.id)}
             onToggle={() => toggle(pack.id)}
+            onPress={() => setDetail(pack)}
         />
     );
 
 
     return (
-        <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
-            <Text style={styles.title}>Packs</Text>
-            <Text style={styles.counter}>Selected ({selected.length}/{MAX_PACKS})</Text>
+        <>
+            <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
+                <Text style={styles.title}>Packs</Text>
+                <Text style={styles.counter}>Selected ({selected.length}/{MAX_PACKS})</Text>
 
-            <View style={styles.grid}>{chosen.map(renderCard)}</View>
+                <View style={styles.grid}>{chosen.map(renderCard)}</View>
 
-            {available.length > 0 && (
-                <>
-                    <Text style={styles.counter}>Available ({available.length})</Text> 
-                    <View style={styles.grid}>{available.map(renderCard)}</View>
-                </>
+                {available.length > 0 && (
+                    <>
+                        <Text style={styles.counter}>Available ({available.length})</Text> 
+                        <View style={styles.grid}>{available.map(renderCard)}</View>
+                    </>
+                )}
+            </ScrollView>
+
+            {detail && (
+                <PackDetail pack={detail} onClose={() => setDetail(null)} />
             )}
-        </ScrollView>
+        </>
     );
 }
 
