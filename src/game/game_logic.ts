@@ -1,4 +1,4 @@
-import { Category, Difficulty, Player, GameState, ALL_DIFFICULTIES } from "./types";
+import { Category, Difficulty, Player, GameState, Question, ALL_DIFFICULTIES } from "./types";
 import { getByCategory, filterByDifficulty } from "./question";
 import { getPackQuestions } from "./packs"
 
@@ -7,6 +7,12 @@ import { getPackQuestions } from "./packs"
 function pickRandom<T>(items: T[]): T | null {
     if (items.length === 0) return null;
     return items[Math.floor(Math.random() * items.length)];
+}
+
+// derives questions that havent yet been drawn
+function getRemaining(state: GameState): Question[] {
+    const asked = new Set(state.askedIds);
+    return getPackQuestions(state.categories).filter((q) => !asked.has(q.id));
 }
 
 
@@ -24,7 +30,7 @@ export function startGame(player_names: string[], winningScore: number, categori
         status: "playing",
         players,
         currentPlayerIndex: 0,
-        remaining,
+        askedIds: [],        
         currentQuestion: null,
         winningScore,
         categories: categories,
@@ -41,15 +47,16 @@ export function getCurrentPlayer(state: GameState): Player {
 
 // (helper) get available categories for the "wheel" (have at least one question left)
 export function getAvailableCategories(state: GameState): Category[] {
+    const remaining = getRemaining(state);
     return state.categories.filter(
-        (c) => getByCategory(state.remaining, c).length > 0
+        (c) => getByCategory(remaining, c).length > 0
     );
 }
 
 
 // (helper) get available difficulties within a cateogory (have at least one question left)
 export function getAvailableDifficulties(state: GameState, category: Category): Difficulty[] {
-    const inCategory = getByCategory(state.remaining, category);
+    const inCategory = getByCategory(getRemaining(state), category);
 
     return ALL_DIFFICULTIES.filter(
         (d) => filterByDifficulty(inCategory, d).length > 0
@@ -60,7 +67,7 @@ export function getAvailableDifficulties(state: GameState, category: Category): 
 // function to check if game over - are there no questions left? 
 // or a set point threshold reached by a player
 export function isGameOver(state: GameState): boolean {
-    if (state.remaining.length === 0) return true;
+    if (getRemaining(state).length === 0) return true;
 
     const target = state.winningScore;
     if (state.players.some((p) => p.score >= target)) {
@@ -128,7 +135,7 @@ export function spinWheel(state: GameState): Category | null {
 
 // draw question by picking difficulty
 export function drawQuestion(state: GameState, category: Category, difficulty: Difficulty): GameState {
-    const pool = filterByDifficulty(getByCategory(state.remaining, category), difficulty);
+    const pool = filterByDifficulty(getByCategory(getRemaining(state), category), difficulty);
     const question = pickRandom(pool);
 
     if (question == null) return state;
@@ -136,7 +143,7 @@ export function drawQuestion(state: GameState, category: Category, difficulty: D
     return {
         ...state,
         currentQuestion: question,
-        remaining: state.remaining.filter((q) => q.id !== question.id),
+        askedIds: [...state.askedIds, question.id],
     };
 }
 
