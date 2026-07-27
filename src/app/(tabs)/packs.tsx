@@ -69,7 +69,12 @@ export default function PacksScreen() {
             </ScrollView>
 
             {detail && (
-                <PackDetail pack={detail} onClose={() => setDetail(null)} />
+                <PackDetail 
+                    pack={detail} 
+                    selected={selected.includes(detail.id)}
+                    disabled={isBlocked(detail.id)}
+                    onToggle={() => toggle(detail.id)}
+                    onClose={() => setDetail(null)} />
             )}
         </>
     );
