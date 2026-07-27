@@ -5,7 +5,7 @@ import { Text, View, StyleSheet, TextInput, Pressable } from "react-native";
 import InputSpinner from "react-native-input-spinner";
 import { startGame } from "@/game/game_logic";
 import { GameState, StartValues } from "@/game/types";
-import { getPacks, MAX_PACKS, DEFAULT_PACK_IDS } from "@/game/packs";
+import { getPacks, DEFAULT_PACK_IDS } from "@/game/packs";
 import { loadPacks } from "@/game/storage";
 import { colors, spacing, radius, font } from "@/ui/theme";
 import { Button } from "@/components/button";
@@ -106,7 +106,7 @@ export function Start({ onStart, initial }: {
             </View>
 
             <View style={styles.group}>
-                <Text style={styles.label}>Categories ({categories.length}/{MAX_PACKS})</Text>
+                <Text style={styles.label}>Categories ({packs.length})</Text>
                 <View style={styles.chips}>
                     {packs.map((p) => (
                         <View
