@@ -41,6 +41,7 @@ export default function Index() {
   };
 
   // quit mid-game - abandon and return to a clean start screen
+  // deletes saved game
   const quitGame = () => {
     setGame(null);
     setPrefill(null);
