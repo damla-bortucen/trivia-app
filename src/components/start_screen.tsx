@@ -1,19 +1,24 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
+import { useFocusEffect } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { Text, View, StyleSheet, TextInput, Pressable } from "react-native";
 import InputSpinner from "react-native-input-spinner";
 import { startGame } from "@/game/game_logic";
-import { GameState, Category, StartValues } from "@/game/types";
-import { getPacks } from "@/game/packs";
+import { GameState, StartValues } from "@/game/types";
+import { getPacks, MAX_PACKS, DEFAULT_PACK_IDS } from "@/game/packs";
+import { loadPacks } from "@/game/storage";
 import { colors, spacing, radius, font } from "@/ui/theme";
 import { Button } from "@/components/button";
 
 const MAX_PLAYERS = 6;
-const MAX_PACKS = 6;
 const DEFAULT_WINNING_SCORE = 3;
 
 const PACKS = getPacks();
-const DEFAULT_PACKS = PACKS.slice(0, MAX_PACKS).map((p) => p.id);
+
+function selectedPacks() {
+    const ids = loadPacks() ?? DEFAULT_PACK_IDS;
+    return PACKS.filter((p) => ids.includes(p.id));
+}
 
 // accepts initial values if rematch otherwise starts fresh
 export function Start({ onStart, initial }: { 
@@ -23,15 +28,17 @@ export function Start({ onStart, initial }: {
     const [names, setNames] = useState<string[]>(initial?.names ?? ["", ""]);
     const [winningScore, setWinningScore] = useState<number>(initial?.winningScore ?? DEFAULT_WINNING_SCORE);
 
-    const [categories, setCategories] = useState<Category[]>(initial?.categories ?? DEFAULT_PACKS);
-    const atLimit = categories.length >= MAX_PACKS;
-  
-    const toggleCategory = (c: Category) =>
-        setCategories((prev) => {
-        if (prev.includes(c)) return prev.filter((x) => x !== c); // if category already selected, deselect
-        if (prev.length >= MAX_PACKS) return prev; // at cap ignore
-        return [...prev, c]; // otherwise add category to current selection
-    });
+    const [packs, setPacks] = useState(() => selectedPacks());
+
+    // the Packs page can change the selection while this screen sits in the background
+    // useFocusEffect reruns setPacks using the Callback hook every time this screen comes back into focus
+    useFocusEffect(
+        useCallback(() => {
+            setPacks(selectedPacks());
+        }, [])
+    );
+
+    const categories = packs.map((p) => p.id);
 
     const updateName = (index: number, value: string) =>
         setNames(names.map((n, i) => (i === index ? value : n)));
@@ -43,7 +50,6 @@ export function Start({ onStart, initial }: {
     const reset = () => {
         setNames(["", ""]);
         setWinningScore(DEFAULT_WINNING_SCORE);
-        setCategories(DEFAULT_PACKS);
     };
 
     const filledNames = names.map((n) => n.trim()).filter((n) => n.length > 0);
@@ -102,25 +108,14 @@ export function Start({ onStart, initial }: {
             <View style={styles.group}>
                 <Text style={styles.label}>Categories ({categories.length}/{MAX_PACKS})</Text>
                 <View style={styles.chips}>
-                    {PACKS.map((p) => {
-                        const on = categories.includes(p.id);
-                        const locked = !on && atLimit;
-                        return (
-                            <Pressable
-                                key={p.id}
-                                onPress={() => toggleCategory(p.id)}
-                                disabled={locked}
-                                style={[
-                                    styles.chip,
-                                    { borderColor: p.color },
-                                    on && { backgroundColor: p.color },
-                                    locked && styles.chipLocked,
-                                ]}
-                            >
-                                <Text style={[styles.chipText, on && styles.chipTextOn]}>{p.name}</Text>
-                            </Pressable>
-                        );
-                    })}
+                    {packs.map((p) => (
+                        <View
+                            key={p.id}
+                            style={[styles.chip, { borderColor: p.color, backgroundColor: p.color }]}
+                        >
+                            <Text style={styles.chipText}>{p.name}</Text>
+                        </View>
+                    ))}
                 </View>
             </View>
 
@@ -171,9 +166,7 @@ const styles = StyleSheet.create({
         paddingVertical: spacing.xs,
         paddingHorizontal: spacing.md,
     },
-    chipText: { fontSize: font.sizes.caption, color: colors.text },
-    chipTextOn: { color: colors.accentText },
-    chipLocked: { opacity: 0.35 },
+    chipText: { fontSize: font.sizes.caption,  color: colors.text },
     refresh: {
         position: "absolute",
         top: spacing.xs,

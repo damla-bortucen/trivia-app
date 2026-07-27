@@ -20,6 +20,9 @@ const PACKS = [
     art,
 ] as Pack[];
 
+export const MAX_PACKS = 6;
+export const DEFAULT_PACK_IDS = PACKS.slice(0, MAX_PACKS).map((p) => p.id);
+
 export function getPacks(): Pack[] {
     return PACKS;
 }

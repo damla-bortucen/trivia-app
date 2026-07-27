@@ -3,18 +3,14 @@ import { Text, View, ScrollView, StyleSheet, Pressable } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
 import { Category, Pack } from "@/game/types";
-import { getPacks } from "@/game/packs";
+import { getPacks, MAX_PACKS, DEFAULT_PACK_IDS } from "@/game/packs";
 import { loadPacks, savePacks } from "@/game/storage";
 import { colors, spacing, radius, font } from "@/ui/theme";
 
 const PACKS = getPacks();
-const MAX_PACKS = 6;
-
-// fresh install start with a full selection of valid packs
-const DEFAULT_IDS = PACKS.slice(0, MAX_PACKS).map((p) => p.id);
 
 export default function PacksScreen() {
-    const [selected, setSelected] = useState<Category[]>(() => loadPacks() ?? DEFAULT_IDS);
+    const [selected, setSelected] = useState<Category[]>(() => loadPacks() ?? DEFAULT_PACK_IDS);
 
 
     // persist whenever the selection changes
