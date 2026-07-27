@@ -6,7 +6,7 @@ export const storage = createMMKV()
 const GAME_KEY = 'trivia:save';
 const PACKS_KEY = 'trivia:packs';
 
-const SAVE_VERSION = 1; // to prevent changes from breaking with old aves
+const SAVE_VERSION = 2; // to prevent changes from breaking with old aves
 
 // --------------- Game -----------------
 export function saveGame(state : GameState) {
