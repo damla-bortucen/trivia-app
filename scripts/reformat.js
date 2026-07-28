@@ -2,7 +2,7 @@
  * Wraps each question json from open trivia db in a self-contained pack.
  * Packs have an id, a name, a description, a color and questions.
  * 
- * Run with: node scripts/reformatQuestionPacks.js
+ * Run with: node scripts/reformat.js
  */
 
 const fs = require("fs");

@@ -2,7 +2,7 @@
  * Fetches trivia questions from the free Open Trivia DB API
  * and saves them as JSON files.
  *
- * Run it with: node scripts/generateQuestions.js
+ * Run it with: node scripts/opentdb.js
  */
 
 const fs = require("fs");

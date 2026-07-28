@@ -1,0 +1,9 @@
+{
+    "id": "food-drink",
+    "name": "Food and Drink",
+    "description": "Dishes, ingredients and where they come from.",
+    "color": "#c98a5e",
+    "theme": "food and drink around the world: well known dishes, ingredients, cooking methods, and drinks both alcoholic and not",
+    "avoid": "restaurant rankings and awards, celebrity chef gossip, brand slogans, anything that changes year to year, and questions where more than one dish or ingredient would reasonably fit the description",
+    "counts": { "easy": 50, "medium": 50, "hard": 30 }
+}
