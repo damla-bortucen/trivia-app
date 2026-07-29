@@ -10,19 +10,19 @@ const path = require("path")
 
 const API_KEY = process.env.OPENAI_API_KEY;
 const OPENAI_MODEL = process.env.OPENAI_MODEL;
-
 const API_URL = "https://api.openai.com/v1/chat/completions";
 
 const BLUEPRINT_DIR = path.join(__dirname, "blueprints");
 
-const DIFFICULTY = {
-    easy: "most adults would answer without having to think",
-    medium: "someone with a general interest in the subject would know it, a casual player might guess",
-    hard: "needs specific knowledge or real enthusiasm for the subject",
-};
 
+function buildPrompt(blueprint, counts) {
+    const total = counts.easy + counts.medium + counts.hard;
+    const maxChoice = Math.floor(total * 0.2);
 
-function buildPrompt(blueprint, difficulty, count) {
+    const angles = (blueprint.angles ?? [])
+        .map((a) => `- ${a}`)
+        .join("\n")
+
     return `You are writing trivia questions for a pass-and-play party game.
 
     HOW YOUR ANSWER IS USED
@@ -33,26 +33,53 @@ function buildPrompt(blueprint, difficulty, count) {
     TOPIC
     ${blueprint.theme}
 
+    ANGLES
+    Come at the topic from these angles, and use every one at least once:
+    ${angles}
+
     AVOID
     ${blueprint.avoid}
 
-    DIFFICULTY
-    Write ${count} questions where ${DIFFICULTY[difficulty]}.
+    WRITE ${total} QUESTIONS AS A DIFFICULTY LADDER
+    - ${counts.easy} easy: about three in five players would get it, though it should
+    take a moment's recall rather than being automatic.
+    - ${counts.medium} medium: less than half would get it. Someone with a general
+    interest knows it, others might reason their way there.
+    - ${counts.hard} hard: less than or equal to one in five would get it.
+
+    The levels must be clearly separated. A hard question should be one that a player
+    who answered every easy question correctly would still probably miss. If you
+    cannot decide whether a question is easy or medium, label it easy.
+
+    HOW TO MAKE A QUESTION HARDER
+    Do not reach for a more obscure subject. Ask something more specific about a
+    subject people know: a year, a person, a place of origin, a technique, a regional
+    variant, or a distinguishing ingredient.
+
+    MULTIPLE CHOICE
+    At most ${maxChoice} of the ${total} questions may offer options, and only where
+    the question would otherwise be unanswerable. Write the options inside the
+    question text, like this:
+
+    "Which country did the croissant originate in?\\n\\nA) France\\nB) Austria\\nC) Italy\\nD) Turkey"
+
+    The answer field must be the option's text, not its letter.
 
     RULES
     - The answer must be at most four words, and one accepted form only.
     - No alternatives, no parenthetical notes, no explanations.
-    - Some questions can be multiple choice given its a difficult enough question.
-    - Multiple choice questions can at most make up 20% of the question deck.
-    - Nothing that changes over time.
     - No question where a well informed person could reasonably give a different
     answer and still be right.
-    - Vary the subject matter across the ${count} questions.
+    - An easy question should still be a question. If the answer is obvious to anyone who has 
+    heard of the subject, it is too easy.
+    - Use ${total} different subjects. Never ask two questions about the same thing.
+    - DO NOT mention the answer in the question
 
     OUTPUT
     Return JSON only, in exactly this shape:
-    {"questions":[{"question":"...","answer":"..."}]}`;
-}
+    {"questions":[{"question":"...","answer":"...","difficulty":"easy"}]}
+    difficulty must be exactly "easy", "medium" or "hard".`;
+};
 
 
 async function callModel(prompt) {
@@ -80,25 +107,34 @@ async function callModel(prompt) {
 
 
 async function main() {
-    // read the elements in the prompt after and including the 2nd item   ... food-drink easy 10
-    const [name, difficulty = "easy", count = "10"] = process.argv.slice(2); 
+    // read the elements in the prompt after and including the 2nd item
+    const [name, perLevel] = process.argv.slice(2);
 
     // verify
     if (!name) { throw new Error("No name.");}
-
-    if (!DIFFICULTY[difficulty]) { throw new Error(`Unknown difficulty "${difficulty}"`);}
 
     const blueprint = JSON.parse(
         fs.readFileSync(path.join(BLUEPRINT_DIR, `${name}.json`), "utf8")
     );
 
-    console.log(`Generating ${count} ${difficulty} questions for "${blueprint.name}" using ${OPENAI_MODEL}...\n`);
-    
-    const raw = await callModel(buildPrompt(blueprint, difficulty, Number(count)));
+    console.log(`Generating for "${blueprint.name}" using ${OPENAI_MODEL}...\n`);
+
+    const counts = { easy: Number(perLevel), medium: Number(perLevel), hard: Number(perLevel) }
+
+    const raw = await callModel(buildPrompt(blueprint, counts));
     const parsed = JSON.parse(raw);
     const questions = Array.isArray(parsed) ? parsed : parsed.questions ?? [];
 
-    console.log(questions);
+    for (const level of ["easy", "medium", "hard"]) {
+        const group = questions.filter((q) => q.difficulty === level);
+
+        console.log(`\n${level.toUpperCase()}  (${group.length})\n`);
+
+        group.forEach((q) => {
+            console.log(`  ${q.question}`);
+            console.log(`    → ${q.answer}\n`);
+        });
+    }
 }
 
 
