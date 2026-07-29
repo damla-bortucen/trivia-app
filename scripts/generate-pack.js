@@ -2,7 +2,10 @@
  * Generates trivia questions for a blueprint and prints them.
  *
  *
- * Run it with: node --env-file=.env scripts/generate-pack.js food-drink easy 10
+ * Run it with:
+ * node --env-file=.env scripts/generate-pack.js food-drink 5           # read only, with custom number
+ * node --env-file=.env scripts/generate-pack.js food-drink             # read only, full counts
+ * node --env-file=.env scripts/generate-pack.js food-drink --save      # full counts, writes
  */
 
 const fs = require("fs");
@@ -13,8 +16,13 @@ const OPENAI_MODEL = process.env.OPENAI_MODEL;
 const API_URL = "https://api.openai.com/v1/chat/completions";
 
 const BLUEPRINT_DIR = path.join(__dirname, "blueprints");
+const PACKS_DIR = path.join(__dirname, "..", "assets", "packs");
+
+const LEVELS = ["easy", "medium", "hard"];
+const POINTS = { easy: 1, medium: 2, hard: 3 };
 
 
+// ----------------------------- PROMPT ---------------------------------
 function buildPrompt(blueprint, counts) {
     const total = counts.easy + counts.medium + counts.hard;
     const maxChoice = Math.floor(total * 0.2);
@@ -47,7 +55,7 @@ function buildPrompt(blueprint, counts) {
     interest knows it, others might reason their way there.
     - ${counts.hard} hard: less than or equal to one in five would get it.
 
-    The levels must be clearly separated. A hard question should be one that a player
+    The difficulty levels must be clearly separated. A hard question should be one that a player
     who answered every easy question correctly would still probably miss. If you
     cannot decide whether a question is easy or medium, label it easy.
 
@@ -82,7 +90,45 @@ function buildPrompt(blueprint, counts) {
 };
 
 
-async function callModel(prompt) {
+
+// ------------------------ GENERATE, VALIDATE, SAVE  ----------------------------
+function parseArgs() {
+    // read the elements in the prompt after and including the 2nd item
+    // avoid --save landing in the name or perLevel slot
+    const args = process.argv.slice(2);
+    const save = args.includes("--save");
+    const [name, countText] = args.filter((arg) => arg !== "--save");
+
+    // optional: a number overrides the blueprint counts for quick test runs
+    const perLevel = countText === undefined ? null : Number(countText);
+
+    if (!name || (perLevel !== null && (!Number.isInteger(perLevel) || perLevel < 1))) {        
+        throw new Error("Usage: node --env-file=.env scripts/generate-pack.js <name> <per-level> [--save]");
+    }
+
+    if (!API_KEY || !OPENAI_MODEL) {
+        throw new Error("OPENAI_API_KEY and OPENAI_MODEL must be set.");
+    }
+
+    return { name, perLevel, save };
+}
+
+
+function loadBlueprint(name) {
+    const file = path.join(BLUEPRINT_DIR, `${name}.json`);
+    const blueprint = JSON.parse(fs.readFileSync(file, "utf8"));
+
+     // if counts are wrong fail here
+    for (const level of LEVELS) {
+        if (!Number.isInteger(blueprint.counts?.[level])) {
+            throw new Error(`${name}.json needs an integer counts.${level}`);
+        }
+    }
+    return blueprint;
+}
+
+
+async function generateQuestions(prompt) {
     const response = await fetch(API_URL, {
         method: "POST",
         headers: {
@@ -93,48 +139,123 @@ async function callModel(prompt) {
             model: OPENAI_MODEL,
             messages: [{ role: "user", content: prompt }],
             response_format: { type: "json_object" },
-            temperature: 0.8,
         }),
     });
 
+    const data = await response.json();
+
     if (!response.ok) {
-        throw new Error(`OpenAI returned ${response.status}`);
+        throw new Error(data.error?.message ?? `OpenAI returned ${response.status}`);
     }
 
-    const data = await response.json();
-    return data.choices[0].message.content;
+    const content = data.choices?.[0]?.message?.content;
+
+    if (!content) {
+        throw new Error("The model returned no content.");
+    }
+
+    const parsed = JSON.parse(content);
+    return parsed.questions ?? [];
 }
 
 
+// drop anything the app could not use, and say why
+function validate(questions) {
+    const seen = new Set();
+    const kept = [];
+    const rejected = [];
+
+    for (const q of questions) {
+        const reason =
+            !q.question || !q.answer ? "missing question or answer"
+            : !(q.difficulty in POINTS) ? `bad difficulty "${q.difficulty}"`
+            : seen.has(q.question.toLowerCase()) ? "duplicate question"
+            : q.answer.split(/\s+/).length > 5 ? `answer too long: "${q.answer}"`
+            : null;
+
+        if (reason) {
+            rejected.push({ question: q.question, reason });
+        } else {
+            seen.add(q.question.toLowerCase());
+            kept.push(q);
+        }
+    }
+    return { kept, rejected };
+}
+
+
+function makePack(blueprint, questions) {
+    return {
+        id: blueprint.id,
+        name: blueprint.name,
+        description: blueprint.description,
+        color: blueprint.color,
+        questions: questions.map((q, i) => ({
+            id: `${blueprint.id}-${String(i + 1).padStart(3, "0")}`,
+            category: blueprint.id,
+            question: q.question,
+            answer: q.answer,
+            difficulty: q.difficulty,
+            points: POINTS[q.difficulty],
+        })),
+    };
+}
+
+
+function printQuestions(questions, rejected) {
+    for (const level of LEVELS) {
+        const group = questions.filter(
+            (question) => question.difficulty === level
+        );
+
+        console.log(`\n${level.toUpperCase()} (${group.length})\n`);
+
+        for (const question of group) {
+            console.log(`  ${question.question}`);
+            console.log(`    → ${question.answer}\n`);
+        }
+    }
+
+    if (rejected.length) {
+        console.log(`\nREJECTED (${rejected.length})\n`);
+
+        for (const item of rejected) {
+            console.log(`  ${item.question ?? "Unknown question"}`);
+            console.log(`    → ${item.reason}\n`);
+        }
+    }
+
+    console.log(`${questions.length} kept, ${rejected.length} rejected.`);
+}
+
+
+
 async function main() {
-    // read the elements in the prompt after and including the 2nd item
-    const [name, perLevel] = process.argv.slice(2);
-
-    // verify
-    if (!name) { throw new Error("No name.");}
-
-    const blueprint = JSON.parse(
-        fs.readFileSync(path.join(BLUEPRINT_DIR, `${name}.json`), "utf8")
-    );
+    const { name, perLevel, save } = parseArgs();
+    const blueprint = loadBlueprint(name);
 
     console.log(`Generating for "${blueprint.name}" using ${OPENAI_MODEL}...\n`);
 
-    const counts = { easy: Number(perLevel), medium: Number(perLevel), hard: Number(perLevel) }
+    const counts = perLevel === null ? blueprint.counts : { easy: perLevel, medium: perLevel, hard: perLevel };
 
-    const raw = await callModel(buildPrompt(blueprint, counts));
-    const parsed = JSON.parse(raw);
-    const questions = Array.isArray(parsed) ? parsed : parsed.questions ?? [];
+    const generated = await generateQuestions(buildPrompt(blueprint, counts));
+    const { kept, rejected } = validate(generated);
 
-    for (const level of ["easy", "medium", "hard"]) {
-        const group = questions.filter((q) => q.difficulty === level);
+    printQuestions(kept, rejected);
 
-        console.log(`\n${level.toUpperCase()}  (${group.length})\n`);
-
-        group.forEach((q) => {
-            console.log(`  ${q.question}`);
-            console.log(`    → ${q.answer}\n`);
-        });
+    if (!save) {
+        console.log("\nNothing written. Re-run with --save once you are happy.");
+        return;
     }
+
+    // save
+    fs.mkdirSync(PACKS_DIR, { recursive: true });
+
+    const file = path.join(PACKS_DIR, `${blueprint.id}.json`);
+    const pack = makePack(blueprint, kept);
+
+    fs.writeFileSync(file, `${JSON.stringify(pack, null, 2)}\n`);
+    console.log(`\nWrote ${kept.length} questions to ${file}`);
 }
 
 
