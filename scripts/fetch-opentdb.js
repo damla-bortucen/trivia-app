@@ -91,19 +91,8 @@ function sleep(ms) {
 
 
 // convert html special character tags to text
-function decodeHtml(str) {
-    const map = {
-    "&quot;": '"',
-    "&#039;": "'",
-    "&amp;": "&",
-    "&lt;": "<",
-    "&gt;": ">",
-    "&eacute;": "é",
-    "&rsquo;": "’",
-    };
-
-    // replace every "&something;" pattern using the map above.
-    return str.replace(/&[a-z0-9#]+;/gi, (match) => map[match] ?? match);
+function decode(str) {
+    return Buffer.from(str, "base64").toString("utf8")
 }
 
 
@@ -157,16 +146,17 @@ async function fetchCounts(opentdbId) {
 
 // turn an OpenTDB result into the correct shape to store
 function toQuestion(item) {
-    const question = decodeHtml(item.question);
-    const correct = decodeHtml(item.correct_answer);
-    const incorrect = item.incorrect_answers.map(decodeHtml);
+    const question = decode(item.question);
+    const correct = decode(item.correct_answer);
+    const incorrect = item.incorrect_answers.map(decode);
+    const difficulty = decode(item.difficulty);
 
     // handle true or false questions
     if (item.type === "boolean") {
         return {
             question: `True or false?\n\n${question}`,
             answer: correct,
-            difficulty: item.difficulty,
+            difficulty,
         };
     }
 
@@ -175,7 +165,7 @@ function toQuestion(item) {
             ? appendOptions(question, correct, incorrect)
             : question,
         answer: correct,
-        difficulty: item.difficulty,
+        difficulty,
     };
 }
 
@@ -187,7 +177,7 @@ async function fetchBatch(opentdbId, difficulty, amount) {
     let want = amount; // reassignable var
 
     while (want > 0) {
-        const url = `https://opentdb.com/api.php?amount=${want}&category=${opentdbId}&difficulty=${difficulty}`;
+        const url = `https://opentdb.com/api.php?amount=${want}&category=${opentdbId}&difficulty=${difficulty}&encode=base64`;
 
         const response = await fetch(url);
         const data = await response.json();

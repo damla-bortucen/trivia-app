@@ -7,39 +7,39 @@
     {
       "id": "science-nature-001",
       "category": "science-nature",
-      "question": "What is the elemental symbol for mercury?",
-      "answer": "Hg",
+      "question": "What is the standard atomic weight of a Plutonium nucleus?",
+      "answer": "244",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-002",
       "category": "science-nature",
-      "question": "How many bones are in the human body?",
-      "answer": "206",
+      "question": "Who discovered the Law of Gravity?",
+      "answer": "Sir Isaac Newton",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-003",
       "category": "science-nature",
-      "question": "How many laws of thermodynamics are there?",
-      "answer": "Four",
+      "question": "What is the powerhouse of the cell?",
+      "answer": "Mitochondria",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-004",
       "category": "science-nature",
-      "question": "How many moons does the Earth have?",
-      "answer": "1",
+      "question": " What is the chemical symbol for Helium?",
+      "answer": "He",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-005",
       "category": "science-nature",
-      "question": "True or false?\n\nThe Sun is considered a star.",
+      "question": "An atom contains a nucleus.",
       "answer": "True",
       "difficulty": "easy",
       "points": 1
@@ -47,165 +47,189 @@
     {
       "id": "science-nature-006",
       "category": "science-nature",
-      "question": "How many moons does Pluto have?",
-      "answer": "Five",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-007",
-      "category": "science-nature",
-      "question": "Which of the following is not one of the groups on the periodic table?\n\nA) Fluorines\nB) Alkali Metals\nC) Noble Gases\nD) Halogens",
-      "answer": "Fluorines",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-008",
-      "category": "science-nature",
-      "question": "True or false?\n\nCeliac Disease is a disease that effects the heart, causing those effected to be unable to eat meat.",
-      "answer": "False",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-009",
-      "category": "science-nature",
-      "question": "Which of these Elements is a metalloid?\n\nA) Antimony\nB) Bromine\nC) Rubidium\nD) Tin",
-      "answer": "Antimony",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-010",
-      "category": "science-nature",
-      "question": "What is the first element on the periodic table?",
-      "answer": "Hydrogen",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-011",
-      "category": "science-nature",
-      "question": "True or false?\n\nThe Earth and the Moon roughly have the same mass.",
-      "answer": "False",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-012",
-      "category": "science-nature",
-      "question": "Dry ice is the solid form of what substance?",
-      "answer": "Carbon dioxide",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-013",
-      "category": "science-nature",
-      "question": "The medical term for the belly button is which of the following?\n\nA) Umbilicus\nB) Nevus\nC) Nares\nD) Paxillus",
-      "answer": "Umbilicus",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-014",
-      "category": "science-nature",
-      "question": "Which of these bones is hardest to break?\n\nA) Tibia\nB) Humerus\nC) Femur\nD) Cranium",
-      "answer": "Femur",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-015",
-      "category": "science-nature",
       "question": "The human heart has how many chambers?",
       "answer": "4",
       "difficulty": "easy",
       "points": 1
     },
     {
+      "id": "science-nature-007",
+      "category": "science-nature",
+      "question": "What is the atomic mass of Carbon?",
+      "answer": "12",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-008",
+      "category": "science-nature",
+      "question": "What is the common name of the chemical compound \"dihydrogen monoxide\"?",
+      "answer": "Water",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-009",
+      "category": "science-nature",
+      "question": "What is the standard SI unit for time?",
+      "answer": "Second",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-010",
+      "category": "science-nature",
+      "question": "An average human can go two weeks without water.",
+      "answer": "False",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-011",
+      "category": "science-nature",
+      "question": "What does LASER stand for?",
+      "answer": "Light amplification by stimulated emission of radiation",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-012",
+      "category": "science-nature",
+      "question": "Which noble gas has the lowest atomic number?",
+      "answer": "Helium",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-013",
+      "category": "science-nature",
+      "question": "Rhinoplasty is a surgical procedure on what part of the human body?",
+      "answer": "Nose",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-014",
+      "category": "science-nature",
+      "question": "Which gas forms about 78% of the Earth’s atmosphere?",
+      "answer": "Nitrogen",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-015",
+      "category": "science-nature",
+      "question": "What is the unit of electrical resistance?",
+      "answer": "Ohm",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
       "id": "science-nature-016",
       "category": "science-nature",
-      "question": "Which is the most abundant element in the universe?",
-      "answer": "Hydrogen",
+      "question": "71% of the Earth's surface is made up of",
+      "answer": "Water",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-017",
       "category": "science-nature",
-      "question": "The element involved in making human blood red is which of the following?\n\nA) Cobalt\nB) Iron\nC) Copper\nD) Iridium",
-      "answer": "Iron",
+      "question": "The medical term for the belly button is which of the following?\n\nA) Nevus\nB) Paxillus\nC) Nares\nD) Umbilicus",
+      "answer": "Umbilicus",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-018",
       "category": "science-nature",
-      "question": "What is the largest planet in the Solar System?",
-      "answer": "Jupiter",
+      "question": "The element involved in making human blood red is which of the following?\n\nA) Copper\nB) Iron\nC) Iridium\nD) Cobalt",
+      "answer": "Iron",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-019",
       "category": "science-nature",
-      "question": "What is the standard SI unit for mass?",
-      "answer": "Kilogram",
+      "question": "What is the official name of the star located closest to the North Celestial Pole?",
+      "answer": "Polaris",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-020",
       "category": "science-nature",
-      "question": "The biggest distinction between a eukaryotic cell and a prokaryotic cell is:",
-      "answer": "The presence or absence of a nucleus",
+      "question": "What is an example of a bacterial pathogen?",
+      "answer": "Cholera",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-021",
       "category": "science-nature",
-      "question": "What is the standard SI unit for temperature?",
-      "answer": "Kelvin",
+      "question": "How many laws of thermodynamics are there?",
+      "answer": "Four",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-022",
       "category": "science-nature",
-      "question": "This element, when overcome with extreme heat and pressure, creates diamonds.",
-      "answer": "Carbon",
+      "question": "What does DNA stand for?",
+      "answer": "Deoxyribonucleic Acid",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-023",
       "category": "science-nature",
-      "question": "What does the letter 'S' stand for in 'NASA'?",
-      "answer": "Space",
+      "question": "What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?",
+      "answer": "Sputnik 1",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-024",
       "category": "science-nature",
-      "question": "Which element has the chemical symbol 'Fe'?",
-      "answer": "Iron",
+      "question": "An exothermic reaction is a chemical reaction that releases energy by radiating electricity.",
+      "answer": "False",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-025",
       "category": "science-nature",
-      "question": "How many planets are in our Solar System?",
-      "answer": "Eight",
+      "question": "What is the hottest planet in the solar system",
+      "answer": "Venus",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-026",
+      "category": "science-nature",
+      "question": "Which of these is NOT a bone found in the human arm?\n\nA) Humerus\nB) Tibia\nC) Ulna\nD) Radius",
+      "answer": "Tibia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-027",
+      "category": "science-nature",
+      "question": "Which desert is the only desert in the world where the \"Saguaro\" cactus grows indigenously?",
+      "answer": "The Sonoran Desert",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-028",
+      "category": "science-nature",
+      "question": "The \"Tibia\" is found in which part of the body?",
+      "answer": "Leg",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-029",
       "category": "science-nature",
       "question": "What is the scientific term for 'taste'?",
       "answer": "Gustatory Perception",
@@ -213,183 +237,7 @@
       "points": 2
     },
     {
-      "id": "science-nature-027",
-      "category": "science-nature",
-      "question": "True or false?\n\nScientists accidentally killed the once known world's oldest living creature, a mollusc, known to be aged as 507 years old.",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-028",
-      "category": "science-nature",
-      "question": "How many hearts does an octopus have?",
-      "answer": "Three",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-029",
-      "category": "science-nature",
-      "question": "True or false?\n\nThe most frequent subconscious activity repeated by the human body is blinking.",
-      "answer": "False",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
       "id": "science-nature-030",
-      "category": "science-nature",
-      "question": "What is the colour of unoxidized blood?",
-      "answer": "Red",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-031",
-      "category": "science-nature",
-      "question": "Which of the following is the male pollen-producing reproductive part of a flower?\n\nA) Sepal\nB) Stamen\nC) Petal\nD) Pistil",
-      "answer": "Stamen",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-032",
-      "category": "science-nature",
-      "question": "What is radiation measured in?",
-      "answer": "Gray ",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-033",
-      "category": "science-nature",
-      "question": "What was the category of the 2005 hurricane, Hurricane Katrina, in the Saffir-Simpson hurricane wind scale?",
-      "answer": "Category 5",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-034",
-      "category": "science-nature",
-      "question": "What are human nails made of?",
-      "answer": "Keratin",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-035",
-      "category": "science-nature",
-      "question": "True or false?\n\nShrimp can swim backwards.",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-036",
-      "category": "science-nature",
-      "question": "A positron is an antiparticle of a what?",
-      "answer": "Electron",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-037",
-      "category": "science-nature",
-      "question": "All the following metal elements are liquids at or near room temperature EXCEPT:",
-      "answer": "Beryllium",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-038",
-      "category": "science-nature",
-      "question": "The moons, Miranda, Ariel, Umbriel, Titania and Oberon orbit which planet?",
-      "answer": "Uranus",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-039",
-      "category": "science-nature",
-      "question": "Down Syndrome is usually caused by an extra copy of which chromosome?",
-      "answer": "21",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-040",
-      "category": "science-nature",
-      "question": "Where did the Great Storm of 1987 make landfall at, first?",
-      "answer": "Cornwall",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-041",
-      "category": "science-nature",
-      "question": "The medical condition osteoporosis affects which part of the body?",
-      "answer": "Bones",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-042",
-      "category": "science-nature",
-      "question": "About how old is Earth?",
-      "answer": "4.5 Billion Years",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-043",
-      "category": "science-nature",
-      "question": "True or false?\n\nSteel is an alloy of Iron and Carbon.",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-044",
-      "category": "science-nature",
-      "question": "True or false?\n\nType 1 diabetes is a result of the liver working improperly.",
-      "answer": "False",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-045",
-      "category": "science-nature",
-      "question": "True or false?\n\nIf you dip a dry towel into a tub full of water, water will climb up the towel by a phenomenon called \"Cartillary Action\"",
-      "answer": "False",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-046",
-      "category": "science-nature",
-      "question": "Gannymede is the largest moon of which planet?",
-      "answer": "Jupiter",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-047",
-      "category": "science-nature",
-      "question": "True or false?\n\nHippopotomonstrosesquippedaliophobia is the irrational fear of long words.",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-048",
-      "category": "science-nature",
-      "question": "True or false?\n\nIn the periodic table, Potassium's symbol is the letter K.",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-049",
       "category": "science-nature",
       "question": "Deuterium is an isotope of which element?",
       "answer": "Hydrogen",
@@ -397,143 +245,191 @@
       "points": 2
     },
     {
+      "id": "science-nature-031",
+      "category": "science-nature",
+      "question": "What is the study of the cells and tissues of plants and animals?",
+      "answer": "Histology",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-032",
+      "category": "science-nature",
+      "question": "What stage of development do the majority of eukaryotic cells remain in for most of their life?",
+      "answer": "Interphase",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-033",
+      "category": "science-nature",
+      "question": "What is the mathematical formula of Ohm's law?",
+      "answer": "V = I*R",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-034",
+      "category": "science-nature",
+      "question": "What was the category of the 2005 hurricane, Hurricane Katrina, in the Saffir-Simpson hurricane wind scale?",
+      "answer": "Category 5",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-035",
+      "category": "science-nature",
+      "question": "The most frequent subconscious activity repeated by the human body is blinking.",
+      "answer": "False",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-036",
+      "category": "science-nature",
+      "question": "An organism described as \"heliotropic\" has a tendancy to move towards which of these things?\n\nA) Light\nB) Trees\nC) Pollen\nD) Water",
+      "answer": "Light",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-037",
+      "category": "science-nature",
+      "question": "Which Swiss psychologist is synonymous with the concepts of introvert and extrovert personalities?",
+      "answer": "Carl Jung",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-038",
+      "category": "science-nature",
+      "question": "The medial meniscus forms which part of what joint in the human body?",
+      "answer": "Knee",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-039",
+      "category": "science-nature",
+      "question": "What is the name of the cognitive bias wherein a person with low ability in a particular skill mistake themselves as being superior?",
+      "answer": "Dunning-Kruger effect",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-040",
+      "category": "science-nature",
+      "question": "A defibrillator is used to start up a heartbeat once a heart has stopped beating.",
+      "answer": "False",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-041",
+      "category": "science-nature",
+      "question": "Type 1 diabetes is a result of the liver working improperly.",
+      "answer": "False",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-042",
+      "category": "science-nature",
+      "question": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+      "answer": "Ernest Rutherford",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-043",
+      "category": "science-nature",
+      "question": "Where did the Great Storm of 1987 make landfall at, first?",
+      "answer": "Cornwall",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-044",
+      "category": "science-nature",
+      "question": "Male pandas do handstands while urinating on trees. ",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-045",
+      "category": "science-nature",
+      "question": "How many hearts does an octopus have?",
+      "answer": "Three",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-046",
+      "category": "science-nature",
+      "question": "In human biology, a circadium rhythm relates to a period of roughly how many hours?",
+      "answer": "24",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-047",
+      "category": "science-nature",
+      "question": "Which part of the body does glaucoma affect?",
+      "answer": "Eyes",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-048",
+      "category": "science-nature",
+      "question": "A person can get sunburned on a cloudy day.",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-049",
+      "category": "science-nature",
+      "question": "What is an alternative name for multiple personality disorder?",
+      "answer": "Dissociative identity disorder",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
       "id": "science-nature-050",
       "category": "science-nature",
-      "question": "What is Hypernatremia?",
-      "answer": "Increase in blood sodium",
+      "question": "The Sun consists of mostly which two elements?",
+      "answer": "Hydrogen & Helium",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "science-nature-051",
       "category": "science-nature",
-      "question": "The word \"science\" stems from the word \"scire\" meaning what?",
-      "answer": "To know",
+      "question": "In quantum physics, which of these theorised sub-atomic particles has yet to be observed?\n\nA) Tau neutrino\nB) Gluon\nC) Z boson\nD) Graviton",
+      "answer": "Graviton",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-052",
       "category": "science-nature",
-      "question": "Botanically speaking, which of these fruits is NOT a berry?\n\nA) Strawberry\nB) Banana\nC) Concord Grape\nD) Blueberry",
-      "answer": "Strawberry",
+      "question": "What is the molecular formula of Glucose?",
+      "answer": "C6H12O6",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-053",
       "category": "science-nature",
-      "question": "Which of the following plastic is commonly used for window frames, gutters and drain pipes?\n\nA) Polypropylene (PP)\nB) Polyethylene (PE)\nC) Polystyrene (PS)\nD) Polyvinylchloride (PVC) ",
-      "answer": "Polyvinylchloride (PVC) ",
+      "question": "Which scientific unit is named after an Italian nobleman?",
+      "answer": "Volt",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-054",
-      "category": "science-nature",
-      "question": "\"The Big Bang Theory\" was first theorized by a priest of what religious ideology?",
-      "answer": "Catholic",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-055",
-      "category": "science-nature",
-      "question": "What element on the periodic table has 92 electrons?",
-      "answer": "Uranium",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-056",
-      "category": "science-nature",
-      "question": "If you planted the seeds of Quercus robur what would grow?",
-      "answer": "Trees",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-057",
-      "category": "science-nature",
-      "question": "True or false?\n\nFrederick Banting and John Macleod won a Nobel Prize for their contributions to the scientific fields of quantum mechanics.",
-      "answer": "False",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-058",
-      "category": "science-nature",
-      "question": "What causes the sound of a heartbeat?",
-      "answer": "Closure of the heart valves",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-059",
-      "category": "science-nature",
-      "question": "How many objects are equivalent to one mole?",
-      "answer": "6.022 x 10^23",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-060",
-      "category": "science-nature",
-      "question": "The 'Islets of Langerhans' is found in which human organ?",
-      "answer": "Pancreas",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-061",
-      "category": "science-nature",
-      "question": "On the Beaufort Scale of wind force, what wind name is given to number 8?",
-      "answer": "Gale",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-062",
-      "category": "science-nature",
-      "question": "Which is the chemical name of H2O?",
-      "answer": "Dihydrogen Monoxide",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-063",
-      "category": "science-nature",
-      "question": "What is isobutylphenylpropanoic acid more commonly known as?",
-      "answer": "Ibuprofen",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-064",
-      "category": "science-nature",
-      "question": "Which of the following elements is typically used in the doping of the semiconductor silicon?\n\nA) Oxygen\nB) Boron\nC) Iron\nD) Carbon",
-      "answer": "Boron",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-065",
-      "category": "science-nature",
-      "question": "Folic acid is the synthetic form of which vitamin?",
-      "answer": "Vitamin B",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-066",
-      "category": "science-nature",
-      "question": "What is the scientific name of the knee cap?",
-      "answer": "Patella",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-067",
       "category": "science-nature",
       "question": "Which one of these is scientific term for \"Brain Freeze\"?",
       "answer": "Sphenopalatine Ganglioneuralgia",
@@ -541,81 +437,185 @@
       "points": 3
     },
     {
+      "id": "science-nature-055",
+      "category": "science-nature",
+      "question": "Which major extinction event was caused by an asteroid collision and eliminated the majority of non-avian dinosaurs?",
+      "answer": "Cretaceous-Paleogene",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-056",
+      "category": "science-nature",
+      "question": "In the Scoville scale, what is the hottest chemical?",
+      "answer": "Resiniferatoxin",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-057",
+      "category": "science-nature",
+      "question": "Which is not a type of neuron?",
+      "answer": "Perceptual Neuron",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-058",
+      "category": "science-nature",
+      "question": "What genetic disease is caused by having an extra Y chromosome (XYY)?",
+      "answer": "Jacob's Syndrome",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-059",
+      "category": "science-nature",
+      "question": "Which of the following plastic is commonly used for window frames, gutters and drain pipes?\n\nA) Polyethylene (PE)\nB) Polystyrene (PS)\nC) Polyvinylchloride (PVC) \nD) Polypropylene (PP)",
+      "answer": "Polyvinylchloride (PVC) ",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-060",
+      "category": "science-nature",
+      "question": "What common name is given to the medial condition, tibial stress syndrome (MTSS)?",
+      "answer": "Shin Splints",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-061",
+      "category": "science-nature",
+      "question": "Which of these is used to show that Earth spins on an axis? \n\nA) Foucault Pendulum \nB) Sundial\nC) Polaris\nD) Tectonic Plates ",
+      "answer": "Foucault Pendulum ",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-062",
+      "category": "science-nature",
+      "question": "What is the scientific name of the knee cap?",
+      "answer": "Patella",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-063",
+      "category": "science-nature",
+      "question": "What is the same in Celsius and Fahrenheit?",
+      "answer": "-40",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-064",
+      "category": "science-nature",
+      "question": "It was once believed that injecting shark cartilage into people would prevent them from contracting cancer.",
+      "answer": "True",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-065",
+      "category": "science-nature",
+      "question": "How much radiation does a banana emit?",
+      "answer": "0.1 Microsievert",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-066",
+      "category": "science-nature",
+      "question": "Which of the following is NOT a word used to describe an earthquake?\n\nA) Temblor\nB) Strike-slip\nC) Drop-slide\nD) Foreshock",
+      "answer": "Drop-slide",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-067",
+      "category": "science-nature",
+      "question": "Where in the human body is the Pineal Gland located?",
+      "answer": "Brain",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
       "id": "science-nature-068",
       "category": "science-nature",
-      "question": "What is the name for the auditory illusion of a note that seems to be rising infinitely?",
-      "answer": "Shepard Tone",
+      "question": "What is the molecular formula of Ozone?",
+      "answer": "O3",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-069",
       "category": "science-nature",
-      "question": "Which of the following are cells of the adaptive immune system?\n\nA) Cytotoxic T cells\nB) White blood cells\nC) Dendritic cells\nD) Natural killer cells",
-      "answer": "Cytotoxic T cells",
+      "question": "What is \"Stenoma\"?",
+      "answer": "A genus of moths",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-070",
       "category": "science-nature",
-      "question": "Coulrophobia is the irrational fear of what?",
-      "answer": "Clowns",
+      "question": "What is the standard SI unit for luminous intensity?",
+      "answer": "Candela",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-071",
       "category": "science-nature",
-      "question": "True or false?\n\nThe value of one Calorie is different than the value of one calorie.",
-      "answer": "True",
+      "question": "Which is the chemical name of H2O?",
+      "answer": "Dihydrogen Monoxide",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-072",
       "category": "science-nature",
-      "question": "What nucleotide pairs with guanine?",
-      "answer": "Cytosine",
+      "question": "Frederick Banting and John Macleod won a Nobel Prize for their contributions to the scientific fields of quantum mechanics.",
+      "answer": "False",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-073",
       "category": "science-nature",
-      "question": "True or false?\n\nAlbert Einstein won a noble prize for his theory of relativity.",
-      "answer": "False",
+      "question": "Which of the following is the term for \"surgical complications resulting from surgical sponges left inside the patient's body?\n\nA) Meupareunia\nB) Gossypiboma\nC) Gongoozler\nD) Jentacular",
+      "answer": "Gossypiboma",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-074",
       "category": "science-nature",
-      "question": "Which of the following is NOT a real element?\n\nA) Praseodymium\nB) Hassium\nC) Lutetium\nD) Vitrainium",
-      "answer": "Vitrainium",
+      "question": "The value of one Calorie is different than the value of one calorie.",
+      "answer": "True",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-075",
       "category": "science-nature",
-      "question": "An organic compound is considered an alcohol if it has what functional group?",
-      "answer": "Hydroxyl",
+      "question": "What is the most potent toxin known?",
+      "answer": "Botulinum toxin",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "science-nature-076",
       "category": "science-nature",
-      "question": "What do you call a baby bat?",
-      "answer": "Pup",
+      "question": "Which class of animals are newts members of?",
+      "answer": "Amphibian",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-077",
       "category": "science-nature",
-      "question": "True or false?\n\nA caterpillar has more muscles than humans do.",
+      "question": "The Axolotl is an amphibian that can spend its whole life in a larval state.",
       "answer": "True",
       "difficulty": "easy",
       "points": 1
@@ -623,56 +623,56 @@
     {
       "id": "science-nature-078",
       "category": "science-nature",
-      "question": "True or false?\n\nRabbits are rodents.",
-      "answer": "False",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-079",
-      "category": "science-nature",
-      "question": "True or false?\n\nRabbits are carnivores.",
-      "answer": "False",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-080",
-      "category": "science-nature",
       "question": "What is the name of a rabbit's abode?",
       "answer": "Burrow",
       "difficulty": "easy",
       "points": 1
     },
     {
+      "id": "science-nature-079",
+      "category": "science-nature",
+      "question": "Rabbits can see what's behind themselves without turning their heads.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-080",
+      "category": "science-nature",
+      "question": "Rabbits can't vomit.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
       "id": "science-nature-081",
       "category": "science-nature",
-      "question": "Which of these animals are not real?\n\nA) Giant Squid\nB) Sea Dragon\nC) Tasmanian Devil\nD) Nemean Lion",
-      "answer": "Nemean Lion",
+      "question": "Rabbits are carnivores.",
+      "answer": "False",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-082",
       "category": "science-nature",
-      "question": "How many legs do butterflies have?",
-      "answer": "6",
+      "question": "Zebras are white with black stripes.",
+      "answer": "False",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-083",
       "category": "science-nature",
-      "question": "True or false?\n\nA slug’s blood is green.",
-      "answer": "True",
+      "question": "What is Grumpy Cat's real name?",
+      "answer": "Tardar Sauce",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-084",
       "category": "science-nature",
-      "question": "True or false?\n\nElephants are physically unable to jump.",
-      "answer": "True",
+      "question": "Hippocampus is the Latin name for which marine creature?",
+      "answer": "Seahorse",
       "difficulty": "easy",
       "points": 1
     },
@@ -687,15 +687,15 @@
     {
       "id": "science-nature-086",
       "category": "science-nature",
-      "question": "What is Grumpy Cat's real name?",
-      "answer": "Tardar Sauce",
+      "question": "Which breed of dog is traditionally associated with firefighters?",
+      "answer": "Dalmatians",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-087",
       "category": "science-nature",
-      "question": "True or false?\n\nThe internet browser Firefox is named after the Red Panda.",
+      "question": "A bear does NOT defecate during hibernation. ",
       "answer": "True",
       "difficulty": "easy",
       "points": 1
@@ -703,13 +703,53 @@
     {
       "id": "science-nature-088",
       "category": "science-nature",
-      "question": "True or false?\n\nThe Axolotl is an amphibian that can spend its whole life in a larval state.",
-      "answer": "True",
+      "question": "What do you call a baby bat?",
+      "answer": "Pup",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-089",
+      "category": "science-nature",
+      "question": "The Killer Whale is considered a type of dolphin.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-090",
+      "category": "science-nature",
+      "question": "What is the scientific name for modern day humans?",
+      "answer": "Homo Sapiens",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-091",
+      "category": "science-nature",
+      "question": "Cats have whiskers under their legs.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-092",
+      "category": "science-nature",
+      "question": "Which of these animals are not real?\n\nA) Tasmanian Devil\nB) Sea Dragon\nC) Giant Squid\nD) Nemean Lion",
+      "answer": "Nemean Lion",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-093",
+      "category": "science-nature",
+      "question": "How many teeth does an adult rabbit have?",
+      "answer": "28",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-094",
       "category": "science-nature",
       "question": "The Kākāpō is a large, flightless, nocturnal parrot native to which country?",
       "answer": "New Zealand",
@@ -717,39 +757,15 @@
       "points": 1
     },
     {
-      "id": "science-nature-090",
+      "id": "science-nature-095",
       "category": "science-nature",
-      "question": "Hippocampus is the Latin name for which marine creature?",
-      "answer": "Seahorse",
+      "question": "What is the collective noun for a group of crows?",
+      "answer": "Murder",
       "difficulty": "easy",
       "points": 1
     },
     {
-      "id": "science-nature-091",
-      "category": "science-nature",
-      "question": "What is the fastest  land animal?",
-      "answer": "Cheetah",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-092",
-      "category": "science-nature",
-      "question": "True or false?\n\nA flock of crows is known as a homicide.",
-      "answer": "False",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-093",
-      "category": "science-nature",
-      "question": "Which class of animals are newts members of?",
-      "answer": "Amphibian",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-094",
+      "id": "science-nature-096",
       "category": "science-nature",
       "question": "By definition, where does an abyssopelagic animal live?",
       "answer": "At the bottom of the ocean",
@@ -757,95 +773,39 @@
       "points": 1
     },
     {
-      "id": "science-nature-095",
-      "category": "science-nature",
-      "question": "True or false?\n\nCats have whiskers under their legs.",
-      "answer": "True",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "science-nature-096",
-      "category": "science-nature",
-      "question": "Which breed of dog is traditionally associated with firefighters?",
-      "answer": "Dalmatians",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": "science-nature-097",
       "category": "science-nature",
-      "question": "True or false?\n\nIn 2016, the IUCN reclassified the status of Giant Pandas from endangered to vulnerable.",
-      "answer": "True",
+      "question": "Rabbits are rodents.",
+      "answer": "False",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-098",
       "category": "science-nature",
-      "question": "True or false?\n\nZebras are white with black stripes.",
-      "answer": "False",
+      "question": "What color is a Steller's Jay?",
+      "answer": "blue and black",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-099",
       "category": "science-nature",
-      "question": "What colour is the female blackbird?",
-      "answer": "Brown",
+      "question": "The freshwater amphibian, the Axolotl, can regrow it's limbs.",
+      "answer": "True",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-100",
       "category": "science-nature",
-      "question": "Which is the national animal of India?",
-      "answer": "Tiger",
+      "question": "The internet browser Firefox is named after the Red Panda.",
+      "answer": "True",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "science-nature-101",
-      "category": "science-nature",
-      "question": "What color/colour is a polar bear's skin?",
-      "answer": "Black",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-102",
-      "category": "science-nature",
-      "question": "True or false?\n\nSea sponges can have hearts.",
-      "answer": "False",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-103",
-      "category": "science-nature",
-      "question": "What is the world's longest venomous snake?",
-      "answer": "King Cobra",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-104",
-      "category": "science-nature",
-      "question": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
-      "answer": "Nuts",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-105",
-      "category": "science-nature",
-      "question": "What does \"hippopotamus\" mean and in what langauge?",
-      "answer": "River Horse (Greek)",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-106",
       "category": "science-nature",
       "question": "What type of animal is a natterjack?",
       "answer": "Toad",
@@ -853,87 +813,39 @@
       "points": 2
     },
     {
-      "id": "science-nature-107",
+      "id": "science-nature-102",
       "category": "science-nature",
-      "question": "True or false?\n\nThe Platypus is a mammal.",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-108",
-      "category": "science-nature",
-      "question": "Which of the following is true when alligators are behaving territorially?\n\nA) They bellow while showing their tail and neck\nB) They run full force at the threat\nC) Slap their tails on the ground\nD) Open their jaws while making a clicking noise",
-      "answer": "They bellow while showing their tail and neck",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-109",
-      "category": "science-nature",
-      "question": "True or false?\n\n\"Kamea,\" the Gilbertese Islander word for dog, is derived from the English phrase \"Come here!\"",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-110",
-      "category": "science-nature",
-      "question": "What is the collective noun for rats?",
-      "answer": "Mischief",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-111",
-      "category": "science-nature",
-      "question": "The dish Fugu, is made from what family of fish?",
-      "answer": "Pufferfish",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-112",
-      "category": "science-nature",
-      "question": "True or false?\n\nTigers have one colour of skin despite the stripey fur.",
+      "question": "Tigers have one colour of skin despite the stripey fur.",
       "answer": "False",
       "difficulty": "medium",
       "points": 2
     },
     {
-      "id": "science-nature-113",
+      "id": "science-nature-103",
       "category": "science-nature",
-      "question": "What is the average lifespan of a domestic rabbit?",
-      "answer": "8-12 years",
+      "question": "The Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is also known to be a decendent of the Tyrannosaurus Rex.",
+      "answer": "False",
       "difficulty": "medium",
       "points": 2
     },
     {
-      "id": "science-nature-114",
+      "id": "science-nature-104",
       "category": "science-nature",
-      "question": "True or false?\n\nHyenas are more closely related to cats than to dogs.",
+      "question": "\"Kamea,\" the Gilbertese Islander word for dog, is derived from the English phrase \"Come here!\"",
       "answer": "True",
       "difficulty": "medium",
       "points": 2
     },
     {
-      "id": "science-nature-115",
+      "id": "science-nature-105",
       "category": "science-nature",
-      "question": "For what reason would a spotted hyena \"laugh\"?",
-      "answer": "Nervousness",
+      "question": "What is the scientific name of the Common Chimpanzee?",
+      "answer": "Pan troglodytes",
       "difficulty": "medium",
       "points": 2
     },
     {
-      "id": "science-nature-116",
-      "category": "science-nature",
-      "question": "Which of these species is not extinct?\n\nA) Tasmanian tiger\nB) Komodo dragon\nC) Saudi gazelle\nD) Japanese sea lion",
-      "answer": "Komodo dragon",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-117",
+      "id": "science-nature-106",
       "category": "science-nature",
       "question": "What is the name of the family that the domestic cat is a member of?",
       "answer": "Felidae",
@@ -941,47 +853,7 @@
       "points": 2
     },
     {
-      "id": "science-nature-118",
-      "category": "science-nature",
-      "question": "True or false?\n\nThe \"mountain chicken\" is a chicken.",
-      "answer": "False",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-119",
-      "category": "science-nature",
-      "question": "\"Decapods\" are an order of ten-footed crustaceans.  Which of these are NOT decapods?\n\nA) Shrimp\nB) Crabs\nC) Lobsters\nD) Krill",
-      "answer": "Krill",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-120",
-      "category": "science-nature",
-      "question": "What is the national bird of Bahrain?",
-      "answer": "Bulbul",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-121",
-      "category": "science-nature",
-      "question": "What is the scientific name for the \"Polar Bear\"?",
-      "answer": "Ursus Maritimus",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-122",
-      "category": "science-nature",
-      "question": "True or false?\n\nThe average lifespan of a wildcat is only around 5-6 years. ",
-      "answer": "False",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "science-nature-123",
+      "id": "science-nature-107",
       "category": "science-nature",
       "question": "What is the name for a male bee that comes from an unfertilized egg?",
       "answer": "Drone",
@@ -989,15 +861,71 @@
       "points": 2
     },
     {
-      "id": "science-nature-124",
+      "id": "science-nature-108",
       "category": "science-nature",
-      "question": "True or false?\n\nOtters have pockets under their arms for carrying their favourite snacks and rocks.",
+      "question": "What is the common term for bovine spongiform encephalopathy (BSE)?",
+      "answer": "Mad Cow disease",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-109",
+      "category": "science-nature",
+      "question": "What is the collective noun for bears?",
+      "answer": "Sloth",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-110",
+      "category": "science-nature",
+      "question": "What color/colour is a polar bear's skin?",
+      "answer": "Black",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-111",
+      "category": "science-nature",
+      "question": "Finnish Lapphund dogs were used for herding reindeer.",
       "answer": "True",
       "difficulty": "medium",
       "points": 2
     },
     {
-      "id": "science-nature-125",
+      "id": "science-nature-112",
+      "category": "science-nature",
+      "question": "Sea sponges can have hearts.",
+      "answer": "False",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-113",
+      "category": "science-nature",
+      "question": "Which of these species is not extinct?\n\nA) Saudi gazelle\nB) Komodo dragon\nC) Japanese sea lion\nD) Tasmanian tiger",
+      "answer": "Komodo dragon",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-114",
+      "category": "science-nature",
+      "question": "Which of the following is NOT a venomous snake?\n\nA) Reticulated python\nB) Malayan Krait\nC) Black mamba\nD) Yellow bellied sea snake",
+      "answer": "Reticulated python",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-115",
+      "category": "science-nature",
+      "question": "Which of the following is true when alligators are behaving territorially?\n\nA) They run full force at the threat\nB) They bellow while showing their tail and neck\nC) Open their jaws while making a clicking noise\nD) Slap their tails on the ground",
+      "answer": "They bellow while showing their tail and neck",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-116",
       "category": "science-nature",
       "question": "Which dog breed is named after a region in Croatia",
       "answer": "Dalmatian",
@@ -1005,15 +933,79 @@
       "points": 2
     },
     {
-      "id": "science-nature-126",
+      "id": "science-nature-117",
       "category": "science-nature",
-      "question": "Which of these is a colony of polyps and not a jellyfish?\n\nA) Portuguese Man-of-War\nB) Sea Nettle\nC) Irukandji\nD) Sea Wasp",
-      "answer": "Portuguese Man-of-War",
-      "difficulty": "hard",
-      "points": 3
+      "question": "The dish Fugu, is made from what family of fish?",
+      "answer": "Pufferfish",
+      "difficulty": "medium",
+      "points": 2
     },
     {
-      "id": "science-nature-127",
+      "id": "science-nature-118",
+      "category": "science-nature",
+      "question": "An octopus can fit through any hole larger than its beak.",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-119",
+      "category": "science-nature",
+      "question": "What is the national bird of Bahrain?",
+      "answer": "Bulbul",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-120",
+      "category": "science-nature",
+      "question": "What are rhino's horn made of?",
+      "answer": "Keratin",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-121",
+      "category": "science-nature",
+      "question": "For what reason would a spotted hyena \"laugh\"?",
+      "answer": "Nervousness",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-122",
+      "category": "science-nature",
+      "question": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
+      "answer": "Nuts",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-123",
+      "category": "science-nature",
+      "question": "What is the collective noun for rats?",
+      "answer": "Mischief",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-124",
+      "category": "science-nature",
+      "question": "What are the scales on all snakes and most lizards are made of?",
+      "answer": "Keratin",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-125",
+      "category": "science-nature",
+      "question": "\"Decapods\" are an order of ten-footed crustaceans.  Which of these are NOT decapods?\n\nA) Shrimp\nB) Krill\nC) Crabs\nD) Lobsters",
+      "answer": "Krill",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-126",
       "category": "science-nature",
       "question": "To which biological phylum do all mammals, birds and reptiles belong?",
       "answer": "Chordata",
@@ -1021,111 +1013,7 @@
       "points": 3
     },
     {
-      "id": "science-nature-128",
-      "category": "science-nature",
-      "question": "What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?",
-      "answer": "Hemocyanin",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-129",
-      "category": "science-nature",
-      "question": "What is the average amount of chinchillas born into a single litter?",
-      "answer": "2-3",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-130",
-      "category": "science-nature",
-      "question": "Which species of Brown Bear is not extinct?",
-      "answer": "Syrian Brown Bear",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-131",
-      "category": "science-nature",
-      "question": "What scientific suborder does the family Hyaenidae belong to?",
-      "answer": "Feliformia",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-132",
-      "category": "science-nature",
-      "question": "Chronic Wasting Disease (CWD) exclusively infects members of which family of animals?",
-      "answer": "Cervids",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-133",
-      "category": "science-nature",
-      "question": "What is the scientific name of the Budgerigar?",
-      "answer": "Melopsittacus undulatus",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-134",
-      "category": "science-nature",
-      "question": "What is the Gray Wolf's scientific name?",
-      "answer": "Canis Lupus",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-135",
-      "category": "science-nature",
-      "question": "What is the collective noun for vultures?",
-      "answer": "Wake",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-136",
-      "category": "science-nature",
-      "question": "Which of the following is another name for the \"Poecilotheria Metallica Tarantula\"?\n\nA) Silver Stripe\nB) Hopper\nC) Woebegone\nD) Gooty",
-      "answer": "Gooty",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-137",
-      "category": "science-nature",
-      "question": "What bird is born with claws on its wing digits?",
-      "answer": "Hoatzin",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-138",
-      "category": "science-nature",
-      "question": "Which species is a \"mountain chicken\"?",
-      "answer": "Frog",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-139",
-      "category": "science-nature",
-      "question": "Unlike on most salamanders, this part of a newt is flat?",
-      "answer": "Tail",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-140",
-      "category": "science-nature",
-      "question": "What is the scientific name of the cheetah?",
-      "answer": "Acinonyx jubatus",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "science-nature-141",
+      "id": "science-nature-127",
       "category": "science-nature",
       "question": "What scientific family does the Aardwolf belong to?",
       "answer": "Hyaenidae",
@@ -1133,31 +1021,47 @@
       "points": 3
     },
     {
-      "id": "science-nature-142",
+      "id": "science-nature-128",
       "category": "science-nature",
-      "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
-      "answer": "Simien Jackel",
+      "question": "Which species is a \"mountain chicken\"?",
+      "answer": "Frog",
       "difficulty": "hard",
       "points": 3
     },
     {
-      "id": "science-nature-143",
+      "id": "science-nature-129",
       "category": "science-nature",
-      "question": "Which of these animals is NOT a lizard?\n\nA) Komodo Dragon\nB) Gila Monster\nC) Green Iguana\nD) Tuatara",
-      "answer": "Tuatara",
+      "question": "What bird is born with claws on its wing digits?",
+      "answer": "Hoatzin",
       "difficulty": "hard",
       "points": 3
     },
     {
-      "id": "science-nature-144",
+      "id": "science-nature-130",
       "category": "science-nature",
-      "question": "How many known living species of hyenas are there?",
-      "answer": "4",
+      "question": "Which of the following is another name for the \"Poecilotheria Metallica Tarantula\"?\n\nA) Gooty\nB) Hopper\nC) Silver Stripe\nD) Woebegone",
+      "answer": "Gooty",
       "difficulty": "hard",
       "points": 3
     },
     {
-      "id": "science-nature-145",
+      "id": "science-nature-131",
+      "category": "science-nature",
+      "question": "Which species of Brown Bear is not extinct?",
+      "answer": "Syrian Brown Bear",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-132",
+      "category": "science-nature",
+      "question": "What is the Gray Wolf's scientific name?",
+      "answer": "Canis Lupus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-133",
       "category": "science-nature",
       "question": "What is the scientific name for the Bald Eagle?",
       "answer": "Haliaeetus Leucocephalus ",
@@ -1165,10 +1069,106 @@
       "points": 3
     },
     {
-      "id": "science-nature-146",
+      "id": "science-nature-134",
+      "category": "science-nature",
+      "question": "Chronic Wasting Disease (CWD) exclusively infects members of which family of animals?",
+      "answer": "Cervids",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-135",
+      "category": "science-nature",
+      "question": "What is the scientific name of the Budgerigar?",
+      "answer": "Melopsittacus undulatus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-136",
+      "category": "science-nature",
+      "question": "Which of these is a colony of polyps and not a jellyfish?\n\nA) Portuguese Man-of-War\nB) Sea Wasp\nC) Irukandji\nD) Sea Nettle",
+      "answer": "Portuguese Man-of-War",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-137",
+      "category": "science-nature",
+      "question": "What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?",
+      "answer": "Hemocyanin",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-138",
+      "category": "science-nature",
+      "question": "Which of these animals is NOT a lizard?\n\nA) Green Iguana\nB) Gila Monster\nC) Komodo Dragon\nD) Tuatara",
+      "answer": "Tuatara",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-139",
+      "category": "science-nature",
+      "question": "What scientific suborder does the family Hyaenidae belong to?",
+      "answer": "Feliformia",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-140",
+      "category": "science-nature",
+      "question": "Unlike on most salamanders, this part of a newt is flat?",
+      "answer": "Tail",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-141",
+      "category": "science-nature",
+      "question": "How many known living species of hyenas are there?",
+      "answer": "4",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-142",
+      "category": "science-nature",
+      "question": "What is the collective noun for vultures?",
+      "answer": "Wake",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-143",
+      "category": "science-nature",
+      "question": "What is the average amount of chinchillas born into a single litter?",
+      "answer": "2-3",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-144",
       "category": "science-nature",
       "question": "What type of creature is a Bonobo?",
       "answer": "Ape",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-145",
+      "category": "science-nature",
+      "question": "What is the scientific name of the cheetah?",
+      "answer": "Acinonyx jubatus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-146",
+      "category": "science-nature",
+      "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
+      "answer": "Simien Jackel",
       "difficulty": "hard",
       "points": 3
     }
