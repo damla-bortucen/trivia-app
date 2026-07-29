@@ -8,6 +8,7 @@ import scienceNature from "@/assets/packs/science-nature.json";
 import sports from "@/assets/packs/sports.json";
 import mythology from "@/assets/packs/mythology.json";
 import art from "@/assets/packs/art.json";
+import foodDrink from "@/assets/packs/food-drink.json";
 
 const PACKS = [
     entertainment,
@@ -18,6 +19,7 @@ const PACKS = [
     sports,
     mythology,
     art,
+    foodDrink,
 ] as Pack[];
 
 export const MAX_PACKS = 6;

@@ -7,69 +7,45 @@
     {
       "id": "food-drink-001",
       "category": "food-drink",
-      "question": "Which country is paella from?",
-      "answer": "Spain",
+      "question": "What grain is used to make traditional Japanese sake?",
+      "answer": "rice",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-002",
       "category": "food-drink",
-      "question": "What is quick cooking while tossing in a very hot wok called?",
-      "answer": "stir-frying",
+      "question": "What is the main ingredient in guacamole?",
+      "answer": "avocado",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-003",
       "category": "food-drink",
-      "question": "What is the fat-and-flour paste used to thicken sauces called?",
-      "answer": "roux",
+      "question": "Which country is paella most associated with?",
+      "answer": "Spain",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-004",
       "category": "food-drink",
-      "question": "Which country did the croissant originate in?\n\nA) France\nB) Austria\nC) Italy\nD) Turkey",
-      "answer": "Austria",
+      "question": "What dairy product is the base of tzatziki?",
+      "answer": "yogurt",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-005",
       "category": "food-drink",
-      "question": "What compound gives tonic water its bitterness?",
-      "answer": "quinine",
+      "question": "What cooking method means quickly frying in a little oil while stirring?",
+      "answer": "stir-frying",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-006",
-      "category": "food-drink",
-      "question": "What ingredient makes sherbet different from sorbet?",
-      "answer": "dairy",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "food-drink-007",
-      "category": "food-drink",
-      "question": "What do you call cooking food sealed in a bag in a precisely heated water bath?",
-      "answer": "sous vide",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "food-drink-008",
-      "category": "food-drink",
-      "question": "What are raw fish slices served without rice called?",
-      "answer": "sashimi",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "food-drink-009",
       "category": "food-drink",
       "question": "What herb is essential in classic pesto Genovese?",
       "answer": "basil",
@@ -77,7 +53,39 @@
       "points": 1
     },
     {
+      "id": "food-drink-007",
+      "category": "food-drink",
+      "question": "What gives a modern red velvet cake its red color?",
+      "answer": "red food coloring",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "food-drink-008",
+      "category": "food-drink",
+      "question": "What is the national dish of Scotland made from sheep offal and oats?",
+      "answer": "haggis",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "food-drink-009",
+      "category": "food-drink",
+      "question": "What spirit is used in a classic mojito?",
+      "answer": "rum",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
       "id": "food-drink-010",
+      "category": "food-drink",
+      "question": "What hard cheese is traditionally used on cacio e pepe?",
+      "answer": "Pecorino Romano",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "food-drink-011",
       "category": "food-drink",
       "question": "Which country is sushi from?",
       "answer": "Japan",
@@ -85,962 +93,1114 @@
       "points": 1
     },
     {
-      "id": "food-drink-011",
-      "category": "food-drink",
-      "question": "What famous Korean fermented cabbage dish is this?",
-      "answer": "kimchi",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": "food-drink-012",
       "category": "food-drink",
-      "question": "What are Spanish bar snacks served with drinks called?",
-      "answer": "tapas",
+      "question": "What legume is hummus primarily made from?",
+      "answer": "chickpeas",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-013",
       "category": "food-drink",
-      "question": "What is the creamy Italian rice dish made by gradually adding stock called?",
-      "answer": "risotto",
+      "question": "What is the main starch in polenta?",
+      "answer": "cornmeal",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-014",
       "category": "food-drink",
-      "question": "What are the dried seaweed sheets used to wrap sushi rolls called?",
-      "answer": "nori",
+      "question": "What gas is produced by yeast to make bread rise?",
+      "answer": "carbon dioxide",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-015",
       "category": "food-drink",
-      "question": "What Middle Eastern spread is made primarily from chickpeas and tahini?",
-      "answer": "hummus",
+      "question": "What seaweed is used to wrap sushi rolls?",
+      "answer": "nori",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-016",
       "category": "food-drink",
-      "question": "What Italian dessert layers coffee-soaked ladyfingers with mascarpone?",
-      "answer": "tiramisu",
+      "question": "What Italian term describes pasta cooked 'to the tooth'?",
+      "answer": "al dente",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-017",
       "category": "food-drink",
-      "question": "What root vegetable gives borscht its deep red color?",
-      "answer": "beetroot",
+      "question": "Which country are tacos traditional to?",
+      "answer": "Mexico",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-018",
       "category": "food-drink",
-      "question": "What term describes pasta cooked until just firm to the bite?",
-      "answer": "al dente",
+      "question": "What is the main ingredient of tofu?",
+      "answer": "soybeans",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-019",
       "category": "food-drink",
-      "question": "What is the technique of adding liquid to dissolve browned bits in a pan?",
-      "answer": "deglazing",
+      "question": "What cooking method submerges food in hot fat?",
+      "answer": "deep-frying",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-020",
       "category": "food-drink",
-      "question": "What Japanese alcoholic drink is brewed from rice?",
-      "answer": "sake",
+      "question": "Pho is a national dish of which country?",
+      "answer": "Vietnam",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-021",
       "category": "food-drink",
-      "question": "What Mexican dip is made by mashing avocados with lime and salt?",
-      "answer": "guacamole",
+      "question": "What spice often gives Indian pilaf its bright yellow color?",
+      "answer": "turmeric",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-022",
       "category": "food-drink",
-      "question": "What Swiss dish involves eating melted cheese with bread?",
-      "answer": "fondue",
+      "question": "What is couscous traditionally made from?",
+      "answer": "semolina",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-023",
       "category": "food-drink",
-      "question": "What Japanese cooking method coats foods in a light batter before deep-frying?",
-      "answer": "tempura",
+      "question": "What is the base ingredient in tahini?",
+      "answer": "sesame seeds",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-024",
       "category": "food-drink",
-      "question": "Which spice is made from the hand-picked stigmas of crocus flowers?",
-      "answer": "saffron",
+      "question": "Which country is feta cheese originally from?",
+      "answer": "Greece",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-025",
       "category": "food-drink",
-      "question": "What Italian cured pork belly used to flavor pasta and sauces is called?",
-      "answer": "pancetta",
+      "question": "Which dairy product is churned to make butter?",
+      "answer": "cream",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-026",
       "category": "food-drink",
-      "question": "What protein network gives bread its chewy texture?",
-      "answer": "gluten",
+      "question": "What chili paste is essential in many Korean dishes like bibimbap?",
+      "answer": "gochujang",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-027",
       "category": "food-drink",
-      "question": "What Peruvian dish “cooks” raw fish in citrus juice?",
-      "answer": "ceviche",
+      "question": "What is the Japanese word for skewered grilled chicken?",
+      "answer": "yakitori",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-028",
       "category": "food-drink",
-      "question": "What Italian thinly sliced dry-cured ham is often served with melon?",
-      "answer": "prosciutto",
+      "question": "What vegetable is fermented to make sauerkraut?",
+      "answer": "cabbage",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-029",
       "category": "food-drink",
-      "question": "What chilled blended Spanish soup is made from tomatoes and vegetables?",
-      "answer": "gazpacho",
+      "question": "Which country gave its name to cheddar cheese?",
+      "answer": "England",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-030",
       "category": "food-drink",
-      "question": "What Indian flatbread is baked on the walls of a tandoor?",
-      "answer": "naan",
+      "question": "What technique cooks vacuum-sealed food in a precise water bath?",
+      "answer": "sous vide",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-031",
       "category": "food-drink",
-      "question": "What Japanese noodles are made from buckwheat?",
-      "answer": "soba",
+      "question": "What fruit is dried to make prunes?",
+      "answer": "plums",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-032",
       "category": "food-drink",
-      "question": "What herb flavors classic Béarnaise sauce?",
-      "answer": "tarragon",
+      "question": "What kind of milk makes mozzarella di bufala?",
+      "answer": "buffalo milk",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-033",
       "category": "food-drink",
-      "question": "What classic white sauce is made from butter, flour, and milk?",
-      "answer": "bechamel",
+      "question": "Which country is currywurst associated with?",
+      "answer": "Germany",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-034",
       "category": "food-drink",
-      "question": "In French cooking, what is the chopped onion, carrot, and celery base called?",
-      "answer": "mirepoix",
+      "question": "What emulsion of egg yolk and oil is used in sandwiches?",
+      "answer": "mayonnaise",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-035",
       "category": "food-drink",
-      "question": "What Italian-style ice cream is denser and silkier than American ice cream?",
-      "answer": "gelato",
+      "question": "What flatbread baked in a tandoor is common with Indian curries?",
+      "answer": "naan",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-036",
       "category": "food-drink",
-      "question": "What paste is made from ground sesame seeds, used in hummus?",
-      "answer": "tahini",
+      "question": "What cheese is traditional on a Margherita pizza?",
+      "answer": "mozzarella",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-037",
       "category": "food-drink",
-      "question": "What French dish consists of snails baked with garlic-parsley butter?",
-      "answer": "escargot",
+      "question": "What Japanese stock is made from kelp and bonito flakes?",
+      "answer": "dashi",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-038",
       "category": "food-drink",
-      "question": "What fermented soybean paste flavors many Japanese soups?",
-      "answer": "miso",
+      "question": "Which country is goulash traditionally associated with?",
+      "answer": "Hungary",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-039",
       "category": "food-drink",
-      "question": "What spice colors many curries and “golden milk” bright yellow?",
-      "answer": "turmeric",
+      "question": "What herb is the main green in chimichurri?",
+      "answer": "parsley",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-040",
       "category": "food-drink",
-      "question": "What Mexican tortilla folded and grilled with melted cheese is called?",
-      "answer": "quesadilla",
+      "question": "What tropical seed is processed to make chocolate?",
+      "answer": "cacao",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-041",
       "category": "food-drink",
-      "question": "What dish is made of very thin raw beef slices dressed with lemon and olive oil?",
-      "answer": "carpaccio",
+      "question": "What spirit is the defining alcohol in a Bloody Mary?",
+      "answer": "vodka",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-042",
       "category": "food-drink",
-      "question": "What Scottish dish is made from oatmeal and sheep offal in a casing?",
-      "answer": "haggis",
+      "question": "What French term means a bundle of herbs for soup?",
+      "answer": "bouquet garni",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-043",
       "category": "food-drink",
-      "question": "What knife cut stacks leaves then slices into thin ribbons?",
-      "answer": "chiffonade",
+      "question": "Which country is most associated with maple syrup?",
+      "answer": "Canada",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-044",
       "category": "food-drink",
-      "question": "What hand-pressed sushi topping of fish over rice is called?",
-      "answer": "nigiri",
+      "question": "What Thai noodle dish is flavored with tamarind and peanuts?",
+      "answer": "pad thai",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-045",
       "category": "food-drink",
-      "question": "What Greek dip is made of yogurt, cucumber, garlic, and dill?",
-      "answer": "tzatziki",
+      "question": "What dairy ingredient is paneer made from?",
+      "answer": "milk",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-046",
       "category": "food-drink",
-      "question": "What spirit is the base of a classic Margarita?",
-      "answer": "tequila",
+      "question": "What vinegar is traditionally sprinkled on fish and chips?",
+      "answer": "malt vinegar",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-047",
       "category": "food-drink",
-      "question": "What starch makes the chewy pearls in bubble tea?",
-      "answer": "tapioca",
+      "question": "What cooking method gently cooks food in barely simmering liquid?",
+      "answer": "poaching",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-048",
       "category": "food-drink",
-      "question": "What coarse Japanese breadcrumb is used for crisp frying?",
-      "answer": "panko",
+      "question": "What technique briefly boils vegetables then shocks them in ice water?",
+      "answer": "blanching",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-049",
       "category": "food-drink",
-      "question": "What Vietnamese baguette sandwich with pickles and meats is called?",
-      "answer": "banh mi",
+      "question": "What mixture of fat and flour thickens sauces?",
+      "answer": "roux",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-050",
       "category": "food-drink",
-      "question": "Which shellfish was once poor people’s food in New England but is now a luxury?",
-      "answer": "lobster",
+      "question": "What cut of raw fish over rice is called in Japan?",
+      "answer": "nigiri",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "food-drink-051",
       "category": "food-drink",
-      "question": "Which country is pho from?",
-      "answer": "Vietnam",
+      "question": "Which country did the croissant originate in?\n\nA) France\nB) Austria\nC) Italy\nD) Turkey",
+      "answer": "Austria",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-052",
       "category": "food-drink",
-      "question": "Which herb is the primary base of Argentine chimichurri?",
-      "answer": "parsley",
+      "question": "Which ingredient distinguishes a martini from a vodka martini?",
+      "answer": "gin",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-053",
       "category": "food-drink",
-      "question": "What ingredient defines traditional aioli compared to mayonnaise?",
-      "answer": "garlic",
+      "question": "Which country drinks the most tea per capita?\n\nA) China\nB) United Kingdom\nC) Turkey\nD) India",
+      "answer": "Turkey",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-054",
       "category": "food-drink",
-      "question": "Falafel is made primarily from which legume?",
-      "answer": "chickpeas",
+      "question": "Which Italian region is ragù alla bolognese from?",
+      "answer": "Emilia-Romagna",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-055",
       "category": "food-drink",
-      "question": "What vegetable is the main ingredient in baba ghanoush?",
-      "answer": "eggplant",
+      "question": "What tiny grain makes Ethiopian injera spongy?",
+      "answer": "teff",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-056",
       "category": "food-drink",
-      "question": "Which country drinks the most coffee per capita?\n\nA) Italy\nB) Finland\nC) USA\nD) Brazil",
-      "answer": "Finland",
+      "question": "Which cheese must legally be aged in the caves of Roquefort-sur-Soulzon?",
+      "answer": "Roquefort",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-057",
       "category": "food-drink",
-      "question": "By law, Scotch whisky must be aged at least how long?",
-      "answer": "three years",
+      "question": "What Japanese breaded deep-fried cutlet is called?",
+      "answer": "katsu",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-058",
       "category": "food-drink",
-      "question": "By U.S. law, what minimum corn percentage defines bourbon?",
-      "answer": "51%",
+      "question": "Which country did vindaloo originate in before India?\n\nA) Portugal\nB) Spain\nC) Persia\nD) Netherlands",
+      "answer": "Portugal",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-059",
       "category": "food-drink",
-      "question": "Chianti must be made primarily from which grape?",
-      "answer": "Sangiovese",
+      "question": "What physical process with salt draws water from cabbage to make sauerkraut?",
+      "answer": "osmosis",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-060",
       "category": "food-drink",
-      "question": "Poutine originated in which Canadian province?",
-      "answer": "Quebec",
+      "question": "Which Japanese noodles are made primarily from buckwheat flour?",
+      "answer": "soba",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-061",
       "category": "food-drink",
-      "question": "What mold starter saccharifies rice in Japanese brewing?",
-      "answer": "koji",
+      "question": "Which spice gives Spanish chorizo its red color?",
+      "answer": "paprika",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-062",
       "category": "food-drink",
-      "question": "In Cajun cooking’s “holy trinity,” which vegetable replaces carrot?",
-      "answer": "bell pepper",
+      "question": "Which country is ceviche most associated with?",
+      "answer": "Peru",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-063",
       "category": "food-drink",
-      "question": "Tonkotsu ramen broth is made by boiling which animal’s bones?",
-      "answer": "pork",
+      "question": "What gelling agent from seaweed is used instead of gelatin in vegan desserts?",
+      "answer": "agar-agar",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-064",
       "category": "food-drink",
-      "question": "Which bitter liqueur is essential in a Negroni?",
-      "answer": "Campari",
+      "question": "Which country is most often credited with originating jollof rice?\n\nA) Nigeria\nB) Senegal\nC) Ghana\nD) Liberia",
+      "answer": "Senegal",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-065",
       "category": "food-drink",
-      "question": "What spice gives Jamaican jerk its signature flavor?",
-      "answer": "allspice",
+      "question": "What herb distinguishes Béarnaise sauce from Hollandaise?",
+      "answer": "tarragon",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-066",
       "category": "food-drink",
-      "question": "Most laksa broths are enriched with what ingredient?",
-      "answer": "coconut milk",
+      "question": "Which milk is used for traditional Manchego cheese?",
+      "answer": "sheep's milk",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-067",
       "category": "food-drink",
-      "question": "Traditional clafoutis features which fruit?",
-      "answer": "cherries",
+      "question": "What alkaline solution gives ramen noodles their springiness?",
+      "answer": "kansui",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-068",
       "category": "food-drink",
-      "question": "Feta is made primarily from which animal’s milk?",
-      "answer": "sheep milk",
+      "question": "Which European country introduced the technique that became Japanese tempura?",
+      "answer": "Portugal",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-069",
       "category": "food-drink",
-      "question": "Halloumi originated in which country?",
-      "answer": "Cyprus",
+      "question": "Which country drinks the most coffee per capita?\n\nA) United States\nB) Italy\nC) Finland\nD) Brazil",
+      "answer": "Finland",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-070",
       "category": "food-drink",
-      "question": "Shakshuka originated in which region?",
-      "answer": "North Africa",
+      "question": "Which fungus ripens many blue cheeses and produces blue veins?",
+      "answer": "Penicillium roqueforti",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-071",
       "category": "food-drink",
-      "question": "Where is chicken tikka masala widely believed to have been created?\n\nA) Delhi\nB) Glasgow\nC) London\nD) Karachi",
-      "answer": "Glasgow",
+      "question": "What fermented mold culture converts rice to sugar for sake?",
+      "answer": "koji",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-072",
       "category": "food-drink",
-      "question": "Chili con carne originated in which country?",
-      "answer": "United States",
+      "question": "What cured pork is wrapped around saltimbocca alla Romana?",
+      "answer": "prosciutto",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-073",
       "category": "food-drink",
-      "question": "Botanically, peanuts are what type of plant?",
-      "answer": "legume",
+      "question": "Which Italian dessert name translates to 'pick me up'?",
+      "answer": "tiramisu",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-074",
       "category": "food-drink",
-      "question": "Pierogi are most associated with which country?",
-      "answer": "Poland",
+      "question": "Which pepper gives Nashville hot chicken its heat?",
+      "answer": "cayenne",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-075",
       "category": "food-drink",
-      "question": "Arepas are made primarily from which grain?",
-      "answer": "corn",
+      "question": "Which country is bánh mì a staple street food of?",
+      "answer": "Vietnam",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-076",
       "category": "food-drink",
-      "question": "Tabbouleh uses which cracked wheat product?",
-      "answer": "bulgur",
+      "question": "Which French port city is bouillabaisse associated with?",
+      "answer": "Marseille",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-077",
       "category": "food-drink",
-      "question": "The Indian yogurt side dish with cucumber and spices is called what?",
-      "answer": "raita",
+      "question": "Which flour is used to make gnocchi alla Romana?",
+      "answer": "semolina",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-078",
       "category": "food-drink",
-      "question": "Sicilian caponata’s star vegetable is what?",
-      "answer": "eggplant",
+      "question": "What meat is traditional for Wiener schnitzel?",
+      "answer": "veal",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-079",
       "category": "food-drink",
-      "question": "Flammkuchen is from which region?",
-      "answer": "Alsace",
+      "question": "What thin pancakes are served in Russia with caviar?",
+      "answer": "blini",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-080",
       "category": "food-drink",
-      "question": "Where was the Caesar salad created?\n\nA) New York\nB) Paris\nC) Tijuana\nD) Rome",
-      "answer": "Tijuana",
+      "question": "What Moroccan stew is named for the conical pot it cooks in?",
+      "answer": "tagine",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-081",
       "category": "food-drink",
-      "question": "What ingredient gives pasta alla puttanesca its savory punch?",
-      "answer": "anchovies",
+      "question": "Which Indian flatbread is flaky from being layered and folded?",
+      "answer": "paratha",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-082",
       "category": "food-drink",
-      "question": "Feijoada is the national dish of which country?",
-      "answer": "Brazil",
+      "question": "What citrus fruit is muddled in a caipirinha?",
+      "answer": "lime",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-083",
       "category": "food-drink",
-      "question": "A tagine is most associated with which country?",
-      "answer": "Morocco",
+      "question": "Which smoked fish is used in Scottish Cullen skink?",
+      "answer": "haddock",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-084",
       "category": "food-drink",
-      "question": "Spanakopita is filled mainly with what vegetable?",
-      "answer": "spinach",
+      "question": "Botanically, peanuts belong to what plant family?",
+      "answer": "legumes",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-085",
       "category": "food-drink",
-      "question": "The savory Japanese cabbage pancake is called what?",
-      "answer": "okonomiyaki",
+      "question": "What sweet red bean paste fills many Japanese desserts?",
+      "answer": "anko",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-086",
       "category": "food-drink",
-      "question": "What preservation method stores cooked meat submerged under its own fat?",
-      "answer": "confit",
+      "question": "Which country is feijoada most associated with?",
+      "answer": "Brazil",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-087",
       "category": "food-drink",
-      "question": "The Peruvian purple corn drink is called what?",
-      "answer": "chicha morada",
+      "question": "What alkaline process turns maize into nixtamal for tortillas?",
+      "answer": "nixtamalization",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-088",
       "category": "food-drink",
-      "question": "The Ethiopian spice blend featuring chilies, cumin, and fenugreek is what?",
-      "answer": "berbere",
+      "question": "What aromatic long-grain rice from India is prized for fragrance?",
+      "answer": "basmati",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-089",
       "category": "food-drink",
-      "question": "The Mexican sauce family thickened with seeds and chilies is called what?",
-      "answer": "mole",
+      "question": "Which island nation is the cheese halloumi from?",
+      "answer": "Cyprus",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-090",
       "category": "food-drink",
-      "question": "The Colombian soup with chicken and potatoes flavored with guascas is what?",
-      "answer": "ajiaco",
+      "question": "What fatty tuna cut is most prized for sushi?",
+      "answer": "otoro",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-091",
       "category": "food-drink",
-      "question": "What basket-like tool is used in Chinese kitchens for steaming dumplings?",
-      "answer": "bamboo steamer",
+      "question": "Which mother sauce is the base of Mornay sauce?",
+      "answer": "béchamel",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-092",
       "category": "food-drink",
-      "question": "The Korean mixed rice bowl with assorted toppings is called what?",
-      "answer": "bibimbap",
+      "question": "What Scandinavian cured salmon is flavored with dill, salt, and sugar?",
+      "answer": "gravlax",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-093",
       "category": "food-drink",
-      "question": "The Spanish cured sausage seasoned with smoked paprika is what?",
-      "answer": "chorizo",
+      "question": "Which cuisine commonly uses the za'atar blend on flatbreads?",
+      "answer": "Levantine",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-094",
       "category": "food-drink",
-      "question": "Which Indian spice blend’s name means “warm spices”?",
-      "answer": "garam masala",
+      "question": "Which cheese commonly partners Gruyère in Swiss fondue?",
+      "answer": "Emmental",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-095",
       "category": "food-drink",
-      "question": "The Japanese soup stock made from kelp and bonito flakes is called what?",
-      "answer": "dashi",
+      "question": "What small long-handled pot brews Turkish coffee?",
+      "answer": "cezve",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-096",
       "category": "food-drink",
-      "question": "The Georgian cheese-filled bread boat often topped with egg is called what?",
-      "answer": "khachapuri",
+      "question": "Nasi goreng is a national dish of which country?",
+      "answer": "Indonesia",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-097",
       "category": "food-drink",
-      "question": "The Brazilian cheese bread made with tapioca starch is called what?",
-      "answer": "pao de queijo",
+      "question": "What citrus compound makes tonic water bitter?",
+      "answer": "quinine",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-098",
       "category": "food-drink",
-      "question": "The pickled ginger served with sushi is called what?",
-      "answer": "gari",
+      "question": "Which leafy cut produces thin ribbons for garnishes?",
+      "answer": "chiffonade",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-099",
       "category": "food-drink",
-      "question": "The Mexican street corn on the cob with toppings is called what?",
-      "answer": "elote",
+      "question": "What is the French term for whisking in cold butter to finish a sauce?",
+      "answer": "monter au beurre",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-100",
       "category": "food-drink",
-      "question": "Which French dessert has a custard base with a caramelized sugar crust?",
-      "answer": "creme brulee",
+      "question": "What mixture of diced onion, carrot, and celery starts many French dishes?",
+      "answer": "mirepoix",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "food-drink-101",
       "category": "food-drink",
-      "question": "In pasta carbonara, which cured meat is traditional?",
-      "answer": "guanciale",
+      "question": "Which animal's eggs define true caviar?",
+      "answer": "sturgeon",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-102",
       "category": "food-drink",
-      "question": "Barolo must be made from which grape?",
-      "answer": "Nebbiolo",
+      "question": "Which species of agave must tequila be made from by law?",
+      "answer": "blue agave",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-103",
       "category": "food-drink",
-      "question": "Which mold species ripens Roquefort?",
-      "answer": "Penicillium roqueforti",
+      "question": "What is the Japanese term for traditional sushi preserved in fermented rice?",
+      "answer": "narezushi",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-104",
       "category": "food-drink",
-      "question": "Kobe beef must come from which Japanese prefecture?",
-      "answer": "Hyogo",
+      "question": "Which coffee is processed via civet digestion?",
+      "answer": "kopi luwak",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-105",
       "category": "food-drink",
-      "question": "Mezcal production is most associated with which Mexican state?",
-      "answer": "Oaxaca",
+      "question": "What notoriously difficult rhizome is often grown in running-water beds in Japan?",
+      "answer": "wasabi",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-106",
       "category": "food-drink",
-      "question": "Which grape makes Beaujolais?",
-      "answer": "Gamay",
+      "question": "Which Japanese long blade slices sashimi in one pull?",
+      "answer": "yanagiba",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-107",
       "category": "food-drink",
-      "question": "Which citrus most characterizes ponzu?",
-      "answer": "yuzu",
+      "question": "What sugar stage reaches about 150°C and snaps when cooled?",
+      "answer": "hard crack",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-108",
       "category": "food-drink",
-      "question": "Which compound in onions causes tears when sliced?",
-      "answer": "syn-propanethial-S-oxide",
+      "question": "Which two proteins combine to form wheat gluten's elastic network?",
+      "answer": "gliadin and glutenin",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-109",
       "category": "food-drink",
-      "question": "Which milk sugar browns to make dulce de leche?",
-      "answer": "lactose",
+      "question": "What caustic alkali gives pretzels their glossy brown crust?",
+      "answer": "lye",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-110",
       "category": "food-drink",
-      "question": "What alkaline additive gives ramen noodles their spring?",
-      "answer": "kansui",
+      "question": "Which sea creature's ink colors pasta nero di seppia?",
+      "answer": "cuttlefish",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-111",
       "category": "food-drink",
-      "question": "Basque burnt cheesecake originated in which city?",
-      "answer": "San Sebastian",
+      "question": "Where did chicken tikka masala originate?\n\nA) India\nB) Scotland\nC) Pakistan\nD) Bangladesh",
+      "answer": "Scotland",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-112",
       "category": "food-drink",
-      "question": "Which enzyme in fresh pineapple prevents gelatin from setting?",
-      "answer": "bromelain",
+      "question": "In which city was the modern döner kebab sandwich popularized?\n\nA) Istanbul\nB) Berlin\nC) London\nD) Athens",
+      "answer": "Berlin",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-113",
       "category": "food-drink",
-      "question": "Which single-bevel Japanese knife is used to slice sashimi?",
-      "answer": "yanagiba",
+      "question": "Where were fortune cookies popularized into their modern form?\n\nA) China\nB) Japan\nC) United States\nD) Taiwan",
+      "answer": "United States",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-114",
       "category": "food-drink",
-      "question": "Which beef cut is traditionally cured to make bresaola?",
-      "answer": "eye of round",
+      "question": "Where was the Caesar salad first created?\n\nA) United States\nB) Mexico\nC) Italy\nD) France",
+      "answer": "Mexico",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-115",
       "category": "food-drink",
-      "question": "What pasta shape traditionally pairs with Ligurian pesto?",
-      "answer": "trofie",
+      "question": "Which ingredient differentiates a Manhattan from an Old Fashioned?",
+      "answer": "vermouth",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-116",
       "category": "food-drink",
-      "question": "What infamous Sardinian cheese containing live larvae is called?",
-      "answer": "casu marzu",
+      "question": "Legally, bourbon must be at least what percent corn?",
+      "answer": "51%",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-117",
       "category": "food-drink",
-      "question": "Which Nordic dish is dried whitefish treated with lye?",
-      "answer": "lutefisk",
+      "question": "What is the minimum age for Aceto Balsamico Tradizionale?\n\nA) 2 years\nB) 6 years\nC) 12 years\nD) 25 years",
+      "answer": "12 years",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-118",
       "category": "food-drink",
-      "question": "What ancient fermented fish-and-rice dish predates modern sushi?",
-      "answer": "narezushi",
+      "question": "Minimum legal aging for Scotch whisky?",
+      "answer": "three years",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-119",
       "category": "food-drink",
-      "question": "Cava must be made using which production method?",
-      "answer": "traditional method",
+      "question": "Which Inuit delicacy ferments seabirds sealed inside a sealskin?",
+      "answer": "kiviak",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-120",
       "category": "food-drink",
-      "question": "Which fungus ferments soybeans to make tempeh?",
-      "answer": "Rhizopus oligosporus",
+      "question": "What Icelandic dish is fermented Greenland shark?",
+      "answer": "hakarl",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-121",
       "category": "food-drink",
-      "question": "Fino Sherry is primarily made from which grape?",
-      "answer": "Palomino",
+      "question": "Which Persian rice dish is famous for its crisp crust?",
+      "answer": "tahdig",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-122",
       "category": "food-drink",
-      "question": "What wooden tub is used to mix and cool sushi rice?",
-      "answer": "hangiri",
+      "question": "Which Thai curry called kaeng pa is made without coconut milk?",
+      "answer": "jungle curry",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-123",
       "category": "food-drink",
-      "question": "Which Japanese technique splits, skewers, and grills eel with tare?",
-      "answer": "kabayaki",
+      "question": "In wok cooking, what high-heat technique is called 'bao chao'?",
+      "answer": "bao chao",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-124",
       "category": "food-drink",
-      "question": "Traditional Neapolitan pizza STG must be baked in what kind of oven?",
-      "answer": "wood-fired",
+      "question": "What wooden whisk is used to froth Mexican hot chocolate?",
+      "answer": "molinillo",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-125",
       "category": "food-drink",
-      "question": "What is the pickled daikon made with rice bran called?",
-      "answer": "takuan",
+      "question": "What Japanese white hardwood charcoal is prized for yakitori?",
+      "answer": "binchotan",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-126",
       "category": "food-drink",
-      "question": "Mozzarella di bufala is made from which animal’s milk?",
-      "answer": "water buffalo",
+      "question": "What wide shallow pan cooks paella over fire?",
+      "answer": "paellera",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-127",
       "category": "food-drink",
-      "question": "White chocolate contains no what component of cocoa?",
-      "answer": "cocoa solids",
+      "question": "What tool is used to shave truffles paper-thin?",
+      "answer": "truffle slicer",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-128",
       "category": "food-drink",
-      "question": "What Indonesian coffee is made from beans excreted by civets?",
-      "answer": "kopi luwak",
+      "question": "What pigment in red cabbage changes color with pH?",
+      "answer": "anthocyanin",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-129",
       "category": "food-drink",
-      "question": "Piment d’Espelette AOP comes from which cultural region?",
-      "answer": "Basque Country",
+      "question": "Which enzyme in pineapple prevents gelatin from setting?",
+      "answer": "bromelain",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "food-drink-130",
       "category": "food-drink",
-      "question": "What specialized short, stiff-bladed tool is used to shuck oysters?",
-      "answer": "oyster knife",
+      "question": "Which starch component makes sticky rice clingy?",
+      "answer": "amylopectin",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-131",
+      "category": "food-drink",
+      "question": "Which country drinks the most beer per capita?\n\nA) Germany\nB) Czechia\nC) Ireland\nD) Belgium",
+      "answer": "Czechia",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-132",
+      "category": "food-drink",
+      "question": "Which country consumes the most olive oil per capita?\n\nA) Italy\nB) Spain\nC) Greece\nD) Tunisia",
+      "answer": "Greece",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-133",
+      "category": "food-drink",
+      "question": "Which country eats the most chocolate per capita?\n\nA) Switzerland\nB) United States\nC) Belgium\nD) France",
+      "answer": "Switzerland",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-134",
+      "category": "food-drink",
+      "question": "In colonial New England, which crustacean was once poor people's food?",
+      "answer": "lobster",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-135",
+      "category": "food-drink",
+      "question": "Which Sardinian cheese is ripened with live fly larvae?",
+      "answer": "casu marzu",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-136",
+      "category": "food-drink",
+      "question": "Which fish can be lethal if misprepared due to tetrodotoxin?",
+      "answer": "fugu",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-137",
+      "category": "food-drink",
+      "question": "Which orchid's pods are hand-pollinated in most regions to set fruit?",
+      "answer": "vanilla",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-138",
+      "category": "food-drink",
+      "question": "Which fish eggs are salted and pressed to make bottarga in Sardinia?",
+      "answer": "grey mullet",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-139",
+      "category": "food-drink",
+      "question": "What heavy weight used to press Japanese pickles is called?",
+      "answer": "tsukemono ishi",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-140",
+      "category": "food-drink",
+      "question": "Which porous earthenware jar ferments kimchi and doenjang?",
+      "answer": "onggi",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-141",
+      "category": "food-drink",
+      "question": "What is the name of Sichuan's fermented mustard stem pickle?",
+      "answer": "zhacai",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-142",
+      "category": "food-drink",
+      "question": "Which Mexican corn fungus is a delicacy called 'corn truffle'?",
+      "answer": "huitlacoche",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-143",
+      "category": "food-drink",
+      "question": "What Ethiopian spiced clarified butter flavors many dishes?",
+      "answer": "niter kibbeh",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-144",
+      "category": "food-drink",
+      "question": "Which Peruvian chili pepper gives sauce huancaina its color?",
+      "answer": "aji amarillo",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-145",
+      "category": "food-drink",
+      "question": "Which Polish sour rye soup uses a fermented starter called zakwas?",
+      "answer": "zurek",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-146",
+      "category": "food-drink",
+      "question": "Botanically, what is a strawberry?",
+      "answer": "aggregate accessory fruit",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-147",
+      "category": "food-drink",
+      "question": "Which bacteria release carbon dioxide to make Emmental eyes?",
+      "answer": "Propionibacterium freudenreichii",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-148",
+      "category": "food-drink",
+      "question": "What maturation system ages sherry through cascading barrels?",
+      "answer": "solera",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-149",
+      "category": "food-drink",
+      "question": "Which process stabilizes chocolate crystals for a glossy snap?",
+      "answer": "tempering",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "food-drink-150",
+      "category": "food-drink",
+      "question": "Which North African spice blend's name means 'head of the shop'?",
+      "answer": "ras el hanout",
       "difficulty": "hard",
       "points": 3
     }
