@@ -2,14 +2,14 @@
  * Fetches trivia questions from the free Open Trivia DB API
  * and saves them as JSON files.
  *
- * Run it with: node scripts/opentdb.js
+ * Run it with: node scripts/fetch-opentdb.js
  */
 
 const fs = require("fs");
 const path = require("path");
  
 // where the JSON files will be saved.
-const OUTPUT_DIR = path.join(__dirname, "..", "assets", "questions");
+const OUTPUT_DIR = path.join(__dirname, "..", "assets", "packs");
 
 // how many questions to fetch per difficulty
 const QUESTIONS_PER_DIFFICULTY = 50;
@@ -20,18 +20,67 @@ const API_DELAY_MS = 5500;
 // map "easy" to 1 etc.
 const DIFFICULTY_POINTS = { easy: 1, medium: 2, hard: 3 };
 
-const CATEGORIES = [
-    { slug: "sports", label: "Sports", opentdbIds: [21] },
-    { slug: "history", label: "History", opentdbIds: [23] },
-    { slug: "geography", label: "Geography", opentdbIds: [22] },
-    // Science and Nature and Animals combined
-    { slug: "science-nature", label: "Science and Nature", opentdbIds: [17, 27] },
-    { slug: "general-knowledge", label: "General Knowledge", opentdbIds: [9] },
-    // Books, Film, Music, Musicals & Theatres, TV combined into one "Entertainment" bucket.
-    { slug: "entertainment", label: "Entertainment", opentdbIds: [10, 11, 12, 13, 14] },
-    { slug: "mythology", label: "Mythology", opentdbIds: [20] },
-    { slug: "art", label: "Art", opentdbIds: [25] },
+const PACKS = [
+    {
+        id: "sports",
+        name: "Sports",
+        description: "Teams, records and the people who set them.",
+        color: "#daa8d0",
+        opentdbIds: [21],
+    },
+    {
+        id: "history",
+        name: "History",
+        description: "People and events that shaped the world.",
+        color: "#f7da21",
+        opentdbIds: [23],
+    },
+    {
+        id: "geography",
+        name: "Geography",
+        description: "Countries, capitals and landmarks.",
+        color: "#fb9b00",
+        opentdbIds: [22],
+    },
+    {
+        // Science and Nature and Animals combined
+        id: "science-nature",
+        name: "Science and Nature",
+        description: "The natural world and how it works.",
+        color: "#6AAA64",
+        opentdbIds: [17, 27],
+    },
+    {
+        id: "general-knowledge",
+        name: "General Knowledge",
+        description: "A bit of everything.",
+        color: "#b3a7fe",
+        opentdbIds: [9],
+    },
+    {
+        // Books, Film, Music, Musicals & Theatres, TV combined
+        id: "entertainment",
+        name: "Entertainment",
+        description: "Film, television and music.",
+        color: "#fc716b",
+        opentdbIds: [10, 11, 12, 13, 14],
+    },
+    {
+        id: "mythology",
+        name: "Mythology",
+        description: "Gods, monsters and ancient legends.",
+        color: "#7ba8ef",
+        opentdbIds: [20],
+    },
+    {
+        id: "art",
+        name: "Art",
+        description: "Painters, sculptors and famous works.",
+        color: "#c0ddd9",
+        opentdbIds: [25],
+    },
 ];
+
 
 
 // sleep between API calls
@@ -40,27 +89,19 @@ function sleep(ms) {
 }
 
 
-// convert html special character tags to text
-function decodeHtml(str) {
-    const map = {
-    "&quot;": '"',
-    "&#039;": "'",
-    "&amp;": "&",
-    "&lt;": "<",
-    "&gt;": ">",
-    "&eacute;": "é",
-    "&rsquo;": "’",
-    };
 
-    // replace every "&something;" pattern using the map above.
-    return str.replace(/&[a-z0-9#]+;/gi, (match) => map[match] ?? match);
+// convert html special character tags to text
+function decode(str) {
+    return Buffer.from(str, "base64").toString("utf8")
 }
+
 
 
 // helper to check if multiple choice options needed for the question
 function needsOptions(question) {
     return /which of the following|which of these|following (is|are|was|were)/i.test(question);
 }
+
 
 
 // shuffle options to have the correct answer in a random spot - Fisher-Yates
@@ -76,6 +117,7 @@ function shuffle(arr) {
 }
 
 
+
 // append options to question
 function appendOptions(question, correct, incorrect) {
     const labels = ["A", "B", "C", "D", "E", "F"];
@@ -84,6 +126,7 @@ function appendOptions(question, correct, incorrect) {
         .join("\n");
     return `${question}\n\n${list}`;
 }
+
 
 
 // how many questions OpenTDB has per difficulty. this counts true/false questions as well
@@ -100,18 +143,21 @@ async function fetchCounts(opentdbId) {
 }
 
 
+
 // turn an OpenTDB result into the correct shape to store
 function toQuestion(item) {
-    const question = decodeHtml(item.question);
-    const correct = decodeHtml(item.correct_answer);
-    const incorrect = item.incorrect_answers.map(decodeHtml);
+    const question = decode(item.question);
+    const correct = decode(item.correct_answer);
+    const incorrect = item.incorrect_answers.map(decode);
+    const difficulty = decode(item.difficulty);
+    const type = decode(item.type);
 
     // handle true or false questions
-    if (item.type === "boolean") {
+    if (type === "boolean") {
         return {
-            question: `True or false?\n\n${question}`,
+            question: `True or false?\n${question}`,
             answer: correct,
-            difficulty: item.difficulty,
+            difficulty,
         };
     }
 
@@ -120,9 +166,10 @@ function toQuestion(item) {
             ? appendOptions(question, correct, incorrect)
             : question,
         answer: correct,
-        difficulty: item.difficulty,
+        difficulty,
     };
 }
+
 
 
 // fetch a batch of questions for one OpenTDB category + one difficulty.
@@ -131,7 +178,7 @@ async function fetchBatch(opentdbId, difficulty, amount) {
     let want = amount; // reassignable var
 
     while (want > 0) {
-        const url = `https://opentdb.com/api.php?amount=${want}&category=${opentdbId}&difficulty=${difficulty}`;
+        const url = `https://opentdb.com/api.php?amount=${want}&category=${opentdbId}&difficulty=${difficulty}&encode=base64`;
 
         const response = await fetch(url);
         const data = await response.json();
@@ -159,12 +206,13 @@ async function fetchBatch(opentdbId, difficulty, amount) {
 }
 
 
+
 // build ONE full category of questions
-async function buildCategory(categoryConfig) {
-    console.log(`Fetching "${categoryConfig.label}"...`);
+async function buildCategory(pack) {
+    console.log(`Fetching "${pack.name}"...`);
     
     const difficulties = ["easy", "medium", "hard"];
-    const idsCount = categoryConfig.opentdbIds.length;
+    const idsCount = pack.opentdbIds.length;
     
     // split the target amount evenly across however many OpenTDB IDs this category uses
     // for Entertainment which has multiple
@@ -172,7 +220,7 @@ async function buildCategory(categoryConfig) {
     
     const allQuestions = [];
     
-    for (const opentdbId of categoryConfig.opentdbIds) {
+    for (const opentdbId of pack.opentdbIds) {
         const counts = await fetchCounts(opentdbId);
         await sleep(API_DELAY_MS);
 
@@ -187,7 +235,8 @@ async function buildCategory(categoryConfig) {
     
     // turn the raw list into the final shape our app expects, with a unique id per question
     return allQuestions.map((q, index) => ({
-        id: `${categoryConfig.slug}-${String(index + 1).padStart(3, "0")}`,
+        id: `${pack.id}-${String(index + 1).padStart(3, "0")}`,
+        category: pack.id,
         question: q.question,
         answer: q.answer,
         difficulty: q.difficulty,
@@ -197,21 +246,29 @@ async function buildCategory(categoryConfig) {
 
 
 
+function makePack(pack, questions) {
+    return {
+        id: pack.id,
+        name: pack.name,
+        description: pack.description,
+        color: pack.color,
+        questions,
+    };
+}
+
+
+
 async function main() {
-    // make sure the output folder exists (creates it if it doesn't)
-    // no category - identified by pack
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-    
-    for (const categoryConfig of CATEGORIES) {
-        const questions = await buildCategory(categoryConfig);
-    
-        const outputPath = path.join(OUTPUT_DIR, `${categoryConfig.slug}.json`);
-        fs.writeFileSync(outputPath, JSON.stringify(questions, null, 2));
-    
-        console.log(`  -> saved ${questions.length} questions to ${outputPath}`);
+
+    for (const pack of PACKS) {
+        const questions = await buildCategory(pack);
+
+        const file = path.join(OUTPUT_DIR, `${pack.id}.json`);
+        fs.writeFileSync(file, `${JSON.stringify(makePack(pack, questions), null, 2)}\n`);
+
+        console.log(`  -> wrote ${questions.length} questions to ${file}\n`);
     }
-    
-    console.log("\nDone! Check assets/questions/ for your JSON files.");
 }
  
 main();

@@ -6,1027 +6,1027 @@
   "questions": [
     {
       "id": "sports-001",
-      "question": "Who is often called \"the Maestro\" in the men's tennis circuit?",
-      "answer": "Roger Federer",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-002",
-      "question": "Which of the following sports is not part of the triathlon?\n\nA) Cycling\nB) Horse-Riding\nC) Swimming\nD) Running",
-      "answer": "Horse-Riding",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-003",
-      "question": "True or false?\n\nShaquille O’Neal has only made one three pointer in his career.",
-      "answer": "True",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-004",
-      "question": "Which of these NHL teams originally played in Atlanta?\n\nA) Calgary Flames\nB) Vancouver Canucks\nC) St. Louis Blues\nD) Minnesota Wild",
-      "answer": "Calgary Flames",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-005",
-      "question": "How many soccer players should be on the field at the same time?",
-      "answer": "22",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-006",
-      "question": "The Los Angeles Dodgers were originally from what U.S. city?",
-      "answer": "Brooklyn",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-007",
-      "question": "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?",
-      "answer": "7 - 1",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-008",
-      "question": "In golf, what name is given to a hole score of two under par?",
-      "answer": "Eagle",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-009",
-      "question": "Who did Steven Gerrard win the Champions League with?",
-      "answer": "Liverpool",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-010",
-      "question": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
-      "answer": "Leicester City",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-011",
-      "question": "Who won the UEFA Champions League in 2017?",
-      "answer": "Real Madrid C.F.",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-012",
-      "question": "Which NFL team plays for New England?",
-      "answer": "Patriots",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-013",
-      "question": "How many points did LeBron James score in his first NBA game?",
-      "answer": "25",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-014",
-      "question": "Which wrestler won the 2019 Men’s Royal Rumble?",
-      "answer": "Seth Rollins",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-015",
-      "question": "What was the year of estabilishment of the Bari Italian Football Club?",
-      "answer": "1908",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-016",
-      "question": "In bowling, what is the term used for getting three consecutive strikes?",
-      "answer": "Turkey",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-017",
-      "question": "Who won the UEFA Champions League in 2016?",
-      "answer": "Real Madrid C.F.",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-018",
-      "question": "The Rio 2016 Summer Olympics held it's closing ceremony on what date?",
-      "answer": "August 21",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-019",
-      "question": "Which two teams played in Super Bowl XLII?",
-      "answer": "The New York Giants & The New England Patriots",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-020",
-      "question": "Which team won the 2015-16 English Premier League?",
-      "answer": "Leicester City",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-021",
+      "category": "sports",
       "question": "Which African American is in part responsible for integrating  Major League baseball?",
       "answer": "Jackie Robinson",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-022",
-      "question": "True or false?\n\nRoger Federer is a famous soccer player.",
-      "answer": "False",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-023",
-      "question": "Which country hosted the 2020 Summer Olympics?",
-      "answer": "Japan",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-024",
-      "question": "What year did the New Orleans Saints win the Super Bowl?",
-      "answer": "2010",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-025",
-      "question": "True or false?\n\nPeyton Manning retired after winning Super Bowl XLIX.",
-      "answer": "False",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-026",
-      "question": "When was the first official international game played?",
-      "answer": "1872",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-027",
-      "question": "True or false?\n\nIn Rugby League, performing a \"40-20\" is punished by a free kick for the opposing team.",
-      "answer": "False",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-028",
-      "question": "Which city did the former NHL team \"The Nordiques\" originiate from?",
-      "answer": "Quebec City",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-029",
-      "question": "What team won the 2016 MLS Cup?",
-      "answer": "Seattle Sounders",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-030",
-      "question": "Which team won 2014 FIFA World Cup in Brazil?",
-      "answer": "Germany",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-031",
-      "question": "How many players are there in an association football/soccer team?",
-      "answer": "11",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-032",
-      "question": "Which English football club has the nickname 'The Foxes'?",
+      "id": "sports-002",
+      "category": "sports",
+      "question": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
       "answer": "Leicester City",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-033",
-      "question": "Who won the 2015 Formula 1 World Championship?",
-      "answer": "Lewis Hamilton",
+      "id": "sports-003",
+      "category": "sports",
+      "question": "Who won the UEFA Champions League in 2016?",
+      "answer": "Real Madrid C.F.",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-034",
-      "question": "When was the FC Schalke 04 founded?",
-      "answer": "1904",
+      "id": "sports-004",
+      "category": "sports",
+      "question": "True or false?\nIn association football, or soccer, a corner kick is when the game restarts after someone scores a goal.",
+      "answer": "False",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-035",
-      "question": "Which player holds the NHL record of 2,857 points?",
-      "answer": "Wayne Gretzky",
+      "id": "sports-005",
+      "category": "sports",
+      "question": "In what sport is a \"shuttlecock\" used?",
+      "answer": "Badminton",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-036",
+      "id": "sports-006",
+      "category": "sports",
+      "question": "How many points did LeBron James score in his first NBA game?",
+      "answer": "25",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-007",
+      "category": "sports",
+      "question": "\"Stadium of Light\" is the home stadium for which soccer team?",
+      "answer": "Sunderland FC",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-008",
+      "category": "sports",
       "question": "What national team won the first UEFA Nations League?",
       "answer": "Portugal",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-037",
-      "question": "Who won the 2017 Formula One World Drivers' Championship?",
-      "answer": "Lewis Hamilton",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-038",
-      "question": "Which year did Jenson Button won his first ever Formula One World Drivers' Championship?",
-      "answer": "2009",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-039",
-      "question": "What sport features the terms love, deuce, match and volley?",
-      "answer": "Tennis",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-040",
-      "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
-      "answer": "4",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-041",
-      "question": "True or false?\n\nThere are a total of 20 races in Formula One 2016 season.",
+      "id": "sports-009",
+      "category": "sports",
+      "question": "True or false?\nThere are a total of 20 races in Formula One 2016 season.",
       "answer": "False",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-042",
-      "question": "Which driver has been the Formula 1 world champion for a record 7 times?",
-      "answer": "Michael Schumacher",
+      "id": "sports-010",
+      "category": "sports",
+      "question": "Which team has won the most Stanley Cups in the NHL?",
+      "answer": "Montreal Canadians",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-043",
-      "question": "What team did England beat to win in the 1966 World Cup final?",
-      "answer": "West Germany",
-      "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
-    },
-    {
-      "id": "sports-044",
+      "id": "sports-011",
+      "category": "sports",
       "question": "What is the name of Manchester United's home stadium?",
       "answer": "Old Trafford",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-045",
-      "question": "The UEFA Champions League is an annual club football competition featuring clubs from which continent?",
-      "answer": "Europe",
+      "id": "sports-012",
+      "category": "sports",
+      "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+      "answer": "4",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-046",
-      "question": "Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?",
-      "answer": "Mike Tyson",
+      "id": "sports-013",
+      "category": "sports",
+      "question": "The Rio 2016 Summer Olympics held it's closing ceremony on what date?",
+      "answer": "August 21",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-047",
-      "question": "In the 2014 FIFA World Cup, what was the final score in the match Brazil - Germany?",
-      "answer": "1-7",
+      "id": "sports-014",
+      "category": "sports",
+      "question": "Which of the following sports is not part of the triathlon?\n\nA) Swimming\nB) Running\nC) Horse-Riding\nD) Cycling",
+      "answer": "Horse-Riding",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-048",
-      "question": "What is the most common type of pitch thrown by pitchers in baseball?",
-      "answer": "Fastball",
+      "id": "sports-015",
+      "category": "sports",
+      "question": "Which of these NHL teams originally played in Atlanta?\n\nA) Vancouver Canucks\nB) St. Louis Blues\nC) Minnesota Wild\nD) Calgary Flames",
+      "answer": "Calgary Flames",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-049",
-      "question": "In baseball, how many fouls are an out?",
-      "answer": "0",
+      "id": "sports-016",
+      "category": "sports",
+      "question": "Which player holds the NHL record of 2,857 points?",
+      "answer": "Wayne Gretzky",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
     },
     {
-      "id": "sports-050",
+      "id": "sports-017",
+      "category": "sports",
+      "question": "What is the name of the \"tool\" used to hit the white ball in snooker or billiards?",
+      "answer": "Cue",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-018",
+      "category": "sports",
+      "question": "Which city did the former NHL team \"The Nordiques\" originiate from?",
+      "answer": "Quebec City",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-019",
+      "category": "sports",
       "question": "Which country hosted the 2022 FIFA World Cup?",
       "answer": "Qatar",
       "difficulty": "easy",
-      "points": 1,
-      "category": "sports"
+      "points": 1
+    },
+    {
+      "id": "sports-020",
+      "category": "sports",
+      "question": "Who is often called \"the Maestro\" in the men's tennis circuit?",
+      "answer": "Roger Federer",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-021",
+      "category": "sports",
+      "question": "What sport features the terms love, deuce, match and volley?",
+      "answer": "Tennis",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-022",
+      "category": "sports",
+      "question": "Which year did Jenson Button won his first ever Formula One World Drivers' Championship?",
+      "answer": "2009",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-023",
+      "category": "sports",
+      "question": "Which country hosted the 2018 FIFA World Cup?",
+      "answer": "Russia",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-024",
+      "category": "sports",
+      "question": "What team did England beat to win in the 1966 World Cup final?",
+      "answer": "West Germany",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-025",
+      "category": "sports",
+      "question": "The UEFA Champions League is an annual club football competition featuring clubs from which continent?",
+      "answer": "Europe",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-026",
+      "category": "sports",
+      "question": "How many players are there in an association football/soccer team?",
+      "answer": "11",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-027",
+      "category": "sports",
+      "question": "Who won the 2017 Formula One World Drivers' Championship?",
+      "answer": "Lewis Hamilton",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-028",
+      "category": "sports",
+      "question": "In bowling, what is the term used for getting three consecutive strikes?",
+      "answer": "Turkey",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-029",
+      "category": "sports",
+      "question": "Who won the UEFA Champions League in 2017?",
+      "answer": "Real Madrid C.F.",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-030",
+      "category": "sports",
+      "question": "Who won the 2016 Formula 1 World Driver's Championship?",
+      "answer": "Nico Rosberg",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-031",
+      "category": "sports",
+      "question": "Which country won the 2018 FIFA World Cup hosted in Russia?",
+      "answer": "France",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-032",
+      "category": "sports",
+      "question": "Which country hosted the 2020 Summer Olympics?",
+      "answer": "Japan",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-033",
+      "category": "sports",
+      "question": "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?",
+      "answer": "7 - 1",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-034",
+      "category": "sports",
+      "question": "This Canadian television sportscaster is known for his \"Hockey Night in Canada\" role, a commentary show during hockey games.",
+      "answer": "Don Cherry",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-035",
+      "category": "sports",
+      "question": "How many soccer players should be on the field at the same time?",
+      "answer": "22",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-036",
+      "category": "sports",
+      "question": "Who did Steven Gerrard win the Champions League with?",
+      "answer": "Liverpool",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-037",
+      "category": "sports",
+      "question": "What was the year of estabilishment of the Bari Italian Football Club?",
+      "answer": "1908",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-038",
+      "category": "sports",
+      "question": "True or false?\nShaquille O’Neal has only made one three pointer in his career.",
+      "answer": "True",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-039",
+      "category": "sports",
+      "question": "Which country produced football players such as Cafu, Roberto Carlos and Pelé?",
+      "answer": "Brazil",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-040",
+      "category": "sports",
+      "question": "Which English football club has the nickname 'The Foxes'?",
+      "answer": "Leicester City",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-041",
+      "category": "sports",
+      "question": "Which team won the 2015-16 English Premier League?",
+      "answer": "Leicester City",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-042",
+      "category": "sports",
+      "question": "Which driver has been the Formula 1 world champion for a record 7 times?",
+      "answer": "Michael Schumacher",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-043",
+      "category": "sports",
+      "question": "Which NFL team plays for New England?",
+      "answer": "Patriots",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-044",
+      "category": "sports",
+      "question": "When was the FC Schalke 04 founded?",
+      "answer": "1904",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-045",
+      "category": "sports",
+      "question": "Which team won 2014 FIFA World Cup in Brazil?",
+      "answer": "Germany",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-046",
+      "category": "sports",
+      "question": "The Los Angeles Dodgers were originally from what U.S. city?",
+      "answer": "Brooklyn",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-047",
+      "category": "sports",
+      "question": "What team won the 2016 MLS Cup?",
+      "answer": "Seattle Sounders",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-048",
+      "category": "sports",
+      "question": "In the 2014 FIFA World Cup, what was the final score in the match Brazil - Germany?",
+      "answer": "1-7",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-049",
+      "category": "sports",
+      "question": "Which two teams played in Super Bowl XLII?",
+      "answer": "The New York Giants & The New England Patriots",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-050",
+      "category": "sports",
+      "question": "True or false?\nPeyton Manning retired after winning Super Bowl XLIX.",
+      "answer": "False",
+      "difficulty": "easy",
+      "points": 1
     },
     {
       "id": "sports-051",
-      "question": "In what year did Steaua București win the European Cup, actual UEFA Champions League, against FC Barcelona?",
-      "answer": "1986",
+      "category": "sports",
+      "question": "True or false?\nThe first episode of WWF Monday Night RAW aired on January 11, 1990.",
+      "answer": "False",
       "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
+      "points": 2
     },
     {
       "id": "sports-052",
-      "question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
-      "answer": "Duck",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-053",
-      "question": "What is Tiger Woods' all-time best career golf-score?",
-      "answer": "61",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-054",
-      "question": "Which Formula One driver was nicknamed 'The Professor'?",
-      "answer": "Alain Prost",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-055",
-      "question": "Which of these track-and-field events is NOT included in the Olympic men's decathlon?\n\nA) Pole vault\nB) Shot put\nC) Hammer throw\nD) Long jump",
-      "answer": "Hammer throw",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-056",
-      "question": "In a game of snooker, what colour ball is worth 3 points?",
-      "answer": "Green",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-057",
-      "question": "True or false?\n\nIn 2008, Usain Bolt set the world record for the 100 meters with one shoelace untied.",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-058",
-      "question": "Who is Manchester United's top premier league goal scorer?",
-      "answer": "Wayne Rooney",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-059",
+      "category": "sports",
       "question": "Which nation hosted the FIFA World Cup in 2006?",
       "answer": "Germany",
       "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
+      "points": 2
     },
     {
-      "id": "sports-060",
-      "question": "The song \"Three Lions\" by the Lightning Seeds was made for which major football event in 1996?",
-      "answer": "European Championships",
+      "id": "sports-053",
+      "category": "sports",
+      "question": "What is the exact length of one non-curved part in Lane 1 of an Olympic Track?",
+      "answer": "84.39m",
       "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
+      "points": 2
     },
     {
-      "id": "sports-061",
-      "question": "What is the oldest team in the NFL?",
-      "answer": "Arizona Cardinals",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-062",
+      "id": "sports-054",
+      "category": "sports",
       "question": "How many games did Arsenal FC go unbeaten during the 2003-2004 season of the English Premier League",
       "answer": "38",
       "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
+      "points": 2
     },
     {
-      "id": "sports-063",
-      "question": "True or false?\n\nThe Olympics tennis court is a giant green screen.",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-064",
-      "question": "Which Formula 1 driver switched teams in the middle of the 2017 season?",
-      "answer": "Carlos Sainz Jr.",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-065",
-      "question": "Which of the following player scored a hat-trick during their Manchester United debut?\n\nA) Robin Van Persie\nB) Wayne Rooney\nC) David Beckham\nD) Cristiano Ronaldo",
-      "answer": "Wayne Rooney",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-066",
-      "question": "Who has played the most tournaments in the German national soccer team?",
-      "answer": "Lothar Matth&auml;us",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-067",
-      "question": "Which of the following Grand Slam tennis tournaments occurs LAST?\n\nA) Australian Open\nB) US Open\nC) French Open\nD) Wimbledon",
-      "answer": "US Open",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-068",
-      "question": "Which NBA player has the most games played over the course of their career?",
-      "answer": "Robert Parish",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-069",
-      "question": "Which darts player has won the most World Championship titles?",
-      "answer": "Phil Taylor",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-070",
-      "question": "What was Sir Donald Bradman's batting average in test matches?",
-      "answer": "99.94",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-071",
-      "question": "Who was the first footballer to score 200 goals in the English Premier League?",
-      "answer": "Alan Shearer",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-072",
-      "question": "Who is regarded as the best Romanian footballer of all time?",
-      "answer": "Gheorghe Hagi",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-073",
-      "question": "With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?",
-      "answer": "Jordan",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-074",
-      "question": "True or false?\n\nDuring Wimbledon, spectators in the grounds can buy the tennis balls that have been used in matches.",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-075",
-      "question": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
-      "answer": "India",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-076",
-      "question": "What is the name of the AHL affiliate of the Toronto Maple Leafs?",
-      "answer": "Toronto Marlies",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-077",
-      "question": "Josh Mansour is part of what NRL team?",
-      "answer": "Penrith Panthers",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-078",
-      "question": "Who won the 2018 Monaco Grand Prix?",
-      "answer": "Daniel Ricciardo",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-079",
-      "question": "Why was The Green Monster at Fenway Park was originally built?",
-      "answer": "To prevent viewing games from outside the park.",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-080",
-      "question": "Which of these teams isn't a member of the NHL's \"Original Six\" era?\n\nA) Toronto Maple Leafs\nB) New York Rangers\nC) Boston Bruins\nD) Philadelphia Flyers",
-      "answer": "Philadelphia Flyers",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-081",
-      "question": "Who won the \"Champions League\" in 1999?",
-      "answer": "Manchester United",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-082",
+      "id": "sports-055",
+      "category": "sports",
       "question": "Which football manager won more trophies than any other during his tenure at English football club Manchester United?",
       "answer": "Sir Alex Ferguson",
       "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
+      "points": 2
     },
     {
-      "id": "sports-083",
-      "question": "Which country is hosting the 2022 FIFA World Cup?",
-      "answer": "Qatar",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-084",
-      "question": "In what country were the 2014 Winter Olympics held in the town of Sochi?",
-      "answer": "Russia",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-085",
-      "question": "What national team won the 2016 edition of UEFA European Championship?",
-      "answer": "Portugal",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-086",
-      "question": "Which sport is NOT traditionally played during the Mongolian Naadam festival?",
-      "answer": "American Football",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-087",
-      "question": "Which of these English football clubs is based in Liverpool?\n\nA) Crystal Palace\nB) Arsenal\nC) West Ham United\nD) Everton",
-      "answer": "Everton",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-088",
-      "question": "Which soccer team won the Copa América 2015 Championship ?",
-      "answer": "Chile",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-089",
-      "question": "Which car manufacturer won the 2016 24 Hours of Le Mans?",
-      "answer": "Porsche",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-090",
-      "question": "Which team was the 2014-2015 NBA Champions?",
-      "answer": "Golden State Warriors",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-091",
-      "question": "What is the highest belt you can get in Taekwondo?",
-      "answer": "Black",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-092",
-      "question": "A stimpmeter measures the speed of a ball over what surface?",
-      "answer": "Golf Putting Green",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-093",
-      "question": "Hockey player Wayne Gretzky was born in what Canadian province?",
-      "answer": "Ontario",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-094",
-      "question": "Which of the following pitchers was named National League Rookie of the Year for the 2013 season?\n\nA) Jose Fernandez\nB) Matt Harvey\nC) Jacob deGrom\nD) Shelby Miller",
-      "answer": "Jose Fernandez",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-095",
-      "question": "Which professional wrestler fell from the rafters to his death during a live Pay-Per-View event in 1999?",
-      "answer": "Owen Hart",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-096",
-      "question": "True or false?\n\nThe first episode of WWF Monday Night RAW aired on January 11, 1990.",
-      "answer": "False",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-097",
-      "question": "Which of these NHL teams have never moved since their inception?\n\nA) St. Louis Blues\nB) Dallas Stars\nC) Carolina Hurricanes\nD) New Jersey Devils",
-      "answer": "St. Louis Blues",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-098",
-      "question": "Which German sportswear company's logo is the 'Formstripe'?",
-      "answer": "Puma",
-      "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
-    },
-    {
-      "id": "sports-099",
+      "id": "sports-056",
+      "category": "sports",
       "question": "In what sport does Fanny Chmelar compete for Germany?",
       "answer": "Skiing",
       "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
+      "points": 2
+    },
+    {
+      "id": "sports-057",
+      "category": "sports",
+      "question": "At which bridge does the annual Oxford and Cambridge boat race start?",
+      "answer": "Putney",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-058",
+      "category": "sports",
+      "question": "Who is regarded as the best Romanian footballer of all time?",
+      "answer": "Gheorghe Hagi",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-059",
+      "category": "sports",
+      "question": "Which NBA player has the most games played over the course of their career?",
+      "answer": "Robert Parish",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-060",
+      "category": "sports",
+      "question": "The 1988 Formula 1 season had McLaren win all but one race, what race did they not win?",
+      "answer": "Italian Grand Prix",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-061",
+      "category": "sports",
+      "question": "In what year did Steaua București win the European Cup, actual UEFA Champions League, against FC Barcelona?",
+      "answer": "1986",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-062",
+      "category": "sports",
+      "question": "Edson Arantes do Nascimento is the full name of which legendary football player?",
+      "answer": "Pelé",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-063",
+      "category": "sports",
+      "question": "True or false?\nSkateboarding was included in the 2020 Summer Olympics in Tokyo.",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-064",
+      "category": "sports",
+      "question": "Who won the 1994 San Marino Grand Prix, the race in which Ayrton Senna was killed?",
+      "answer": "Michael Schumacher",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-065",
+      "category": "sports",
+      "question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+      "answer": "Duck",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-066",
+      "category": "sports",
+      "question": "What is the oldest team in the NFL?",
+      "answer": "Arizona Cardinals",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-067",
+      "category": "sports",
+      "question": "In a game of snooker, what colour ball is worth 3 points?",
+      "answer": "Green",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-068",
+      "category": "sports",
+      "question": "True or false?\nThe Olympics tennis court is a giant green screen.",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-069",
+      "category": "sports",
+      "question": "How many scoring zones are there on a conventional dart board?",
+      "answer": "82",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-070",
+      "category": "sports",
+      "question": "Which car manufacturer won the 2017 24 Hours of Le Mans?",
+      "answer": "Porsche",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-071",
+      "category": "sports",
+      "question": "Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?\n\nA) United States of America\nB) Tunisia\nC) Italy\nD) Netherlands",
+      "answer": "Tunisia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-072",
+      "category": "sports",
+      "question": "Who was the British professional wrestler Shirley Crabtree better known as?",
+      "answer": "Big Daddy",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-073",
+      "category": "sports",
+      "question": "Who is Manchester United's top premier league goal scorer?",
+      "answer": "Wayne Rooney",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-074",
+      "category": "sports",
+      "question": "Which country is hosting the 2022 FIFA World Cup?",
+      "answer": "Qatar",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-075",
+      "category": "sports",
+      "question": "Which player has scored the most goals in the England Premier League (EPL)?",
+      "answer": "Alan Shearer",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-076",
+      "category": "sports",
+      "question": "True or false?\nSoccer player Cristiano Ronaldo opened a museum dedicated to himself.",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-077",
+      "category": "sports",
+      "question": "What is the name of the AHL affiliate of the Toronto Maple Leafs?",
+      "answer": "Toronto Marlies",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-078",
+      "category": "sports",
+      "question": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
+      "answer": "India",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-079",
+      "category": "sports",
+      "question": "Which soccer team won the Copa América Centenario 2016?",
+      "answer": "Chile",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-080",
+      "category": "sports",
+      "question": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+      "answer": "13",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-081",
+      "category": "sports",
+      "question": "Which professional wrestler fell from the rafters to his death during a live Pay-Per-View event in 1999?",
+      "answer": "Owen Hart",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-082",
+      "category": "sports",
+      "question": "Which team was the 2015-2016 NBA Champions?",
+      "answer": "Cleveland Cavaliers",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-083",
+      "category": "sports",
+      "question": "Which Formula One driver was nicknamed 'The Professor'?",
+      "answer": "Alain Prost",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-084",
+      "category": "sports",
+      "question": "What is the oldest team in Major League Baseball?",
+      "answer": "Atlanta Braves",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-085",
+      "category": "sports",
+      "question": "What is Tiger Woods' all-time best career golf-score?",
+      "answer": "61",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-086",
+      "category": "sports",
+      "question": "Which darts player has won the most World Championship titles?",
+      "answer": "Phil Taylor",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-087",
+      "category": "sports",
+      "question": "Why was The Green Monster at Fenway Park was originally built?",
+      "answer": "To prevent viewing games from outside the park.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-088",
+      "category": "sports",
+      "question": "Which of the following player scored a hat-trick during their Manchester United debut?\n\nA) Cristiano Ronaldo\nB) David Beckham\nC) Robin Van Persie\nD) Wayne Rooney",
+      "answer": "Wayne Rooney",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-089",
+      "category": "sports",
+      "question": "Who won NFL Super Bowl LI? (51)",
+      "answer": "Patriots",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-090",
+      "category": "sports",
+      "question": "Who won the \"Champions League\" in 1999?",
+      "answer": "Manchester United",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-091",
+      "category": "sports",
+      "question": "Who won the 2018 Monaco Grand Prix?",
+      "answer": "Daniel Ricciardo",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-092",
+      "category": "sports",
+      "question": "Who was the top scorer of the 2014 FIFA World Cup?",
+      "answer": "James Rodríguez",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-093",
+      "category": "sports",
+      "question": "Which of these NHL teams have never moved since their inception?\n\nA) New Jersey Devils\nB) St. Louis Blues\nC) Dallas Stars\nD) Carolina Hurricanes",
+      "answer": "St. Louis Blues",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-094",
+      "category": "sports",
+      "question": "What year was hockey legend Wayne Gretzky born?",
+      "answer": "1961",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-095",
+      "category": "sports",
+      "question": "Which basketball team has attended the most NBA grand finals?",
+      "answer": "Los Angeles Lakers",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-096",
+      "category": "sports",
+      "question": "Which portuguese island is soccer player Cristiano Ronaldo from?",
+      "answer": "Madeira",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-097",
+      "category": "sports",
+      "question": "True or false?\nATP tennis hosted several tournaments on carpet court before being replaced to reduce injuries.",
+      "answer": "True",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-098",
+      "category": "sports",
+      "question": "Which of the following Grand Slam tennis tournaments occurs LAST?\n\nA) US Open\nB) French Open\nC) Australian Open\nD) Wimbledon",
+      "answer": "US Open",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-099",
+      "category": "sports",
+      "question": "Josh Mansour is part of what NRL team?",
+      "answer": "Penrith Panthers",
+      "difficulty": "medium",
+      "points": 2
     },
     {
       "id": "sports-100",
-      "question": "What city did the Lakers represent before relocating to Los Angeles?",
-      "answer": "Minneapolis",
+      "category": "sports",
+      "question": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+      "answer": "Jules Bianchi",
       "difficulty": "medium",
-      "points": 2,
-      "category": "sports"
+      "points": 2
     },
     {
       "id": "sports-101",
-      "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
-      "answer": "DING Ning (China)",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-102",
-      "question": "Etihad Stadium is the home stadium for which team?",
-      "answer": "Manchester City",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-103",
-      "question": "Which year was the third Super Bowl held?",
-      "answer": "1969",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-104",
-      "question": "What is &ldquo;The Sport of Kings&rdquo;?",
-      "answer": "Horse Racing",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-105",
-      "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
-      "answer": "Ma Long (China)",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-106",
-      "question": "Which of these European cities was the first to host the modern Summer Olympic Games three times?\n\nA) Athens\nB) Paris\nC) Rome\nD) London",
-      "answer": "London",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-107",
-      "question": "The AHL affiliate team of the Boston Bruins is named what?",
-      "answer": "Providence Bruins",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-108",
-      "question": "Which is Kenesisa Bekele's personal best at marathon?",
-      "answer": "2:01:41",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-109",
-      "question": "Which city features all of their professional sports teams' jersey's with the same color scheme?",
-      "answer": "Pittsburgh",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-110",
-      "question": "With which doubles partner did John McEnroe have most success?",
-      "answer": "Peter Fleming",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-111",
-      "question": "What tool lends it's name to a last-stone advantage in an end in Curling?",
-      "answer": "Hammer",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-112",
-      "question": "Which English football team is nicknamed 'The Tigers'?",
-      "answer": "Hull City",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-113",
-      "question": "Who did Drew Brees pass in all time NFL passing yards in 2018?",
-      "answer": "Peyton Manning",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-114",
-      "question": "Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?",
-      "answer": "Ole Gunnar Solskj&aelig;r",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-115",
-      "question": "Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
-      "answer": "Pelle",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-116",
-      "question": "Which player \"kung-fu kicked\" a Crystal Palace fan in January 1995?",
-      "answer": "Eric Cantona",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-117",
-      "question": "Where was the Games of the XXII Olympiad held?",
-      "answer": "Moscow",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-118",
-      "question": "At which race was the 2018 F1 Drivers Championship won?",
-      "answer": "Mexico",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-119",
-      "question": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?\n\nA) Yekaterinburg\nB) Kaliningrad\nC) Rostov-on-Don\nD) Vladivostok",
-      "answer": "Vladivostok",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-120",
-      "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
-      "answer": "Nine",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-121",
-      "question": "In Canadian football, scoring a rouge is worth how many points?",
-      "answer": "1",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-122",
-      "question": "Prior to 2018, which car company is the only Japanese company which won the 24 Hours of Le Mans?",
-      "answer": "Mazda",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-123",
-      "question": "What is the full name of the footballer \"Cristiano Ronaldo\"?",
-      "answer": "Cristiano Ronaldo dos Santos Aveiro",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-124",
-      "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
-      "answer": "Portugal",
-      "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
-    },
-    {
-      "id": "sports-125",
+      "category": "sports",
       "question": "Who is Manchester United's leading appearance maker?",
       "answer": "Ryan Giggs",
       "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
+      "points": 3
     },
     {
-      "id": "sports-126",
-      "question": "Who won the 1998 Daytona 500?",
-      "answer": "Dale Earnhardt",
+      "id": "sports-102",
+      "category": "sports",
+      "question": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?\n\nA) Vladivostok\nB) Yekaterinburg\nC) Kaliningrad\nD) Rostov-on-Don",
+      "answer": "Vladivostok",
       "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
+      "points": 3
     },
     {
-      "id": "sports-127",
+      "id": "sports-103",
+      "category": "sports",
+      "question": "Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+      "answer": "Pelle",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-104",
+      "category": "sports",
+      "question": "Where was the Games of the XXII Olympiad held?",
+      "answer": "Moscow",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-105",
+      "category": "sports",
+      "question": "Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?",
+      "answer": "Ole Gunnar Solskjær",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-106",
+      "category": "sports",
+      "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+      "answer": "Portugal",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-107",
+      "category": "sports",
+      "question": "Which English football team is nicknamed 'The Tigers'?",
+      "answer": "Hull City",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-108",
+      "category": "sports",
+      "question": "The AHL affiliate team of the Boston Bruins is named what?",
+      "answer": "Providence Bruins",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-109",
+      "category": "sports",
+      "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+      "answer": "Ma Long (China)",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-110",
+      "category": "sports",
+      "question": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+      "answer": "Hammer",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-111",
+      "category": "sports",
+      "question": "Which of these European cities was the first to host the modern Summer Olympic Games three times?\n\nA) Athens\nB) Paris\nC) Rome\nD) London",
+      "answer": "London",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-112",
+      "category": "sports",
+      "question": "With which doubles partner did John McEnroe have most success?",
+      "answer": "Peter Fleming",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-113",
+      "category": "sports",
+      "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+      "answer": "Nine",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-114",
+      "category": "sports",
+      "question": "Etihad Stadium is the home stadium for which team?",
+      "answer": "Manchester City",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-115",
+      "category": "sports",
+      "question": "In Canadian football, scoring a rouge is worth how many points?",
+      "answer": "1",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-116",
+      "category": "sports",
+      "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+      "answer": "DING Ning (China)",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-117",
+      "category": "sports",
+      "question": "What is “The Sport of Kings”?",
+      "answer": "Horse Racing",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-118",
+      "category": "sports",
+      "question": "What is the full name of the footballer \"Cristiano Ronaldo\"?",
+      "answer": "Cristiano Ronaldo dos Santos Aveiro",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-119",
+      "category": "sports",
+      "question": "Which city features all of their professional sports teams' jersey's with the same color scheme?",
+      "answer": "Pittsburgh",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-120",
+      "category": "sports",
+      "question": "Which is Kenesisa Bekele's personal best at marathon?",
+      "answer": "2:01:41",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-121",
+      "category": "sports",
       "question": "The Mazda 787B won the 24 Hours of Le Mans in what year?",
       "answer": "1991",
       "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
+      "points": 3
+    },
+    {
+      "id": "sports-122",
+      "category": "sports",
+      "question": "Prior to 2018, which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+      "answer": "Mazda",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-123",
+      "category": "sports",
+      "question": "At which race was the 2018 F1 Drivers Championship won?",
+      "answer": "Mexico",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-124",
+      "category": "sports",
+      "question": "Which of these NHL players have never won a Hart Trophy for Regular Season MVP?\n\nA) Jose Theodore\nB) Steve Yzerman\nC) Henrik Sedin\nD) Chris Pronger",
+      "answer": "Steve Yzerman",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-125",
+      "category": "sports",
+      "question": "Which player \"kung-fu kicked\" a Crystal Palace fan in January 1995?",
+      "answer": "Eric Cantona",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-126",
+      "category": "sports",
+      "question": "Who did Drew Brees pass in all time NFL passing yards in 2018?",
+      "answer": "Peyton Manning",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-127",
+      "category": "sports",
+      "question": "Who won the 1998 Daytona 500?",
+      "answer": "Dale Earnhardt",
+      "difficulty": "hard",
+      "points": 3
     },
     {
       "id": "sports-128",
-      "question": "Which of these NHL players have never won a Hart Trophy for Regular Season MVP?\n\nA) Henrik Sedin\nB) Chris Pronger\nC) Jose Theodore\nD) Steve Yzerman",
-      "answer": "Steve Yzerman",
+      "category": "sports",
+      "question": "Which year was the third Super Bowl held?",
+      "answer": "1969",
       "difficulty": "hard",
-      "points": 3,
-      "category": "sports"
+      "points": 3
     }
   ]
 }
