@@ -1,0 +1,25 @@
+{
+    "id": "food-drink",
+    "name": "Food and Drink",
+    "description": "Dishes, ingredients and where they come from.",
+    "color": "#c98a5e",
+    "theme": "food and drink around the world: well known dishes, ingredients, cooking methods, and drinks both alcoholic and not",
+    "angles": [
+        "cooking techniques and what they actually mean",
+        "culinary terms a keen cook would know",
+        "national and regional dishes, and the place they belong to",
+        "origins that surprise people, where a dish did not come from where you would assume",
+        "the defining ingredient of a well known dish or drink",
+        "what a particular country eats or drinks the most of",
+        "the one ingredient that separates two dishes people confuse",
+        "food chemistry and chemistry - why a food behaves the way it does",
+        "botanical, scientific classifications of ingredients versus how they are used",
+        "the poverty-to-luxury transformation like Foods that were originally peasant or servant food but are now elite delicacies",
+        "foods or drinks that must legally meet highly specific criteria to carry a name",
+        "bizarre or grueling steps required to grow a specific luxury crop",
+        "culinary tools that are very specialized",
+        "unique ways of preparing, or storing a dish"
+    ],
+    "avoid": "restaurant rankings and awards, celebrity chef gossip, brand slogans, anything that changes year to year, and questions where more than one dish or ingredient would reasonably fit the description",
+    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+}
