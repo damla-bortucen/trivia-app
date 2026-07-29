@@ -2,14 +2,14 @@
  * Fetches trivia questions from the free Open Trivia DB API
  * and saves them as JSON files.
  *
- * Run it with: node scripts/opentdb.js
+ * Run it with: node scripts/fetch-opentdb.js
  */
 
 const fs = require("fs");
 const path = require("path");
  
 // where the JSON files will be saved.
-const OUTPUT_DIR = path.join(__dirname, "..", "assets", "questions");
+const OUTPUT_DIR = path.join(__dirname, "..", "assets", "packs");
 
 // how many questions to fetch per difficulty
 const QUESTIONS_PER_DIFFICULTY = 50;
@@ -82,10 +82,12 @@ const PACKS = [
 ];
 
 
+
 // sleep between API calls
 function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
+
 
 
 // convert html special character tags to text
@@ -105,10 +107,12 @@ function decodeHtml(str) {
 }
 
 
+
 // helper to check if multiple choice options needed for the question
 function needsOptions(question) {
     return /which of the following|which of these|following (is|are|was|were)/i.test(question);
 }
+
 
 
 // shuffle options to have the correct answer in a random spot - Fisher-Yates
@@ -124,6 +128,7 @@ function shuffle(arr) {
 }
 
 
+
 // append options to question
 function appendOptions(question, correct, incorrect) {
     const labels = ["A", "B", "C", "D", "E", "F"];
@@ -132,6 +137,7 @@ function appendOptions(question, correct, incorrect) {
         .join("\n");
     return `${question}\n\n${list}`;
 }
+
 
 
 // how many questions OpenTDB has per difficulty. this counts true/false questions as well
@@ -146,6 +152,7 @@ async function fetchCounts(opentdbId) {
         hard: counts.total_hard_question_count,
     };
 }
+
 
 
 // turn an OpenTDB result into the correct shape to store
@@ -171,6 +178,7 @@ function toQuestion(item) {
         difficulty: item.difficulty,
     };
 }
+
 
 
 // fetch a batch of questions for one OpenTDB category + one difficulty.
@@ -207,6 +215,7 @@ async function fetchBatch(opentdbId, difficulty, amount) {
 }
 
 
+
 // build ONE full category of questions
 async function buildCategory(pack) {
     console.log(`Fetching "${pack.name}"...`);
@@ -236,6 +245,7 @@ async function buildCategory(pack) {
     // turn the raw list into the final shape our app expects, with a unique id per question
     return allQuestions.map((q, index) => ({
         id: `${pack.id}-${String(index + 1).padStart(3, "0")}`,
+        category: pack.id,
         question: q.question,
         answer: q.answer,
         difficulty: q.difficulty,
@@ -245,21 +255,29 @@ async function buildCategory(pack) {
 
 
 
+function makePack(pack, questions) {
+    return {
+        id: pack.id,
+        name: pack.name,
+        description: pack.description,
+        color: pack.color,
+        questions,
+    };
+}
+
+
+
 async function main() {
-    // make sure the output folder exists (creates it if it doesn't)
-    // no category - identified by pack
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-    
+
     for (const pack of PACKS) {
         const questions = await buildCategory(pack);
-    
-        const outputPath = path.join(OUTPUT_DIR, `${pack.id}.json`);
-        fs.writeFileSync(outputPath, JSON.stringify(questions, null, 2));
-    
-        console.log(`  -> saved ${questions.length} questions to ${outputPath}`);
+
+        const file = path.join(OUTPUT_DIR, `${pack.id}.json`);
+        fs.writeFileSync(file, `${JSON.stringify(makePack(pack, questions), null, 2)}\n`);
+
+        console.log(`  -> wrote ${questions.length} questions to ${file}\n`);
     }
-    
-    console.log("\nDone! Check assets/questions/ for your JSON files.");
 }
  
 main();
