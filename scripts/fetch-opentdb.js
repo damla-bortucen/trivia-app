@@ -20,17 +20,65 @@ const API_DELAY_MS = 5500;
 // map "easy" to 1 etc.
 const DIFFICULTY_POINTS = { easy: 1, medium: 2, hard: 3 };
 
-const CATEGORIES = [
-    { slug: "sports", label: "Sports", opentdbIds: [21] },
-    { slug: "history", label: "History", opentdbIds: [23] },
-    { slug: "geography", label: "Geography", opentdbIds: [22] },
-    // Science and Nature and Animals combined
-    { slug: "science-nature", label: "Science and Nature", opentdbIds: [17, 27] },
-    { slug: "general-knowledge", label: "General Knowledge", opentdbIds: [9] },
-    // Books, Film, Music, Musicals & Theatres, TV combined into one "Entertainment" bucket.
-    { slug: "entertainment", label: "Entertainment", opentdbIds: [10, 11, 12, 13, 14] },
-    { slug: "mythology", label: "Mythology", opentdbIds: [20] },
-    { slug: "art", label: "Art", opentdbIds: [25] },
+const PACKS = [
+    {
+        id: "sports",
+        name: "Sports",
+        description: "Teams, records and the people who set them.",
+        color: "#daa8d0",
+        opentdbIds: [21],
+    },
+    {
+        id: "history",
+        name: "History",
+        description: "People and events that shaped the world.",
+        color: "#f7da21",
+        opentdbIds: [23],
+    },
+    {
+        id: "geography",
+        name: "Geography",
+        description: "Countries, capitals and landmarks.",
+        color: "#fb9b00",
+        opentdbIds: [22],
+    },
+    {
+        // Science and Nature and Animals combined
+        id: "science-nature",
+        name: "Science and Nature",
+        description: "The natural world and how it works.",
+        color: "#6AAA64",
+        opentdbIds: [17, 27],
+    },
+    {
+        id: "general-knowledge",
+        name: "General Knowledge",
+        description: "A bit of everything.",
+        color: "#b3a7fe",
+        opentdbIds: [9],
+    },
+    {
+        // Books, Film, Music, Musicals & Theatres, TV combined
+        id: "entertainment",
+        name: "Entertainment",
+        description: "Film, television and music.",
+        color: "#fc716b",
+        opentdbIds: [10, 11, 12, 13, 14],
+    },
+    {
+        id: "mythology",
+        name: "Mythology",
+        description: "Gods, monsters and ancient legends.",
+        color: "#7ba8ef",
+        opentdbIds: [20],
+    },
+    {
+        id: "art",
+        name: "Art",
+        description: "Painters, sculptors and famous works.",
+        color: "#c0ddd9",
+        opentdbIds: [25],
+    },
 ];
 
 
@@ -160,11 +208,11 @@ async function fetchBatch(opentdbId, difficulty, amount) {
 
 
 // build ONE full category of questions
-async function buildCategory(categoryConfig) {
-    console.log(`Fetching "${categoryConfig.label}"...`);
+async function buildCategory(pack) {
+    console.log(`Fetching "${pack.name}"...`);
     
     const difficulties = ["easy", "medium", "hard"];
-    const idsCount = categoryConfig.opentdbIds.length;
+    const idsCount = pack.opentdbIds.length;
     
     // split the target amount evenly across however many OpenTDB IDs this category uses
     // for Entertainment which has multiple
@@ -172,7 +220,7 @@ async function buildCategory(categoryConfig) {
     
     const allQuestions = [];
     
-    for (const opentdbId of categoryConfig.opentdbIds) {
+    for (const opentdbId of pack.opentdbIds) {
         const counts = await fetchCounts(opentdbId);
         await sleep(API_DELAY_MS);
 
@@ -187,7 +235,7 @@ async function buildCategory(categoryConfig) {
     
     // turn the raw list into the final shape our app expects, with a unique id per question
     return allQuestions.map((q, index) => ({
-        id: `${categoryConfig.slug}-${String(index + 1).padStart(3, "0")}`,
+        id: `${pack.id}-${String(index + 1).padStart(3, "0")}`,
         question: q.question,
         answer: q.answer,
         difficulty: q.difficulty,
@@ -202,10 +250,10 @@ async function main() {
     // no category - identified by pack
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     
-    for (const categoryConfig of CATEGORIES) {
-        const questions = await buildCategory(categoryConfig);
+    for (const pack of PACKS) {
+        const questions = await buildCategory(pack);
     
-        const outputPath = path.join(OUTPUT_DIR, `${categoryConfig.slug}.json`);
+        const outputPath = path.join(OUTPUT_DIR, `${pack.id}.json`);
         fs.writeFileSync(outputPath, JSON.stringify(questions, null, 2));
     
         console.log(`  -> saved ${questions.length} questions to ${outputPath}`);
