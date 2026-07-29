@@ -150,11 +150,12 @@ function toQuestion(item) {
     const correct = decode(item.correct_answer);
     const incorrect = item.incorrect_answers.map(decode);
     const difficulty = decode(item.difficulty);
+    const type = decode(item.type);
 
     // handle true or false questions
-    if (item.type === "boolean") {
+    if (type === "boolean") {
         return {
-            question: `True or false?\n\n${question}`,
+            question: `True or false?\n${question}`,
             answer: correct,
             difficulty,
         };

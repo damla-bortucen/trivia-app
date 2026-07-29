@@ -7,53 +7,45 @@
     {
       "id": "entertainment-001",
       "category": "entertainment",
-      "question": "\"Green Eggs and Ham\" consists of only 50 different words.",
-      "answer": "True",
+      "question": "True or false?\nShub-Niggurath is a creature that was created by J. R. R. Tolkien in his novel \"The Lord of The Rings\".",
+      "answer": "False",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-002",
       "category": "entertainment",
-      "question": "What was the name of Captain Nemo's submarine in \"20,000 Leagues Under the Sea\"?",
-      "answer": "The Nautilus",
+      "question": "In the novel 1984, written by George Orwell, what is the name of the totalitarian regime that controls Oceania?",
+      "answer": "INGSOC",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-003",
       "category": "entertainment",
-      "question": "Which famous spy novelist wrote the childrens' story \"Chitty-Chitty-Bang-Bang\"?",
-      "answer": "Ian Fleming",
+      "question": "American illustrator and writer Maurice Sendak is most well-known for writing which children's book?",
+      "answer": "Where The Wild Things Are",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-004",
       "category": "entertainment",
-      "question": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
-      "answer": "Richard Bachman",
+      "question": "What was Sir Handel's original name in \"The Railway Series\" and it's animated counterpart \"Thomas and Friends?\"",
+      "answer": "Falcon",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-005",
       "category": "entertainment",
-      "question": "This play is generally considered to be the most adaptable of Shakespeare’s works, and follows two “star-crossed lovers”.",
-      "answer": "Romeo and Juliet",
+      "question": "Which famous book is sub-titled 'The Modern Prometheus'?",
+      "answer": "Frankenstein",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-006",
-      "category": "entertainment",
-      "question": "Who wrote the young adult novel \"The Fault in Our Stars\"?",
-      "answer": "John Green",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "entertainment-007",
       "category": "entertainment",
       "question": "Who wrote the novel 'Fear And Loathing In Las Vegas'?",
       "answer": "Hunter S. Thompson",
@@ -61,7 +53,23 @@
       "points": 1
     },
     {
+      "id": "entertainment-007",
+      "category": "entertainment",
+      "question": "What's the second book in George R. R. Martin's 'A Song of Ice and Fire' series?",
+      "answer": "A Clash of Kings",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
       "id": "entertainment-008",
+      "category": "entertainment",
+      "question": "Which is NOT a book in the Harry Potter Series?",
+      "answer": "The House Elf",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "entertainment-009",
       "category": "entertainment",
       "question": "Who was the original author of Frankenstein?",
       "answer": "Mary Shelley",
@@ -69,39 +77,23 @@
       "points": 1
     },
     {
-      "id": "entertainment-009",
-      "category": "entertainment",
-      "question": "The \"Berenstein Bears\" is the correct spelling of the educational children's book series' name.",
-      "answer": "False",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": "entertainment-010",
       "category": "entertainment",
-      "question": "What was the first ever entry written for the SCP Foundation collaborative writing project?",
-      "answer": "SCP-173",
+      "question": "True or false?\nThe \"Berenstein Bears\" is the correct spelling of the educational children's book series' name.",
+      "answer": "False",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-011",
       "category": "entertainment",
-      "question": "In the \"The Hobbit\", who kills Smaug?",
-      "answer": "Bard",
+      "question": "According to The Hitchhiker's Guide to the Galaxy book, the answer to life, the universe and everything else is...",
+      "answer": "42",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-012",
-      "category": "entertainment",
-      "question": "What was the pen name of novelist, Mary Ann Evans?",
-      "answer": "George Eliot",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-013",
       "category": "entertainment",
       "question": "What book series published by Jim Butcher follows a wizard in modern day Chicago?",
       "answer": "The Dresden Files",
@@ -109,79 +101,71 @@
       "points": 2
     },
     {
+      "id": "entertainment-013",
+      "category": "entertainment",
+      "question": "In the Lord of the Rings, who is the father of the dwarf Gimli?",
+      "answer": "Gloin",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
       "id": "entertainment-014",
       "category": "entertainment",
-      "question": "What is the make and model of the tour vehicles in \"Jurassic Park\" (1990)?",
-      "answer": "1989 Toyota Land Cruiser",
+      "question": "Which poet wrote \"The Ballad of Reading Gaol\" whilst imprisoned for being gay?",
+      "answer": "Oscar Wilde",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-015",
       "category": "entertainment",
-      "question": "The novel \"Of Mice And Men\" was written by what author? ",
-      "answer": "John Steinbeck ",
+      "question": "Which of the following authors was not born in England? \n\nA) Graham Greene\nB) Arthur Conan Doyle\nC) H G Wells\nD) Arthur C Clarke",
+      "answer": "Arthur Conan Doyle",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-016",
       "category": "entertainment",
-      "question": "Which of these books was NOT written by the Czech author Karel Čapek?\n\nA) The War with the Newts\nB) Dashenka, or the Life of a Puppy\nC) Journey to the Center of the Earth\nD) R.U.R. (Rossum's Universal Robots)",
-      "answer": "Journey to the Center of the Earth",
+      "question": "Who is the author of the series \"Malazan Book of the Fallen\"?",
+      "answer": "Steven Erikson",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-017",
       "category": "entertainment",
-      "question": "What is the name of the author of book series 'Percy Jackson'?",
-      "answer": "Rick Riordan",
+      "question": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+      "answer": "The Greasers",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-018",
       "category": "entertainment",
-      "question": "The title of Adolf Hitler's autobiography \"Mein Kampf\" is what when translated to English?",
-      "answer": "My Struggle",
+      "question": "What was the name of the Mysterious Island, in Jules Verne's \"The Mysterious Island\"?",
+      "answer": "Lincoln Island",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-019",
       "category": "entertainment",
-      "question": "George Orwell's novel \"Animal Farm\" was inspired by which historical event?",
-      "answer": "The rise of communism and Stalin's policies.",
+      "question": "In \"Little Women\", which of the March sisters married Laurie?",
+      "answer": "Amy",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-020",
       "category": "entertainment",
-      "question": "The book \"Fahrenheit 451\" was written by whom?",
-      "answer": "Ray Bradbury",
+      "question": "Which of these books was NOT written by the Czech author Karel Čapek?\n\nA) The War with the Newts\nB) R.U.R. (Rossum's Universal Robots)\nC) Dashenka, or the Life of a Puppy\nD) Journey to the Center of the Earth",
+      "answer": "Journey to the Center of the Earth",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-021",
-      "category": "entertainment",
-      "question": "What is the name of the town in which Lily and James Potter are buried?",
-      "answer": "Godric's Hollow",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-022",
-      "category": "entertainment",
-      "question": "In the book series \"Odd Thomas\", Danny Jessup has what genetic disease? ",
-      "answer": " Osteogenesis Imperfecta",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-023",
       "category": "entertainment",
       "question": "The novel \"Jane Eyre\" was written by what author? ",
       "answer": "Charlotte Brontë",
@@ -189,215 +173,191 @@
       "points": 3
     },
     {
+      "id": "entertainment-022",
+      "category": "entertainment",
+      "question": "Which of these does Charlie NOT read in The Perks of Being a Wallflower?\n\nA) The Grapes of Wrath\nB) The Great Gatsby\nC) Hamlet\nD) Peter Pan",
+      "answer": "The Grapes of Wrath",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-023",
+      "category": "entertainment",
+      "question": "Which fictional English county was the setting for Thomas Hardy's novels?",
+      "answer": "Wessex",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
       "id": "entertainment-024",
       "category": "entertainment",
-      "question": "What is Hermione Granger's middle name?",
-      "answer": "Jean",
+      "question": "Which author co-wrote \"The Communist Manifesto\" alongside Karl Marx?",
+      "answer": "Friedrich Engels",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-025",
       "category": "entertainment",
-      "question": "Which of the following is NOT a work done by Shakespeare?\n\nA) Cymbeline\nB) Titus Andronicus\nC) Trial of Temperance\nD) Measure For Measure",
-      "answer": "Trial of Temperance",
+      "question": "In which classic novel by Mark Twain did a beggar and Prince of Wales switch clothes, and learn about social class inequality?",
+      "answer": "The Prince and the Pauper",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-026",
       "category": "entertainment",
-      "question": "Which of these does Charlie NOT read in The Perks of Being a Wallflower?\n\nA) Peter Pan\nB) The Grapes of Wrath\nC) Hamlet\nD) The Great Gatsby",
-      "answer": "The Grapes of Wrath",
+      "question": "In the book series \"Odd Thomas\", Danny Jessup has what genetic disease? ",
+      "answer": " Osteogenesis Imperfecta",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-027",
       "category": "entertainment",
-      "question": "In which classic novel is there a character named Homer Simpson?",
-      "answer": "The Day of the Locust",
+      "question": "In the Beatrix Potter books, what type of animal is Tommy Brock?",
+      "answer": "Badger",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-028",
       "category": "entertainment",
-      "question": "Abel Magwitch is a character from which Charles Dickens novel?",
-      "answer": "Great Expectations",
+      "question": "Which author and poet famously wrote the line, \"The female of the species is more deadly than the male\"?",
+      "answer": "Rudyard Kipling",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-029",
       "category": "entertainment",
-      "question": "Harry Potter was born on July 31st, 1980.",
-      "answer": "True",
+      "question": "Where does the book \"The Silence of the Lambs\" get its title from?",
+      "answer": "The main character's trauma in childhood",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-030",
       "category": "entertainment",
-      "question": "What is Ron Weasley's middle name?",
-      "answer": "Bilius",
+      "question": "In Margaret Atwood's \"The Handmaid's Tale\", what is Offred's real name is implied to be?",
+      "answer": "June",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-031",
       "category": "entertainment",
-      "question": "Who directed \"E.T. the Extra-Terrestrial\" (1982)?",
-      "answer": "Steven Spielberg",
+      "question": "Which of the following movies was not based on a novel by Stephen King? \n\nA) Carrie\nB) Misery\nC) The Thing\nD) The Green Mile",
+      "answer": "The Thing",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-032",
       "category": "entertainment",
-      "question": "In Avengers: Infinity War, the Reality Stone (aka the Aether) was kept under safe possession by who?",
-      "answer": "The Collector",
+      "question": "True or false?\nIn the original script of \"The Matrix\", the machines used humans as additional computing power instead of batteries.",
+      "answer": "True",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-033",
       "category": "entertainment",
-      "question": "In the 1995 film \"Balto\", who are Steele's accomplices?",
-      "answer": "Kaltag, Nikki, and Star",
+      "question": "Who is the main antagonist of Christopher Nolan's 2012 film \"The Dark Knight Rises\"?",
+      "answer": "Bane",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-034",
       "category": "entertainment",
-      "question": "George Lucas directed the entire original Star Wars trilogy.",
-      "answer": "False",
+      "question": "Who directed the 2015 movie \"The Revenant\"?",
+      "answer": "Alejandro G. Iñárritu",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-035",
       "category": "entertainment",
-      "question": "Which actress danced the twist with John Travolta in 'Pulp Fiction'?",
-      "answer": "Uma Thurman",
+      "question": "True or false?\nMatt Damon played an astronaut stranded on an extraterrestrial planet in both of the movies Interstellar and The Martian.",
+      "answer": "True",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-036",
       "category": "entertainment",
-      "question": "Which of the following movies was not based on a novel by Stephen King? \n\nA) The Green Mile\nB) Misery\nC) The Thing\nD) Carrie",
-      "answer": "The Thing",
+      "question": "True or false?\nShaquille O'Neal appeared in the 1997 film \"Space Jam\".",
+      "answer": "False",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-037",
       "category": "entertainment",
-      "question": "This movie contains the quote, \"Nobody puts Baby in a corner.\"",
-      "answer": "Dirty Dancing",
+      "question": "What was the first James Bond film?",
+      "answer": "Dr. No",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-038",
       "category": "entertainment",
-      "question": "For the film \"Raiders of The Lost Ark\", what was Harrison Ford sick with during the filming of the Cairo chase?",
-      "answer": "Dysentery",
+      "question": "Which animated movie was first to feature a celebrity as a voice actor?",
+      "answer": "Aladdin",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-039",
       "category": "entertainment",
-      "question": "What is the orange and white bot's name in \"Star Wars: The Force Awakens\"?",
-      "answer": "BB-8",
+      "question": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+      "answer": "Highlander",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-040",
       "category": "entertainment",
-      "question": "The 1996 film 'Fargo' is primarily set in which US state?",
-      "answer": "Minnesota",
+      "question": "The 2016 Disney animated film 'Moana' is based on which culture?",
+      "answer": "Polynesian",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-041",
       "category": "entertainment",
-      "question": "In which African country was the 2006 film 'Blood Diamond' mostly set in?",
-      "answer": "Sierra Leone",
+      "question": "Who provided a majority of the songs and lyrics for \"Spirit: Stallion of the Cimarron\"?",
+      "answer": "Bryan Adams",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-042",
       "category": "entertainment",
-      "question": "In \"Jurassic World\", which company purchases InGen and creates Jurassic World?",
-      "answer": "Masrani Global Corporation ",
+      "question": "Bela Lugosi was a Hungarian-American actor best known for his starring role of what 1931 horror film?",
+      "answer": "Count Dracula",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-043",
       "category": "entertainment",
-      "question": "In the 2010 Nightmare on Elm Street reboot, who played Freddy Kruger?",
-      "answer": "Jackie Earle Haley",
+      "question": "What were the Chilled Monkey Brains made from during Indiana Jones and the Temple of Doom?",
+      "answer": "Custard and Raspberry Sauce",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-044",
       "category": "entertainment",
-      "question": "Which documentary film maker wrote and starred in the film \"My Scientology Movie\" which first debuted in 2015?",
-      "answer": "Louis Theroux",
+      "question": "Which movie sequel had improved box office results compared to its original film?",
+      "answer": "Toy Story 2",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-045",
-      "category": "entertainment",
-      "question": "What is the name of the robot in the 1951 science fiction film classic 'The Day the Earth Stood Still'?",
-      "answer": "Gort",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-046",
-      "category": "entertainment",
-      "question": "In \"The Hobbit,\" who was head of the White Council? ",
-      "answer": "Saruman",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-047",
-      "category": "entertainment",
-      "question": "The movie \"The Rocky Horror Picture Show\" (1975) opens with giant floating lips singing the opening song",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-048",
-      "category": "entertainment",
-      "question": "What year did the James Cameron film \"Titanic\" come out in theaters?",
-      "answer": "1997",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-049",
-      "category": "entertainment",
-      "question": "In the film \"John Wick\" why does John Wick get out of retirement?",
-      "answer": "His puppy is killed and his car was stolen",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-050",
       "category": "entertainment",
       "question": "Which iconic character is featured in movies such as \"The Enforcer\", \"Sudden Impact\", and \"The Dead Pool\"?",
       "answer": "Dirty Harry",
@@ -405,47 +365,71 @@
       "points": 2
     },
     {
+      "id": "entertainment-046",
+      "category": "entertainment",
+      "question": "Which star actor was in \"Top Gun\", \"Jerry Maguire\" and \"Born on the Fourth of July\"?",
+      "answer": "Tom Cruise",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-047",
+      "category": "entertainment",
+      "question": " In what movie does Eddie Murphy swap identities with Dan Aykroyd?",
+      "answer": "Trading Places",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-048",
+      "category": "entertainment",
+      "question": "According to the Star Wars lore, what is Han Solo's home planet?",
+      "answer": "Corellia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-049",
+      "category": "entertainment",
+      "question": "What character in the Winnie the Pooh films was added by Disney and does not appear in the original books?",
+      "answer": "Gopher",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-050",
+      "category": "entertainment",
+      "question": "In the 1994 movie \"Speed\", what is the minimum speed the bus must go to prevent to bomb from exploding?",
+      "answer": "50 mph",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
       "id": "entertainment-051",
       "category": "entertainment",
-      "question": "In the 1974 Christmas flick \"The Year Without a Santa Claus,\" what are the names of the two elves who help Mrs. Claus save Christmas?",
-      "answer": "Jingle & Jangle",
+      "question": "What is the species of the \"Predator\" in the 1987 movie \"Predator\"?",
+      "answer": "Yautja",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-052",
       "category": "entertainment",
-      "question": "What three movies, in order from release date, make up the \"Dollars Trilogy\"?",
-      "answer": "\"A Fistful of Dollars\", \"For a Few Dollars More\", \"The Good, the Bad, and the Ugly\"",
+      "question": "In the 1964 film \"Zulu\", what song does the British Army company sing before the final battle?",
+      "answer": "Men of Harlech",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-053",
       "category": "entertainment",
-      "question": "What was Humphrey Bogart's middle name?",
-      "answer": "DeForest",
+      "question": "What was the last Marx Brothers film to feature Zeppo?",
+      "answer": "Duck Soup",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-054",
-      "category": "entertainment",
-      "question": "Which movie did NOT feature the late actor John Candy?",
-      "answer": "Ghostbusters",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-055",
-      "category": "entertainment",
-      "question": "Which boxer was famous for striking the gong in the introduction to J. Arthur Rank films?",
-      "answer": "Bombardier Billy Wells",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-056",
       "category": "entertainment",
       "question": "In the film \"Harry Potter and the Order of The Phoenix\", why was Harry Potter's scream, after Sirius Black died, muted?",
       "answer": "Too Agonizing",
@@ -453,63 +437,87 @@
       "points": 3
     },
     {
+      "id": "entertainment-055",
+      "category": "entertainment",
+      "question": "In the \"Jurassic Park\" universe, what was the first dinosaur cloned by InGen in 1986?",
+      "answer": "Velociraptor",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-056",
+      "category": "entertainment",
+      "question": "True or false?\n\"Cube\", \"Cube 2: Hypercube\" and \"Cube Zero\" were directed by the same person.",
+      "answer": "False",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
       "id": "entertainment-057",
       "category": "entertainment",
-      "question": "What was the first movie to ever use a Wilhelm Scream?",
-      "answer": "Distant Drums",
+      "question": "In the \"Jurassic Park\" universe, when did \"Jurassic Park: San Diego\" begin construction?",
+      "answer": "1985",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-058",
       "category": "entertainment",
-      "question": "Which actress portrayed Dr. Grace Augustine in the James Cameron movie \"Avatar\"?",
-      "answer": "Sigourney Weaver",
+      "question": "What was Humphrey Bogart's middle name?",
+      "answer": "DeForest",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-059",
       "category": "entertainment",
-      "question": "Which singer is portrayed by Bruce Campbell in the 2002 film 'Bubba Ho-Tep'?",
-      "answer": "Elvis Presley",
+      "question": "In \"Star Trek Nemesis\", why was Praetor Shinzon created?",
+      "answer": "To replace Picard as a Romulan Agent",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-060",
       "category": "entertainment",
-      "question": "The film Mad Max: Fury Road features the Dies Irae  from which composer's requiem?",
-      "answer": "Verdi",
+      "question": "What three movies, in order from release date, make up the \"Dollars Trilogy\"?",
+      "answer": "\"A Fistful of Dollars\", \"For a Few Dollars More\", \"The Good, the Bad, and the Ugly\"",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-061",
       "category": "entertainment",
-      "question": "Who was the most streamed artist on Spotify in 2019?",
-      "answer": "Post Malone",
+      "question": "What is the best selling album of all time from 1976 to 2018?",
+      "answer": "Thriller",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-062",
       "category": "entertainment",
-      "question": "How many members are there in the band Nirvana?",
-      "answer": "Three",
+      "question": "What is the name of Death Grips Front Man, MC Ride?",
+      "answer": "Stefan Burnett",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-063",
       "category": "entertainment",
-      "question": "Korean girl group, TWICE, consists of 9 members",
-      "answer": "True",
+      "question": "Swedish DJ Tim Bergling, who produced songs such as \"Levels\" and \"Wake Me Up\", is better known under what alias?",
+      "answer": "Avicii",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-064",
+      "category": "entertainment",
+      "question": "Which English guitarist has the nickname \"Slowhand\"?",
+      "answer": "Eric Clapton",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "entertainment-065",
       "category": "entertainment",
       "question": "What 1970's American ballad referred to the 1959 plane crash as the \"the day the music died\"?",
       "answer": "American Pie",
@@ -517,143 +525,191 @@
       "points": 1
     },
     {
-      "id": "entertainment-065",
-      "category": "entertainment",
-      "question": "Which band recorded the album \"Parallel Lines\"?",
-      "answer": "Blondie",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": "entertainment-066",
       "category": "entertainment",
-      "question": "Finish these lyrics from the 2016 song \"Panda\" by Desiigner: \"I got broads in _______\".",
-      "answer": "Atlanta",
+      "question": "Who is the frontman of the band 30 Seconds to Mars?",
+      "answer": "Jared Leto",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-067",
       "category": "entertainment",
-      "question": "Which of these artists has Lil A collaborated with?\n\nA) 6ix9ine\nB) Boonk Gang\nC) Lil Fortnite\nD) Lil Pump",
-      "answer": "Lil Fortnite",
+      "question": "The Rush song \"YYZ\" derives its name from the IATA aiport identification code for which city?",
+      "answer": "Toronto",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-068",
       "category": "entertainment",
-      "question": "The 2011 movie \"The Adventures of Tintin\" was directed by Steven Spielberg.",
-      "answer": "True",
+      "question": "Kanye West's \"Gold Digger\" featured which Oscar-winning actor?",
+      "answer": "Jamie Foxx",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-069",
       "category": "entertainment",
-      "question": "In an orchestra, what is the lowest member of the brass family?",
-      "answer": "Tuba",
+      "question": "Who is the lead singer of the British pop rock band Coldplay?",
+      "answer": "Chris Martin",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-070",
       "category": "entertainment",
-      "question": "Who is the musical artist who released the hit song, \"Love Song,\" in 2007?",
-      "answer": "Sara Bareilles",
+      "question": "True or false?\nStevie Wonder's real name is Stevland Hardaway Morris.",
+      "answer": "True",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-071",
       "category": "entertainment",
-      "question": "A Facebook campaign placed Rage Against The Machine's \"Killing in the Name Of\" as the UK Christmas Number 1 in 2009.",
-      "answer": "True",
+      "question": "In which year was the Megadeth album \"Peace Sells... but Who's Buying?\" released?",
+      "answer": "1986",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-072",
       "category": "entertainment",
-      "question": "For which civil rights activist did Stevie Wonder write the song 'Happy Birthday' in 1980?",
-      "answer": "Martin Luther King Jr",
+      "question": "How many semitones are in an octave?",
+      "answer": "12",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-073",
       "category": "entertainment",
-      "question": "What was the title of Sakamoto Kyu's song \"Ue o Muite Arukou\" (I Look Up As I Walk) changed to in the United States?",
-      "answer": "Sukiyaki",
+      "question": "True or false?\n3 members of 2 Live Crew were arrested for playing songs from their album, As Nasty As They Wanna Be, live.",
+      "answer": "True",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-074",
       "category": "entertainment",
-      "question": "Madonna's song \"Hung Up\" includes a piece from which popular 70s song?",
-      "answer": "Gimmie! Gimmie! Gimme! (A Man After Midnight)",
+      "question": "What year was Weezer's album \"Pinkerton\" released? ",
+      "answer": "1996",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-075",
       "category": "entertainment",
-      "question": "Who sang backup vocals on Rockwell's hit 1984 single 'Somebody's Watching Me'?",
-      "answer": "Michael Jackson",
+      "question": "Who is the vocalist and frontman of rock band \"Guns N' Roses\"?",
+      "answer": "Axl Rose",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-076",
       "category": "entertainment",
-      "question": "Who is the bassist of the British rock band Queen?",
-      "answer": "John Deacon",
+      "question": "What French artist/band is known for playing on the midi instrument \"Launchpad\"?",
+      "answer": "Madeon",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-077",
       "category": "entertainment",
-      "question": "EDM producer Marshmello performs live wearing clothes and a marshmallow mask of what colour?",
-      "answer": "White",
+      "question": "What is the real name of prominent electronic musician Aphex Twin?",
+      "answer": "Richard D. James",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-078",
       "category": "entertainment",
-      "question": "Norwegian producer Kygo released a remix of the song \"Sexual Healing\" by Marvin Gaye.",
-      "answer": "True",
+      "question": "\"Lift Your Spirit\" is an album by which artist?",
+      "answer": "Aloe Blacc",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-079",
       "category": "entertainment",
-      "question": "The 1952 musical composition 4'33\", composed by prolific American composer John Cage, is mainly comprised of what sound?",
-      "answer": "Silence",
+      "question": "Who had a US and UK number 1 hit in 1962 with the instrumental, 'Telstar'?",
+      "answer": "The Tornados",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-080",
       "category": "entertainment",
-      "question": "\"Rumble\" by Link Wray is the only instrumental song to ever have been banned from US radio.",
-      "answer": "True",
+      "question": "What was Britney Spears' debut single?",
+      "answer": "...Baby One More Time",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-081",
       "category": "entertainment",
-      "question": "Panic! At the Disco's sixth album \"Pray For The Wicked\" was released on which date?",
-      "answer": "June 22, 2018",
+      "question": "Who was not in the band \"The Smiths\"?",
+      "answer": "Martin Chambers",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-082",
+      "category": "entertainment",
+      "question": "Pamina and Papageno are characters in what Mozart opera?",
+      "answer": "The Magic Flute",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-083",
+      "category": "entertainment",
+      "question": "What event inspired The Cranberries song \"Zombie\" ?",
+      "answer": "The Warrington Bombings",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-084",
+      "category": "entertainment",
+      "question": "True or false?\nThe band STRFKR was also briefly known as Pyramiddd.",
+      "answer": "True",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-085",
+      "category": "entertainment",
+      "question": "Which of these is NOT a song featured on the Lockjaw EP released in 2013 by Flume & Chet Faker?\n\nA) Drop The Game\nB) This Song Is Not About A Girl\nC) Left Alone\nD) What About Us",
+      "answer": "Left Alone",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-086",
+      "category": "entertainment",
+      "question": "Who was the original drummer for The Beatles?",
+      "answer": "Tommy Moore",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-087",
+      "category": "entertainment",
+      "question": "Which album was released by Kanye West in 2013?",
+      "answer": "Yeezus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-088",
+      "category": "entertainment",
+      "question": "Which M83 album is the song \"Midnight City\" featured in?",
+      "answer": "Hurry Up, We're Dreaming",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-089",
       "category": "entertainment",
       "question": "Which member of the English band \"The xx\" released their solo album \"In Colour\" in 2015?",
       "answer": "Jamie xx",
@@ -661,79 +717,15 @@
       "points": 3
     },
     {
-      "id": "entertainment-083",
-      "category": "entertainment",
-      "question": "A Caixa Malacacheta is what kind of musical instrument which is commonly used in Latin American music?",
-      "answer": "Snare Drum",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-084",
-      "category": "entertainment",
-      "question": "What was the name of the cold-war singer who has a song in Grand Theft Auto IV, and a wall landmark in Moscow for his memorial?",
-      "answer": "Viktor Tsoi",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-085",
-      "category": "entertainment",
-      "question": "Which of Michael Jackson's albums sold the most copies?",
-      "answer": "Thriller",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-086",
-      "category": "entertainment",
-      "question": "What year was Huun Huur Tu's album Altai Sayan Tandy-Uula released? ",
-      "answer": "2004",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-087",
-      "category": "entertainment",
-      "question": "Which British band won the first edition of the Brit Awards in 1977?",
-      "answer": "The Beatles",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-088",
-      "category": "entertainment",
-      "question": "The song Scatman's World was released after Scatman (Ski-Ba-Bop-Ba-Dop-Bop).",
-      "answer": "True",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-089",
-      "category": "entertainment",
-      "question": "Which of these artists did NOT feature in the fitfh studio album \"Humanz\" by British virtual band Gorillaz?\n\nA) Snoop Dogg\nB) Danny Brown\nC) Pusha T\nD) Vince Staples",
-      "answer": "Snoop Dogg",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
       "id": "entertainment-090",
       "category": "entertainment",
-      "question": "The band STRFKR was also briefly known as Pyramiddd.",
-      "answer": "True",
+      "question": "Who recorded the 1975 album 'Captain Fantastic and the Brown Dirt Cowboy'?",
+      "answer": "Elton John",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-091",
-      "category": "entertainment",
-      "question": "Who wrote the play 'Angels in America'?",
-      "answer": "Tony Kusher",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "entertainment-092",
       "category": "entertainment",
       "question": "Who wrote the musical \"Hamilton\"?",
       "answer": "Lin-Manuel Miranda",
@@ -741,34 +733,42 @@
       "points": 1
     },
     {
+      "id": "entertainment-092",
+      "category": "entertainment",
+      "question": "Who wrote the award winning musical \"In The Heights\"?",
+      "answer": "Lin-Manuel Miranda",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
       "id": "entertainment-093",
       "category": "entertainment",
-      "question": "What is Jean ValJean's first prisoner number?",
-      "answer": "24601",
+      "question": "True or false?\n\"The Crucible\" was written by William Shakespeare.",
+      "answer": "False",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-094",
       "category": "entertainment",
-      "question": "\"The Crucible\" was written by William Shakespeare.",
-      "answer": "False",
+      "question": "Who wrote the play 'Angels in America'?",
+      "answer": "Tony Kusher",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-095",
       "category": "entertainment",
-      "question": "How many plays is Shakespeare generally considered to have written?",
-      "answer": "37",
+      "question": "Which Shakespeare play inspired the musical 'West Side Story'?",
+      "answer": "Romeo & Juliet",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-096",
       "category": "entertainment",
-      "question": "In the play Oedipus Rex, Oedipus kills his father due to jealousy in loving his mother.",
-      "answer": "False",
+      "question": "In Shakespeare's play Julius Caesar, Caesar's last words were...",
+      "answer": "Et tu, Brute? ",
       "difficulty": "easy",
       "points": 1
     },
@@ -783,77 +783,29 @@
     {
       "id": "entertainment-098",
       "category": "entertainment",
-      "question": "Who wrote the award winning musical \"In The Heights\"?",
-      "answer": "Lin-Manuel Miranda",
+      "question": "True or false?\nIMAX stands for Image Maximum.",
+      "answer": "True",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-099",
       "category": "entertainment",
-      "question": "IMAX stands for Image Maximum.",
-      "answer": "True",
+      "question": "True or false?\nIn the play Oedipus Rex, Oedipus kills his father due to jealousy in loving his mother.",
+      "answer": "False",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-100",
       "category": "entertainment",
-      "question": "In Shakespeare's play Julius Caesar, Caesar's last words were...",
-      "answer": "Et tu, Brute? ",
+      "question": "How many plays is Shakespeare generally considered to have written?",
+      "answer": "37",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-101",
-      "category": "entertainment",
-      "question": "Which musical has won the most Tony awards?",
-      "answer": "The Producers",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-102",
-      "category": "entertainment",
-      "question": "In Jeff Wayne's Musical Version of War of the Worlds, the chances of anything coming from Mars are...",
-      "answer": "A million to one",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-103",
-      "category": "entertainment",
-      "question": "Which of these musicals won the Tony Award for Best Musical?\n\nA) Rent\nB) American Idiot\nC) Newsies\nD) The Color Purple",
-      "answer": "Rent",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-104",
-      "category": "entertainment",
-      "question": "Who is the musical director for the award winning musical \"Hamilton\"?",
-      "answer": "Alex Lacamoire",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-105",
-      "category": "entertainment",
-      "question": "The Andrew Lloyd Webber musical \"Cats\" is based off a book of poems written by which author?",
-      "answer": "T.S. Elliot",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-106",
-      "category": "entertainment",
-      "question": "What was George Bizet's last opera?",
-      "answer": "Carmen",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-107",
       "category": "entertainment",
       "question": "In which Shakespeare play does the character Marcellus say, \"Something is rotten in the state of Denmark\"?",
       "answer": "Hamlet",
@@ -861,15 +813,7 @@
       "points": 2
     },
     {
-      "id": "entertainment-108",
-      "category": "entertainment",
-      "question": "The musical \"Dirty Rotten Scoundrels\" is set in what country?",
-      "answer": "France",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-109",
+      "id": "entertainment-102",
       "category": "entertainment",
       "question": "The World Chess Championship in Chess, Act 1 is set in which Italian city?",
       "answer": "Merano",
@@ -877,47 +821,71 @@
       "points": 2
     },
     {
+      "id": "entertainment-103",
+      "category": "entertainment",
+      "question": "What was George Bizet's last opera?",
+      "answer": "Carmen",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-104",
+      "category": "entertainment",
+      "question": "Which of these musicals won the Tony Award for Best Musical?\n\nA) Rent\nB) American Idiot\nC) The Color Purple\nD) Newsies",
+      "answer": "Rent",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-105",
+      "category": "entertainment",
+      "question": "What play is the quote \"Hell is other people\" from?",
+      "answer": "No Exit",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-106",
+      "category": "entertainment",
+      "question": "Which musical has won the most Tony awards?",
+      "answer": "The Producers",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-107",
+      "category": "entertainment",
+      "question": "The Andrew Lloyd Webber musical \"Cats\" is based off a book of poems written by which author?",
+      "answer": "T.S. Elliot",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-108",
+      "category": "entertainment",
+      "question": "Which of the following is not a piece from the 1950's musical West Side Story?\n\nA) Maria\nB) Tonight\nC) Mambo\nD) The Back Alley",
+      "answer": "The Back Alley",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-109",
+      "category": "entertainment",
+      "question": "In Jeff Wayne's Musical Version of War of the Worlds, the chances of anything coming from Mars are...",
+      "answer": "A million to one",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
       "id": "entertainment-110",
       "category": "entertainment",
-      "question": "Who played Marquis de Lafayette and Thomas Jefferson in the original Broadway run of Hamilton?",
-      "answer": "Daveed Diggs",
+      "question": "Who is the musical director for the award winning musical \"Hamilton\"?",
+      "answer": "Alex Lacamoire",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-111",
-      "category": "entertainment",
-      "question": "Who wrote the lyrics for Leonard Bernstein's 1957 Brodway musical West Side Story?",
-      "answer": "Stephen Sondheim",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-112",
-      "category": "entertainment",
-      "question": "Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?",
-      "answer": "Chorus",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-113",
-      "category": "entertainment",
-      "question": "Which of these plays was famously first performed posthumously after the playwright committed suicide?\n\nA) 4.48 Psychosis\nB) Hamilton\nC) Much Ado About Nothing\nD) The Birthday Party",
-      "answer": "4.48 Psychosis",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-114",
-      "category": "entertainment",
-      "question": "In Les Misérables, who is Prison Code 24601?",
-      "answer": "Jean Valjean",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-115",
       "category": "entertainment",
       "question": "Who played \"Charlie Price\" in the musical \"Kinky Boots\" on Broadway in New York from May 26th - Aug 6th 2017?",
       "answer": "Brendon Urie",
@@ -925,7 +893,7 @@
       "points": 3
     },
     {
-      "id": "entertainment-116",
+      "id": "entertainment-112",
       "category": "entertainment",
       "question": "What is the name of Broadway's first \"long-run\" musical?",
       "answer": "The Elves",
@@ -933,15 +901,15 @@
       "points": 3
     },
     {
-      "id": "entertainment-117",
+      "id": "entertainment-113",
       "category": "entertainment",
-      "question": "The protagonist's names in 'Who's Afraid of Virginia Woolf', George and Martha, were derived from George Washington and his wife.",
-      "answer": "True",
+      "question": "Which Shakespeare play features the stage direction \"Enter a messenger, with two heads and a hand\"?",
+      "answer": "Titus Andronicus",
       "difficulty": "hard",
       "points": 3
     },
     {
-      "id": "entertainment-118",
+      "id": "entertainment-114",
       "category": "entertainment",
       "question": "After England, more Shakespeare plays are set in this present day country than in any other.",
       "answer": "Italy",
@@ -949,15 +917,39 @@
       "points": 3
     },
     {
-      "id": "entertainment-119",
+      "id": "entertainment-115",
       "category": "entertainment",
-      "question": "Which actor has NOT portrayed Billy Flynn in the musical \"Chicago\"?",
-      "answer": "Christopher Walken",
+      "question": "In Les Misérables, who is Prison Code 24601?",
+      "answer": "Jean Valjean",
       "difficulty": "hard",
       "points": 3
     },
     {
-      "id": "entertainment-120",
+      "id": "entertainment-116",
+      "category": "entertainment",
+      "question": "Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?",
+      "answer": "Chorus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-117",
+      "category": "entertainment",
+      "question": "Which of these plays was famously first performed posthumously after the playwright committed suicide?\n\nA) Hamilton\nB) The Birthday Party\nC) 4.48 Psychosis\nD) Much Ado About Nothing",
+      "answer": "4.48 Psychosis",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-118",
+      "category": "entertainment",
+      "question": "True or false?\nThe protagonist's names in 'Who's Afraid of Virginia Woolf', George and Martha, were derived from George Washington and his wife.",
+      "answer": "True",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-119",
       "category": "entertainment",
       "question": "In Macbeth, the eyes of what animals were used in the Witches' cauldron?",
       "answer": "Newts",
@@ -965,47 +957,71 @@
       "points": 3
     },
     {
+      "id": "entertainment-120",
+      "category": "entertainment",
+      "question": "Who wrote the lyrics for Leonard Bernstein's 1957 Brodway musical West Side Story?",
+      "answer": "Stephen Sondheim",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
       "id": "entertainment-121",
       "category": "entertainment",
-      "question": "Who was the first ever actor to play \"The Doctor\" on \"Doctor Who\"?",
-      "answer": "William Hartnell",
+      "question": "In \"Rick And Morty\", who shot \"Mr. Poopybutthole\" in the episode \"Total Rickall\"?",
+      "answer": "Beth",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-122",
       "category": "entertainment",
-      "question": "In the television show Breaking Bad, what is the street name of Walter and Jesse's notorious product?",
-      "answer": "Blue Sky",
+      "question": "What country is Cory in the House set in?",
+      "answer": "The United States of America",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-123",
       "category": "entertainment",
-      "question": "In \"Breaking Bad\", Walter White is a high school teacher diagnosed with which form of cancer?",
-      "answer": "Lung Cancer",
+      "question": "In the Star Trek universe, what color is Vulcan blood?",
+      "answer": "Green",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-124",
       "category": "entertainment",
-      "question": "Which Star Trek race advances itself through assimilation?",
-      "answer": "Borg",
+      "question": "Which company has exclusive rights to air episodes of the \"The Grand Tour\"?",
+      "answer": "Amazon",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-125",
       "category": "entertainment",
-      "question": "Who won Big Brother 2014 UK?",
-      "answer": "Helen Wood",
+      "question": "In Game of Thrones, what is Littlefinger's real name?",
+      "answer": "Petyr Baelish",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-126",
+      "category": "entertainment",
+      "question": "On the show \"Rick and Morty\", in episode \"Total Rickall\", who was a parasite?",
+      "answer": "Pencilvester",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "entertainment-127",
+      "category": "entertainment",
+      "question": "In the cartoon 'SpongeBob SquarePants', what did the acronym E.V.I.L stand for?",
+      "answer": "Every Villain Is Lemons",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "entertainment-128",
       "category": "entertainment",
       "question": "What is the name of Chris's brother in \"Everybody Hates Chris\"?",
       "answer": "Drew",
@@ -1013,39 +1029,71 @@
       "points": 1
     },
     {
-      "id": "entertainment-127",
-      "category": "entertainment",
-      "question": "On the NBC show Community, whose catch-phrase was \"Pop! Pop!\"?",
-      "answer": "Magnitude",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
-      "id": "entertainment-128",
-      "category": "entertainment",
-      "question": "Who played the Waitress in the Spam sketch of \"Monty Python's Flying Circus\"?",
-      "answer": "Terry Jones",
-      "difficulty": "easy",
-      "points": 1
-    },
-    {
       "id": "entertainment-129",
       "category": "entertainment",
-      "question": "In the TV show \"Mad Men\", what was Donald Draper's birthname?",
-      "answer": "Richard \"Dick\" Whitman",
+      "question": "Grant Gustin plays which superhero on the CW show of the same name?",
+      "answer": "The Flash",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-130",
       "category": "entertainment",
-      "question": "In the show Stranger Things, what is Eleven's favorite breakfast food?",
-      "answer": "Eggo Waffles",
+      "question": "Who played Agent Fox Mulder in the TV sci-fi drama \"The X-Files\"?",
+      "answer": "David Duchovny",
       "difficulty": "easy",
       "points": 1
     },
     {
       "id": "entertainment-131",
+      "category": "entertainment",
+      "question": "In the comedy series \"Trailer Park Boys\", which of the following characters takes care of stray cats?\n\nA) Randy\nB) Ricky\nC) Bubbles\nD) Julian",
+      "answer": "Bubbles",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-132",
+      "category": "entertainment",
+      "question": "What episode of \"Mr. Bean\" saw him trying to prevent people from seeing him naked?",
+      "answer": "Mr. Bean in Room 426",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-133",
+      "category": "entertainment",
+      "question": "Cesar Romero played which iconic Batman villain from the 1960's TV show?",
+      "answer": "The Joker",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-134",
+      "category": "entertainment",
+      "question": "Which British writer wrote for both Doctor Who and Sherlock?",
+      "answer": "Steven Moffatt",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-135",
+      "category": "entertainment",
+      "question": "Which actor was not a major character in TV Show Freaks and Geeks?",
+      "answer": "Jonah Hill",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-136",
+      "category": "entertainment",
+      "question": "Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?",
+      "answer": "Tilly",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "entertainment-137",
       "category": "entertainment",
       "question": "In which year did the British television series \"The Bill\" end?",
       "answer": "2010",
@@ -1053,119 +1101,95 @@
       "points": 2
     },
     {
-      "id": "entertainment-132",
-      "category": "entertainment",
-      "question": "In the Netflix show, Stranger Things, what song would Will sing to himself as he was missing?",
-      "answer": "Should I Stay or Should I Go?",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-133",
-      "category": "entertainment",
-      "question": "Who co-founded the YouTube Let's Play channel \"Game Grumps\" alongside Newgrounds animator Egoraptor?",
-      "answer": "JonTron",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-134",
-      "category": "entertainment",
-      "question": "This composer worked on the 2003 TV series Battlestar Galatica.",
-      "answer": "Bear McCreary",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-135",
-      "category": "entertainment",
-      "question": "Which of the following Autobot names in Michael Bay's movies was NOT a name for a Transformer in the original 1980's cartoon?\n\nA) Ratchet\nB) Skids\nC) Mudflap\nD) Sideswipe",
-      "answer": "Mudflap",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-136",
-      "category": "entertainment",
-      "question": "In the TV series Red Dwarf, Kryten's full name is Kryten 2X4B-523P.",
-      "answer": "True",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
-      "id": "entertainment-137",
-      "category": "entertainment",
-      "question": "The 1985 Toyota Corolla \"AE86\" was the hero car for what anime? ",
-      "answer": "Initial D",
-      "difficulty": "medium",
-      "points": 2
-    },
-    {
       "id": "entertainment-138",
       "category": "entertainment",
-      "question": "What is the name of the mad scientist who owns Planet Express in Futurama?",
-      "answer": "Hubert J. Farnsworth",
+      "question": "Which WWF wrestler had the nickname \"The Ayatollah of Rock 'N' Rolla\"?",
+      "answer": "Chris Jericho",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-139",
       "category": "entertainment",
-      "question": "What was the name of Ross' pet monkey on \"Friends\"?",
-      "answer": "Marcel",
+      "question": "What actor portrays Hogan \"Wash\" Washburne in the TV Show Firefly?",
+      "answer": "Alan Tudyk",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-140",
       "category": "entertainment",
-      "question": "What does Bart sell his soul for in The Simpsons episode 'Bart Sells His Soul'?",
-      "answer": "$5",
+      "question": "What is the name of the \"Flash\" and \"Arrow\" spinoff featuring a team of characters that have appeared on both shows?",
+      "answer": "Legends of Tomorrow",
       "difficulty": "medium",
       "points": 2
     },
     {
       "id": "entertainment-141",
       "category": "entertainment",
-      "question": "Which race enjoys a glass of warm baghol in \"Star Trek\"?",
-      "answer": "Klingon",
+      "question": "In the show 'Doctor Who', what is the name of the time-capsule model stolen by 'the Doctor'?",
+      "answer": "TT Type 40, Mark 3 (TARDIS)",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-142",
       "category": "entertainment",
-      "question": "Which of the following actors portrayed the Ninth Doctor in the British television show \"Doctor Who\"?\n\nA) Matt Smith\nB) Tom Baker\nC) David Tennant\nD) Christopher Eccleston",
-      "answer": "Christopher Eccleston",
+      "question": "In the TV Show \"Donkey Kong Country\", which episode did the song \"Eddie, Let Me Go Back To My Home\" play in?",
+      "answer": "It's a Wonderful Life",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-143",
       "category": "entertainment",
-      "question": "What was the date of original airing of the pilot episode of My Little Pony: Friendship is Magic?",
-      "answer": "October 10th, 2010",
+      "question": "What is the name of the pirate that sings the intro to \"Spongebob Squarepants\"?",
+      "answer": "Painty",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-144",
       "category": "entertainment",
-      "question": "Which actor from The Young Ones also played Lord Flashheart in one episode of Blackadder II?",
-      "answer": "Rik Mayall",
+      "question": "Which former Coronation Street actress was once a hostess on the British Game Show \"Double Your Money\"?",
+      "answer": "Amanda Barrie",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-145",
       "category": "entertainment",
-      "question": "What was the callsign of Commander William Adama in Battlestar Galactica (2004)?",
-      "answer": "Husker",
+      "question": "Which of these Nickelodeon game shows aired first?\n\nA) Nick Arcade\nB) Double Dare\nC) Finders Keepers\nD) Nickelodeon Guts",
+      "answer": "Double Dare",
       "difficulty": "hard",
       "points": 3
     },
     {
       "id": "entertainment-146",
+      "category": "entertainment",
+      "question": "Which of the following actors portrayed the Ninth Doctor in the British television show \"Doctor Who\"?\n\nA) Christopher Eccleston\nB) Matt Smith\nC) David Tennant\nD) Tom Baker",
+      "answer": "Christopher Eccleston",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-147",
+      "category": "entertainment",
+      "question": "The theme for the popular science fiction series \"Doctor Who\" was composed by who?",
+      "answer": "Ron Grainer",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-148",
+      "category": "entertainment",
+      "question": "What was the name of the inflatable duck sacrified to the crowd at the end of Episode 34 of the 18th season of Big Brother?",
+      "answer": "Pablo",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "entertainment-149",
       "category": "entertainment",
       "question": "Which PBS station was the first station to air \"Monty Python's Flying Circus\" (1969-1974) in the United States?",
       "answer": "KERA (Dallas-Fort Worth)",
@@ -1173,34 +1197,10 @@
       "points": 3
     },
     {
-      "id": "entertainment-147",
-      "category": "entertainment",
-      "question": "Who was the winner of \"Big Brother\" Season 10?",
-      "answer": "Dan Gheesling",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-148",
-      "category": "entertainment",
-      "question": "In 2008, British celebrity chef Gordon Ramsay believes he almost died after suffering what accident in Iceland while filming?",
-      "answer": "Slipping off a cliff, and nearly drowning in icy water",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
-      "id": "entertainment-149",
-      "category": "entertainment",
-      "question": "The Klingon home planet is Qo'noS.",
-      "answer": "True",
-      "difficulty": "hard",
-      "points": 3
-    },
-    {
       "id": "entertainment-150",
       "category": "entertainment",
-      "question": "What's Dr. Doofenshmirtz first name?",
-      "answer": "Heinz",
+      "question": "In \"Star Trek\", what sauce is commonly used by Klingons on bregit lung?",
+      "answer": "Grapok sauce",
       "difficulty": "hard",
       "points": 3
     }
