@@ -7,7 +7,7 @@ import { startGame } from "@/game/game_logic";
 import { GameState, StartValues } from "@/game/types";
 import { getPacks, DEFAULT_PACK_IDS } from "@/game/packs";
 import { loadPacks } from "@/game/storage";
-import { colors, spacing, radius, font } from "@/ui/theme";
+import { colors, spacing, radius, font, text } from "@/ui/theme";
 import { Button } from "@/components/button";
 
 const MAX_PLAYERS = 6;
@@ -67,7 +67,7 @@ export function Start({ onStart, initial }: {
                 )}
             </Pressable>
 
-            <Text style={styles.title}>Trivia</Text>
+            <Text style={text.title}>Trivia</Text>
 
             <View style={styles.group}>
                 {names.map((name, i) => (
@@ -89,7 +89,7 @@ export function Start({ onStart, initial }: {
             
             
             <View style={styles.group}>
-                <Text style={styles.label}>Winning score</Text>
+                <Text style={text.label}>Winning score</Text>
                 <InputSpinner
                     min={1}
                     step={1}
@@ -106,7 +106,7 @@ export function Start({ onStart, initial }: {
             </View>
 
             <View style={styles.group}>
-                <Text style={styles.label}>Categories ({packs.length})</Text>
+                <Text style={text.label}>Categories ({packs.length})</Text>
                 <View style={styles.chips}>
                     {packs.map((p) => (
                         <View
@@ -140,7 +140,6 @@ const styles = StyleSheet.create({
     group: {
         gap: spacing.md
     },
-    title: { fontFamily: font.display, fontSize: font.sizes.title, color: colors.text },
     input: {
         borderWidth: 1,
         borderColor: colors.border,
@@ -152,7 +151,6 @@ const styles = StyleSheet.create({
     inputCompact: {
         padding: spacing.sm,
     },
-    label: { fontSize: font.sizes.caption, color: colors.textMuted, textAlign: "center" },
     chips: {
         flexDirection: "row",
         flexWrap: "wrap",

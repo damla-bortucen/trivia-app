@@ -37,3 +37,27 @@ export const font = {
     sizes: { title: 32, heading: 22, body: 17, caption: 14 },
     weight: { regular: "400", bold: "700" } as const,
 };
+
+// shared text styles - screens use these rather than redefining them, so a
+// heading looks the same wherever it appears
+export const text = {
+    title: {
+        fontFamily: font.display,
+        fontSize: font.sizes.title,
+        color: colors.text,
+    },
+    heading: {
+        fontFamily: font.display,
+        fontSize: font.sizes.heading,
+        color: colors.text,
+    },
+    body: {
+        fontSize: font.sizes.body,
+        color: colors.text,
+    },
+    label: {
+        fontSize: font.sizes.caption,
+        color: colors.textMuted,
+        textAlign: "center" as const,
+    },
+};
