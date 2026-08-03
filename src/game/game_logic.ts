@@ -24,8 +24,6 @@ export function startGame(player_names: string[], winningScore: number, categori
         score: 0,
     }));
 
-    const remaining = getPackQuestions(categories);
-
     return {
         status: "playing",
         players,
