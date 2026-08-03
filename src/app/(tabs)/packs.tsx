@@ -55,7 +55,6 @@ export default function PacksScreen() {
     return (
         <>
             <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
-                <Text style={styles.title}>Packs</Text>
                 <Text style={styles.counter}>Selected ({selected.length}/{MAX_PACKS})</Text>
 
                 <View style={styles.grid}>{chosen.map(renderCard)}</View>
