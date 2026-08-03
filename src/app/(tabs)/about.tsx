@@ -8,14 +8,14 @@ export default function AboutScreen() {
       <Text style={[text.title, styles.title]}>How to Play</Text>
 
       <Text style={[text.body, styles.body]}>
-        A pass-and-play game for 2 to 6 players. Add everyone on the start
+        This is a pass-and-play game for 2 to 6 players. Add everyone on the start
         screen, set a winning score, then hand the phone around.
       </Text>
 
       <Text style={text.heading}>Choosing packs</Text>
       <Text style={[text.body, styles.body]}>
-        Questions come in packs, and each pack is a category on the wheel. Pick
-        up to six on the Packs tab — tap one to see what is inside before you
+        Questions come in packs, and each pack is a category. Pick
+        up to six on the Packs tab and tap one to see what is inside before you
         add it. Your choice is remembered between games.
       </Text>
 
