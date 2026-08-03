@@ -7,10 +7,11 @@ import {
     skip,
 } from "@/game/game_logic";
 import { getPackById } from "@/game/packs";
-import { colors, spacing, radius, font } from "@/ui/theme";
+import { colors, spacing, radius, font, text } from "@/ui/theme";
 
 import { Button } from "@/components/button";
 import { Quit } from "@/components/quit";
+import { Scoreboard } from "@/components/scoreboard";
 
 export function QuestionCard({ game, onFinishTurn, onQuit }: { 
     game: GameState,
@@ -28,13 +29,15 @@ export function QuestionCard({ game, onFinishTurn, onQuit }: {
     return (
       <View style={styles.screen}>
         <Quit onQuit={onQuit} />
+        <Scoreboard game={game} />
+
         <View style={styles.cardScreen}>
           <View style={styles.card}>
             <Text style={[styles.category, { color: accent }]}>{pack?.name}</Text>
-            
+
             <View style={styles.questionArea}>
               <Text
-                  style={styles.title}
+                  style={text.title}
                   adjustsFontSizeToFit
                   numberOfLines={16}
                   minimumFontScale={0.6}
@@ -47,7 +50,7 @@ export function QuestionCard({ game, onFinishTurn, onQuit }: {
               <Button label="Reveal answer" onPress={() => setRevealed(true)} />
             ) : (
               <>
-                <Text style={styles.answer}>{q.answer}</Text>
+                <Text style={[text.heading, styles.answer]}>{q.answer}</Text>
                 <View style={styles.scoreRow}>
                   <Pressable
                     style={[styles.scoreButton, { backgroundColor: colors.easy }]}
@@ -102,15 +105,6 @@ const styles = StyleSheet.create({
         flexShrink: 1,          // gives up space when the card hits maxHeight
         justifyContent: "center",
     },
-    title: {
-        fontFamily: font.display,   // Georgia serif
-        fontSize: font.sizes.title,
-        color: colors.text,
-    },
-    body: {
-        fontSize: font.sizes.body,
-        color: colors.text,
-    },
     scoreRow: {
         flexDirection: "row",
         justifyContent: "center",
@@ -129,9 +123,6 @@ const styles = StyleSheet.create({
         fontWeight: font.weight.bold,
     },
     answer: {
-        fontFamily: font.display,
-        fontSize: font.sizes.heading,
-        color: colors.text,
         textAlign: "center",
     },
     category: {
