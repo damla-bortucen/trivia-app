@@ -55,9 +55,13 @@ export const text = {
         fontSize: font.sizes.body,
         color: colors.text,
     },
+    // small text - label is secondary, caption is full strength
     label: {
         fontSize: font.sizes.caption,
         color: colors.textMuted,
-        textAlign: "center" as const,
+    },
+    caption: {
+        fontSize: font.sizes.caption,
+        color: colors.text,
     },
 };

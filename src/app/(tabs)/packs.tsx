@@ -6,7 +6,7 @@ import { getPacks, MAX_PACKS, DEFAULT_PACK_IDS } from "@/game/packs";
 import { loadPacks, savePacks } from "@/game/storage";
 import { PackCard } from "@/components/pack_card";
 import { PackDetail } from "@/components/pack_detail";
-import { colors, spacing, font } from "@/ui/theme";
+import { colors, spacing, text } from "@/ui/theme";
 
 const PACKS = getPacks();
 
@@ -55,13 +55,13 @@ export default function PacksScreen() {
     return (
         <>
             <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
-                <Text style={styles.counter}>Selected ({selected.length}/{MAX_PACKS})</Text>
+                <Text style={text.label}>Selected ({selected.length}/{MAX_PACKS})</Text>
 
                 <View style={styles.grid}>{chosen.map(renderCard)}</View>
 
                 {available.length > 0 && (
                     <>
-                        <Text style={styles.counter}>Available ({available.length})</Text> 
+                        <Text style={text.label}>Available ({available.length})</Text> 
                         <View style={styles.grid}>{available.map(renderCard)}</View>
                     </>
                 )}
@@ -82,16 +82,6 @@ export default function PacksScreen() {
 const styles = StyleSheet.create({
     screen: { flex: 1, backgroundColor: colors.background },
     content: { padding: spacing.md, gap: spacing.md },
-    title: {
-        fontFamily: font.display,
-        fontSize: font.sizes.title,
-        color: colors.text,
-        textAlign: "center",
-    },
-    counter: {
-        fontSize: font.sizes.caption,
-        color: colors.textMuted,
-    },
     grid: {
         flexDirection: "row",
         flexWrap: "wrap",

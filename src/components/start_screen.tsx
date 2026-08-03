@@ -89,7 +89,7 @@ export function Start({ onStart, initial }: {
             
             
             <View style={styles.group}>
-                <Text style={text.label}>Winning score</Text>
+                <Text style={[text.label, styles.centred]}>Winning score</Text>
                 <InputSpinner
                     min={1}
                     step={1}
@@ -106,14 +106,14 @@ export function Start({ onStart, initial }: {
             </View>
 
             <View style={styles.group}>
-                <Text style={text.label}>Categories ({packs.length})</Text>
+                <Text style={[text.label, styles.centred]}>Categories ({packs.length})</Text>
                 <View style={styles.chips}>
                     {packs.map((p) => (
                         <View
                             key={p.id}
                             style={[styles.chip, { borderColor: p.color, backgroundColor: p.color }]}
                         >
-                            <Text style={styles.chipText}>{p.name}</Text>
+                            <Text style={text.caption}>{p.name}</Text>
                         </View>
                     ))}
                 </View>
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
         paddingVertical: spacing.xs,
         paddingHorizontal: spacing.md,
     },
-    chipText: { fontSize: font.sizes.caption,  color: colors.text },
+    centred: { textAlign: "center" },
     refresh: {
         position: "absolute",
         top: spacing.xs,
