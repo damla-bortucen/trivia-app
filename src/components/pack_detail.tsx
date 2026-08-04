@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, Pressable, Modal } from "react-native";
 import { Pack, ALL_DIFFICULTIES } from "@/game/types";
 import { MAX_PACKS } from "@/game/packs";
 import { filterByDifficulty } from "@/game/question"
-import { colors, spacing, radius, font } from "@/ui/theme";
+import { colors, spacing, radius, text } from "@/ui/theme";
 
 export function PackDetail({ pack, selected, disabled, onToggle, onClose }: {
     pack: Pack;
@@ -29,14 +29,14 @@ export function PackDetail({ pack, selected, disabled, onToggle, onClose }: {
                 <Pressable style={StyleSheet.absoluteFill} onPress={onClose} />
 
                 <View style={[styles.popup, { borderColor: pack.color }]}>
-                    <Text style={styles.title}>{pack.name}</Text>
+                    <Text style={text.heading}>{pack.name}</Text>
 
                     <Text style={styles.description}>{pack.description}</Text>
 
                     <View style={styles.stats}>
-                        <Text style={styles.stat}>{pack.questions.length} questions:</Text>
+                        <Text style={text.label}>{pack.questions.length} questions:</Text>
                         {ALL_DIFFICULTIES.map((d) => (
-                            <Text key={d} style={styles.stat}>
+                            <Text key={d} style={text.label}>
                                 {filterByDifficulty(pack.questions, d).length} {d}
                             </Text>
                         ))}
@@ -44,7 +44,7 @@ export function PackDetail({ pack, selected, disabled, onToggle, onClose }: {
 
                     <View style={styles.examples}>
                         {examples.map((q) => (
-                            <Text key={q.id} style={styles.example} numberOfLines={4}>
+                            <Text key={q.id} style={text.caption} numberOfLines={4}>
                                 {q.question}
                             </Text>
                         ))}
@@ -60,11 +60,11 @@ export function PackDetail({ pack, selected, disabled, onToggle, onClose }: {
                             disabled && styles.actionDisabled,
                         ]}
                     >
-                        <Text style={styles.actionText}>{label}</Text>
+                        <Text style={text.caption}>{label}</Text>
                     </Pressable>
 
                     <Pressable onPress={onClose} hitSlop={10} style={styles.close}>
-                        <Text style={styles.closeText}>Close</Text>
+                        <Text style={text.label}>Close</Text>
                     </Pressable>
                 </View>
             </View>
@@ -88,19 +88,15 @@ const styles = StyleSheet.create({
         padding: spacing.lg,
         backgroundColor: colors.background,
     },
-    title: { fontFamily: font.display, fontSize: font.sizes.heading, color: colors.text },
     description: { fontSize: font.sizes.body, color: colors.textMuted },
     stats: { flexDirection: "row", flexWrap: "wrap", gap: spacing.sm },
-    stat: { fontSize: font.sizes.caption, color: colors.textMuted },
     examples: {
         gap: spacing.sm,
         paddingTop: spacing.sm,
         borderTopWidth: 1,
         borderTopColor: colors.border,
     },
-    example: { fontSize: font.sizes.caption, color: colors.text },
     close: { alignSelf: "center", paddingTop: spacing.xs },
-    closeText: { fontSize: font.sizes.caption, color: colors.textMuted },
     action: {
         alignSelf: "flex-start",
         marginTop: spacing.sm,
@@ -110,5 +106,4 @@ const styles = StyleSheet.create({
         paddingHorizontal: spacing.md,
     },
     actionDisabled: { opacity: 0.4 },
-    actionText: { fontSize: font.sizes.caption, color: colors.text },
 });

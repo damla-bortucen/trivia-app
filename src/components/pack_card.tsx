@@ -1,7 +1,7 @@
 import { Text, View, StyleSheet, Pressable } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Pack } from "@/game/types";
-import { colors, spacing, radius, font } from "@/ui/theme";
+import { colors, spacing, radius, text } from "@/ui/theme";
 
 
 export function PackCard({ pack, selected, disabled, onToggle, onPress}: {
@@ -14,8 +14,8 @@ export function PackCard({ pack, selected, disabled, onToggle, onPress}: {
     return (
         <View style={[styles.card, { borderColor: pack.color }, selected && styles.cardOn]}>
             <Pressable style={styles.body} onPress={onPress}>
-                <Text style={styles.name} numberOfLines={2}>{pack.name}</Text>
-                <Text style={styles.count}>{pack.questions.length} questions</Text>
+                <Text style={text.body} numberOfLines={2}>{pack.name}</Text>
+                <Text style={text.label}>{pack.questions.length} questions</Text>
             </Pressable>
 
             <Pressable
@@ -51,6 +51,4 @@ const styles = StyleSheet.create({
         paddingRight: spacing.xl,
     },
     check: { position: "absolute", top: spacing.sm, right: spacing.sm },
-    name: { fontSize: font.sizes.body, color: colors.text },
-    count: { fontSize: font.sizes.caption, color: colors.textMuted },
 });

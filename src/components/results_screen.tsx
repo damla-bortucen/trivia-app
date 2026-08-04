@@ -1,7 +1,7 @@
 import { Text, View, StyleSheet } from "react-native";
 import { GameState } from "@/game/types";
 import { getWinners } from "@/game/game_logic";
-import { colors, spacing, font } from "@/ui/theme";
+import { colors, spacing, text } from "@/ui/theme";
 import { Button } from "@/components/button";
 
 export function Results({ game, onPlayAgain, onRematch }: { game: GameState, onPlayAgain: () => void, onRematch: () => void }) {
@@ -10,16 +10,16 @@ export function Results({ game, onPlayAgain, onRematch }: { game: GameState, onP
 
     return (
         <View style={styles.screen}>
-            <Text style={styles.title}>{heading}</Text>
+            <Text style={text.title}>{heading}</Text>
 
             {game.players.map((p) => (
-            <Text key={p.id} style={styles.body}>
+            <Text key={p.id} style={text.body}>
                 {p.name}: {p.score}
             </Text>
             ))}
-            
+
             <Button label="Rematch" onPress={onRematch} />
-            <Button label="New Game" onPress={onPlayAgain} />
+            <Button label="New Game" variant="link" onPress={onPlayAgain} />
         </View>
     );
 }
@@ -32,10 +32,4 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         gap: spacing.lg,
     },
-    title: {
-        fontFamily: font.display,
-        fontSize: font.sizes.title,
-        color: colors.text,
-    },
-    body: { fontSize: font.sizes.body, color: colors.text },
 });

@@ -8,7 +8,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { Category, GameState } from "@/game/types";
 import { getPackById } from "@/game/packs";
 
-import { colors, font, spacing } from "@/ui/theme";
+import { colors, spacing, text } from "@/ui/theme";
 
 import { Scoreboard } from "@/components/scoreboard";
 import { Button } from "@/components/button";
@@ -29,15 +29,13 @@ export function GameScreen({ game, onDraw, onQuit }: {
         <Scoreboard game={game} />
 
         <View style={styles.content}>
-            <Text style={styles.title}>Playing</Text>
-
-            <Text style={styles.body}>
+            <Text style={text.body}>
                 {game.players[game.currentPlayerIndex].name}&apos;s turn
             </Text>
 
             <Text
             style={[
-                styles.heading,
+                text.heading,
                 pack && { color: pack.color },
             ]}
             >
@@ -71,19 +69,5 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         gap: spacing.lg,
-    },
-    title: {
-        fontFamily: font.display,
-        fontSize: font.sizes.title,
-        color: colors.text,
-    },
-    body: {
-        fontSize: font.sizes.body,
-        color: colors.text,
-    },
-    heading: {
-        fontFamily: font.display,
-        fontSize: font.sizes.heading,
-        color: colors.text,
     },
 });
