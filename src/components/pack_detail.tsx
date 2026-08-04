@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, Pressable, Modal } from "react-native";
 import { Pack, ALL_DIFFICULTIES } from "@/game/types";
 import { MAX_PACKS } from "@/game/packs";
 import { filterByDifficulty } from "@/game/question"
-import { colors, spacing, radius, text } from "@/ui/theme";
+import { colors, spacing, radius, font, text } from "@/ui/theme";
 
 export function PackDetail({ pack, selected, disabled, onToggle, onClose }: {
     pack: Pack;
