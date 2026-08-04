@@ -4,6 +4,8 @@ import { Pack, ALL_DIFFICULTIES } from "@/game/types";
 import { MAX_PACKS } from "@/game/packs";
 import { filterByDifficulty } from "@/game/question"
 import { colors, spacing, radius, font, text } from "@/ui/theme";
+import { SourceBadge } from "@/components/source_badge";
+
 
 export function PackDetail({ pack, selected, disabled, onToggle, onClose }: {
     pack: Pack;
@@ -30,6 +32,7 @@ export function PackDetail({ pack, selected, disabled, onToggle, onClose }: {
 
                 <View style={[styles.popup, { borderColor: pack.color }]}>
                     <Text style={text.heading}>{pack.name}</Text>
+                    <SourceBadge source={pack.source} full />
 
                     <Text style={styles.description}>{pack.description}</Text>
 
