@@ -3,6 +3,7 @@
   "name": "Food and Drink",
   "description": "Dishes, ingredients and where they come from.",
   "color": "#c98a5e",
+  "source": "generated",
   "questions": [
     {
       "id": "food-drink-001",

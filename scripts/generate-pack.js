@@ -190,6 +190,7 @@ function makePack(blueprint, questions) {
         name: blueprint.name,
         description: blueprint.description,
         color: blueprint.color,
+        source: "generated",
         questions: questions.map((q, i) => ({
             id: `${blueprint.id}-${String(i + 1).padStart(3, "0")}`,
             category: blueprint.id,

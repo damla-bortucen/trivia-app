@@ -3,6 +3,7 @@
   "name": "Art",
   "description": "Painters, sculptors and famous works.",
   "color": "#c0ddd9",
+  "source": "opentdb",
   "questions": [
     {
       "id": "art-001",

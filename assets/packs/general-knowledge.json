@@ -3,6 +3,7 @@
   "name": "General Knowledge",
   "description": "A bit of everything.",
   "color": "#b3a7fe",
+  "source": "opentdb",
   "questions": [
     {
       "id": "general-knowledge-001",

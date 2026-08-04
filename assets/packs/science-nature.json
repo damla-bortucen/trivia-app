@@ -3,6 +3,7 @@
   "name": "Science and Nature",
   "description": "The natural world and how it works.",
   "color": "#6AAA64",
+  "source": "opentdb",
   "questions": [
     {
       "id": "science-nature-001",
