@@ -5,6 +5,7 @@ export const colors = {
     border: "#E3E3E1",       // dividers - warm gray
     text: "#121212",         // primary text - black 
     textMuted: "#6B6B6B",    // secondary text - gray
+    textDarkMuted: "#454545", // secondary text headers - dark gray
 
     // accent color
     accent: "#F7DA21",       // yellow

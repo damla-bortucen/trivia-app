@@ -3,6 +3,7 @@
   "name": "History",
   "description": "People and events that shaped the world.",
   "color": "#f7da21",
+  "source": "opentdb",
   "questions": [
     {
       "id": "history-001",

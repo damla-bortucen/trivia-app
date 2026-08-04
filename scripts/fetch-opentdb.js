@@ -252,6 +252,7 @@ function makePack(pack, questions) {
         name: pack.name,
         description: pack.description,
         color: pack.color,
+        source: "obentdb",
         questions,
     };
 }

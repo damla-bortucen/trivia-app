@@ -3,6 +3,7 @@
   "name": "Geography",
   "description": "Countries, capitals and landmarks.",
   "color": "#fb9b00",
+  "source": "opentdb",
   "questions": [
     {
       "id": "geography-001",

@@ -3,6 +3,7 @@
   "name": "Mythology",
   "description": "Gods, monsters and ancient legends.",
   "color": "#7ba8ef",
+  "source": "opentdb",
   "questions": [
     {
       "id": "mythology-001",

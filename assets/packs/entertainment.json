@@ -3,6 +3,7 @@
   "name": "Entertainment",
   "description": "Film, television and music.",
   "color": "#fc716b",
+  "source": "opentdb",
   "questions": [
     {
       "id": "entertainment-001",

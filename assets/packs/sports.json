@@ -3,6 +3,7 @@
   "name": "Sports",
   "description": "Teams, records and the people who set them.",
   "color": "#daa8d0",
+  "source": "opentdb",
   "questions": [
     {
       "id": "sports-001",

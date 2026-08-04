@@ -3,6 +3,9 @@ export const ALL_DIFFICULTIES = ["easy", "medium", "hard"] as const;
 export type Difficulty = typeof ALL_DIFFICULTIES[number];
 //   Difficulty  ===  "easy" | "medium" | "hard"
 
+export const ALL_SOURCES = ["opentdb", "generated"] as const;
+
+export type Source = typeof ALL_SOURCES[number];
 
 // a category is a pack
 export type Category = string;
@@ -12,6 +15,7 @@ export interface Pack {
     name: string;
     description: string;
     color: string;
+    source: Source;
     questions: Question[];
 }
 

@@ -2,6 +2,7 @@ import { Text, View, StyleSheet, Pressable } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Pack } from "@/game/types";
 import { colors, spacing, radius, text } from "@/ui/theme";
+import { SourceBadge } from "@/components/source_badge";
 
 
 export function PackCard({ pack, selected, disabled, onToggle, onPress}: {
@@ -16,6 +17,7 @@ export function PackCard({ pack, selected, disabled, onToggle, onPress}: {
             <Pressable style={styles.body} onPress={onPress}>
                 <Text style={text.body} numberOfLines={2}>{pack.name}</Text>
                 <Text style={text.label}>{pack.questions.length} questions</Text>
+                <SourceBadge source={pack.source} />
             </Pressable>
 
             <Pressable
