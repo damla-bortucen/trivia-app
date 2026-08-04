@@ -8,7 +8,7 @@ import scienceNature from "@/assets/packs/science-nature.json";
 import sports from "@/assets/packs/sports.json";
 import mythology from "@/assets/packs/mythology.json";
 import art from "@/assets/packs/art.json";
-import foodDrink from "@/assets/packs/food-drink.json";
+import foodDrinkAi from "@/assets/packs/food-drink-ai.json";
 
 const PACKS = [
     entertainment,
@@ -19,11 +19,12 @@ const PACKS = [
     sports,
     mythology,
     art,
-    foodDrink,
+    foodDrinkAi,
 ] as Pack[];
 
 export const MAX_PACKS = 6;
-export const DEFAULT_PACK_IDS = PACKS.slice(0, MAX_PACKS).map((p) => p.id);
+
+export const DEFAULT_PACK_IDS = ["general-knowledge", "history", "geography", "science-nature", "entertainment", "sports"];
 
 export function getPacks(): Pack[] {
     return PACKS;
