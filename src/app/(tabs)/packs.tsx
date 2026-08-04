@@ -1,12 +1,14 @@
 import { useState, useEffect } from "react";
 import { Text, View, ScrollView, StyleSheet } from "react-native";
 
-import { Category, Pack } from "@/game/types";
+import { ALL_SOURCES, Category, Pack } from "@/game/types";
 import { getPacks, MAX_PACKS, DEFAULT_PACK_IDS } from "@/game/packs";
 import { loadPacks, savePacks } from "@/game/storage";
 import { PackCard } from "@/components/pack_card";
 import { PackDetail } from "@/components/pack_detail";
 import { colors, spacing, text } from "@/ui/theme";
+import { sourceLabel } from "@/components/source_badge";
+
 
 const PACKS = getPacks();
 
@@ -55,15 +57,27 @@ export default function PacksScreen() {
     return (
         <>
             <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
-                <Text style={text.label}>Selected ({selected.length}/{MAX_PACKS})</Text>
-
-                <View style={styles.grid}>{chosen.map(renderCard)}</View>
+                <View style={styles.section}>
+                    <Text style={[text.body, styles.sectionTitle]}>Selected ({selected.length}/{MAX_PACKS})</Text>
+                    <View style={styles.grid}>{chosen.map(renderCard)}</View>
+                </View>
 
                 {available.length > 0 && (
-                    <>
-                        <Text style={text.label}>Available ({available.length})</Text> 
-                        <View style={styles.grid}>{available.map(renderCard)}</View>
-                    </>
+                    <View style={styles.section}>
+                        <Text style={[text.body, styles.sectionTitle]}>Available ({available.length})</Text>
+
+                        {ALL_SOURCES.map((source) => {
+                            const group = available.filter((p) => p.source === source);
+                            if (group.length === 0) return null;
+
+                            return (
+                                <View key={source} style={styles.group}>
+                                    <Text style={text.label}>{sourceLabel(source)} ({group.length})</Text>
+                                    <View style={styles.grid}>{group.map(renderCard)}</View>
+                                </View>
+                            );
+                        })}
+                    </View>
                 )}
             </ScrollView>
 
@@ -81,11 +95,14 @@ export default function PacksScreen() {
 
 const styles = StyleSheet.create({
     screen: { flex: 1, backgroundColor: colors.background },
-    content: { padding: spacing.md, gap: spacing.md },
+    content: { padding: spacing.md, gap: spacing.lg },
     grid: {
         flexDirection: "row",
         flexWrap: "wrap",
         justifyContent: "space-between",
         rowGap: spacing.md,
     },
+    section: { gap: spacing.md },
+    group: { gap: spacing.sm },
+    sectionTitle: { color: colors.textDarkMuted },
 });

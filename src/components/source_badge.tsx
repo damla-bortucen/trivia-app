@@ -13,6 +13,13 @@ const SOURCES: Record<Source, {
     generated: { icon: "sparkles-outline", short: "AI", full: "Written by AI" },
 };
 
+
+// function to get source label
+export function sourceLabel(source: Source): string {
+    return SOURCES[source].full;
+}
+
+
 // full spells the source out, for where there is room to say it
 export function SourceBadge({ source, full = false }: { source: Source; full?: boolean }) {
     const { icon, short, full: fullLabel } = SOURCES[source];
