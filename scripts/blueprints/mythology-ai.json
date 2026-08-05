@@ -1,0 +1,28 @@
+{
+      "id": "mythology-ai",
+      "name": "Mythology",
+      "description": "Gods, monsters and ancient legends.",
+      "color": "#4d76ff",
+      "theme": "myths and legends from Greek, Roman, Norse and Egyptian mythology: the gods of named pantheons, the monsters heroes were sent to kill, the objects that carried power, and the stories traditions told to explain the world",
+      "angles": [
+          "the god of a specific domain, with the tradition named in the question",
+          "monsters and hybrid creatures, and which animals they were stitched from",
+          "the weapon or object a figure is never described without",
+          "the hero and the monster they killed, paired",
+          "the creature set to guard a place, and the place it guarded",
+          "how the world was made according to one named tradition",
+        "the creature set to guard a place, and the place it guarded",
+        "how the world was made according to one named tradition",
+        "the underworld, what that tradition called it, and who ruled it",
+        "who was transformed into what, and roughly what they had done",
+        "family ties, whose child, whose sibling, whose stolen spouse",
+        "the trickster of a tradition, and the trick they are remembered for",
+        "a mortal punished for one specific act, and the punishment invented for it",
+        "objects that grant a power, the ring, the apple, the cauldron, the feather",
+        "Greek and Roman mythology are asked most commonly (75%)",
+        "where the name of a day, planet or month came from",
+        "creatures people know from films and games but cannot place in a tradition"
+    ],
+    "avoid": "questions where two traditions' names for the same figure would both be right unless the question names the tradition, myths that survive in several incompatible versions where the answer depends which one you read, the doctrine and practice of living religions, names with several accepted English spellings, and film or game retellings treated as the source",
+    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+}
