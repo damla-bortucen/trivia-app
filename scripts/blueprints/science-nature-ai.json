@@ -1,0 +1,27 @@
+{
+    "id": "science-nature-ai",
+    "name": "Science and Nature",
+    "description": "The natural world and how it works.",
+    "color": "#b4e352",
+    "theme": "science and the natural world: physics, chemistry, biology, earth science and astronomy, along with the animals and plants that live alongside us",
+    "angles": [
+        "the unit a quantity is measured in, and who it was named after",
+        "elements whose symbols do not match their English names",
+        "animal classifications and collective nouns people get wrong",
+        "the organ, bone or muscle responsible for one specific job",
+        "what a household chemical actually is under its everyday name",
+        "record holders in nature, the fastest, largest or longest lived",
+        "the scientist behind a law, constant or discovery",
+        "how long something takes, an orbit, a gestation, a half life",
+        "animals that are not the thing their name says they are",
+        "the planet or moon a described feature belongs to",
+        "plants, which part of one we eat, and how they reproduce",
+        "the name of a process, in the body, in weather or in rock",
+        "states of matter, and the temperatures at which things change",
+        "venom, camouflage and other defences, and which animal uses which",
+        "why a familiar everyday phenomenon happens at all",
+        "the vitamin or mineral a deficiency disease is caused by a lack of"
+    ],
+    "avoid": "contested or fast moving research, medical advice, anything that needs a formula worked out on paper, and questions where a common name covers several different species",
+    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+}

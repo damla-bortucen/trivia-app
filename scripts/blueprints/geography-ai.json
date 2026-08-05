@@ -1,0 +1,27 @@
+{
+    "id": "geography-ai",
+    "name": "Geography",
+    "description": "Countries, capitals and landmarks.",
+    "color": "#ffe944",
+    "theme": "world geography: countries and their capitals, borders and coastlines, rivers, mountains and deserts, cities, islands, and the way places relate to one another on the map",
+    "angles": [
+        "capitals people routinely get wrong because the largest city is a different one",
+        "which countries share a border, and the odd exclave or enclave",
+        "rivers and what they pass through on the way to the sea",
+        "the highest, deepest, driest or longest, and which country it actually sits in",
+        "flags, and what a specific element on one stands for",
+        "national animals",
+        "the official language of a country that most people would guess wrong",
+        "former names of countries and cities, and roughly when they changed",
+        "islands, who governs them and how far they sit from the country that does",
+        "time zones, the date line, and countries that sprawl across several",
+        "mountain ranges and the countries they divide",
+        "lakes and seas that are not what their name says they are",
+        "landlocked countries, and the two that are landlocked twice over",
+        "cities that straddle two continents, a river or a border",
+        "landmarks and the specific country or region they belong to",
+        "what people from a place are called, and where a demonym comes from"
+    ],
+    "avoid": "live territorial disputes, population and GDP figures that shift year to year, questions that need a map open in front of you, and cases where both an old name and a current name would reasonably be right",
+    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+}

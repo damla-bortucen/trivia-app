@@ -1,0 +1,26 @@
+{
+    "id": "sports-ai",
+    "name": "Sports",
+    "description": "Teams, records and the people who set them.",
+    "color": "#f58bc2",
+    "theme": "sport worldwide: the games and their rules, the equipment they are played with, the athletes who defined them, and the tournaments that decide who is best",
+    "angles": [
+        "a rule of a sport, and the one that surprises people who watch it",
+        "scoring systems, and what a term in one actually means", 
+        "the venue a competition is permanently tied to",
+        "distances, weights and dimensions that the rules fix exactly",
+        "where a sport was codified, rather than where it is most popular",
+        "the trophy, cup or jersey a winner receives, and what it is called",
+        "an athlete's other sport, or the career they had before this one",
+        "the rule or equipment change that altered how a game is played",
+        "team nicknames and where they came from",
+        "how a match is divided, sets, rounds, innings or periods, and what they are called",
+        "Olympic sports that have come and gone",
+        "records that have stood for decades",
+        "positions, and what the player in one is actually responsible for",
+        "an unusual piece of equipment and the sport it belongs to",
+        "national sports, and countries that dominate an unexpected one" 
+    ],
+    "avoid": "current standings and transfer news, anything from the ongoing season, records an active career could break this year, and questions that turn on a single season's statistics",
+    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+}
