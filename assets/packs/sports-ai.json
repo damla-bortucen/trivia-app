@@ -1,0 +1,1209 @@
+{
+  "id": "sports-ai",
+  "name": "Sports",
+  "description": "Teams, records and the people who set them.",
+  "color": "#f58bc2",
+  "source": "generated",
+  "questions": [
+    {
+      "id": "sports-ai-001",
+      "category": "sports-ai",
+      "question": "In tennis, what is the term for a score of zero?",
+      "answer": "love",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-002",
+      "category": "sports-ai",
+      "question": "In golf, what word means one stroke under par on a hole?",
+      "answer": "birdie",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-003",
+      "category": "sports-ai",
+      "question": "Which horse race is permanently run at Churchill Downs?\n\nA) Kentucky Derby\nB) Preakness Stakes\nC) Belmont Stakes\nD) Breeders' Cup Classic",
+      "answer": "Kentucky Derby",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-004",
+      "category": "sports-ai",
+      "question": "In basketball, how high is the rim?",
+      "answer": "10 feet",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-005",
+      "category": "sports-ai",
+      "question": "At which English school were rugby's rules first codified?",
+      "answer": "Rugby School",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-006",
+      "category": "sports-ai",
+      "question": "Which trophy is awarded to the NHL champion?\n\nA) Stanley Cup\nB) Grey Cup\nC) Calder Cup",
+      "answer": "Stanley Cup",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-007",
+      "category": "sports-ai",
+      "question": "Which two-sport star was both an MLB All-Star and an NFL Pro Bowler?",
+      "answer": "Bo Jackson",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-008",
+      "category": "sports-ai",
+      "question": "What arc on a basketball court awards an extra point for long shots?",
+      "answer": "three-point line",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-009",
+      "category": "sports-ai",
+      "question": "Which NFL team's nickname comes from a meatpacking company in Green Bay?",
+      "answer": "Packers",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-010",
+      "category": "sports-ai",
+      "question": "In soccer, what are the two main time segments called?",
+      "answer": "halves",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-011",
+      "category": "sports-ai",
+      "question": "Which team event of pulling a rope was an Olympic sport until 1920?",
+      "answer": "tug of war",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-012",
+      "category": "sports-ai",
+      "question": "Who set the men's 100m world record at 9.58 seconds?",
+      "answer": "Usain Bolt",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-013",
+      "category": "sports-ai",
+      "question": "In baseball, which position calls pitches and catches them?",
+      "answer": "catcher",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-014",
+      "category": "sports-ai",
+      "question": "Which sport uses a shuttlecock?",
+      "answer": "badminton",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-015",
+      "category": "sports-ai",
+      "question": "Which country is most associated with sumo wrestling?",
+      "answer": "Japan",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-016",
+      "category": "sports-ai",
+      "question": "In volleyball, how many hits per side are allowed before the ball must go over?",
+      "answer": "three",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-017",
+      "category": "sports-ai",
+      "question": "In darts, what score is called a 'maximum' in one visit?",
+      "answer": "180",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-018",
+      "category": "sports-ai",
+      "question": "Which golf major is always played at Augusta National?\n\nA) The Masters\nB) U.S. Open\nC) PGA Championship\nD) The Open",
+      "answer": "The Masters",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-019",
+      "category": "sports-ai",
+      "question": "What is the official marathon distance?",
+      "answer": "26 miles 385 yards",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-020",
+      "category": "sports-ai",
+      "question": "In which city were the first Laws of Association Football codified at Freemasons' Tavern?",
+      "answer": "London",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-021",
+      "category": "sports-ai",
+      "question": "In the Tour de France, what color jersey does the overall leader wear?\n\nA) Yellow\nB) Green\nC) Polka dot\nD) White",
+      "answer": "yellow",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-022",
+      "category": "sports-ai",
+      "question": "Which basketball legend briefly played minor league baseball during a hiatus?",
+      "answer": "Michael Jordan",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-023",
+      "category": "sports-ai",
+      "question": "Which technology introduced to soccer assists referees with critical decisions?",
+      "answer": "VAR",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-024",
+      "category": "sports-ai",
+      "question": "Which MLB team got its name from Brooklyn residents dodging streetcars?",
+      "answer": "Dodgers",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-025",
+      "category": "sports-ai",
+      "question": "In boxing, what are the timed segments of a bout called?",
+      "answer": "rounds",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-026",
+      "category": "sports-ai",
+      "question": "Which bat-and-ball sport appeared only at the 1900 Olympics?",
+      "answer": "cricket",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-027",
+      "category": "sports-ai",
+      "question": "Who won 23 Grand Slam singles titles in tennis in the Open Era?",
+      "answer": "Serena Williams",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-028",
+      "category": "sports-ai",
+      "question": "In American football, who throws the ball to start most plays?",
+      "answer": "quarterback",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-029",
+      "category": "sports-ai",
+      "question": "What sport uses a broom to sweep ice in front of a stone?",
+      "answer": "curling",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-030",
+      "category": "sports-ai",
+      "question": "Which country dominates Olympic table tennis?",
+      "answer": "China",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-031",
+      "category": "sports-ai",
+      "question": "In the NBA, how many personal fouls disqualify a player?",
+      "answer": "six",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-032",
+      "category": "sports-ai",
+      "question": "In American football, how many points is a safety worth?",
+      "answer": "two",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-033",
+      "category": "sports-ai",
+      "question": "Which tennis tournament is played at the All England Club?\n\nA) Wimbledon\nB) US Open\nC) Roland Garros\nD) Australian Open",
+      "answer": "Wimbledon",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-034",
+      "category": "sports-ai",
+      "question": "How long is an Olympic swimming pool?\n\nA) 25 meters\nB) 33⅓ meters\nC) 50 meters\nD) 100 meters",
+      "answer": "50 meters",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-035",
+      "category": "sports-ai",
+      "question": "Which country codified the Queensberry Rules of boxing?",
+      "answer": "England",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-036",
+      "category": "sports-ai",
+      "question": "What silver jug is awarded to the winner of golf's Open Championship?",
+      "answer": "Claret Jug",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-037",
+      "category": "sports-ai",
+      "question": "Which athlete played in both a Super Bowl and a World Series?",
+      "answer": "Deion Sanders",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-038",
+      "category": "sports-ai",
+      "question": "What replay system in tennis is used to review line calls?",
+      "answer": "Hawk-Eye",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-039",
+      "category": "sports-ai",
+      "question": "Which NBA team's name reflects its original New Orleans roots?\n\nA) Jazz\nB) Pelicans\nC) Kings\nD) Suns",
+      "answer": "Jazz",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-040",
+      "category": "sports-ai",
+      "question": "In cricket, what are the sets of six balls bowled called?",
+      "answer": "overs",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-041",
+      "category": "sports-ai",
+      "question": "Which bat-and-ball sport was dropped from the Olympics after 2008?",
+      "answer": "baseball",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-042",
+      "category": "sports-ai",
+      "question": "Who was the first man to run the mile under four minutes?",
+      "answer": "Roger Bannister",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-043",
+      "category": "sports-ai",
+      "question": "In soccer, which position is the only one allowed to use hands in the penalty area?",
+      "answer": "goalkeeper",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-044",
+      "category": "sports-ai",
+      "question": "Which sport plays with a puck on ice?",
+      "answer": "ice hockey",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-045",
+      "category": "sports-ai",
+      "question": "Which country is the powerhouse of kabaddi?",
+      "answer": "India",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-046",
+      "category": "sports-ai",
+      "question": "In rugby union, how many points is a try worth?",
+      "answer": "five",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-047",
+      "category": "sports-ai",
+      "question": "In bowling, what is two strikes in a row called?",
+      "answer": "double",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-048",
+      "category": "sports-ai",
+      "question": "Which auto race is held at the Indianapolis Motor Speedway?\n\nA) Indianapolis 500\nB) Daytona 500\nC) Coca-Cola 600\nD) Brickyard 400",
+      "answer": "Indianapolis 500",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-049",
+      "category": "sports-ai",
+      "question": "In MLB, how far is the pitcher's rubber from home plate?",
+      "answer": "60 feet 6 inches",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-050",
+      "category": "sports-ai",
+      "question": "In which country were the first official ice hockey rules formalized?",
+      "answer": "Canada",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "sports-ai-051",
+      "category": "sports-ai",
+      "question": "What was the original FIFA World Cup trophy called?\n\nA) Jules Rimet\nB) Coupe des Nations\nC) Henri Delaunay\nD) Webb Ellis",
+      "answer": "Jules Rimet",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-052",
+      "category": "sports-ai",
+      "question": "Which Grand Slam is played at Flushing Meadows?",
+      "answer": "US Open",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-053",
+      "category": "sports-ai",
+      "question": "How long is a standard NHL rink from end to end?",
+      "answer": "200 feet",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-054",
+      "category": "sports-ai",
+      "question": "In which city were the first modern lacrosse rules codified in 1867?",
+      "answer": "Montreal",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-055",
+      "category": "sports-ai",
+      "question": "What is the Rugby World Cup trophy called?",
+      "answer": "Webb Ellis Cup",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-056",
+      "category": "sports-ai",
+      "question": "Which Native American Olympic champion also played pro baseball and football?",
+      "answer": "Jim Thorpe",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-057",
+      "category": "sports-ai",
+      "question": "In cricket ODIs, what limits fielders outside the circle early on?",
+      "answer": "powerplay",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-058",
+      "category": "sports-ai",
+      "question": "Which Premier League club's 'Gunners' nickname comes from munitions workers?",
+      "answer": "Arsenal",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-059",
+      "category": "sports-ai",
+      "question": "In rugby league, how long is each half?",
+      "answer": "40 minutes",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-060",
+      "category": "sports-ai",
+      "question": "Which sport appeared at the 1900 Olympics and used hoops and mallets?\n\nA) Croquet\nB) Bocce\nC) Pelota\nD) Jeu de paume",
+      "answer": "Croquet",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-061",
+      "category": "sports-ai",
+      "question": "Whose 91 Formula One wins stood as the record until 2020?",
+      "answer": "Michael Schumacher",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-062",
+      "category": "sports-ai",
+      "question": "In American football, which defensive position primarily covers wide receivers?",
+      "answer": "cornerback",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-063",
+      "category": "sports-ai",
+      "question": "Which sport uses a foil?",
+      "answer": "fencing",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-064",
+      "category": "sports-ai",
+      "question": "Which country considers Gaelic football one of its national sports?",
+      "answer": "Ireland",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-065",
+      "category": "sports-ai",
+      "question": "In baseball, what is the result if a fair ball hits the foul pole?",
+      "answer": "home run",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-066",
+      "category": "sports-ai",
+      "question": "In rugby union, how many points is a drop goal worth?",
+      "answer": "three points",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-067",
+      "category": "sports-ai",
+      "question": "Which cricket ground hosts the Boxing Day Test every year?\n\nA) Melbourne Cricket Ground\nB) Sydney Cricket Ground\nC) Adelaide Oval\nD) WACA Ground",
+      "answer": "Melbourne Cricket Ground",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-068",
+      "category": "sports-ai",
+      "question": "In football, how far is the penalty mark from the goal line?\n\nA) 10 yards\nB) 11 yards\nC) 12 yards\nD) 13 yards",
+      "answer": "12 yards",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-069",
+      "category": "sports-ai",
+      "question": "In which country did judo originate and get formalized by Jigoro Kano?",
+      "answer": "Japan",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-070",
+      "category": "sports-ai",
+      "question": "Which trophy is awarded to the NHL playoffs MVP?\n\nA) Hart Trophy\nB) Conn Smythe Trophy\nC) Vezina Trophy\nD) Art Ross Trophy",
+      "answer": "Conn Smythe Trophy",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-071",
+      "category": "sports-ai",
+      "question": "Which NFL quarterback was drafted by the Montreal Expos?",
+      "answer": "Tom Brady",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-072",
+      "category": "sports-ai",
+      "question": "Which 1992 soccer change stopped goalkeepers handling deliberate back-passes?",
+      "answer": "back-pass rule",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-073",
+      "category": "sports-ai",
+      "question": "Which NHL team was originally named after a Disney movie?",
+      "answer": "Mighty Ducks",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-074",
+      "category": "sports-ai",
+      "question": "How many sets are needed to win a men's Grand Slam final?",
+      "answer": "three sets",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-075",
+      "category": "sports-ai",
+      "question": "Which sport returned at Rio 2016 in a sevens format?\n\nA) rugby sevens\nB) baseball\nC) squash\nD) softball",
+      "answer": "rugby sevens",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-076",
+      "category": "sports-ai",
+      "question": "Who has the most NHL career goals with 894?",
+      "answer": "Wayne Gretzky",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-077",
+      "category": "sports-ai",
+      "question": "In basketball, which position is typically the primary ball handler?",
+      "answer": "point guard",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-078",
+      "category": "sports-ai",
+      "question": "Which sport uses a polo mallet?",
+      "answer": "polo",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-079",
+      "category": "sports-ai",
+      "question": "Which Nordic country is a biathlon powerhouse?",
+      "answer": "Norway",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-080",
+      "category": "sports-ai",
+      "question": "In the NFL, how many feet must a receiver get inbounds for a catch?",
+      "answer": "two feet",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-081",
+      "category": "sports-ai",
+      "question": "In tennis, what score does 'deuce' represent?",
+      "answer": "40–40",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-082",
+      "category": "sports-ai",
+      "question": "Which race is known as 'The Great American Race'?\n\nA) Daytona 500\nB) Indy 500\nC) Coca-Cola 600\nD) Southern 500",
+      "answer": "Daytona 500",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-083",
+      "category": "sports-ai",
+      "question": "What is the length of a cricket pitch?\n\nA) 18 yards\nB) 20 yards\nC) 22 yards\nD) 24 yards",
+      "answer": "22 yards",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-084",
+      "category": "sports-ai",
+      "question": "Which country formalized modern taekwondo in the 1950s?",
+      "answer": "South Korea",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-085",
+      "category": "sports-ai",
+      "question": "In the Vuelta a España, what color is the leader's jersey?",
+      "answer": "red",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-086",
+      "category": "sports-ai",
+      "question": "Which Australian represented her country in both cricket and soccer?",
+      "answer": "Ellyse Perry",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-087",
+      "category": "sports-ai",
+      "question": "Which sport introduced the shot clock in 1954 to speed up play?",
+      "answer": "basketball",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-088",
+      "category": "sports-ai",
+      "question": "Which MLB team is commonly called 'the Bronx Bombers'?",
+      "answer": "Yankees",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-089",
+      "category": "sports-ai",
+      "question": "In baseball, how many innings are in a standard game?",
+      "answer": "nine",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-090",
+      "category": "sports-ai",
+      "question": "Which stick sport was an Olympic medal event in 1904 and 1908 only?\n\nA) lacrosse\nB) hockey\nC) polo\nD) bandy",
+      "answer": "lacrosse",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-091",
+      "category": "sports-ai",
+      "question": "Who holds MLB's 56-game hitting streak?",
+      "answer": "Joe DiMaggio",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-092",
+      "category": "sports-ai",
+      "question": "In volleyball, which defensive specialist wears a contrasting jersey?",
+      "answer": "libero",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-093",
+      "category": "sports-ai",
+      "question": "Which sport uses a scull boat?",
+      "answer": "rowing",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-094",
+      "category": "sports-ai",
+      "question": "Which country is the small-population powerhouse in rugby union?",
+      "answer": "New Zealand",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-095",
+      "category": "sports-ai",
+      "question": "In snooker, how many points is the black ball worth?",
+      "answer": "seven",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-096",
+      "category": "sports-ai",
+      "question": "In American football, what is the point-after-touchdown kick called?",
+      "answer": "extra point",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-097",
+      "category": "sports-ai",
+      "question": "Which golf course has hosted The Open Championship more than any other?",
+      "answer": "St Andrews",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-098",
+      "category": "sports-ai",
+      "question": "In the 110m hurdles, how many hurdles are there?",
+      "answer": "ten",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-099",
+      "category": "sports-ai",
+      "question": "Where were the first formal rules of modern beach volleyball written?",
+      "answer": "Santa Monica",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-100",
+      "category": "sports-ai",
+      "question": "What is the trophy awarded to MLB's World Series winner?",
+      "answer": "Commissioner's Trophy",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "sports-ai-101",
+      "category": "sports-ai",
+      "question": "Which rain-rule in cricket is named after its original two statisticians?",
+      "answer": "Duckworth-Lewis",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-102",
+      "category": "sports-ai",
+      "question": "In epee fencing, what is it called when both fencers score simultaneously?",
+      "answer": "double touch",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-103",
+      "category": "sports-ai",
+      "question": "Which annual college football game is played at the Cotton Bowl in Dallas?\n\nA) Iron Bowl\nB) Red River Showdown\nC) Egg Bowl\nD) The Game",
+      "answer": "Red River Showdown",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-104",
+      "category": "sports-ai",
+      "question": "What is the weight of the men's shot in shot put?",
+      "answer": "7.26 kg",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-105",
+      "category": "sports-ai",
+      "question": "In which Scottish town were the first rugby sevens rules written?",
+      "answer": "Melrose",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-106",
+      "category": "sports-ai",
+      "question": "What trophy is awarded to the IndyCar Series champion?",
+      "answer": "Astor Cup",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-107",
+      "category": "sports-ai",
+      "question": "Which world heavyweight boxing champion later became mayor of Kyiv?",
+      "answer": "Vitali Klitschko",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-108",
+      "category": "sports-ai",
+      "question": "Which rule was abolished in field hockey in 1998 to open up play?",
+      "answer": "offside",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-109",
+      "category": "sports-ai",
+      "question": "Which Italian club is nicknamed 'Bianconeri'?",
+      "answer": "Juventus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-110",
+      "category": "sports-ai",
+      "question": "What is the top division in professional sumo called?",
+      "answer": "Makuuchi",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-111",
+      "category": "sports-ai",
+      "question": "Which motorized sport was an official Olympic event in 1908?\n\nA) Motocross\nB) Motorboating\nC) Speedway\nD) Auto racing",
+      "answer": "Motorboating",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-112",
+      "category": "sports-ai",
+      "question": "Whose 8.90 m long jump stood as the world record for 23 years?",
+      "answer": "Bob Beamon",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-113",
+      "category": "sports-ai",
+      "question": "Which defensive position in American football often calls the plays?",
+      "answer": "middle linebacker",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-114",
+      "category": "sports-ai",
+      "question": "Which sport uses a stick known in Irish as a 'camán'?",
+      "answer": "hurling",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-115",
+      "category": "sports-ai",
+      "question": "Which country is the modern powerhouse of squash?",
+      "answer": "Egypt",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-116",
+      "category": "sports-ai",
+      "question": "In nine-ball, which ball must be struck first on every shot?",
+      "answer": "lowest-numbered ball",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-117",
+      "category": "sports-ai",
+      "question": "At the Australian Open, what tiebreak decides final sets since 2019?\n\nA) 7-point tiebreak\nB) 9-point tiebreak\nC) 10-point tiebreak\nD) No tiebreak",
+      "answer": "10-point tiebreak",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-118",
+      "category": "sports-ai",
+      "question": "Philippe Chatrier is the main court at which venue?",
+      "answer": "Roland Garros",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-119",
+      "category": "sports-ai",
+      "question": "What is the competition weight of the men's javelin?",
+      "answer": "800 grams",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-120",
+      "category": "sports-ai",
+      "question": "In which country were the first modern water polo rules codified?",
+      "answer": "Scotland",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-121",
+      "category": "sports-ai",
+      "question": "What tiny trophy symbolizes the England–Australia Test series in cricket?",
+      "answer": "Ashes urn",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-122",
+      "category": "sports-ai",
+      "question": "Which Olympic 100 m champion became a Dallas Cowboys wide receiver?",
+      "answer": "Bob Hayes",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-123",
+      "category": "sports-ai",
+      "question": "Which baseball innovation debuted in the 1973 American League?",
+      "answer": "designated hitter",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-124",
+      "category": "sports-ai",
+      "question": "Which Argentine club is nicknamed 'Xeneizes'?",
+      "answer": "Boca Juniors",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-125",
+      "category": "sports-ai",
+      "question": "At senior level, how long is each half of a Gaelic football game?",
+      "answer": "35 minutes",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-126",
+      "category": "sports-ai",
+      "question": "Which freestyle skiing event known as 'acroski' was a demo sport only?",
+      "answer": "ski ballet",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-127",
+      "category": "sports-ai",
+      "question": "Who holds the MLB record with 511 career wins?",
+      "answer": "Cy Young",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-128",
+      "category": "sports-ai",
+      "question": "Which specialist snaps the ball on punts?",
+      "answer": "long snapper",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-129",
+      "category": "sports-ai",
+      "question": "Which Scottish stick-and-ball sport uses a 'caman'?",
+      "answer": "shinty",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-130",
+      "category": "sports-ai",
+      "question": "Which country produced the Khan dynasty that ruled squash for decades?",
+      "answer": "Pakistan",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-131",
+      "category": "sports-ai",
+      "question": "What is the Japanese term for disqualification in sumo?",
+      "answer": "hansoku",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-132",
+      "category": "sports-ai",
+      "question": "In tennis slang, what is a 6–0 set called?",
+      "answer": "bagel",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-133",
+      "category": "sports-ai",
+      "question": "Which badminton event is staged at Jakarta's Istora Senayan?\n\nA) Malaysia Open\nB) Indonesia Open\nC) Singapore Open\nD) Thailand Open",
+      "answer": "Indonesia Open",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-134",
+      "category": "sports-ai",
+      "question": "What is the standard Olympic rowing course length?",
+      "answer": "2000 meters",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-135",
+      "category": "sports-ai",
+      "question": "In which city were the Knickerbocker baseball rules written in 1845?",
+      "answer": "New York City",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-136",
+      "category": "sports-ai",
+      "question": "Which trophy goes to the NHL team with the best regular-season record?",
+      "answer": "Presidents' Trophy",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-137",
+      "category": "sports-ai",
+      "question": "Which tennis champion played professional cricket before returning to tennis?",
+      "answer": "Ash Barty",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-138",
+      "category": "sports-ai",
+      "question": "What type of high-tech swimsuits were banned by FINA in 2010?",
+      "answer": "polyurethane suits",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-139",
+      "category": "sports-ai",
+      "question": "Which national football team is nicknamed 'La Albiceleste'?",
+      "answer": "Argentina",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-140",
+      "category": "sports-ai",
+      "question": "How many rounds are in an MMA title fight?",
+      "answer": "five",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-141",
+      "category": "sports-ai",
+      "question": "Which 1924 Winter Olympics event was the forerunner of biathlon?",
+      "answer": "military patrol",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-142",
+      "category": "sports-ai",
+      "question": "Who threw the only perfect game in World Series history?",
+      "answer": "Don Larsen",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-143",
+      "category": "sports-ai",
+      "question": "Which ice hockey position usually takes face-offs at center ice?",
+      "answer": "center",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-144",
+      "category": "sports-ai",
+      "question": "Which martial art uses a bamboo sword called a 'shinai'?",
+      "answer": "kendo",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-145",
+      "category": "sports-ai",
+      "question": "Which nation has won the most Rugby League World Cups?",
+      "answer": "Australia",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-146",
+      "category": "sports-ai",
+      "question": "In Formula One, which flag warns for unsportsmanlike behavior?",
+      "answer": "black-and-white flag",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-147",
+      "category": "sports-ai",
+      "question": "In snooker, what is the theoretical maximum break including a free ball?",
+      "answer": "155",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-148",
+      "category": "sports-ai",
+      "question": "Which tennis Masters event is held annually in the California desert?",
+      "answer": "Indian Wells Masters",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-149",
+      "category": "sports-ai",
+      "question": "What is the height of a cricket stump?",
+      "answer": "28 inches",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "sports-ai-150",
+      "category": "sports-ai",
+      "question": "Which university town produced an 1848 football code influencing the FA?",
+      "answer": "Cambridge",
+      "difficulty": "hard",
+      "points": 3
+    }
+  ]
+}

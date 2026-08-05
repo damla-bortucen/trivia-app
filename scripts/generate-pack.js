@@ -11,6 +11,13 @@
 const fs = require("fs");
 const path = require("path")
 
+const { setGlobalDispatcher, Agent } = require("undici");
+
+// node's http client aborts if response headers take longer than five minutes,
+// and a reasoning model sends none at all until it has finished thinking.
+// zero disables the limit
+setGlobalDispatcher(new Agent({ headersTimeout: 0, bodyTimeout: 0 }));
+
 const API_KEY = process.env.OPENAI_API_KEY;
 const OPENAI_MODEL = process.env.OPENAI_MODEL;
 const API_URL = "https://api.openai.com/v1/chat/completions";

@@ -1,0 +1,1209 @@
+{
+  "id": "science-nature-ai",
+  "name": "Science and Nature",
+  "description": "The natural world and how it works.",
+  "color": "#b4e352",
+  "source": "generated",
+  "questions": [
+    {
+      "id": "science-nature-ai-001",
+      "category": "science-nature-ai",
+      "question": "Which SI unit measures electric current?",
+      "answer": "ampere",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-002",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol Na?",
+      "answer": "sodium",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-003",
+      "category": "science-nature-ai",
+      "question": "What is a group of crows called?",
+      "answer": "murder",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-004",
+      "category": "science-nature-ai",
+      "question": "Which organ pumps blood around the body?",
+      "answer": "heart",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-005",
+      "category": "science-nature-ai",
+      "question": "What is common table salt chemically?",
+      "answer": "sodium chloride",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-006",
+      "category": "science-nature-ai",
+      "question": "What is the fastest land animal?",
+      "answer": "cheetah",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-007",
+      "category": "science-nature-ai",
+      "question": "Who proposed the theory of evolution by natural selection?",
+      "answer": "Darwin",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-008",
+      "category": "science-nature-ai",
+      "question": "How long is a day on Earth in hours?",
+      "answer": "24 hours",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-009",
+      "category": "science-nature-ai",
+      "question": "A whale shark is which type of animal?\n\nA) Fish\nB) Mammal",
+      "answer": "Fish",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-010",
+      "category": "science-nature-ai",
+      "question": "Which planet has the most prominent rings visible from Earth?\n\nA) Jupiter\nB) Saturn\nC) Neptune\nD) Uranus",
+      "answer": "Saturn",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-011",
+      "category": "science-nature-ai",
+      "question": "What part of a carrot do we eat?",
+      "answer": "root",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-012",
+      "category": "science-nature-ai",
+      "question": "What process turns liquid water into vapor?",
+      "answer": "evaporation",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-013",
+      "category": "science-nature-ai",
+      "question": "What is the process of water vapor turning into liquid called?",
+      "answer": "condensation",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-014",
+      "category": "science-nature-ai",
+      "question": "Which snake spreads a hood as a warning?",
+      "answer": "cobra",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-015",
+      "category": "science-nature-ai",
+      "question": "Which body causes most of Earth's tides?",
+      "answer": "the Moon",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-016",
+      "category": "science-nature-ai",
+      "question": "Which vitamin deficiency causes rickets?",
+      "answer": "vitamin D",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-017",
+      "category": "science-nature-ai",
+      "question": "The SI unit of force is named after which scientist?",
+      "answer": "Isaac Newton",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-018",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol K?",
+      "answer": "potassium",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-019",
+      "category": "science-nature-ai",
+      "question": "What is a group of wolves called?",
+      "answer": "pack",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-020",
+      "category": "science-nature-ai",
+      "question": "Which organ removes carbon dioxide from the blood?\n\nA) Lungs\nB) Liver\nC) Kidneys",
+      "answer": "Lungs",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-021",
+      "category": "science-nature-ai",
+      "question": "What is vinegar's main acid?",
+      "answer": "acetic acid",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-022",
+      "category": "science-nature-ai",
+      "question": "What is the largest animal on Earth?",
+      "answer": "blue whale",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-023",
+      "category": "science-nature-ai",
+      "question": "Who discovered penicillin?",
+      "answer": "Alexander Fleming",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-024",
+      "category": "science-nature-ai",
+      "question": "How long is a leap year in days?",
+      "answer": "366 days",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-025",
+      "category": "science-nature-ai",
+      "question": "A flying fox is what type of animal?",
+      "answer": "bat",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-026",
+      "category": "science-nature-ai",
+      "question": "Olympus Mons is on which planet?",
+      "answer": "Mars",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-027",
+      "category": "science-nature-ai",
+      "question": "What plant organ do we eat when we eat lettuce?",
+      "answer": "leaf",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-028",
+      "category": "science-nature-ai",
+      "question": "What is the name for liquid water becoming solid?",
+      "answer": "freezing",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-029",
+      "category": "science-nature-ai",
+      "question": "At what Celsius temperature does water boil at sea level?",
+      "answer": "100 Celsius",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-030",
+      "category": "science-nature-ai",
+      "question": "Which mammal has a venomous spur?\n\nA) Platypus\nB) Beaver",
+      "answer": "Platypus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-031",
+      "category": "science-nature-ai",
+      "question": "Why do we see lightning before we hear thunder?\n\nA) Light travels faster\nB) Sound travels faster",
+      "answer": "Light travels faster",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-032",
+      "category": "science-nature-ai",
+      "question": "A deficiency of which vitamin causes beriberi?",
+      "answer": "vitamin B1",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-033",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol Fe?",
+      "answer": "iron",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-034",
+      "category": "science-nature-ai",
+      "question": "Which muscle is primarily responsible for breathing?",
+      "answer": "diaphragm",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-035",
+      "category": "science-nature-ai",
+      "question": "What is rubbing alcohol commonly?",
+      "answer": "isopropyl alcohol",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-036",
+      "category": "science-nature-ai",
+      "question": "What is the tallest land animal?",
+      "answer": "giraffe",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-037",
+      "category": "science-nature-ai",
+      "question": "Whose law relates gas pressure and volume at constant temperature?",
+      "answer": "Boyle",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-038",
+      "category": "science-nature-ai",
+      "question": "How long is a typical human pregnancy in months?",
+      "answer": "nine months",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-039",
+      "category": "science-nature-ai",
+      "question": "A jellyfish is which: fish or invertebrate?\n\nA) Fish\nB) Invertebrate",
+      "answer": "Invertebrate",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-040",
+      "category": "science-nature-ai",
+      "question": "Which planet has a day longer than its year?",
+      "answer": "Venus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-041",
+      "category": "science-nature-ai",
+      "question": "What powder do flowers use to reproduce?",
+      "answer": "pollen",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-042",
+      "category": "science-nature-ai",
+      "question": "What do we call the process of releasing energy from food in cells?",
+      "answer": "cellular respiration",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-043",
+      "category": "science-nature-ai",
+      "question": "What state of matter are stars mainly in?",
+      "answer": "plasma",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-044",
+      "category": "science-nature-ai",
+      "question": "Which mammal's black-and-white stripes warn predators of its spray?",
+      "answer": "skunk",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-045",
+      "category": "science-nature-ai",
+      "question": "What process bends light in raindrops to form a rainbow?",
+      "answer": "refraction",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-046",
+      "category": "science-nature-ai",
+      "question": "A lack of iron causes which condition?",
+      "answer": "anemia",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-047",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol Ag?",
+      "answer": "silver",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-048",
+      "category": "science-nature-ai",
+      "question": "Which SI unit measures force?",
+      "answer": "newton",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-049",
+      "category": "science-nature-ai",
+      "question": "What type of animal is a dolphin?",
+      "answer": "mammal",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-050",
+      "category": "science-nature-ai",
+      "question": "What gas fills party balloons to make them float?",
+      "answer": "helium",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "science-nature-ai-051",
+      "category": "science-nature-ai",
+      "question": "The SI unit of electric resistance is named after which scientist?",
+      "answer": "Georg Ohm",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-052",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol Sn?",
+      "answer": "tin",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-053",
+      "category": "science-nature-ai",
+      "question": "What is a group of owls called?",
+      "answer": "parliament",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-054",
+      "category": "science-nature-ai",
+      "question": "Which organ produces insulin?",
+      "answer": "pancreas",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-055",
+      "category": "science-nature-ai",
+      "question": "What is household bleach's active chemical?",
+      "answer": "sodium hypochlorite",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-056",
+      "category": "science-nature-ai",
+      "question": "What is the largest tree species by volume?",
+      "answer": "giant sequoia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-057",
+      "category": "science-nature-ai",
+      "question": "Who proposed the heliocentric model of the Solar System?",
+      "answer": "Copernicus",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-058",
+      "category": "science-nature-ai",
+      "question": "About how long is Mars's year in Earth days?\n\nA) 225 days\nB) 365 days\nC) 687 days\nD) 4333 days",
+      "answer": "687 days",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-059",
+      "category": "science-nature-ai",
+      "question": "A starfish is what kind of animal?",
+      "answer": "echinoderm",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-060",
+      "category": "science-nature-ai",
+      "question": "The Great Dark Spot was observed on which planet?\n\nA) Uranus\nB) Neptune\nC) Jupiter",
+      "answer": "Neptune",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-061",
+      "category": "science-nature-ai",
+      "question": "Which part of the onion do we eat?",
+      "answer": "bulb",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-062",
+      "category": "science-nature-ai",
+      "question": "What is the name for plant water loss through leaves?",
+      "answer": "transpiration",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-063",
+      "category": "science-nature-ai",
+      "question": "At what Celsius temperature does pure ethanol boil?\n\nA) 78 Celsius\nB) 100 Celsius\nC) 0 Celsius",
+      "answer": "78 Celsius",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-064",
+      "category": "science-nature-ai",
+      "question": "Which insect sprays formic acid as a defense?\n\nA) Ant\nB) Bee\nC) Termite",
+      "answer": "Ant",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-065",
+      "category": "science-nature-ai",
+      "question": "Why does ice float on water?",
+      "answer": "lower density",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-066",
+      "category": "science-nature-ai",
+      "question": "Pellagra is caused by a deficiency of which vitamin?",
+      "answer": "niacin",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-067",
+      "category": "science-nature-ai",
+      "question": "Which SI unit measures frequency?",
+      "answer": "hertz",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-068",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol Pb?\n\nA) Lead\nB) Platinum\nC) Palladium",
+      "answer": "Lead",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-069",
+      "category": "science-nature-ai",
+      "question": "What is a group of flamingos called?\n\nA) Flamboyance\nB) Colony\nC) Herd",
+      "answer": "Flamboyance",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-070",
+      "category": "science-nature-ai",
+      "question": "Which bone forms the lower jaw?",
+      "answer": "mandible",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-071",
+      "category": "science-nature-ai",
+      "question": "What is Epsom salt chemically?",
+      "answer": "magnesium sulfate",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-072",
+      "category": "science-nature-ai",
+      "question": "What is the fastest bird in a dive?\n\nA) Peregrine falcon\nB) Golden eagle\nC) Swift",
+      "answer": "Peregrine falcon",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-073",
+      "category": "science-nature-ai",
+      "question": "Who discovered radioactivity in uranium salts in 1896?",
+      "answer": "Henri Becquerel",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-074",
+      "category": "science-nature-ai",
+      "question": "What is the half-life of carbon-14, approximately?\n\nA) 5730 years\nB) 57 years\nC) 57300 years",
+      "answer": "5730 years",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-075",
+      "category": "science-nature-ai",
+      "question": "The electric eel is actually what type of fish?",
+      "answer": "knifefish",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-076",
+      "category": "science-nature-ai",
+      "question": "Which moon has geysers at its south pole?\n\nA) Enceladus\nB) Europa\nC) Io\nD) Ganymede",
+      "answer": "Enceladus",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-077",
+      "category": "science-nature-ai",
+      "question": "Which part of a flower develops into the fruit?",
+      "answer": "ovary",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-078",
+      "category": "science-nature-ai",
+      "question": "What is the boundary where two air masses meet called?",
+      "answer": "front",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-079",
+      "category": "science-nature-ai",
+      "question": "What is gas turning directly into solid called?",
+      "answer": "deposition",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-080",
+      "category": "science-nature-ai",
+      "question": "Which insect mimics a wasp's appearance without a sting?",
+      "answer": "hoverfly",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-081",
+      "category": "science-nature-ai",
+      "question": "Why does metal feel colder than wood at the same temperature?",
+      "answer": "higher thermal conductivity",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-082",
+      "category": "science-nature-ai",
+      "question": "Goiter is often caused by a lack of which mineral?",
+      "answer": "iodine",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-083",
+      "category": "science-nature-ai",
+      "question": "The SI unit of capacitance is named after which scientist?",
+      "answer": "Michael Faraday",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-084",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol Hg?",
+      "answer": "mercury",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-085",
+      "category": "science-nature-ai",
+      "question": "What is a group of whales called?",
+      "answer": "pod",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-086",
+      "category": "science-nature-ai",
+      "question": "Which tendon connects calf muscles to the heel bone?",
+      "answer": "Achilles tendon",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-087",
+      "category": "science-nature-ai",
+      "question": "What is cream of tartar chemically?",
+      "answer": "potassium bitartrate",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-088",
+      "category": "science-nature-ai",
+      "question": "What is the fastest marine mammal?",
+      "answer": "common dolphin",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-089",
+      "category": "science-nature-ai",
+      "question": "Who formulated the laws of planetary motion?",
+      "answer": "Johannes Kepler",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-090",
+      "category": "science-nature-ai",
+      "question": "Roughly how many Earth days does Venus take to rotate once?\n\nA) 88 days\nB) 243 days\nC) 365 days\nD) 4333 days",
+      "answer": "243 days",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-091",
+      "category": "science-nature-ai",
+      "question": "What is the 'mountain chicken' actually?",
+      "answer": "frog",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-092",
+      "category": "science-nature-ai",
+      "question": "Which planet has the highest surface pressure?\n\nA) Venus\nB) Jupiter\nC) Earth\nD) Mars",
+      "answer": "Venus",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-093",
+      "category": "science-nature-ai",
+      "question": "What part of the wheat grain is milled to make white flour?",
+      "answer": "endosperm",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-094",
+      "category": "science-nature-ai",
+      "question": "What is the term for maintaining internal balance in the body?",
+      "answer": "homeostasis",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-095",
+      "category": "science-nature-ai",
+      "question": "At what Celsius temperature does water reach its maximum density?",
+      "answer": "4 Celsius",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-096",
+      "category": "science-nature-ai",
+      "question": "Which bird feigns a broken wing to lure predators away?\n\nA) Killdeer\nB) Robin\nC) Heron",
+      "answer": "Killdeer",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-097",
+      "category": "science-nature-ai",
+      "question": "Why is static cling stronger in dry air?",
+      "answer": "low humidity",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-098",
+      "category": "science-nature-ai",
+      "question": "What deficiency commonly causes night blindness?",
+      "answer": "vitamin A",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-099",
+      "category": "science-nature-ai",
+      "question": "Which SI unit measures luminous intensity?\n\nA) Candela\nB) Lumen\nC) Lux",
+      "answer": "Candela",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-100",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol W?\n\nA) Tungsten\nB) Tin\nC) Silver",
+      "answer": "Tungsten",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "science-nature-ai-101",
+      "category": "science-nature-ai",
+      "question": "The SI unit of pressure is named after which scientist?",
+      "answer": "Blaise Pascal",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-102",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol Sb?",
+      "answer": "antimony",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-103",
+      "category": "science-nature-ai",
+      "question": "What is a group of ferrets called?",
+      "answer": "business",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-104",
+      "category": "science-nature-ai",
+      "question": "Which cranial nerve carries smell information?",
+      "answer": "olfactory nerve",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-105",
+      "category": "science-nature-ai",
+      "question": "What is lye chemically?",
+      "answer": "sodium hydroxide",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-106",
+      "category": "science-nature-ai",
+      "question": "Which bird has the longest wingspan?",
+      "answer": "wandering albatross",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-107",
+      "category": "science-nature-ai",
+      "question": "Who measured the speed of light first with a terrestrial experiment in 1849?",
+      "answer": "Hippolyte Fizeau",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-108",
+      "category": "science-nature-ai",
+      "question": "What is the gestation period of an African elephant, in months?",
+      "answer": "22 months",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-109",
+      "category": "science-nature-ai",
+      "question": "What kind of animal is the prairie dog?",
+      "answer": "rodent",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-110",
+      "category": "science-nature-ai",
+      "question": "Which moon has a nitrogen atmosphere and methane lakes?",
+      "answer": "Titan",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-111",
+      "category": "science-nature-ai",
+      "question": "What botanical structure are we eating when we eat broccoli florets?",
+      "answer": "flower buds",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-112",
+      "category": "science-nature-ai",
+      "question": "What is the process by which molten rock forms new crust at mid-ocean ridges?",
+      "answer": "seafloor spreading",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-113",
+      "category": "science-nature-ai",
+      "question": "At what Celsius temperature does mercury freeze?",
+      "answer": "-39 Celsius",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-114",
+      "category": "science-nature-ai",
+      "question": "Which caterpillar uses an osmeterium to emit a foul smell?",
+      "answer": "swallowtail",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-115",
+      "category": "science-nature-ai",
+      "question": "Which process by Saccharomyces produces carbon dioxide in bread dough?",
+      "answer": "fermentation",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-116",
+      "category": "science-nature-ai",
+      "question": "Which vitamin deficiency causes pernicious anemia?",
+      "answer": "vitamin B12",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-117",
+      "category": "science-nature-ai",
+      "question": "Who proposed the ring structure of benzene?",
+      "answer": "August Kekulé",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-118",
+      "category": "science-nature-ai",
+      "question": "How long is Halley's Comet's orbital period, about?",
+      "answer": "76 years",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-119",
+      "category": "science-nature-ai",
+      "question": "The Portuguese man o' war is which?\n\nA) Single animal\nB) Colony",
+      "answer": "Colony",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-120",
+      "category": "science-nature-ai",
+      "question": "Which dwarf planet has a heart-shaped region called Tombaugh Regio?",
+      "answer": "Pluto",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-121",
+      "category": "science-nature-ai",
+      "question": "What is the term for seed formation without fertilization in plants?",
+      "answer": "apomixis",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-122",
+      "category": "science-nature-ai",
+      "question": "What is the kidney's blood-filtering process called?",
+      "answer": "glomerular filtration",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-123",
+      "category": "science-nature-ai",
+      "question": "What is the fifth state of matter formed near absolute zero?",
+      "answer": "Bose Einstein condensate",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-124",
+      "category": "science-nature-ai",
+      "question": "Which fish can inflate itself as a defense?",
+      "answer": "pufferfish",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-125",
+      "category": "science-nature-ai",
+      "question": "Why do soap bubbles display rainbow colors?",
+      "answer": "thin film interference",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-126",
+      "category": "science-nature-ai",
+      "question": "Which vitamin deficiency leads to neural tube defects?",
+      "answer": "folate",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-127",
+      "category": "science-nature-ai",
+      "question": "Which scientist is honored by the SI unit of inductance?",
+      "answer": "Joseph Henry",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-128",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol Cf?",
+      "answer": "californium",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-129",
+      "category": "science-nature-ai",
+      "question": "What is a group of jellyfish called?",
+      "answer": "smack",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-130",
+      "category": "science-nature-ai",
+      "question": "Which muscle primarily flexes the forearm at the elbow?",
+      "answer": "biceps brachii",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-131",
+      "category": "science-nature-ai",
+      "question": "What is 'washing soda' chemically?",
+      "answer": "sodium carbonate",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-132",
+      "category": "science-nature-ai",
+      "question": "Which tree species is tallest?",
+      "answer": "coast redwood",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-133",
+      "category": "science-nature-ai",
+      "question": "Who discovered streptomycin?",
+      "answer": "Selman Waksman",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-134",
+      "category": "science-nature-ai",
+      "question": "What is the typical lifespan of a human red blood cell?",
+      "answer": "120 days",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-135",
+      "category": "science-nature-ai",
+      "question": "The adult silkworm is what kind of insect?",
+      "answer": "moth",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-136",
+      "category": "science-nature-ai",
+      "question": "Which dwarf planet is the largest object in the asteroid belt?",
+      "answer": "Ceres",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-137",
+      "category": "science-nature-ai",
+      "question": "What part of the cinnamon tree is used as the spice?",
+      "answer": "bark",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-138",
+      "category": "science-nature-ai",
+      "question": "What process compresses sediments into rock?",
+      "answer": "lithification",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-139",
+      "category": "science-nature-ai",
+      "question": "At what Celsius temperature does dry ice sublimate at 1 atm?",
+      "answer": "-78.5 Celsius",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-140",
+      "category": "science-nature-ai",
+      "question": "Which North American amphibian secretes tetrodotoxin from its skin?",
+      "answer": "rough-skinned newt",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-141",
+      "category": "science-nature-ai",
+      "question": "Why do your ears pop when changing altitude?",
+      "answer": "pressure equalization",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-142",
+      "category": "science-nature-ai",
+      "question": "Which vitamin is needed for normal blood clotting?",
+      "answer": "vitamin K",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-143",
+      "category": "science-nature-ai",
+      "question": "The SI unit of power is named after which Scottish engineer?",
+      "answer": "James Watt",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-144",
+      "category": "science-nature-ai",
+      "question": "Which element has the symbol Ta?",
+      "answer": "tantalum",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-145",
+      "category": "science-nature-ai",
+      "question": "What is a group of ravens called?",
+      "answer": "unkindness",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-146",
+      "category": "science-nature-ai",
+      "question": "Which knee ligament commonly tears and stabilizes forward motion?",
+      "answer": "anterior cruciate ligament",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-147",
+      "category": "science-nature-ai",
+      "question": "What is 'muriatic acid' commonly?",
+      "answer": "hydrochloric acid",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-148",
+      "category": "science-nature-ai",
+      "question": "Which fish is the fastest in the ocean?",
+      "answer": "sailfish",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-149",
+      "category": "science-nature-ai",
+      "question": "Who coined the biological term 'cell' after observing cork?",
+      "answer": "Robert Hooke",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "science-nature-ai-150",
+      "category": "science-nature-ai",
+      "question": "What is the half-life of iodine-131, about?",
+      "answer": "8 days",
+      "difficulty": "hard",
+      "points": 3
+    }
+  ]
+}
