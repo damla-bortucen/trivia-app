@@ -1,0 +1,27 @@
+{
+    "id": "literature-ai",
+    "name": "Literature",
+    "description": "Authors, characters and famous first lines.",
+    "color": "#ffa2a2",
+    "theme": "books and the people who wrote them: novels, children's classics, poetry and plays, the characters that outlived their stories, and the lines everyone can quote",
+    "angles": [
+        "the author of a book everyone has heard of, even if they have not read it",
+        "a character, and the book they belong to",
+        "a famous opening line quoted plainly, name the book",
+        "the pen name, and the real name behind it",
+        "where a novel is set, the city, country or century",
+        "children's books and the person who wrote them",
+        "a series character, and the writer who invented them",
+        "what a famous title actually refers to once you have read the book",
+        "animals in fiction, and the book they come from",
+        "books whose film version people know far better than the original",
+        "writers remembered for one book and nothing else",
+        "a poet and the single poem they are known for",
+        "a book banned or censored, and the country that did it",
+        "the number in a title, and what it counts",
+        "the century a classic was written in, which is rarely the one people guess",
+        "authors who knew each other, married each other or fell out spectacularly"
+    ],
+    "avoid": "recent bestsellers and prize lists that change every year, plot spoilers for books people are still reading, anything needing a passage in front of you, questions of interpretation where two readings are both defensible, and titles that appear under different names in different translations",
+    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+}

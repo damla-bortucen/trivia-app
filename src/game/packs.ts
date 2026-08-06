@@ -9,13 +9,15 @@ import sports from "@/assets/packs/sports.json";
 import mythology from "@/assets/packs/mythology.json";
 import art from "@/assets/packs/art.json";
 import foodDrinkAi from "@/assets/packs/food-drink-ai.json";
-import entertainmentAi from "@/assets/packs/entertainment-ai.json";
 import generalKnowledgeAi from "@/assets/packs/general-knowledge-ai.json";
 import geographyAi from "@/assets/packs/geography-ai.json";
 import historyAi from "@/assets/packs/history-ai.json";
 import scienceNatureAi from "@/assets/packs/science-nature-ai.json";
 import sportsAi from "@/assets/packs/sports-ai.json";
 import mythologyAi from "@/assets/packs/mythology-ai.json";
+import filmTvAi from "@/assets/packs/film-tv-ai.json";
+import literatureAi from "@/assets/packs/literature-ai.json";
+import musicAi from "@/assets/packs/music-ai.json";
 
 const PACKS = [
     entertainment,
@@ -27,13 +29,15 @@ const PACKS = [
     mythology,
     art,
     foodDrinkAi,
-    entertainmentAi,
     generalKnowledgeAi,
     geographyAi,
     historyAi,
     mythologyAi,
     scienceNatureAi,
     sportsAi,
+    filmTvAi,
+    literatureAi,
+    musicAi,
 ] as Pack[];
 
 export const MAX_PACKS = 6;

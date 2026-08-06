@@ -1,0 +1,1209 @@
+{
+  "id": "music-ai",
+  "name": "Music",
+  "description": "Songs, artists and the records they made.",
+  "color": "#8de3d6",
+  "source": "generated",
+  "questions": [
+    {
+      "id": "music-ai-001",
+      "category": "music-ai",
+      "question": "Who sang Like a Virgin?",
+      "answer": "Madonna",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-002",
+      "category": "music-ai",
+      "question": "Who performed Hotel California?",
+      "answer": "Eagles",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-003",
+      "category": "music-ai",
+      "question": "Who recorded Imagine?",
+      "answer": "John Lennon",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-004",
+      "category": "music-ai",
+      "question": "What is Elton John's birth name?",
+      "answer": "Reginald Dwight",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-005",
+      "category": "music-ai",
+      "question": "Which album features Smells Like Teen Spirit?",
+      "answer": "Nevermind",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-006",
+      "category": "music-ai",
+      "question": "In which decade did Thriller first come out?",
+      "answer": "1980s",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-007",
+      "category": "music-ai",
+      "question": "Who sang Macarena?",
+      "answer": "Los Del Rio",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-008",
+      "category": "music-ai",
+      "question": "Which Spice Girl left the group in 1998?",
+      "answer": "Geri Halliwell",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-009",
+      "category": "music-ai",
+      "question": "Who wrote I Will Always Love You?",
+      "answer": "Dolly Parton",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-010",
+      "category": "music-ai",
+      "question": "Who first recorded Hound Dog?",
+      "answer": "Big Mama Thornton",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-011",
+      "category": "music-ai",
+      "question": "The term 'grunge' is most associated with which US city?",
+      "answer": "Seattle",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-012",
+      "category": "music-ai",
+      "question": "Which song opens with 'Is this the real life? Is this just fantasy?'",
+      "answer": "Bohemian Rhapsody",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-013",
+      "category": "music-ai",
+      "question": "Which song opens the film Shrek (2001)?",
+      "answer": "All Star",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-014",
+      "category": "music-ai",
+      "question": "Who duets with Paul McCartney on Ebony and Ivory?",
+      "answer": "Stevie Wonder",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-015",
+      "category": "music-ai",
+      "question": "Who is known as the King of Pop?",
+      "answer": "Michael Jackson",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-016",
+      "category": "music-ai",
+      "question": "How many keys are on a modern piano?",
+      "answer": "88",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-017",
+      "category": "music-ai",
+      "question": "The oboe belongs to which instrument family?",
+      "answer": "Woodwind",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-018",
+      "category": "music-ai",
+      "question": "What instrument carries the hook in Baker Street?",
+      "answer": "Saxophone",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-019",
+      "category": "music-ai",
+      "question": "Which pedal sustains notes on a piano?",
+      "answer": "Sustain pedal",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-020",
+      "category": "music-ai",
+      "question": "Who founded Fender and designed early electric guitars?",
+      "answer": "Leo Fender",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-021",
+      "category": "music-ai",
+      "question": "What does forte mean on a score?",
+      "answer": "Loud",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-022",
+      "category": "music-ai",
+      "question": "In music, what does tempo describe?",
+      "answer": "Speed",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-023",
+      "category": "music-ai",
+      "question": "How many semitones are in an octave?",
+      "answer": "12",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-024",
+      "category": "music-ai",
+      "question": "Which means getting louder: crescendo or diminuendo?",
+      "answer": "Crescendo",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-025",
+      "category": "music-ai",
+      "question": "Who recorded Wonderwall?",
+      "answer": "Oasis",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-026",
+      "category": "music-ai",
+      "question": "Who sang Like a Rolling Stone?",
+      "answer": "Bob Dylan",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-027",
+      "category": "music-ai",
+      "question": "Who performed Girls Just Want to Have Fun?",
+      "answer": "Cyndi Lauper",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-028",
+      "category": "music-ai",
+      "question": "Which album includes Rolling in the Deep?",
+      "answer": "21",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-029",
+      "category": "music-ai",
+      "question": "In which decade did Rumours come out?",
+      "answer": "1970s",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-030",
+      "category": "music-ai",
+      "question": "Who sang Spirit in the Sky?",
+      "answer": "Norman Greenbaum",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-031",
+      "category": "music-ai",
+      "question": "Who wrote and first recorded Respect before Aretha Franklin?",
+      "answer": "Otis Redding",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-032",
+      "category": "music-ai",
+      "question": "Which song opens with 'Hello darkness, my old friend'?",
+      "answer": "The Sound of Silence",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-033",
+      "category": "music-ai",
+      "question": "Which song plays over the end of Fight Club?",
+      "answer": "Where Is My Mind",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-034",
+      "category": "music-ai",
+      "question": "Who joined Run-DMC on Walk This Way?",
+      "answer": "Aerosmith",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-035",
+      "category": "music-ai",
+      "question": "Who is the Queen of Soul?",
+      "answer": "Aretha Franklin",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-036",
+      "category": "music-ai",
+      "question": "How many strings on a standard bass guitar?",
+      "answer": "4",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-037",
+      "category": "music-ai",
+      "question": "Which family does the piano officially belong to?",
+      "answer": "Percussion",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-038",
+      "category": "music-ai",
+      "question": "The solo in Stairway to Heaven is on which instrument?",
+      "answer": "Guitar",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-039",
+      "category": "music-ai",
+      "question": "What do guitarists press to change pitch along the neck?",
+      "answer": "Frets",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-040",
+      "category": "music-ai",
+      "question": "Who pioneered the Moog synthesizer?",
+      "answer": "Robert Moog",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-041",
+      "category": "music-ai",
+      "question": "What does adagio tell a player?",
+      "answer": "Slow",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-042",
+      "category": "music-ai",
+      "question": "What does a cappella mean?",
+      "answer": "Unaccompanied",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-043",
+      "category": "music-ai",
+      "question": "How many lines are on a standard musical stave?",
+      "answer": "5",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-044",
+      "category": "music-ai",
+      "question": "Who performed Dancing Queen?",
+      "answer": "ABBA",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-045",
+      "category": "music-ai",
+      "question": "Which group is best known for I'm Too Sexy?",
+      "answer": "Right Said Fred",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-046",
+      "category": "music-ai",
+      "question": "Who performed Purple Rain?",
+      "answer": "Prince",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-047",
+      "category": "music-ai",
+      "question": "Who sang What's Going On?",
+      "answer": "Marvin Gaye",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-048",
+      "category": "music-ai",
+      "question": "Which decade saw Born in the U.S.A. released?",
+      "answer": "1980s",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-049",
+      "category": "music-ai",
+      "question": "Who duetted with Beyoncé on Crazy in Love?",
+      "answer": "Jay-Z",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-050",
+      "category": "music-ai",
+      "question": "Hip hop began in which New York borough?",
+      "answer": "The Bronx",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "music-ai-051",
+      "category": "music-ai",
+      "question": "What is Lady Gaga’s real name?",
+      "answer": "Stefani Germanotta",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-052",
+      "category": "music-ai",
+      "question": "Which album features Paranoid Android?",
+      "answer": "OK Computer",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-053",
+      "category": "music-ai",
+      "question": "In which decade was Joni Mitchell's Blue released?",
+      "answer": "1970s",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-054",
+      "category": "music-ai",
+      "question": "Who sang Come On Eileen?",
+      "answer": "Dexys Midnight Runners",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-055",
+      "category": "music-ai",
+      "question": "Which instrument did Sting play in The Police?",
+      "answer": "Bass",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-056",
+      "category": "music-ai",
+      "question": "Who wrote Hallelujah later covered by Jeff Buckley?",
+      "answer": "Leonard Cohen",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-057",
+      "category": "music-ai",
+      "question": "Who first released Torn before Natalie Imbruglia covered it?",
+      "answer": "Ednaswap",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-058",
+      "category": "music-ai",
+      "question": "What does 'shoegaze' originally refer to?\n\nA) Gazing at effects pedals\nB) Dreamy lyrics\nC) Surf guitar tones\nD) Jazz-influenced drumming",
+      "answer": "Gazing at effects pedals",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-059",
+      "category": "music-ai",
+      "question": "Which song opens 'Well, you can tell by the way I use my walk'?",
+      "answer": "Stayin' Alive",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-060",
+      "category": "music-ai",
+      "question": "Which song opens Pulp Fiction?\n\nA) Misirlou\nB) Kung Fu Fighting\nC) Wipe Out\nD) Apache",
+      "answer": "Misirlou",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-061",
+      "category": "music-ai",
+      "question": "Who duetted with Nelly on Dilemma?",
+      "answer": "Kelly Rowland",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-062",
+      "category": "music-ai",
+      "question": "Who is called the Godfather of Soul?",
+      "answer": "James Brown",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-063",
+      "category": "music-ai",
+      "question": "How many valves on a standard trumpet?",
+      "answer": "3",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-064",
+      "category": "music-ai",
+      "question": "The harmonica belongs to which family?\n\nA) Woodwind\nB) Brass\nC) Strings\nD) Percussion",
+      "answer": "Woodwind",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-065",
+      "category": "music-ai",
+      "question": "What instrument plays the riff in Seven Nation Army?",
+      "answer": "Guitar",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-066",
+      "category": "music-ai",
+      "question": "What is the vibrating strip on a clarinet mouthpiece called?",
+      "answer": "Reed",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-067",
+      "category": "music-ai",
+      "question": "Who invented the saxophone?",
+      "answer": "Adolphe Sax",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-068",
+      "category": "music-ai",
+      "question": "What does staccato mean?",
+      "answer": "Detached",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-069",
+      "category": "music-ai",
+      "question": "In music, what does timbre mean?",
+      "answer": "Tone color",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-070",
+      "category": "music-ai",
+      "question": "How many beats in waltz time?",
+      "answer": "3",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-071",
+      "category": "music-ai",
+      "question": "Which indicates getting slower: ritardando or accelerando?",
+      "answer": "Ritardando",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-072",
+      "category": "music-ai",
+      "question": "Who sang No Woman, No Cry?",
+      "answer": "Bob Marley",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-073",
+      "category": "music-ai",
+      "question": "What is Bono’s real first name?",
+      "answer": "Paul",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-074",
+      "category": "music-ai",
+      "question": "Which album includes Mr. Brightside?",
+      "answer": "Hot Fuss",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-075",
+      "category": "music-ai",
+      "question": "In which decade did Back in Black come out?",
+      "answer": "1980s",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-076",
+      "category": "music-ai",
+      "question": "Who sang Mambo No. 5?",
+      "answer": "Lou Bega",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-077",
+      "category": "music-ai",
+      "question": "Which instrument did Christine McVie mostly play in Fleetwood Mac?",
+      "answer": "Keyboards",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-078",
+      "category": "music-ai",
+      "question": "Who wrote I Write the Songs sung by Barry Manilow?",
+      "answer": "Bruce Johnston",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-079",
+      "category": "music-ai",
+      "question": "Who first recorded I Love Rock 'n' Roll before Joan Jett?",
+      "answer": "The Arrows",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-080",
+      "category": "music-ai",
+      "question": "House music took its name from which Chicago club?\n\nA) The Warehouse\nB) Studio 54\nC) CBGB\nD) The Roxy",
+      "answer": "The Warehouse",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-081",
+      "category": "music-ai",
+      "question": "Which song begins 'Just a small-town girl, livin' in a lonely world'?",
+      "answer": "Don't Stop Believin'",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-082",
+      "category": "music-ai",
+      "question": "Which song closes Pretty in Pink (1986)?",
+      "answer": "If You Leave",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-083",
+      "category": "music-ai",
+      "question": "Who sang Empire State of Mind with Jay-Z?",
+      "answer": "Alicia Keys",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-084",
+      "category": "music-ai",
+      "question": "Who is nicknamed the Piano Man?",
+      "answer": "Billy Joel",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-085",
+      "category": "music-ai",
+      "question": "How many strings does a standard mandolin have?",
+      "answer": "8",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-086",
+      "category": "music-ai",
+      "question": "Which family do steel drums belong to?",
+      "answer": "Percussion",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-087",
+      "category": "music-ai",
+      "question": "What instrument plays the famous fill in In the Air Tonight?",
+      "answer": "Drums",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-088",
+      "category": "music-ai",
+      "question": "What do drummers hold and hit with?",
+      "answer": "Drumsticks",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-089",
+      "category": "music-ai",
+      "question": "Which company made the TR-808?\n\nA) Roland\nB) Korg\nC) Yamaha\nD) Moog",
+      "answer": "Roland",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-090",
+      "category": "music-ai",
+      "question": "What does legato mean?",
+      "answer": "Smoothly connected",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-091",
+      "category": "music-ai",
+      "question": "In song form, what is a bridge?",
+      "answer": "Contrasting section",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-092",
+      "category": "music-ai",
+      "question": "How many beats are in a bar of common time?",
+      "answer": "4",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-093",
+      "category": "music-ai",
+      "question": "Which is a change in key: modulation or syncopation?",
+      "answer": "Modulation",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-094",
+      "category": "music-ai",
+      "question": "Who sang Back to Black?",
+      "answer": "Amy Winehouse",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-095",
+      "category": "music-ai",
+      "question": "Which album features Boulevard of Broken Dreams?",
+      "answer": "American Idiot",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-096",
+      "category": "music-ai",
+      "question": "In which decade did The Dark Side of the Moon release?",
+      "answer": "1970s",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-097",
+      "category": "music-ai",
+      "question": "Who sang Who Let the Dogs Out?",
+      "answer": "Baha Men",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-098",
+      "category": "music-ai",
+      "question": "Which member was fired from Metallica in 1983?",
+      "answer": "Dave Mustaine",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-099",
+      "category": "music-ai",
+      "question": "Who wrote Blinded by the Light later made a hit by Manfred Mann's Earth Band?",
+      "answer": "Bruce Springsteen",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-100",
+      "category": "music-ai",
+      "question": "Who first recorded The Tide Is High before Blondie?",
+      "answer": "The Paragons",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "music-ai-101",
+      "category": "music-ai",
+      "question": "What was Freddie Mercury’s birth name?",
+      "answer": "Farrokh Bulsara",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-102",
+      "category": "music-ai",
+      "question": "Which album includes Gimme Shelter?\n\nA) Let It Bleed\nB) Sticky Fingers\nC) Exile on Main St.\nD) Beggars Banquet",
+      "answer": "Let It Bleed",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-103",
+      "category": "music-ai",
+      "question": "In which decade did Anarchy in the U.K. debut?\n\nA) 1960s\nB) 1970s\nC) 1980s\nD) 1990s",
+      "answer": "1970s",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-104",
+      "category": "music-ai",
+      "question": "Which song is Men Without Hats best known for?",
+      "answer": "The Safety Dance",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-105",
+      "category": "music-ai",
+      "question": "Who replaced Syd Barrett in Pink Floyd?",
+      "answer": "David Gilmour",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-106",
+      "category": "music-ai",
+      "question": "Who wrote I'm a Believer for The Monkees?",
+      "answer": "Neil Diamond",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-107",
+      "category": "music-ai",
+      "question": "Who first recorded Twist and Shout?\n\nA) The Top Notes\nB) The Isley Brothers\nC) The Beatles\nD) The Drifters",
+      "answer": "The Top Notes",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-108",
+      "category": "music-ai",
+      "question": "Trip-hop first took hold in which UK city?\n\nA) Bristol\nB) Manchester\nC) Sheffield\nD) Leeds",
+      "answer": "Bristol",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-109",
+      "category": "music-ai",
+      "question": "Which song begins 'You were working as a waitress in a cocktail bar'?",
+      "answer": "Don't You Want Me",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-110",
+      "category": "music-ai",
+      "question": "Which song opens Trainspotting?\n\nA) Lust for Life\nB) Born Slippy\nC) Song 2\nD) Bitter Sweet Symphony",
+      "answer": "Lust for Life",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-111",
+      "category": "music-ai",
+      "question": "Who sang Smooth with Santana?",
+      "answer": "Rob Thomas",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-112",
+      "category": "music-ai",
+      "question": "Who is nicknamed the Prince of Darkness?\n\nA) Ozzy Osbourne\nB) Alice Cooper\nC) Marilyn Manson\nD) Ronnie James Dio",
+      "answer": "Ozzy Osbourne",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-113",
+      "category": "music-ai",
+      "question": "How many pedals on a modern concert harp?",
+      "answer": "7",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-114",
+      "category": "music-ai",
+      "question": "The banjo belongs to which instrument family?",
+      "answer": "Strings",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-115",
+      "category": "music-ai",
+      "question": "Which instrument carries the main keyboard part in Riders on the Storm?\n\nA) Organ\nB) Electric piano\nC) Synthesizer\nD) Harpsichord",
+      "answer": "Electric piano",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-116",
+      "category": "music-ai",
+      "question": "What is the strip at the end of a guitar neck that anchors the strings called?",
+      "answer": "Nut",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-117",
+      "category": "music-ai",
+      "question": "Which guitarist helped develop Gibson’s first solid-body guitar model in the 1950s?",
+      "answer": "Les Paul",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-118",
+      "category": "music-ai",
+      "question": "What does subito piano mean?",
+      "answer": "Suddenly soft",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-119",
+      "category": "music-ai",
+      "question": "What is syncopation?",
+      "answer": "Offbeat accents",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-120",
+      "category": "music-ai",
+      "question": "How many semitones are in a tritone?",
+      "answer": "6",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-121",
+      "category": "music-ai",
+      "question": "Which term names the pattern of beats: meter or tempo?",
+      "answer": "Meter",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-122",
+      "category": "music-ai",
+      "question": "Who recorded I Walk the Line?",
+      "answer": "Johnny Cash",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-123",
+      "category": "music-ai",
+      "question": "What is Snoop Dogg’s real name?\n\nA) Calvin Broadus\nB) Curtis Jackson\nC) Andre Young\nD) Shawn Carter",
+      "answer": "Calvin Broadus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-124",
+      "category": "music-ai",
+      "question": "Which album originally featured Life on Mars?\n\nA) Hunky Dory\nB) Aladdin Sane\nC) Low\nD) Heroes",
+      "answer": "Hunky Dory",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-125",
+      "category": "music-ai",
+      "question": "In which decade did Blue Monday arrive?\n\nA) 1970s\nB) 1980s\nC) 1990s\nD) 2000s",
+      "answer": "1980s",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-126",
+      "category": "music-ai",
+      "question": "Which act is best known for Tainted Love?",
+      "answer": "Soft Cell",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-127",
+      "category": "music-ai",
+      "question": "Which Guns N' Roses drummer was fired after Appetite for Destruction?\n\nA) Steven Adler\nB) Matt Sorum\nC) Izzy Stradlin\nD) Duff McKagan",
+      "answer": "Steven Adler",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-128",
+      "category": "music-ai",
+      "question": "Who wrote I Don't Want to Miss a Thing for Aerosmith?",
+      "answer": "Diane Warren",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-129",
+      "category": "music-ai",
+      "question": "Who first recorded Gloria before Patti Smith and U2?\n\nA) Them\nB) Shadows of Knight\nC) Van Morrison\nD) The Doors",
+      "answer": "Them",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-130",
+      "category": "music-ai",
+      "question": "What does K-pop stand for?\n\nA) Korean pop\nB) Kyoto pop\nC) Kinetic pop\nD) Khmer pop",
+      "answer": "Korean pop",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-131",
+      "category": "music-ai",
+      "question": "Which song starts 'Once I had a love and it was a gas'?",
+      "answer": "Heart of Glass",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-132",
+      "category": "music-ai",
+      "question": "Which song is the training montage theme in Rocky III?",
+      "answer": "Eye of the Tiger",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-133",
+      "category": "music-ai",
+      "question": "Who duetted with Rihanna on Love the Way You Lie?\n\nA) Eminem\nB) Drake\nC) Kanye West\nD) Jay-Z",
+      "answer": "Eminem",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-134",
+      "category": "music-ai",
+      "question": "Who is the Queen of Tejano?",
+      "answer": "Selena",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-135",
+      "category": "music-ai",
+      "question": "How many strings does a standard violin have?",
+      "answer": "4",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-136",
+      "category": "music-ai",
+      "question": "The recorder belongs to which instrument family?",
+      "answer": "Woodwind",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-137",
+      "category": "music-ai",
+      "question": "Which instrument plays the hook in Good Vibrations?",
+      "answer": "Theremin",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-138",
+      "category": "music-ai",
+      "question": "What is the plectrum used to play a sitar called?",
+      "answer": "Mizrab",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-139",
+      "category": "music-ai",
+      "question": "Who invented the Chapman Stick?\n\nA) Emmett Chapman\nB) Leo Fender\nC) Les Paul\nD) Bob Moog",
+      "answer": "Emmett Chapman",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-140",
+      "category": "music-ai",
+      "question": "What does sempre mean on a score?",
+      "answer": "Always",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-141",
+      "category": "music-ai",
+      "question": "In music, what is vibrato?",
+      "answer": "Pitch oscillation",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-142",
+      "category": "music-ai",
+      "question": "In 6/8 time, how many eighth notes are there per bar?",
+      "answer": "6",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-143",
+      "category": "music-ai",
+      "question": "Which is a repeated musical figure: ostinato or libretto?",
+      "answer": "Ostinato",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-144",
+      "category": "music-ai",
+      "question": "Who performed Love Will Tear Us Apart?",
+      "answer": "Joy Division",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-145",
+      "category": "music-ai",
+      "question": "What is M.I.A.’s birth first name?",
+      "answer": "Mathangi",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-146",
+      "category": "music-ai",
+      "question": "Which album includes Mr. Blue Sky?\n\nA) Out of the Blue\nB) A New World Record\nC) Discovery\nD) Time",
+      "answer": "Out of the Blue",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-147",
+      "category": "music-ai",
+      "question": "In which decade did Rapper's Delight arrive?",
+      "answer": "1970s",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-148",
+      "category": "music-ai",
+      "question": "Which song is Eagle-Eye Cherry best remembered for?",
+      "answer": "Save Tonight",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-149",
+      "category": "music-ai",
+      "question": "Which member quit The Smiths in 1987?",
+      "answer": "Johnny Marr",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "music-ai-150",
+      "category": "music-ai",
+      "question": "Who wrote The Passenger later covered by Siouxsie and the Banshees?",
+      "answer": "Iggy Pop",
+      "difficulty": "hard",
+      "points": 3
+    }
+  ]
+}

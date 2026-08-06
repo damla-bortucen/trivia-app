@@ -1,0 +1,33 @@
+{
+    "id": "music-ai",
+    "name": "Music",
+    "description": "Songs, artists and the records they made.",
+    "color": "#8de3d6",
+    "theme": "popular music from the twentieth century to now: the songs everyone can hum, the acts behind them, the albums that mattered, the instruments they were played on, and the handful of theory terms every listener has heard",
+    "angles": [
+        "the act behind a song everyone can hum",
+        "the real name behind a stage name",
+        "which album a famous track sits on",
+        "the decade a landmark album or single arrived",
+        "acts known for one song, and the song",
+        "band line-ups, who played what, and who walked out",
+        "the writer of a song someone else made famous",
+        "cover versions, and who recorded it first",
+        "what a genre name actually means and where it started",
+        "a lyric quoted plainly, name the song",
+        "the song that opens or closes a famous film",
+        "duets and collaborations, who sang with whom",
+        "the nickname or honorific an artist is known by",
+        "the number an instrument is built around, its strings, keys, valves or pedals",
+        "the family an instrument belongs to, including the ones that surprise people",
+        "the instrument a famous riff or solo was played on",
+        "the name of a part of an instrument, the bridge, the reed, the fret, the bow",
+        "who invented an instrument, and roughly when",
+        "the Italian word written on a score, and what it tells the player to do",
+        "what a term every listener has heard actually means, tempo, key, octave, crescendo",
+        "the number behind the notation, beats in a bar, lines on a stave, semitones in an octave",
+        "two musical terms listeners routinely mix up, and which is which"
+    ],
+    "avoid": "current charts and streaming numbers, anything released in the last two years, celebrity personal lives, chart positions that differ from one country to the next, theory beyond what a keen listener would know, anything needing a score or an instrument in front of you, and questions where a cover version and the original would both be right",
+    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+}
