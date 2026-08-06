@@ -1,0 +1,1209 @@
+{
+  "id": "literature-ai",
+  "name": "Literature",
+  "description": "Authors, characters and famous first lines.",
+  "color": "#ffa2a2",
+  "source": "generated",
+  "questions": [
+    {
+      "id": "literature-ai-001",
+      "category": "literature-ai",
+      "question": "Who wrote 1984?",
+      "answer": "George Orwell",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-002",
+      "category": "literature-ai",
+      "question": "Which novel features Jay Gatsby?",
+      "answer": "The Great Gatsby",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-003",
+      "category": "literature-ai",
+      "question": "'Call me Ishmael.' Name the book.",
+      "answer": "Moby-Dick",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-004",
+      "category": "literature-ai",
+      "question": "What is Mark Twain's real name?",
+      "answer": "Samuel Clemens",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-005",
+      "category": "literature-ai",
+      "question": "Which city is Ulysses set in?",
+      "answer": "Dublin",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-006",
+      "category": "literature-ai",
+      "question": "Who wrote Charlotte's Web?",
+      "answer": "E. B. White",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-007",
+      "category": "literature-ai",
+      "question": "Who created Sherlock Holmes?",
+      "answer": "Arthur Conan Doyle",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-008",
+      "category": "literature-ai",
+      "question": "The Scarlet Letter refers to which letter?",
+      "answer": "A",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-009",
+      "category": "literature-ai",
+      "question": "Napoleon the pig appears in which book?",
+      "answer": "Animal Farm",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-010",
+      "category": "literature-ai",
+      "question": "The Godfather novel was written by whom?",
+      "answer": "Mario Puzo",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-011",
+      "category": "literature-ai",
+      "question": "Who wrote Gone with the Wind?",
+      "answer": "Margaret Mitchell",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-012",
+      "category": "literature-ai",
+      "question": "Who wrote The Raven?",
+      "answer": "Edgar Allan Poe",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-013",
+      "category": "literature-ai",
+      "question": "In One Thousand and One Nights, what does the number count?",
+      "answer": "Stories",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-014",
+      "category": "literature-ai",
+      "question": "In which century was Frankenstein first published?\n\nA) Eighteenth century\nB) Nineteenth century\nC) Twentieth century\nD) Seventeenth century",
+      "answer": "Nineteenth century",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-015",
+      "category": "literature-ai",
+      "question": "Which friend of J. R. R. Tolkien wrote The Chronicles of Narnia?",
+      "answer": "C. S. Lewis",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-016",
+      "category": "literature-ai",
+      "question": "Who wrote Pride and Prejudice?",
+      "answer": "Jane Austen",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-017",
+      "category": "literature-ai",
+      "question": "'All happy families are alike...' Name the book.",
+      "answer": "Anna Karenina",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-018",
+      "category": "literature-ai",
+      "question": "Who wrote The Hobbit?",
+      "answer": "J. R. R. Tolkien",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-019",
+      "category": "literature-ai",
+      "question": "Which novel features Scout Finch?",
+      "answer": "To Kill a Mockingbird",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-020",
+      "category": "literature-ai",
+      "question": "Who created James Bond?",
+      "answer": "Ian Fleming",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-021",
+      "category": "literature-ai",
+      "question": "Which book begins 'Lolita, light of my life...'?",
+      "answer": "Lolita",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-022",
+      "category": "literature-ai",
+      "question": "Who wrote Matilda?",
+      "answer": "Roald Dahl",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-023",
+      "category": "literature-ai",
+      "question": "Which century is The Three Musketeers set in?\n\nA) Sixteenth century\nB) Seventeenth century\nC) Eighteenth century\nD) Nineteenth century",
+      "answer": "Seventeenth century",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-024",
+      "category": "literature-ai",
+      "question": "Who wrote The Picture of Dorian Gray?",
+      "answer": "Oscar Wilde",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-025",
+      "category": "literature-ai",
+      "question": "What does The Maltese Falcon refer to?",
+      "answer": "A statuette",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-026",
+      "category": "literature-ai",
+      "question": "Who created Hercule Poirot?",
+      "answer": "Agatha Christie",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-027",
+      "category": "literature-ai",
+      "question": "Who wrote The Odyssey?",
+      "answer": "Homer",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-028",
+      "category": "literature-ai",
+      "question": "'I am an invisible man.' Name the book.",
+      "answer": "Invisible Man",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-029",
+      "category": "literature-ai",
+      "question": "Who wrote The Divine Comedy?",
+      "answer": "Dante Alighieri",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-030",
+      "category": "literature-ai",
+      "question": "Who wrote The Handmaid's Tale?",
+      "answer": "Margaret Atwood",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-031",
+      "category": "literature-ai",
+      "question": "Which city is much of Les Misérables set in?",
+      "answer": "Paris",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-032",
+      "category": "literature-ai",
+      "question": "Who created Winnie-the-Pooh?",
+      "answer": "A. A. Milne",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-033",
+      "category": "literature-ai",
+      "question": "Who wrote War and Peace?",
+      "answer": "Leo Tolstoy",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-034",
+      "category": "literature-ai",
+      "question": "In which century was Don Quixote first published?\n\nA) Sixteenth century\nB) Seventeenth century\nC) Eighteenth century\nD) Nineteenth century",
+      "answer": "Seventeenth century",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-035",
+      "category": "literature-ai",
+      "question": "Psycho was a novel by which writer?\n\nA) Ira Levin\nB) Robert Bloch\nC) Thomas Harris\nD) Stephen King",
+      "answer": "Robert Bloch",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-036",
+      "category": "literature-ai",
+      "question": "Hazel the rabbit appears in which book?",
+      "answer": "Watership Down",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-037",
+      "category": "literature-ai",
+      "question": "What pen name did Mary Ann Evans use?",
+      "answer": "George Eliot",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-038",
+      "category": "literature-ai",
+      "question": "'Mother died today.' Name the book.",
+      "answer": "The Stranger",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-039",
+      "category": "literature-ai",
+      "question": "Who wrote The Very Hungry Caterpillar?",
+      "answer": "Eric Carle",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-040",
+      "category": "literature-ai",
+      "question": "Who created Philip Marlowe?",
+      "answer": "Raymond Chandler",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-041",
+      "category": "literature-ai",
+      "question": "Where is The Old Man and the Sea set?\n\nA) Cuba\nB) Mexico\nC) Spain\nD) Florida",
+      "answer": "Cuba",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-042",
+      "category": "literature-ai",
+      "question": "Where is A Christmas Carol set?",
+      "answer": "London",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-043",
+      "category": "literature-ai",
+      "question": "Which novel introduced Count Dracula?",
+      "answer": "Dracula",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-044",
+      "category": "literature-ai",
+      "question": "Who wrote Crime and Punishment?",
+      "answer": "Fyodor Dostoevsky",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-045",
+      "category": "literature-ai",
+      "question": "Who wrote Jaws?",
+      "answer": "Peter Benchley",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-046",
+      "category": "literature-ai",
+      "question": "Who created Peter Pan?",
+      "answer": "J. M. Barrie",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-047",
+      "category": "literature-ai",
+      "question": "Who is the Hunchback of Notre-Dame?",
+      "answer": "Quasimodo",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-048",
+      "category": "literature-ai",
+      "question": "Which writer used the pen name Saki?",
+      "answer": "H. H. Munro",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-049",
+      "category": "literature-ai",
+      "question": "Which book begins with 'It was love at first sight.'?\n\nA) Catch-22\nB) The Great Gatsby\nC) Lolita\nD) A Farewell to Arms",
+      "answer": "Catch-22",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-050",
+      "category": "literature-ai",
+      "question": "Who created Tarzan?",
+      "answer": "Edgar Rice Burroughs",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "literature-ai-051",
+      "category": "literature-ai",
+      "question": "Who wrote The Catcher in the Rye?",
+      "answer": "J. D. Salinger",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-052",
+      "category": "literature-ai",
+      "question": "Which novel features Tom Joad?",
+      "answer": "The Grapes of Wrath",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-053",
+      "category": "literature-ai",
+      "question": "'It was a pleasure to burn.' Name the book.",
+      "answer": "Fahrenheit 451",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-054",
+      "category": "literature-ai",
+      "question": "What is O. Henry's real name?",
+      "answer": "William Sydney Porter",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-055",
+      "category": "literature-ai",
+      "question": "Which city is The Plague set in?",
+      "answer": "Oran",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-056",
+      "category": "literature-ai",
+      "question": "Who wrote The Tale of Peter Rabbit?",
+      "answer": "Beatrix Potter",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-057",
+      "category": "literature-ai",
+      "question": "Who created Arsène Lupin?",
+      "answer": "Maurice Leblanc",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-058",
+      "category": "literature-ai",
+      "question": "In The Red Badge of Courage, what is the 'red badge'?",
+      "answer": "A wound",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-059",
+      "category": "literature-ai",
+      "question": "Which novel features the horse Black Beauty?",
+      "answer": "Black Beauty",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-060",
+      "category": "literature-ai",
+      "question": "Die Hard was based on which novel?",
+      "answer": "Nothing Lasts Forever",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-061",
+      "category": "literature-ai",
+      "question": "Who wrote The Wind in the Willows?",
+      "answer": "Kenneth Grahame",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-062",
+      "category": "literature-ai",
+      "question": "Who wrote Ozymandias?",
+      "answer": "Percy Bysshe Shelley",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-063",
+      "category": "literature-ai",
+      "question": "Which country banned Doctor Zhivago on publication?",
+      "answer": "Soviet Union",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-064",
+      "category": "literature-ai",
+      "question": "In Fahrenheit 451, what does 451 measure?",
+      "answer": "Paper ignition temperature",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-065",
+      "category": "literature-ai",
+      "question": "In which century was Gulliver's Travels first published?",
+      "answer": "Eighteenth century",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-066",
+      "category": "literature-ai",
+      "question": "Which poet married Sylvia Plath?",
+      "answer": "Ted Hughes",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-067",
+      "category": "literature-ai",
+      "question": "Who wrote The Jungle Book?",
+      "answer": "Rudyard Kipling",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-068",
+      "category": "literature-ai",
+      "question": "Which novel features Pip as narrator?",
+      "answer": "Great Expectations",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-069",
+      "category": "literature-ai",
+      "question": "'All this happened, more or less.' Name the book.",
+      "answer": "Slaughterhouse-Five",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-070",
+      "category": "literature-ai",
+      "question": "Which writer used the pen name Boz?",
+      "answer": "Charles Dickens",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-071",
+      "category": "literature-ai",
+      "question": "In which country is The Sun Also Rises largely set?",
+      "answer": "Spain",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-072",
+      "category": "literature-ai",
+      "question": "Who wrote The Cat in the Hat?",
+      "answer": "Dr. Seuss",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-073",
+      "category": "literature-ai",
+      "question": "Who created The Continental Op?",
+      "answer": "Dashiell Hammett",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-074",
+      "category": "literature-ai",
+      "question": "What does The Bell Jar refer to?",
+      "answer": "A bell jar",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-075",
+      "category": "literature-ai",
+      "question": "Which novel features the cat Behemoth?",
+      "answer": "The Master and Margarita",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-076",
+      "category": "literature-ai",
+      "question": "Blade Runner is based on a novel by which author?",
+      "answer": "Philip K. Dick",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-077",
+      "category": "literature-ai",
+      "question": "Who wrote The Red Badge of Courage?",
+      "answer": "Stephen Crane",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-078",
+      "category": "literature-ai",
+      "question": "Who wrote The Waste Land?",
+      "answer": "T. S. Eliot",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-079",
+      "category": "literature-ai",
+      "question": "Which country banned Animal Farm in 1945?",
+      "answer": "Soviet Union",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-080",
+      "category": "literature-ai",
+      "question": "In The Twelve Caesars, what does twelve count?",
+      "answer": "Emperors",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-081",
+      "category": "literature-ai",
+      "question": "In which century was Paradise Lost first published?",
+      "answer": "Seventeenth century",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-082",
+      "category": "literature-ai",
+      "question": "Who shot Arthur Rimbaud?",
+      "answer": "Paul Verlaine",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-083",
+      "category": "literature-ai",
+      "question": "Who wrote On the Road?",
+      "answer": "Jack Kerouac",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-084",
+      "category": "literature-ai",
+      "question": "Which novel features George Smiley?",
+      "answer": "Tinker Tailor Soldier Spy",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-085",
+      "category": "literature-ai",
+      "question": "'124 was spiteful.' Name the book.",
+      "answer": "Beloved",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-086",
+      "category": "literature-ai",
+      "question": "Which author used the pen name Currer Bell?",
+      "answer": "Charlotte Brontë",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-087",
+      "category": "literature-ai",
+      "question": "Which country is Things Fall Apart set in?",
+      "answer": "Nigeria",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-088",
+      "category": "literature-ai",
+      "question": "Who wrote The Secret Garden?",
+      "answer": "Frances Hodgson Burnett",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-089",
+      "category": "literature-ai",
+      "question": "Who created Inspector Maigret?",
+      "answer": "Georges Simenon",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-090",
+      "category": "literature-ai",
+      "question": "What does Heart of Darkness refer to?",
+      "answer": "The Congo",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-091",
+      "category": "literature-ai",
+      "question": "Which book features the bear Paddington?",
+      "answer": "A Bear Called Paddington",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-092",
+      "category": "literature-ai",
+      "question": "The Graduate was a novel by whom?",
+      "answer": "Charles Webb",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-093",
+      "category": "literature-ai",
+      "question": "Who wrote Wuthering Heights?",
+      "answer": "Emily Brontë",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-094",
+      "category": "literature-ai",
+      "question": "Who wrote The Charge of the Light Brigade?",
+      "answer": "Alfred Tennyson",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-095",
+      "category": "literature-ai",
+      "question": "Which country banned The Satanic Verses in 1988?",
+      "answer": "India",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-096",
+      "category": "literature-ai",
+      "question": "In Catch-22, what is '22'?",
+      "answer": "A regulation",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-097",
+      "category": "literature-ai",
+      "question": "In which century were The Canterbury Tales written?",
+      "answer": "Fourteenth century",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-098",
+      "category": "literature-ai",
+      "question": "Which novelist married Kingsley Amis?",
+      "answer": "Elizabeth Jane Howard",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-099",
+      "category": "literature-ai",
+      "question": "Who wrote The Trial?",
+      "answer": "Franz Kafka",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-100",
+      "category": "literature-ai",
+      "question": "Which novel features Dorothea Brooke?",
+      "answer": "Middlemarch",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "literature-ai-101",
+      "category": "literature-ai",
+      "question": "Which poet edited T. S. Eliot's The Waste Land into its published form?",
+      "answer": "Ezra Pound",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-102",
+      "category": "literature-ai",
+      "question": "Which country is The Unbearable Lightness of Being set in?\n\nA) Hungary\nB) Czechoslovakia\nC) Poland\nD) Austria",
+      "answer": "Czechoslovakia",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-103",
+      "category": "literature-ai",
+      "question": "In which century was The Tale of Genji written?\n\nA) Tenth century\nB) Eleventh century\nC) Twelfth century\nD) Thirteenth century",
+      "answer": "Eleventh century",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-104",
+      "category": "literature-ai",
+      "question": "In The Thirty-Nine Steps, what are the steps?\n\nA) Steps to the beach\nB) A secret society\nC) Train platforms\nD) A codebook",
+      "answer": "Steps to the beach",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-105",
+      "category": "literature-ai",
+      "question": "'Whether I shall turn out to be the hero of my own life...' Name the book.",
+      "answer": "David Copperfield",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-106",
+      "category": "literature-ai",
+      "question": "What is the real name of Stendhal?\n\nA) Henri Beyle\nB) Émile Ajar\nC) Sidonie-Gabrielle Colette\nD) Romain Gary",
+      "answer": "Henri Beyle",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-107",
+      "category": "literature-ai",
+      "question": "Who wrote The Neverending Story?",
+      "answer": "Michael Ende",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-108",
+      "category": "literature-ai",
+      "question": "Who created Inspector Rebus?",
+      "answer": "Ian Rankin",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-109",
+      "category": "literature-ai",
+      "question": "The title Brave New World quotes which playwright?\n\nA) William Shakespeare\nB) John Milton\nC) Christopher Marlowe\nD) Ben Jonson",
+      "answer": "William Shakespeare",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-110",
+      "category": "literature-ai",
+      "question": "In The Call of the Wild, what animal is Buck?",
+      "answer": "Dog",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-111",
+      "category": "literature-ai",
+      "question": "Which novel was the film There Will Be Blood based on?\n\nA) Oil!\nB) Giant\nC) The Treasure of the Sierra Madre\nD) The Power of the Dog",
+      "answer": "Oil!",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-112",
+      "category": "literature-ai",
+      "question": "Who wrote The Sound and the Fury?",
+      "answer": "William Faulkner",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-113",
+      "category": "literature-ai",
+      "question": "Who wrote The Tyger?",
+      "answer": "William Blake",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-114",
+      "category": "literature-ai",
+      "question": "Which country banned Tropic of Cancer until 1961?\n\nA) United Kingdom\nB) France\nC) United States\nD) Canada",
+      "answer": "United States",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-115",
+      "category": "literature-ai",
+      "question": "In 84, Charing Cross Road, what does 84 denote?",
+      "answer": "A street address",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-116",
+      "category": "literature-ai",
+      "question": "In which century was The Faerie Queene published?\n\nA) Fifteenth century\nB) Sixteenth century\nC) Seventeenth century\nD) Eighteenth century",
+      "answer": "Sixteenth century",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-117",
+      "category": "literature-ai",
+      "question": "Which writer was Harper Lee's childhood friend who wrote In Cold Blood?",
+      "answer": "Truman Capote",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-118",
+      "category": "literature-ai",
+      "question": "Who wrote A Passage to India?",
+      "answer": "E. M. Forster",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-119",
+      "category": "literature-ai",
+      "question": "Which novel features Bigger Thomas?",
+      "answer": "Native Son",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-120",
+      "category": "literature-ai",
+      "question": "'As Gregor Samsa awoke one morning from uneasy dreams...' Name the book.",
+      "answer": "The Metamorphosis",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-121",
+      "category": "literature-ai",
+      "question": "Amantine Dupin wrote under which name?\n\nA) George Sand\nB) George Eliot\nC) Colette\nD) Madame de Staël",
+      "answer": "George Sand",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-122",
+      "category": "literature-ai",
+      "question": "Which country is A Farewell to Arms mostly set in?",
+      "answer": "Italy",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-123",
+      "category": "literature-ai",
+      "question": "Who wrote The Wolves of Willoughby Chase?",
+      "answer": "Joan Aiken",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-124",
+      "category": "literature-ai",
+      "question": "Who created Lord Peter Wimsey?\n\nA) Ngaio Marsh\nB) Dorothy L. Sayers\nC) Margery Allingham\nD) P. D. James",
+      "answer": "Dorothy L. Sayers",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-125",
+      "category": "literature-ai",
+      "question": "What does The Black Arrow refer to?",
+      "answer": "An arrow",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-126",
+      "category": "literature-ai",
+      "question": "Which play includes the stage direction 'Exit, pursued by a bear'?",
+      "answer": "The Winter's Tale",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-127",
+      "category": "literature-ai",
+      "question": "Which novel was the film Invasion of the Body Snatchers based on?",
+      "answer": "The Body Snatchers",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-128",
+      "category": "literature-ai",
+      "question": "Who wrote Kubla Khan?",
+      "answer": "Samuel Taylor Coleridge",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-129",
+      "category": "literature-ai",
+      "question": "Which country banned Candide in 1759?\n\nA) France\nB) Spain\nC) Portugal\nD) Austria",
+      "answer": "France",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-130",
+      "category": "literature-ai",
+      "question": "In The Hundred and One Dalmatians, what is counted?",
+      "answer": "Dogs",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-131",
+      "category": "literature-ai",
+      "question": "In which century did Byron begin Don Juan?",
+      "answer": "Nineteenth century",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-132",
+      "category": "literature-ai",
+      "question": "Which writer visited Leo Tolstoy at Yasnaya Polyana in 1902?",
+      "answer": "Maxim Gorky",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-133",
+      "category": "literature-ai",
+      "question": "Who wrote The Black Prince?",
+      "answer": "Iris Murdoch",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-134",
+      "category": "literature-ai",
+      "question": "Which novel features Alyosha Karamazov?\n\nA) The Brothers Karamazov\nB) Crime and Punishment\nC) Demons\nD) The Idiot",
+      "answer": "The Brothers Karamazov",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-135",
+      "category": "literature-ai",
+      "question": "'I am a sick man... I am a spiteful man.' Name the book.",
+      "answer": "Notes from Underground",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-136",
+      "category": "literature-ai",
+      "question": "Which poet used the initials H. D.?",
+      "answer": "Hilda Doolittle",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-137",
+      "category": "literature-ai",
+      "question": "Which country is The Bridge on the Drina set in?",
+      "answer": "Bosnia",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-138",
+      "category": "literature-ai",
+      "question": "Who wrote The Snowman?",
+      "answer": "Raymond Briggs",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-139",
+      "category": "literature-ai",
+      "question": "Who created Horatio Hornblower?",
+      "answer": "C. S. Forester",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-140",
+      "category": "literature-ai",
+      "question": "What does The Scarlet Pimpernel refer to?",
+      "answer": "A flower",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-141",
+      "category": "literature-ai",
+      "question": "Which novel features the raven Grip?",
+      "answer": "Barnaby Rudge",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-142",
+      "category": "literature-ai",
+      "question": "Which novella was adapted as The Thing (1982)?",
+      "answer": "Who Goes There?",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-143",
+      "category": "literature-ai",
+      "question": "Who wrote Stopping by Woods on a Snowy Evening?",
+      "answer": "Robert Frost",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-144",
+      "category": "literature-ai",
+      "question": "Which country banned The Gulag Archipelago?",
+      "answer": "Soviet Union",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-145",
+      "category": "literature-ai",
+      "question": "In The Two Gentlemen of Verona, what does two count?",
+      "answer": "Gentlemen",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-146",
+      "category": "literature-ai",
+      "question": "In which century was The Rape of the Lock published?\n\nA) Seventeenth century\nB) Eighteenth century\nC) Nineteenth century\nD) Sixteenth century",
+      "answer": "Eighteenth century",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-147",
+      "category": "literature-ai",
+      "question": "Which writer married Leonard Woolf?",
+      "answer": "Virginia Woolf",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-148",
+      "category": "literature-ai",
+      "question": "Who wrote Blood Meridian?",
+      "answer": "Cormac McCarthy",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-149",
+      "category": "literature-ai",
+      "question": "Which novel features Becky Sharp?",
+      "answer": "Vanity Fair",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "literature-ai-150",
+      "category": "literature-ai",
+      "question": "'The past is a foreign country: they do things differently there.' Name the book.",
+      "answer": "The Go-Between",
+      "difficulty": "hard",
+      "points": 3
+    }
+  ]
+}

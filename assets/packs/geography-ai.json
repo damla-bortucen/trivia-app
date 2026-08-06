@@ -1,0 +1,1241 @@
+{
+  "id": "geography-ai",
+  "name": "Geography",
+  "description": "Countries, capitals and landmarks.",
+  "color": "#ffe944",
+  "source": "generated",
+  "questions": [
+    {
+      "id": "geography-ai-001",
+      "category": "geography-ai",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-002",
+      "category": "geography-ai",
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-003",
+      "category": "geography-ai",
+      "question": "What is the capital of Switzerland?",
+      "answer": "Bern",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-004",
+      "category": "geography-ai",
+      "question": "What is the capital of Turkey?",
+      "answer": "Ankara",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-005",
+      "category": "geography-ai",
+      "question": "What is the capital of Brazil?",
+      "answer": "Brasília",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-006",
+      "category": "geography-ai",
+      "question": "What is the capital of New Zealand?",
+      "answer": "Wellington",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-007",
+      "category": "geography-ai",
+      "question": "What is the capital of Morocco?",
+      "answer": "Rabat",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-008",
+      "category": "geography-ai",
+      "question": "What is the capital of Pakistan?",
+      "answer": "Islamabad",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-009",
+      "category": "geography-ai",
+      "question": "Which two countries share the longest land border?",
+      "answer": "Canada and United States",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-010",
+      "category": "geography-ai",
+      "question": "Which river flows through Paris?",
+      "answer": "Seine",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-011",
+      "category": "geography-ai",
+      "question": "In which country is Mount Kilimanjaro?",
+      "answer": "Tanzania",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-012",
+      "category": "geography-ai",
+      "question": "What does the red circle on Japan’s flag represent?",
+      "answer": "the sun",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-013",
+      "category": "geography-ai",
+      "question": "What is India’s national animal?",
+      "answer": "Bengal tiger",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-014",
+      "category": "geography-ai",
+      "question": "What was Sri Lanka called before 1972?",
+      "answer": "Ceylon",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-015",
+      "category": "geography-ai",
+      "question": "Which country governs Greenland?\n\nA) Norway\nB) Denmark\nC) Canada",
+      "answer": "Denmark",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-016",
+      "category": "geography-ai",
+      "question": "Which sea does the Nile flow into?",
+      "answer": "Mediterranean Sea",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-017",
+      "category": "geography-ai",
+      "question": "The Pyrenees separate France from which country?",
+      "answer": "Spain",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-018",
+      "category": "geography-ai",
+      "question": "What is the Dead Sea, despite its name?",
+      "answer": "a lake",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-019",
+      "category": "geography-ai",
+      "question": "What is the largest landlocked country by area?",
+      "answer": "Kazakhstan",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-020",
+      "category": "geography-ai",
+      "question": "Which city sits on both Europe and Asia?",
+      "answer": "Istanbul",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-021",
+      "category": "geography-ai",
+      "question": "Machu Picchu is in which country?",
+      "answer": "Peru",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-022",
+      "category": "geography-ai",
+      "question": "People from the Netherlands are called what?",
+      "answer": "Dutch",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-023",
+      "category": "geography-ai",
+      "question": "Kaliningrad is an exclave of which country?",
+      "answer": "Russia",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-024",
+      "category": "geography-ai",
+      "question": "The Atacama Desert is in which country?",
+      "answer": "Chile",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-025",
+      "category": "geography-ai",
+      "question": "What does the large star on China’s flag represent?",
+      "answer": "Communist Party",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-026",
+      "category": "geography-ai",
+      "question": "What is the official language of Angola?",
+      "answer": "Portuguese",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-027",
+      "category": "geography-ai",
+      "question": "What was Ho Chi Minh City formerly called?",
+      "answer": "Saigon",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-028",
+      "category": "geography-ai",
+      "question": "Easter Island is part of which country?",
+      "answer": "Chile",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-029",
+      "category": "geography-ai",
+      "question": "Which country uses two time zones, mainland and Canary Islands?",
+      "answer": "Spain",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-030",
+      "category": "geography-ai",
+      "question": "Which mountain range separates Europe and Asia in Russia?",
+      "answer": "Ural Mountains",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-031",
+      "category": "geography-ai",
+      "question": "What is the strait at the entrance to the Mediterranean from the Atlantic?",
+      "answer": "Strait of Gibraltar",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-032",
+      "category": "geography-ai",
+      "question": "Which river divides Budapest into Buda and Pest?",
+      "answer": "Danube",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-033",
+      "category": "geography-ai",
+      "question": "Uluru is in which country?",
+      "answer": "Australia",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-034",
+      "category": "geography-ai",
+      "question": "People from Cyprus are called what?",
+      "answer": "Cypriots",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-035",
+      "category": "geography-ai",
+      "question": "What does the maple leaf on Canada’s flag symbolize?",
+      "answer": "maple tree",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-036",
+      "category": "geography-ai",
+      "question": "Which country’s national animal is the beaver?",
+      "answer": "Canada",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-037",
+      "category": "geography-ai",
+      "question": "In which country is Mount Elbrus?",
+      "answer": "Russia",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-038",
+      "category": "geography-ai",
+      "question": "Which country has an exclave called Nakhchivan?",
+      "answer": "Azerbaijan",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-039",
+      "category": "geography-ai",
+      "question": "Which two countries share the island of Hispaniola?",
+      "answer": "Haiti and Dominican Republic",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-040",
+      "category": "geography-ai",
+      "question": "Which country owns the Galápagos Islands?\n\nA) Ecuador\nB) Colombia\nC) Peru",
+      "answer": "Ecuador",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-041",
+      "category": "geography-ai",
+      "question": "Which is the only Central American country with English as an official language?\n\nA) Belize\nB) Guatemala\nC) Honduras",
+      "answer": "Belize",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-042",
+      "category": "geography-ai",
+      "question": "Which river flows through Cairo?",
+      "answer": "Nile",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-043",
+      "category": "geography-ai",
+      "question": "Which country completely surrounds San Marino?",
+      "answer": "Italy",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-044",
+      "category": "geography-ai",
+      "question": "Where is Petra?",
+      "answer": "Jordan",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-045",
+      "category": "geography-ai",
+      "question": "The Caspian Sea is actually the world’s largest what?",
+      "answer": "lake",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-046",
+      "category": "geography-ai",
+      "question": "Which river flows through London?",
+      "answer": "Thames",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-047",
+      "category": "geography-ai",
+      "question": "Which country completely surrounds Lesotho?",
+      "answer": "South Africa",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-048",
+      "category": "geography-ai",
+      "question": "Dubrovnik is in which country?",
+      "answer": "Croatia",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-049",
+      "category": "geography-ai",
+      "question": "Which country is home to the Great Barrier Reef?",
+      "answer": "Australia",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-050",
+      "category": "geography-ai",
+      "question": "Which sea lies east of Italy and west of the Balkans?",
+      "answer": "Adriatic Sea",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "geography-ai-051",
+      "category": "geography-ai",
+      "question": "What is the capital of Kazakhstan?\n\nA) Almaty\nB) Astana\nC) Shymkent",
+      "answer": "Astana",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-052",
+      "category": "geography-ai",
+      "question": "What is the capital of Tanzania?\n\nA) Dodoma\nB) Dar es Salaam\nC) Arusha",
+      "answer": "Dodoma",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-053",
+      "category": "geography-ai",
+      "question": "What is the capital of Myanmar?\n\nA) Naypyidaw\nB) Yangon\nC) Mandalay",
+      "answer": "Naypyidaw",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-054",
+      "category": "geography-ai",
+      "question": "Which city is South Africa’s administrative capital?\n\nA) Pretoria\nB) Cape Town\nC) Bloemfontein",
+      "answer": "Pretoria",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-055",
+      "category": "geography-ai",
+      "question": "Which Asian country is doubly landlocked?\n\nA) Uzbekistan\nB) Turkmenistan\nC) Mongolia",
+      "answer": "Uzbekistan",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-056",
+      "category": "geography-ai",
+      "question": "Which country’s narrow Wakhan Corridor touches China?",
+      "answer": "Afghanistan",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-057",
+      "category": "geography-ai",
+      "question": "Which river flows through Rome?",
+      "answer": "Tiber",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-058",
+      "category": "geography-ai",
+      "question": "Into which sea does the Danube empty?",
+      "answer": "Black Sea",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-059",
+      "category": "geography-ai",
+      "question": "In which country is Mount Aconcagua?",
+      "answer": "Argentina",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-060",
+      "category": "geography-ai",
+      "question": "Which tree appears on Lebanon’s flag?",
+      "answer": "cedar",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-061",
+      "category": "geography-ai",
+      "question": "Which country’s national animal is the springbok?",
+      "answer": "South Africa",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-062",
+      "category": "geography-ai",
+      "question": "What is the official language of Suriname?",
+      "answer": "Dutch",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-063",
+      "category": "geography-ai",
+      "question": "What was Zimbabwe called until 1980?",
+      "answer": "Rhodesia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-064",
+      "category": "geography-ai",
+      "question": "Which country governs the Azores, about 1,400 km west of its mainland?\n\nA) Spain\nB) Portugal\nC) France",
+      "answer": "Portugal",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-065",
+      "category": "geography-ai",
+      "question": "Which country moved to the west of the date line in 2011, skipping a day?\n\nA) Samoa\nB) Tonga\nC) Fiji",
+      "answer": "Samoa",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-066",
+      "category": "geography-ai",
+      "question": "Counting territories, which country spans the most time zones?",
+      "answer": "France",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-067",
+      "category": "geography-ai",
+      "question": "Which mountain range forms much of the border between Italy and Austria?",
+      "answer": "Alps",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-068",
+      "category": "geography-ai",
+      "question": "Which South American country is landlocked and lost its coast in the War of the Pacific?",
+      "answer": "Bolivia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-069",
+      "category": "geography-ai",
+      "question": "Which river runs through Prague?",
+      "answer": "Vltava",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-070",
+      "category": "geography-ai",
+      "question": "Which two countries are linked by the Khyber Pass?",
+      "answer": "Pakistan and Afghanistan",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-071",
+      "category": "geography-ai",
+      "question": "Which river forms part of the border between the US and Mexico?",
+      "answer": "Rio Grande",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-072",
+      "category": "geography-ai",
+      "question": "In which country is the world’s deepest lake?",
+      "answer": "Russia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-073",
+      "category": "geography-ai",
+      "question": "Which country’s national symbol is the kiwi bird?",
+      "answer": "New Zealand",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-074",
+      "category": "geography-ai",
+      "question": "Which of these countries does not have Arabic as an official language?\n\nA) Algeria\nB) Iran\nC) Oman",
+      "answer": "Iran",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-075",
+      "category": "geography-ai",
+      "question": "What was Kolkata called until 2001?",
+      "answer": "Calcutta",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-076",
+      "category": "geography-ai",
+      "question": "Which country governs the Åland Islands?",
+      "answer": "Finland",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-077",
+      "category": "geography-ai",
+      "question": "Which river flows out of Lake Victoria toward the Mediterranean?\n\nA) White Nile\nB) Blue Nile\nC) Niger",
+      "answer": "White Nile",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-078",
+      "category": "geography-ai",
+      "question": "Which is the only landlocked country in Southeast Asia?",
+      "answer": "Laos",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-079",
+      "category": "geography-ai",
+      "question": "On which river does Warsaw stand?",
+      "answer": "Vistula",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-080",
+      "category": "geography-ai",
+      "question": "Which country surrounds the Spanish enclave of Llívia?",
+      "answer": "France",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-081",
+      "category": "geography-ai",
+      "question": "Which capital lies on the Tigris River?",
+      "answer": "Baghdad",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-082",
+      "category": "geography-ai",
+      "question": "Which country contains the Drakensberg mountains?",
+      "answer": "South Africa",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-083",
+      "category": "geography-ai",
+      "question": "Which African country has Africa’s northernmost mainland point?",
+      "answer": "Tunisia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-084",
+      "category": "geography-ai",
+      "question": "Which sea does the Bosporus connect to the Black Sea?",
+      "answer": "Sea of Marmara",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-085",
+      "category": "geography-ai",
+      "question": "Which country’s flag shows a wheel called the Ashoka Chakra?",
+      "answer": "India",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-086",
+      "category": "geography-ai",
+      "question": "Which European country is doubly landlocked?",
+      "answer": "Liechtenstein",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-087",
+      "category": "geography-ai",
+      "question": "Which country’s official language is Catalan?",
+      "answer": "Andorra",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-088",
+      "category": "geography-ai",
+      "question": "What is the current name of Upper Volta since 1984?",
+      "answer": "Burkina Faso",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-089",
+      "category": "geography-ai",
+      "question": "Which country governs Madeira, 900 km southwest of its mainland?",
+      "answer": "Portugal",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-090",
+      "category": "geography-ai",
+      "question": "Which country observes UTC+5:30 as a standard time?",
+      "answer": "India",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-091",
+      "category": "geography-ai",
+      "question": "Which river runs through Hamburg?",
+      "answer": "Elbe",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-092",
+      "category": "geography-ai",
+      "question": "Which two countries share the island of Borneo with Brunei?",
+      "answer": "Indonesia and Malaysia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-093",
+      "category": "geography-ai",
+      "question": "In which country is the lowest point in Africa, Lake Assal?",
+      "answer": "Djibouti",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-094",
+      "category": "geography-ai",
+      "question": "Which country’s capital is Yaoundé?",
+      "answer": "Cameroon",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-095",
+      "category": "geography-ai",
+      "question": "Which sea does the Volga empty into?",
+      "answer": "Caspian Sea",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-096",
+      "category": "geography-ai",
+      "question": "Which country owns the remote Kerguelen Islands?",
+      "answer": "France",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-097",
+      "category": "geography-ai",
+      "question": "Which country has Ljubljana as its capital?",
+      "answer": "Slovenia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-098",
+      "category": "geography-ai",
+      "question": "Which two countries are separated by the Bering Strait?",
+      "answer": "Russia and United States",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-099",
+      "category": "geography-ai",
+      "question": "What is the demonym for citizens of Côte d’Ivoire?",
+      "answer": "Ivorian",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-100",
+      "category": "geography-ai",
+      "question": "Which country’s flag has a centered black two-headed eagle?",
+      "answer": "Albania",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-101",
+      "category": "geography-ai",
+      "question": "Which country uses a single time zone (UTC+8) nationwide?\n\nA) China\nB) Australia\nC) Russia",
+      "answer": "China",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "geography-ai-102",
+      "category": "geography-ai",
+      "question": "What is the capital of Palau?",
+      "answer": "Ngerulmud",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-103",
+      "category": "geography-ai",
+      "question": "What is the capital of Micronesia?",
+      "answer": "Palikir",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-104",
+      "category": "geography-ai",
+      "question": "What is Sri Lanka’s official capital?",
+      "answer": "Sri Jayawardenepura Kotte",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-105",
+      "category": "geography-ai",
+      "question": "What is the capital of Benin?",
+      "answer": "Porto-Novo",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-106",
+      "category": "geography-ai",
+      "question": "What is Bolivia’s constitutional capital?",
+      "answer": "Sucre",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-107",
+      "category": "geography-ai",
+      "question": "Büsingen am Hochrhein is a German enclave inside which country?",
+      "answer": "Switzerland",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-108",
+      "category": "geography-ai",
+      "question": "Campione d’Italia is an exclave of which country?",
+      "answer": "Italy",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-109",
+      "category": "geography-ai",
+      "question": "Madha is an enclave of which country within the UAE?",
+      "answer": "Oman",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-110",
+      "category": "geography-ai",
+      "question": "Where does the Blue Nile rise?",
+      "answer": "Lake Tana",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-111",
+      "category": "geography-ai",
+      "question": "Which capital city lies below sea level on the Caspian shore?",
+      "answer": "Baku",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-112",
+      "category": "geography-ai",
+      "question": "Which country’s national animal is the markhor?",
+      "answer": "Pakistan",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-113",
+      "category": "geography-ai",
+      "question": "Which of these is an official language of Papua New Guinea?\n\nA) Tok Pisin\nB) Bislama\nC) Tetum",
+      "answer": "Tok Pisin",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-114",
+      "category": "geography-ai",
+      "question": "How far is Easter Island from mainland Chile?\n\nA) 3,700 km\nB) 1,200 km\nC) 600 km",
+      "answer": "3,700 km",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-115",
+      "category": "geography-ai",
+      "question": "Which country uses UTC+5:45 nationwide?",
+      "answer": "Nepal",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-116",
+      "category": "geography-ai",
+      "question": "Which country’s Line Islands observe UTC+14?",
+      "answer": "Kiribati",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-117",
+      "category": "geography-ai",
+      "question": "Which mountain range divides Norway and Sweden?",
+      "answer": "Scandinavian Mountains",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-118",
+      "category": "geography-ai",
+      "question": "The town of Baarle is shared by which two countries?",
+      "answer": "Belgium and Netherlands",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-119",
+      "category": "geography-ai",
+      "question": "What is the demonym for citizens of Liechtenstein?",
+      "answer": "Liechtensteiners",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-120",
+      "category": "geography-ai",
+      "question": "What is the capital of Burundi?",
+      "answer": "Gitega",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-121",
+      "category": "geography-ai",
+      "question": "What is the capital of Côte d’Ivoire?",
+      "answer": "Yamoussoukro",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-122",
+      "category": "geography-ai",
+      "question": "Which enclave of the UAE lies inside Oman’s Madha?",
+      "answer": "Nahwa",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-123",
+      "category": "geography-ai",
+      "question": "Which river flows between Kinshasa and Brazzaville?",
+      "answer": "Congo River",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-124",
+      "category": "geography-ai",
+      "question": "Ojos del Salado straddles Chile and which country?",
+      "answer": "Argentina",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-125",
+      "category": "geography-ai",
+      "question": "What is Africa’s deepest lake?",
+      "answer": "Lake Tanganyika",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-126",
+      "category": "geography-ai",
+      "question": "Which country contains the Lut Desert record heat area?",
+      "answer": "Iran",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-127",
+      "category": "geography-ai",
+      "question": "What constellation do the four main stars on New Zealand’s flag represent?\n\nA) Southern Cross\nB) Orion\nC) Pleiades",
+      "answer": "Southern Cross",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-128",
+      "category": "geography-ai",
+      "question": "Which country governs Svalbard, about 900 km north of its mainland?",
+      "answer": "Norway",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-129",
+      "category": "geography-ai",
+      "question": "Which range forms much of the border between Iran and Iraq?",
+      "answer": "Zagros Mountains",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-130",
+      "category": "geography-ai",
+      "question": "Which country administers the oil-rich exclave of Cabinda?",
+      "answer": "Angola",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-131",
+      "category": "geography-ai",
+      "question": "Which capital stands at the confluence of the White and Blue Nile?",
+      "answer": "Khartoum",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-132",
+      "category": "geography-ai",
+      "question": "Which country’s flag uniquely features a modern firearm?",
+      "answer": "Mozambique",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-133",
+      "category": "geography-ai",
+      "question": "What was St. Petersburg called from 1924 to 1991?",
+      "answer": "Leningrad",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-134",
+      "category": "geography-ai",
+      "question": "Which country governs New Caledonia, about 1,200 km east of Australia?",
+      "answer": "France",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-135",
+      "category": "geography-ai",
+      "question": "Which country has the Chatham Islands at UTC+12:45?",
+      "answer": "New Zealand",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-136",
+      "category": "geography-ai",
+      "question": "Which river rises at Lake Itasca?",
+      "answer": "Mississippi River",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-137",
+      "category": "geography-ai",
+      "question": "Which city lies on both the Ural River’s European and Asian sides?",
+      "answer": "Orenburg",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-138",
+      "category": "geography-ai",
+      "question": "Which is the world’s northernmost capital city?",
+      "answer": "Reykjavik",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-139",
+      "category": "geography-ai",
+      "question": "Which country contains the Kalahari’s Makgadikgadi Pan?",
+      "answer": "Botswana",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-140",
+      "category": "geography-ai",
+      "question": "Which country has the demonym Bahamian?",
+      "answer": "The Bahamas",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-141",
+      "category": "geography-ai",
+      "question": "Which sea does the Dnieper empty into via the Dnieper–Bug Estuary?",
+      "answer": "Black Sea",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-142",
+      "category": "geography-ai",
+      "question": "Which sea does the Shatt al-Arab empty into?",
+      "answer": "Persian Gulf",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-143",
+      "category": "geography-ai",
+      "question": "Which country does the archipelago of Fernando de Noronha belong to?",
+      "answer": "Brazil",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-144",
+      "category": "geography-ai",
+      "question": "Gunnbjørn Fjeld, the Arctic’s highest peak, is in which country’s territory?",
+      "answer": "Denmark",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-145",
+      "category": "geography-ai",
+      "question": "Which country is home to the D’Entrecasteaux Islands?",
+      "answer": "Papua New Guinea",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-146",
+      "category": "geography-ai",
+      "question": "Which country’s capital is Tashkent?",
+      "answer": "Uzbekistan",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-147",
+      "category": "geography-ai",
+      "question": "Which river flows through the Grand Canyon?",
+      "answer": "Colorado River",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-148",
+      "category": "geography-ai",
+      "question": "Which country’s flag bears the shahada in Arabic script?",
+      "answer": "Saudi Arabia",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-149",
+      "category": "geography-ai",
+      "question": "Which country governs the island of Socotra?",
+      "answer": "Yemen",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-150",
+      "category": "geography-ai",
+      "question": "Which city was called Edo until 1868?",
+      "answer": "Tokyo",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-151",
+      "category": "geography-ai",
+      "question": "Which country was called Dahomey until 1975?",
+      "answer": "Benin",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-152",
+      "category": "geography-ai",
+      "question": "Which two countries are linked by the Øresund Bridge?",
+      "answer": "Denmark and Sweden",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-153",
+      "category": "geography-ai",
+      "question": "Corsica lies about how far from mainland France?\n\nA) 170 km\nB) 1,100 km\nC) 20 km",
+      "answer": "170 km",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "geography-ai-154",
+      "category": "geography-ai",
+      "question": "Which country’s flag features a lion holding a sword?",
+      "answer": "Sri Lanka",
+      "difficulty": "hard",
+      "points": 3
+    }
+  ]
+}

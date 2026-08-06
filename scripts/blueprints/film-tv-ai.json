@@ -1,0 +1,26 @@
+{
+    "id": "film-tv-ai",
+    "name": "Film and TV",
+    "description": "Movies, shows and the people in them.",
+    "color": "#e95353",
+    "theme": "film and television from the twentieth century to the present: the films and shows themselves, the people in front of and behind the camera, and the stories of how they were made",
+    "angles": [
+        "the actor behind a character, or the character behind an actor",
+        "the director of a film everyone has seen",
+        "a famous line quoted plainly, name the film",
+        "the book or true story a film was adapted from",
+        "the decade a landmark film or show arrived",
+        "sequels and spin-offs, and the order the story actually runs in",
+        "a role famously turned down, recast or nearly cast elsewhere",
+        "animated films and the studio behind them",
+        "the city or era a well known show is set in",
+        "a catchphrase, and the show it belongs to",
+        "a premise described without naming it, name the show",
+        "how long a long-running show actually ran",
+        "franchises, how many entries, and what the first was called",
+        "actors who played the same character across different films",
+        "the composer behind a score people recognise in three notes"
+    ],
+    "avoid": "anything released in the last two years, current viewing figures and box office totals, celebrity personal lives, plot spoilers, and questions where a remake and its original would both fit",
+    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+}

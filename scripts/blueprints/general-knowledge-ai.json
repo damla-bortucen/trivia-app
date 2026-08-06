@@ -1,0 +1,26 @@
+{
+    "id": "general-knowledge-ai",
+    "name": "General Knowledge",
+    "description": "A bit of everything.",
+    "color": "#c47bcd",
+    "theme": "the everyday world and the things people half know about it: words and where they came from, objects and their parts, symbols, conventions, measurements, and the odd facts that do not belong to any one subject",
+    "angles": [
+        "what a common phrase literally meant before it became a saying",
+        "what an everyday abbreviation or acronym actually stands for",
+        "the purpose of a part of an object nobody thinks about",
+        "the proper name for a thing people use daily and cannot name",
+        "currencies, and what a country's money is called",
+        "a symbol or sign, and what it actually means",
+        "a number fixed by convention, the strings, holes, squares or players",
+        "colours, and where a colour name came from",
+        "letters and alphabets, and the quirks of how writing works",
+        "units of measurement that survive from a strange origin",
+        "road, shipping and aviation conventions people follow without knowing why",
+        "tools and materials, and the job each one is for",
+        "the rules and pieces of a classic board or card game",
+        "customs and etiquette that differ sharply from one country to the next",
+        "the origin of a brand name or logo, where it is settled and unchanging"
+    ],
+    "avoid": "anything the other packs cover, so no history dates, capital cities, sports rules, film and music, or food and drink, and no current events, advertising slogans, or questions where a regional variation would make a different answer correct",
+    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+}

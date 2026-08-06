@@ -1,0 +1,25 @@
+{
+    "id": "history-ai",
+    "name": "History",
+    "description": "People and events that shaped the world.",
+    "color": "#F4BC73",
+    "theme": "world history from antiquity to the late twentieth century: rulers and revolutions, wars and treaties, exploration, invention, and the everyday life of past societies",
+    "angles": [
+        "what a famous ruler is actually remembered for, beyond the name",
+        "the specific year or decade a well known event happened",
+        "treaties and agreements, and what each side gave up",
+        "the cause behind an event people only know the outcome of",
+        "everyday life, what people ate, wore, earned or died of",
+        "inventions and who got there first, including disputed claims",
+        "empires at their height, how far they reached and what ended them",
+        "explorers and where they actually landed rather than where they aimed",
+        "the origin of a phrase, custom or object that survives today",
+        "two events people routinely place in the wrong order",
+        "revolutions and the immediate trigger that set them off",
+        "history outside Europe and North America, given equal weight",
+        "figures who were famous in their own time and are forgotten now",
+        "the surprisingly short or long duration of a well known thing"
+    ],
+    "avoid": "contested or politically live topics, atrocity and body counts, questions that turn on a date nobody could reason toward",
+    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+}

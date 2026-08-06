@@ -3,13 +3,20 @@
  *
  *
  * Run it with:
- * node --env-file=.env scripts/generate-pack.js food-drink 5           # read only, with custom number
- * node --env-file=.env scripts/generate-pack.js food-drink             # read only, full counts
- * node --env-file=.env scripts/generate-pack.js food-drink --save      # full counts, writes
+ * node --env-file=.env scripts/generate-pack.js food-drink-ai 5           # read only, with custom number
+ * node --env-file=.env scripts/generate-pack.js food-drink-ai             # read only, full counts
+ * node --env-file=.env scripts/generate-pack.js food-drink-ai --save      # full counts, writes
  */
 
 const fs = require("fs");
 const path = require("path")
+
+const { setGlobalDispatcher, Agent } = require("undici");
+
+// node's http client aborts if response headers take longer than five minutes,
+// and a reasoning model sends none at all until it has finished thinking.
+// zero disables the limit
+setGlobalDispatcher(new Agent({ headersTimeout: 0, bodyTimeout: 0 }));
 
 const API_KEY = process.env.OPENAI_API_KEY;
 const OPENAI_MODEL = process.env.OPENAI_MODEL;
@@ -65,13 +72,14 @@ function buildPrompt(blueprint, counts) {
     variant, or a distinguishing ingredient.
 
     MULTIPLE CHOICE
-    At most ${maxChoice} of the ${total} questions may offer options, and only where
-    the question would otherwise be unanswerable. Write the options inside the
+    At most ${maxChoice} of the ${total} questions may offer options and at least 15 of them should, 
+    and only where the question would otherwise be unanswerable or way harder. Write the options inside the
     question text, like this:
 
     "Which country did the croissant originate in?\\n\\nA) France\\nB) Austria\\nC) Italy\\nD) Turkey"
 
     The answer field must be the option's text, not its letter.
+    There must be at least 3 options and at most 4 per question.
 
     RULES
     - The answer must be at most four words, and one accepted form only.

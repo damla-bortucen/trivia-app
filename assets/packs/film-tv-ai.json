@@ -1,0 +1,1177 @@
+{
+  "id": "film-tv-ai",
+  "name": "Film and TV",
+  "description": "Movies, shows and the people in them.",
+  "color": "#e95353",
+  "source": "generated",
+  "questions": [
+    {
+      "id": "film-tv-ai-001",
+      "category": "film-tv-ai",
+      "question": "Who played Jack Sparrow?",
+      "answer": "Johnny Depp",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-002",
+      "category": "film-tv-ai",
+      "question": "Who directed a 1997 epic romance set on an ocean liner?",
+      "answer": "James Cameron",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-003",
+      "category": "film-tv-ai",
+      "question": "Which film contains the line \"I'll be back\"?",
+      "answer": "The Terminator",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-004",
+      "category": "film-tv-ai",
+      "question": "Which author wrote the novella that inspired The Shawshank Redemption?",
+      "answer": "Stephen King",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-005",
+      "category": "film-tv-ai",
+      "question": "In which decade did The Sopranos premiere?",
+      "answer": "1990s",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-006",
+      "category": "film-tv-ai",
+      "question": "Which Star Wars episode comes first in the story's timeline?",
+      "answer": "The Phantom Menace",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-007",
+      "category": "film-tv-ai",
+      "question": "Which actor turned down the role of Neo?",
+      "answer": "Will Smith",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-008",
+      "category": "film-tv-ai",
+      "question": "Which studio produced Toy Story?",
+      "answer": "Pixar",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-009",
+      "category": "film-tv-ai",
+      "question": "Which city is Friends set in?",
+      "answer": "New York City",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-010",
+      "category": "film-tv-ai",
+      "question": "Which show features the exclamation \"D'oh!\"?",
+      "answer": "The Simpsons",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-011",
+      "category": "film-tv-ai",
+      "question": "A chemistry teacher turns to making meth—name the show.",
+      "answer": "Breaking Bad",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-012",
+      "category": "film-tv-ai",
+      "question": "How many seasons did The Office (US) run?",
+      "answer": "nine",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-013",
+      "category": "film-tv-ai",
+      "question": "What was the first film in the Marvel Cinematic Universe?",
+      "answer": "Iron Man",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-014",
+      "category": "film-tv-ai",
+      "question": "Which actor played Spider-Man in Sam Raimi's trilogy?",
+      "answer": "Tobey Maguire",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-015",
+      "category": "film-tv-ai",
+      "question": "Who composed the theme for Jaws?",
+      "answer": "John Williams",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-016",
+      "category": "film-tv-ai",
+      "question": "Who voiced Darth Vader in the original trilogy?",
+      "answer": "James Earl Jones",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-017",
+      "category": "film-tv-ai",
+      "question": "Who directed E.T. the Extra-Terrestrial?",
+      "answer": "Steven Spielberg",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-018",
+      "category": "film-tv-ai",
+      "question": "Which film includes the line \"Here's looking at you, kid\"?",
+      "answer": "Casablanca",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-019",
+      "category": "film-tv-ai",
+      "question": "Who wrote the novel Jurassic Park?",
+      "answer": "Michael Crichton",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-020",
+      "category": "film-tv-ai",
+      "question": "In which decade did Lost premiere?",
+      "answer": "2000s",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-021",
+      "category": "film-tv-ai",
+      "question": "Which film begins the story of The Lord of the Rings?",
+      "answer": "The Fellowship of the Ring",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-022",
+      "category": "film-tv-ai",
+      "question": "Who almost played Indiana Jones before Harrison Ford?",
+      "answer": "Tom Selleck",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-023",
+      "category": "film-tv-ai",
+      "question": "Which studio produced Spirited Away?",
+      "answer": "Studio Ghibli",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-024",
+      "category": "film-tv-ai",
+      "question": "In which city is The Wire set?",
+      "answer": "Baltimore",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-025",
+      "category": "film-tv-ai",
+      "question": "Which show popularized \"No soup for you!\"?",
+      "answer": "Seinfeld",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-026",
+      "category": "film-tv-ai",
+      "question": "A mockumentary about a small-town parks department—name the show.",
+      "answer": "Parks and Recreation",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-027",
+      "category": "film-tv-ai",
+      "question": "How many seasons did Game of Thrones run?",
+      "answer": "eight",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-028",
+      "category": "film-tv-ai",
+      "question": "What was the first James Bond film?",
+      "answer": "Dr. No",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-029",
+      "category": "film-tv-ai",
+      "question": "Which actor portrayed Wolverine for years?",
+      "answer": "Hugh Jackman",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-030",
+      "category": "film-tv-ai",
+      "question": "Who composed the Halloween theme?",
+      "answer": "John Carpenter",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-031",
+      "category": "film-tv-ai",
+      "question": "Who played Hermione Granger?",
+      "answer": "Emma Watson",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-032",
+      "category": "film-tv-ai",
+      "question": "Who directed Inception?",
+      "answer": "Christopher Nolan",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-033",
+      "category": "film-tv-ai",
+      "question": "Which film features the line \"You talkin' to me?\"",
+      "answer": "Taxi Driver",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-034",
+      "category": "film-tv-ai",
+      "question": "Who wrote The Godfather novel?",
+      "answer": "Mario Puzo",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-035",
+      "category": "film-tv-ai",
+      "question": "In which decade did The Fresh Prince of Bel-Air debut?",
+      "answer": "1990s",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-036",
+      "category": "film-tv-ai",
+      "question": "Which film starts the Mad Max series?",
+      "answer": "Mad Max",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-037",
+      "category": "film-tv-ai",
+      "question": "Which actress turned down Legally Blonde?",
+      "answer": "Christina Applegate",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-038",
+      "category": "film-tv-ai",
+      "question": "Which studio created Shrek?",
+      "answer": "DreamWorks",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-039",
+      "category": "film-tv-ai",
+      "question": "In which city is Cheers set?",
+      "answer": "Boston",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-040",
+      "category": "film-tv-ai",
+      "question": "Which show gave us \"Bazinga!\"?",
+      "answer": "The Big Bang Theory",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-041",
+      "category": "film-tv-ai",
+      "question": "A teenager chosen to fight vampires—name the show.",
+      "answer": "Buffy the Vampire Slayer",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-042",
+      "category": "film-tv-ai",
+      "question": "How many seasons did The West Wing run?",
+      "answer": "seven",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-043",
+      "category": "film-tv-ai",
+      "question": "What was the first film in the Rocky franchise called?",
+      "answer": "Rocky",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-044",
+      "category": "film-tv-ai",
+      "question": "Who played Captain James T. Kirk on the original series?",
+      "answer": "William Shatner",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-045",
+      "category": "film-tv-ai",
+      "question": "Who composed The Good, the Bad and the Ugly theme?",
+      "answer": "Ennio Morricone",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-046",
+      "category": "film-tv-ai",
+      "question": "Who directed Pulp Fiction?",
+      "answer": "Quentin Tarantino",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-047",
+      "category": "film-tv-ai",
+      "question": "Which film includes \"You can't handle the truth!\"?",
+      "answer": "A Few Good Men",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-048",
+      "category": "film-tv-ai",
+      "question": "Who wrote the novels about Hannibal Lecter?",
+      "answer": "Thomas Harris",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-049",
+      "category": "film-tv-ai",
+      "question": "In which decade did The X-Files premiere?",
+      "answer": "1990s",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-050",
+      "category": "film-tv-ai",
+      "question": "Who played Forrest Gump?",
+      "answer": "Tom Hanks",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "film-tv-ai-051",
+      "category": "film-tv-ai",
+      "question": "Who played Walter Sobchak in The Big Lebowski?\n\nA) John Goodman\nB) Jeff Bridges\nC) Steve Buscemi\nD) John Turturro",
+      "answer": "John Goodman",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-052",
+      "category": "film-tv-ai",
+      "question": "Who directed The Usual Suspects?\n\nA) Bryan Singer\nB) David Fincher\nC) Quentin Tarantino\nD) Tony Scott",
+      "answer": "Bryan Singer",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-053",
+      "category": "film-tv-ai",
+      "question": "Which film features the line \"Say hello to my little friend!\"?",
+      "answer": "Scarface",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-054",
+      "category": "film-tv-ai",
+      "question": "Who wrote the novel The Prestige?",
+      "answer": "Christopher Priest",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-055",
+      "category": "film-tv-ai",
+      "question": "In which decade did The Twilight Zone first air?",
+      "answer": "1950s",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-056",
+      "category": "film-tv-ai",
+      "question": "Which film is earliest in the story's timeline in The Conjuring Universe?\n\nA) The Nun\nB) Annabelle: Creation\nC) The Conjuring\nD) Annabelle",
+      "answer": "The Nun",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-057",
+      "category": "film-tv-ai",
+      "question": "Which actor replaced Kevin Spacey in All the Money in the World?",
+      "answer": "Christopher Plummer",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-058",
+      "category": "film-tv-ai",
+      "question": "Which studio produced Coraline?",
+      "answer": "Laika",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-059",
+      "category": "film-tv-ai",
+      "question": "Which city is 30 Rock set in?\n\nA) Chicago\nB) New York City\nC) Los Angeles\nD) Boston",
+      "answer": "New York City",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-060",
+      "category": "film-tv-ai",
+      "question": "Which show features the catchphrase \"Yabba-Dabba-Doo!\"?\n\nA) The Flintstones\nB) The Jetsons\nC) Scooby-Doo, Where Are You!\nD) The Simpsons",
+      "answer": "The Flintstones",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-061",
+      "category": "film-tv-ai",
+      "question": "How many seasons did The Crown run?",
+      "answer": "six",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-062",
+      "category": "film-tv-ai",
+      "question": "What was the first film in the Bourne series?",
+      "answer": "The Bourne Identity",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-063",
+      "category": "film-tv-ai",
+      "question": "Which actor played Peter Venkman in two 1980s films?",
+      "answer": "Bill Murray",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-064",
+      "category": "film-tv-ai",
+      "question": "Who composed the original Doctor Who theme?",
+      "answer": "Ron Grainer",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-065",
+      "category": "film-tv-ai",
+      "question": "Who played Don Draper on Mad Men?",
+      "answer": "Jon Hamm",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-066",
+      "category": "film-tv-ai",
+      "question": "Who directed The Dark Knight?",
+      "answer": "Christopher Nolan",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-067",
+      "category": "film-tv-ai",
+      "question": "Which film features the line \"Get to the chopper!\"?\n\nA) Predator\nB) Commando\nC) Total Recall\nD) Rambo: First Blood Part II",
+      "answer": "Predator",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-068",
+      "category": "film-tv-ai",
+      "question": "Blade Runner was adapted from a novel by which author?",
+      "answer": "Philip K. Dick",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-069",
+      "category": "film-tv-ai",
+      "question": "In which decade did SpongeBob SquarePants premiere?",
+      "answer": "1990s",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-070",
+      "category": "film-tv-ai",
+      "question": "What is the third film in the Three Flavours Cornetto trilogy?",
+      "answer": "The World's End",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-071",
+      "category": "film-tv-ai",
+      "question": "Which studio produced Ghost in the Shell (1995)?",
+      "answer": "Production I.G",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-072",
+      "category": "film-tv-ai",
+      "question": "Which city does The Walking Dead begin in?",
+      "answer": "Atlanta",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-073",
+      "category": "film-tv-ai",
+      "question": "Which show features \"Danger, Will Robinson!\"?",
+      "answer": "Lost in Space",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-074",
+      "category": "film-tv-ai",
+      "question": "An ex-Navy officer solves cases in 1980s Hawaii—name the show.",
+      "answer": "Magnum, P.I.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-075",
+      "category": "film-tv-ai",
+      "question": "How many seasons did The Americans run?",
+      "answer": "six",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-076",
+      "category": "film-tv-ai",
+      "question": "What was the first film in the Mission: Impossible series?",
+      "answer": "Mission: Impossible",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-077",
+      "category": "film-tv-ai",
+      "question": "Which actor played Inspector Clouseau in two 2000s films?",
+      "answer": "Steve Martin",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-078",
+      "category": "film-tv-ai",
+      "question": "Who composed the score for The Lion King (1994)?",
+      "answer": "Hans Zimmer",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-079",
+      "category": "film-tv-ai",
+      "question": "Who directed The Departed?",
+      "answer": "Martin Scorsese",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-080",
+      "category": "film-tv-ai",
+      "question": "Goodfellas was adapted from which book?",
+      "answer": "Wiseguy",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-081",
+      "category": "film-tv-ai",
+      "question": "In which decade did The Brady Bunch debut?",
+      "answer": "1960s",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-082",
+      "category": "film-tv-ai",
+      "question": "What is the second Pirates of the Caribbean film called?",
+      "answer": "Dead Man's Chest",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-083",
+      "category": "film-tv-ai",
+      "question": "Who replaced James Purefoy as V in V for Vendetta?",
+      "answer": "Hugo Weaving",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-084",
+      "category": "film-tv-ai",
+      "question": "Which studio produced The Prince of Egypt?",
+      "answer": "DreamWorks",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-085",
+      "category": "film-tv-ai",
+      "question": "Which city is Broad City set in?",
+      "answer": "New York City",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-086",
+      "category": "film-tv-ai",
+      "question": "Which show features the catchphrase \"Book 'em, Danno!\"?",
+      "answer": "Hawaii Five-0",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-087",
+      "category": "film-tv-ai",
+      "question": "A brilliant misanthropic doctor leads a diagnostic team—name the show.",
+      "answer": "House",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-088",
+      "category": "film-tv-ai",
+      "question": "How many seasons did 24 run?",
+      "answer": "eight",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-089",
+      "category": "film-tv-ai",
+      "question": "How many main films are in the Twilight Saga?\n\nA) Four\nB) Five\nC) Six\nD) Seven",
+      "answer": "Five",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-090",
+      "category": "film-tv-ai",
+      "question": "Which actor played Sherlock Holmes in two Guy Ritchie films?",
+      "answer": "Robert Downey Jr.",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-091",
+      "category": "film-tv-ai",
+      "question": "Who composed the score for The Last Emperor?",
+      "answer": "Ryuichi Sakamoto",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-092",
+      "category": "film-tv-ai",
+      "question": "Who directed The Social Network?",
+      "answer": "David Fincher",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-093",
+      "category": "film-tv-ai",
+      "question": "Which film features the line \"You can't sit with us!\"?",
+      "answer": "Mean Girls",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-094",
+      "category": "film-tv-ai",
+      "question": "The Wolf of Wall Street was adapted from a memoir by whom?",
+      "answer": "Jordan Belfort",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-095",
+      "category": "film-tv-ai",
+      "question": "In which decade did The Handmaid's Tale premiere?",
+      "answer": "2010s",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-096",
+      "category": "film-tv-ai",
+      "question": "Who was originally cast as Marty McFly before being replaced?",
+      "answer": "Eric Stoltz",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-097",
+      "category": "film-tv-ai",
+      "question": "Which studio produced The Wind Rises?",
+      "answer": "Studio Ghibli",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "film-tv-ai-098",
+      "category": "film-tv-ai",
+      "question": "Who directed Metropolis (1927)?\n\nA) Fritz Lang\nB) F. W. Murnau\nC) Sergei Eisenstein\nD) Buster Keaton",
+      "answer": "Fritz Lang",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-099",
+      "category": "film-tv-ai",
+      "question": "In what year did Citizen Kane premiere?",
+      "answer": "1941",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-100",
+      "category": "film-tv-ai",
+      "question": "Who composed the score for Psycho?",
+      "answer": "Bernard Herrmann",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-101",
+      "category": "film-tv-ai",
+      "question": "What is the name of the spaceship in Alien (1979)?",
+      "answer": "Nostromo",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-102",
+      "category": "film-tv-ai",
+      "question": "Who directed The Seventh Seal?",
+      "answer": "Ingmar Bergman",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-103",
+      "category": "film-tv-ai",
+      "question": "Who scored The Mission (1986)?\n\nA) John Williams\nB) Ennio Morricone\nC) James Horner\nD) Howard Shore",
+      "answer": "Ennio Morricone",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-104",
+      "category": "film-tv-ai",
+      "question": "Which novel was There Will Be Blood loosely based on?",
+      "answer": "Oil!",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-105",
+      "category": "film-tv-ai",
+      "question": "In which decade did The Jazz Singer premiere?",
+      "answer": "1920s",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-106",
+      "category": "film-tv-ai",
+      "question": "Which film comes first chronologically in Leone's Dollars Trilogy?",
+      "answer": "A Fistful of Dollars",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-107",
+      "category": "film-tv-ai",
+      "question": "Which actor dropped out of American Psycho before Christian Bale took over?",
+      "answer": "Leonardo DiCaprio",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-108",
+      "category": "film-tv-ai",
+      "question": "Which studio produced The Secret of Kells?",
+      "answer": "Cartoon Saloon",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-109",
+      "category": "film-tv-ai",
+      "question": "Which city is Luther set in?",
+      "answer": "London",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-110",
+      "category": "film-tv-ai",
+      "question": "Which show popularized the line \"I love it when a plan comes together\"?",
+      "answer": "The A-Team",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-111",
+      "category": "film-tv-ai",
+      "question": "A forensic blood-spatter analyst in Miami has a secret hobby—name the show.",
+      "answer": "Dexter",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-112",
+      "category": "film-tv-ai",
+      "question": "How many episodes did Fawlty Towers have?",
+      "answer": "twelve",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-113",
+      "category": "film-tv-ai",
+      "question": "How many films are in Richard Linklater's Before trilogy?",
+      "answer": "three",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-114",
+      "category": "film-tv-ai",
+      "question": "Which actor played Jack Ryan in Patriot Games and Clear and Present Danger?",
+      "answer": "Harrison Ford",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-115",
+      "category": "film-tv-ai",
+      "question": "Who composed the Twin Peaks theme?",
+      "answer": "Angelo Badalamenti",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-116",
+      "category": "film-tv-ai",
+      "question": "Who directed The Third Man?\n\nA) David Lean\nB) Carol Reed\nC) Orson Welles\nD) Michael Powell",
+      "answer": "Carol Reed",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-117",
+      "category": "film-tv-ai",
+      "question": "Which city is The Maltese Falcon set in?",
+      "answer": "San Francisco",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-118",
+      "category": "film-tv-ai",
+      "question": "In what year was The Wizard of Oz released?",
+      "answer": "1939",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-119",
+      "category": "film-tv-ai",
+      "question": "Who wrote the novel The Exorcist?",
+      "answer": "William Peter Blatty",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-120",
+      "category": "film-tv-ai",
+      "question": "In which decade did I Love Lucy premiere?",
+      "answer": "1950s",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-121",
+      "category": "film-tv-ai",
+      "question": "Who replaced Megan Fox as the female lead in Transformers: Dark of the Moon?",
+      "answer": "Rosie Huntington-Whiteley",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-122",
+      "category": "film-tv-ai",
+      "question": "Which studio produced Grave of the Fireflies?",
+      "answer": "Studio Ghibli",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-123",
+      "category": "film-tv-ai",
+      "question": "Which city is Narcos primarily set in during its first two seasons?",
+      "answer": "Medellín",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-124",
+      "category": "film-tv-ai",
+      "question": "Two cousins navigate the rap scene in Atlanta—name the show.",
+      "answer": "Atlanta",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-125",
+      "category": "film-tv-ai",
+      "question": "How many seasons did ER run?",
+      "answer": "fifteen",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-126",
+      "category": "film-tv-ai",
+      "question": "What was the original Japanese title of the first Godzilla film?",
+      "answer": "Gojira",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-127",
+      "category": "film-tv-ai",
+      "question": "Which actress played Bridget Jones across three films?",
+      "answer": "Renée Zellweger",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-128",
+      "category": "film-tv-ai",
+      "question": "Who composed the Chariots of Fire theme?",
+      "answer": "Vangelis",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-129",
+      "category": "film-tv-ai",
+      "question": "Who directed Ran (1985)?",
+      "answer": "Akira Kurosawa",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-130",
+      "category": "film-tv-ai",
+      "question": "Name the film for the line \"Gentlemen, you can't fight in here! This is the War Room!\"",
+      "answer": "Dr. Strangelove",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-131",
+      "category": "film-tv-ai",
+      "question": "Who wrote the novel No Country for Old Men?",
+      "answer": "Cormac McCarthy",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-132",
+      "category": "film-tv-ai",
+      "question": "In which decade did Monty Python's Flying Circus debut?",
+      "answer": "1960s",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-133",
+      "category": "film-tv-ai",
+      "question": "What is the first film in the Rambo series?",
+      "answer": "First Blood",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-134",
+      "category": "film-tv-ai",
+      "question": "Which actor turned down the title role in Django Unchained?",
+      "answer": "Will Smith",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-135",
+      "category": "film-tv-ai",
+      "question": "Which animation studio animated The Lego Movie?",
+      "answer": "Animal Logic",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-136",
+      "category": "film-tv-ai",
+      "question": "Which city is Homicide: Life on the Street set in?",
+      "answer": "Baltimore",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-137",
+      "category": "film-tv-ai",
+      "question": "Which show popularized the catchphrase \"Sit on it!\"",
+      "answer": "Happy Days",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-138",
+      "category": "film-tv-ai",
+      "question": "A major recruits convicts for a suicide mission in WWII—name the film.",
+      "answer": "The Dirty Dozen",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-139",
+      "category": "film-tv-ai",
+      "question": "How many seasons did Law & Order run before 2010?",
+      "answer": "twenty",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-140",
+      "category": "film-tv-ai",
+      "question": "How many Scream films had been released by 2023?\n\nA) Five\nB) Six\nC) Seven\nD) Eight",
+      "answer": "Six",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-141",
+      "category": "film-tv-ai",
+      "question": "Which actor played Paul Kersey across the Death Wish films?",
+      "answer": "Charles Bronson",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-142",
+      "category": "film-tv-ai",
+      "question": "Who composed the score for Sicario (2015)?",
+      "answer": "Jóhann Jóhannsson",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-143",
+      "category": "film-tv-ai",
+      "question": "Who directed Aguirre, the Wrath of God?\n\nA) Werner Herzog\nB) Rainer Werner Fassbinder\nC) Wim Wenders\nD) Volker Schlöndorff",
+      "answer": "Werner Herzog",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-144",
+      "category": "film-tv-ai",
+      "question": "Which country produced City of God (2002)?\n\nA) Brazil\nB) Mexico\nC) Spain\nD) Portugal",
+      "answer": "Brazil",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-145",
+      "category": "film-tv-ai",
+      "question": "Which film first featured John McClane?\n\nA) Die Hard\nB) Die Hard 2\nC) Die Hard with a Vengeance\nD) Live Free or Die Hard",
+      "answer": "Die Hard",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "film-tv-ai-146",
+      "category": "film-tv-ai",
+      "question": "Who directed The Lion in Winter (1968)?\n\nA) John Frankenheimer\nB) Anthony Harvey\nC) Peter Glenville\nD) Fred Zinnemann",
+      "answer": "Anthony Harvey",
+      "difficulty": "hard",
+      "points": 3
+    }
+  ]
+}

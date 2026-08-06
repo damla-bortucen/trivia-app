@@ -1,0 +1,1185 @@
+{
+  "id": "mythology-ai",
+  "name": "Mythology",
+  "description": "Gods, monsters and ancient legends.",
+  "color": "#4d76ff",
+  "source": "generated",
+  "questions": [
+    {
+      "id": "mythology-ai-001",
+      "category": "mythology-ai",
+      "question": "In Greek mythology, who is the god of the sea?",
+      "answer": "Poseidon",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-002",
+      "category": "mythology-ai",
+      "question": "In Roman mythology, who is king of the gods?",
+      "answer": "Jupiter",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-003",
+      "category": "mythology-ai",
+      "question": "Which Norse god wields a thunder hammer?",
+      "answer": "Thor",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-004",
+      "category": "mythology-ai",
+      "question": "Which Egyptian sun god sails the sky in a boat?",
+      "answer": "Ra",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-005",
+      "category": "mythology-ai",
+      "question": "Which hero slew the Minotaur?",
+      "answer": "Theseus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-006",
+      "category": "mythology-ai",
+      "question": "Which snake-haired monster turned onlookers to stone?",
+      "answer": "Medusa",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-007",
+      "category": "mythology-ai",
+      "question": "What three-headed hound guards the Greek underworld?",
+      "answer": "Cerberus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-008",
+      "category": "mythology-ai",
+      "question": "In Greek myth, who is the goddess of wisdom?",
+      "answer": "Athena",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-009",
+      "category": "mythology-ai",
+      "question": "In Roman myth, who is the god of war?",
+      "answer": "Mars",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-010",
+      "category": "mythology-ai",
+      "question": "Which hero beheaded the Gorgon?",
+      "answer": "Perseus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-011",
+      "category": "mythology-ai",
+      "question": "What are the snake-haired sisters collectively called in Greek myth?",
+      "answer": "Gorgons",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-012",
+      "category": "mythology-ai",
+      "question": "What winged horse sprang from a slain monster?",
+      "answer": "Pegasus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-013",
+      "category": "mythology-ai",
+      "question": "In Roman myth, who is the goddess of love?",
+      "answer": "Venus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-014",
+      "category": "mythology-ai",
+      "question": "Which Greek god is the messenger of the gods?",
+      "answer": "Hermes",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-015",
+      "category": "mythology-ai",
+      "question": "Which fruit did Persephone eat in the underworld?",
+      "answer": "Pomegranate",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-016",
+      "category": "mythology-ai",
+      "question": "Which Cyclops did Odysseus blind?",
+      "answer": "Polyphemus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-017",
+      "category": "mythology-ai",
+      "question": "In Greek myth, who is the goddess of the hunt?",
+      "answer": "Artemis",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-018",
+      "category": "mythology-ai",
+      "question": "What is the Norse world-tree?\n\nA) Yggdrasil\nB) Irminsul\nC) Ashvattha\nD) Banyan",
+      "answer": "Yggdrasil",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-019",
+      "category": "mythology-ai",
+      "question": "Who rules the Egyptian underworld?",
+      "answer": "Osiris",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-020",
+      "category": "mythology-ai",
+      "question": "In Roman myth, who is the messenger god?",
+      "answer": "Mercury",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-021",
+      "category": "mythology-ai",
+      "question": "Which Greek hero killed the Hydra?",
+      "answer": "Heracles",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-022",
+      "category": "mythology-ai",
+      "question": "Which riddling creature guarded a city of Boeotia?",
+      "answer": "Sphinx",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-023",
+      "category": "mythology-ai",
+      "question": "Who abducted Helen of Troy?",
+      "answer": "Paris",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-024",
+      "category": "mythology-ai",
+      "question": "In Roman myth, who is the god of the sea?",
+      "answer": "Neptune",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-025",
+      "category": "mythology-ai",
+      "question": "In Greek myth, who is the god of wine?",
+      "answer": "Dionysus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-026",
+      "category": "mythology-ai",
+      "question": "Which Titan was condemned to hold up the sky?",
+      "answer": "Atlas",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-027",
+      "category": "mythology-ai",
+      "question": "In Greek myth, who is the goddess of love?",
+      "answer": "Aphrodite",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-028",
+      "category": "mythology-ai",
+      "question": "Which Norse trickster caused Baldr’s death?",
+      "answer": "Loki",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-029",
+      "category": "mythology-ai",
+      "question": "What is the name of Thor’s hammer?\n\nA) Gungnir\nB) Mjölnir\nC) Gram\nD) Skofnung",
+      "answer": "Mjölnir",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-030",
+      "category": "mythology-ai",
+      "question": "In Greek myth, who rules the underworld?",
+      "answer": "Hades",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-031",
+      "category": "mythology-ai",
+      "question": "In Roman myth, who is the goddess of wisdom?",
+      "answer": "Minerva",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-032",
+      "category": "mythology-ai",
+      "question": "Who flew too close to the sun?",
+      "answer": "Icarus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-033",
+      "category": "mythology-ai",
+      "question": "Which king wished for the golden touch?",
+      "answer": "Midas",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-034",
+      "category": "mythology-ai",
+      "question": "What is the home of the Greek gods?",
+      "answer": "Mount Olympus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-035",
+      "category": "mythology-ai",
+      "question": "Which Roman goddess gives her name to June?\n\nA) Juno\nB) Minerva\nC) Venus\nD) Ceres",
+      "answer": "Juno",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-036",
+      "category": "mythology-ai",
+      "question": "Who is the hero of the Odyssey?",
+      "answer": "Odysseus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-037",
+      "category": "mythology-ai",
+      "question": "In Greek myth, who is the god of blacksmiths and fire?",
+      "answer": "Hephaestus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-038",
+      "category": "mythology-ai",
+      "question": "Who led the Argonauts to the Golden Fleece?",
+      "answer": "Jason",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-039",
+      "category": "mythology-ai",
+      "question": "In Roman myth, who is the goddess of the hunt?",
+      "answer": "Diana",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-040",
+      "category": "mythology-ai",
+      "question": "Which Egyptian goddess is famed for magic and motherhood?",
+      "answer": "Isis",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-041",
+      "category": "mythology-ai",
+      "question": "Which creature is half man, half bull?",
+      "answer": "Minotaur",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-042",
+      "category": "mythology-ai",
+      "question": "Who ferried souls across the Styx?\n\nA) Charon\nB) Acheron\nC) Minos\nD) Cerberus",
+      "answer": "Charon",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-043",
+      "category": "mythology-ai",
+      "question": "Which city did the riddle-giving monster block?\n\nA) Thebes\nB) Athens\nC) Sparta\nD) Troy",
+      "answer": "Thebes",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-044",
+      "category": "mythology-ai",
+      "question": "Which Roman god presides over beginnings and doorways?",
+      "answer": "Janus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-045",
+      "category": "mythology-ai",
+      "question": "Who opened a container releasing evils into the world?",
+      "answer": "Pandora",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-046",
+      "category": "mythology-ai",
+      "question": "What weapon does the king of the Greek gods wield?",
+      "answer": "Thunderbolt",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-047",
+      "category": "mythology-ai",
+      "question": "What rainbow bridge links Midgard to Asgard?\n\nA) Bifrost\nB) Gjallarbru\nC) Nastrond\nD) Midgard Serpent",
+      "answer": "Bifrost",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-048",
+      "category": "mythology-ai",
+      "question": "Which hero’s only vulnerable spot was his heel?\n\nA) Achilles\nB) Hector\nC) Ajax\nD) Aeneas",
+      "answer": "Achilles",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-049",
+      "category": "mythology-ai",
+      "question": "In Roman myth, who is the god of fire and the forge?",
+      "answer": "Vulcan",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "mythology-ai-050",
+      "category": "mythology-ai",
+      "question": "Who in Greek myth is queen of the gods and wife of Zeus?",
+      "answer": "Hera",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-051",
+      "category": "mythology-ai",
+      "question": "Which Greek Titan drove the sun chariot?\n\nA) Helios\nB) Apollo\nC) Phaethon\nD) Hyperion",
+      "answer": "Helios",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-052",
+      "category": "mythology-ai",
+      "question": "Whose cattle did the infant trickster steal in Greek myth?",
+      "answer": "Apollo",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-053",
+      "category": "mythology-ai",
+      "question": "Which hero rode Pegasus to defeat a fire-breathing monster?",
+      "answer": "Bellerophon",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-054",
+      "category": "mythology-ai",
+      "question": "The Chimera was a hybrid of which animals?\n\nA) Lion, goat, snake\nB) Bull, lion, scorpion\nC) Eagle, lion, snake\nD) Wolf, goat, snake",
+      "answer": "Lion, goat, snake",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-055",
+      "category": "mythology-ai",
+      "question": "Which river did Greeks swear their most binding oaths by?",
+      "answer": "Styx",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-056",
+      "category": "mythology-ai",
+      "question": "Who endlessly pushed a boulder uphill in the underworld?",
+      "answer": "Sisyphus",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-057",
+      "category": "mythology-ai",
+      "question": "Who stood in a pool beneath unreachable fruit and water?",
+      "answer": "Tantalus",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-058",
+      "category": "mythology-ai",
+      "question": "What whirlpool monster menaced sailors opposite Scylla?",
+      "answer": "Charybdis",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-059",
+      "category": "mythology-ai",
+      "question": "What blissful realm of the Greek afterlife hosted heroes?",
+      "answer": "Elysium",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-060",
+      "category": "mythology-ai",
+      "question": "What did the nymph Daphne transform into to escape pursuit?",
+      "answer": "Laurel",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-061",
+      "category": "mythology-ai",
+      "question": "Which maiden was turned into a cow by a jealous goddess?",
+      "answer": "Io",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-062",
+      "category": "mythology-ai",
+      "question": "Who was transformed into a spider after a weaving contest?",
+      "answer": "Arachne",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-063",
+      "category": "mythology-ai",
+      "question": "What invulnerable beast was slain in the first Labor?",
+      "answer": "Nemean Lion",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-064",
+      "category": "mythology-ai",
+      "question": "Which serpent guarded the Hesperides’ golden apples?",
+      "answer": "Ladon",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-065",
+      "category": "mythology-ai",
+      "question": "What was the magical prize sought by the Argonauts?",
+      "answer": "Golden Fleece",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-066",
+      "category": "mythology-ai",
+      "question": "Which Trojan hero fled the fall of Troy carrying his father?",
+      "answer": "Aeneas",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-067",
+      "category": "mythology-ai",
+      "question": "What object let a hero enter the Roman underworld?\n\nA) Golden apple\nB) Golden bough\nC) Golden fleece\nD) Golden net",
+      "answer": "Golden bough",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-068",
+      "category": "mythology-ai",
+      "question": "What is the Norse world-encircling serpent called?",
+      "answer": "Jormungandr",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-069",
+      "category": "mythology-ai",
+      "question": "Which monstrous wolf is prophesied to kill Odin?",
+      "answer": "Fenrir",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-070",
+      "category": "mythology-ai",
+      "question": "Who guards the rainbow bridge in Norse myth?",
+      "answer": "Heimdall",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-071",
+      "category": "mythology-ai",
+      "question": "What is Odin’s eight‑legged horse called?",
+      "answer": "Sleipnir",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-072",
+      "category": "mythology-ai",
+      "question": "Which Norse goddess keeps apples of eternal youth?",
+      "answer": "Idunn",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-073",
+      "category": "mythology-ai",
+      "question": "What ring drips new rings each ninth night?",
+      "answer": "Draupnir",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-074",
+      "category": "mythology-ai",
+      "question": "What silky fetter bound the great wolf?\n\nA) Gleipnir\nB) Gram\nC) Gungnir\nD) Hofund",
+      "answer": "Gleipnir",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-075",
+      "category": "mythology-ai",
+      "question": "What is the Norse realm of the dead ruled by Loki’s daughter?\n\nA) Hel\nB) Niflheim\nC) Muspelheim\nD) Alfheim",
+      "answer": "Hel",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-076",
+      "category": "mythology-ai",
+      "question": "Which jackal‑headed god oversaw mummification?",
+      "answer": "Anubis",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-077",
+      "category": "mythology-ai",
+      "question": "What is the Egyptian name for the underworld?\n\nA) Duat\nB) Aaru\nC) Duamutef\nD) Nun",
+      "answer": "Duat",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-078",
+      "category": "mythology-ai",
+      "question": "Which Egyptian creature devoured the hearts of the wicked?",
+      "answer": "Ammit",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-079",
+      "category": "mythology-ai",
+      "question": "Which Egyptian goddess is the lioness of war?",
+      "answer": "Sekhmet",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-080",
+      "category": "mythology-ai",
+      "question": "Which Greek goddess presided over agriculture and the harvest?",
+      "answer": "Demeter",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-081",
+      "category": "mythology-ai",
+      "question": "In Greek myth, who is the god of war?",
+      "answer": "Ares",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-082",
+      "category": "mythology-ai",
+      "question": "In Roman myth, who rules the underworld?\n\nA) Orcus\nB) Dis\nC) Pluto\nD) Mictlan",
+      "answer": "Pluto",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-083",
+      "category": "mythology-ai",
+      "question": "Which Roman god gives Saturday its English name?",
+      "answer": "Saturn",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-084",
+      "category": "mythology-ai",
+      "question": "Which Greek goddess of the hearth received first offerings?",
+      "answer": "Hestia",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-085",
+      "category": "mythology-ai",
+      "question": "Which Titan gave fire to humans and suffered for it?",
+      "answer": "Prometheus",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-086",
+      "category": "mythology-ai",
+      "question": "Into what bird did a sky god change to abduct Ganymede?",
+      "answer": "Eagle",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-087",
+      "category": "mythology-ai",
+      "question": "Who was the hundred‑eyed watchman slain by a messenger god?",
+      "answer": "Argus",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-088",
+      "category": "mythology-ai",
+      "question": "On which island stood the Labyrinth?",
+      "answer": "Crete",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-089",
+      "category": "mythology-ai",
+      "question": "Who waited twenty years weaving and unweaving a shroud?",
+      "answer": "Penelope",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-090",
+      "category": "mythology-ai",
+      "question": "What part of a famed warrior’s body remained vulnerable?",
+      "answer": "Heel",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-091",
+      "category": "mythology-ai",
+      "question": "Whose body did the gods use to make the world in Norse myth?",
+      "answer": "Ymir",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-092",
+      "category": "mythology-ai",
+      "question": "Which goddess was Isis’s sister and helper?",
+      "answer": "Nephthys",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-093",
+      "category": "mythology-ai",
+      "question": "What deep pit of torment lies beneath the Greek underworld?",
+      "answer": "Tartarus",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-094",
+      "category": "mythology-ai",
+      "question": "Which twin is credited with Rome’s founding?",
+      "answer": "Romulus",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-095",
+      "category": "mythology-ai",
+      "question": "Which Roman goddess kept the hearth-fire of the city?",
+      "answer": "Vesta",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-096",
+      "category": "mythology-ai",
+      "question": "Who solved the riddle and freed a Boeotian city?",
+      "answer": "Oedipus",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-097",
+      "category": "mythology-ai",
+      "question": "In which tradition do draugr undead appear?\n\nA) Greek\nB) Roman\nC) Norse\nD) Egyptian",
+      "answer": "Norse",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-098",
+      "category": "mythology-ai",
+      "question": "Which Greek moon goddess drove a chariot across the night sky?",
+      "answer": "Selene",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-099",
+      "category": "mythology-ai",
+      "question": "Who is called the Mother of Monsters in Greek myth?",
+      "answer": "Echidna",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "mythology-ai-100",
+      "category": "mythology-ai",
+      "question": "What is the goat-skin shield of Zeus and Athena called?",
+      "answer": "Aegis",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-101",
+      "category": "mythology-ai",
+      "question": "Which Muse presides over epic poetry?",
+      "answer": "Calliope",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-102",
+      "category": "mythology-ai",
+      "question": "Who was mother to the nine Muses?",
+      "answer": "Mnemosyne",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-103",
+      "category": "mythology-ai",
+      "question": "Which Titaness bore the twins Artemis and Apollo?",
+      "answer": "Leto",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-104",
+      "category": "mythology-ai",
+      "question": "Which mortal mother of Dionysus perished on seeing a god unveiled?",
+      "answer": "Semele",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-105",
+      "category": "mythology-ai",
+      "question": "Which goddess personifies the rainbow as a divine messenger?",
+      "answer": "Iris",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-106",
+      "category": "mythology-ai",
+      "question": "Which winged goddess embodies victory in Greek myth?",
+      "answer": "Nike",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-107",
+      "category": "mythology-ai",
+      "question": "Which healing god carries a staff with a single serpent?",
+      "answer": "Asclepius",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-108",
+      "category": "mythology-ai",
+      "question": "Where was the most famous oracle of Apollo located?",
+      "answer": "Delphi",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-109",
+      "category": "mythology-ai",
+      "question": "Which serpent did a sun god slay at that oracle?",
+      "answer": "Python",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-110",
+      "category": "mythology-ai",
+      "question": "Who built the inescapable maze for a Cretan king?",
+      "answer": "Daedalus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-111",
+      "category": "mythology-ai",
+      "question": "Who was the wife of Minos and mother of a bull-headed monster?",
+      "answer": "Pasiphae",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-112",
+      "category": "mythology-ai",
+      "question": "Which Roman love god is the counterpart to Eros?",
+      "answer": "Cupid",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-113",
+      "category": "mythology-ai",
+      "question": "Which Roman goddess of grain corresponds to Demeter?",
+      "answer": "Ceres",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-114",
+      "category": "mythology-ai",
+      "question": "Which Trojan prophetess was cursed to be disbelieved?",
+      "answer": "Cassandra",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-115",
+      "category": "mythology-ai",
+      "question": "Which sea monster was slain to free Andromeda?",
+      "answer": "Cetus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-116",
+      "category": "mythology-ai",
+      "question": "Which centaur’s blood fatally poisoned a great hero?",
+      "answer": "Nessus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-117",
+      "category": "mythology-ai",
+      "question": "Which Roman household gods protected the pantry?",
+      "answer": "Penates",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-118",
+      "category": "mythology-ai",
+      "question": "In Norse myth, what are Odin’s ravens called?\n\nA) Huginn and Muninn\nB) Geri and Freki\nC) Skoll and Hati\nD) Brokk and Sindri",
+      "answer": "Huginn and Muninn",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-119",
+      "category": "mythology-ai",
+      "question": "Which giantess mothered Fenrir, Jormungandr, and Hel?\n\nA) Skadi\nB) Angrboda\nC) Sigyn\nD) Ran",
+      "answer": "Angrboda",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-120",
+      "category": "mythology-ai",
+      "question": "What golden‑bristled boar belongs to a Vanir god?\n\nA) Gullinbursti\nB) Sleipnir\nC) Grani\nD) Hildisvini",
+      "answer": "Gullinbursti",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-121",
+      "category": "mythology-ai",
+      "question": "What ship made from dead men’s nails sails at Ragnarok?\n\nA) Naglfar\nB) Skidbladnir\nC) Hringhorni\nD) Gjallarbru",
+      "answer": "Naglfar",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-122",
+      "category": "mythology-ai",
+      "question": "What field receives half the slain under Freyja?\n\nA) Valhalla\nB) Folkvangr\nC) Hel\nD) Sessrumnir",
+      "answer": "Folkvangr",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-123",
+      "category": "mythology-ai",
+      "question": "What fiery primordial realm exists in Norse cosmology?",
+      "answer": "Muspelheim",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-124",
+      "category": "mythology-ai",
+      "question": "What misty primordial realm exists in Norse cosmology?",
+      "answer": "Niflheim",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-125",
+      "category": "mythology-ai",
+      "question": "Which Memphite creator god spoke the world into being?",
+      "answer": "Ptah",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-126",
+      "category": "mythology-ai",
+      "question": "Which Egyptian sky goddess arches over the world?",
+      "answer": "Nut",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-127",
+      "category": "mythology-ai",
+      "question": "Which Egyptian earth god lies beneath the sky goddess?",
+      "answer": "Geb",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-128",
+      "category": "mythology-ai",
+      "question": "In Egyptian belief, a heart was weighed against what to judge the dead?",
+      "answer": "ostrich feather",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-129",
+      "category": "mythology-ai",
+      "question": "Who tried to lead Eurydice from the underworld but looked back?",
+      "answer": "Orpheus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-130",
+      "category": "mythology-ai",
+      "question": "Which enchantress turned a band of sailors into swine?",
+      "answer": "Circe",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-131",
+      "category": "mythology-ai",
+      "question": "Which nymph detained a wandering hero on Ogygia?",
+      "answer": "Calypso",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-132",
+      "category": "mythology-ai",
+      "question": "What Roman name was given to the Greek hero Odysseus?",
+      "answer": "Ulysses",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-133",
+      "category": "mythology-ai",
+      "question": "Which torch‑bearing goddess is linked with crossroads and witchcraft?",
+      "answer": "Hecate",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-134",
+      "category": "mythology-ai",
+      "question": "Who was the divine cupbearer before a Trojan boy replaced her?",
+      "answer": "Hebe",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-135",
+      "category": "mythology-ai",
+      "question": "Which goddess personifies retribution against arrogance?",
+      "answer": "Nemesis",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-136",
+      "category": "mythology-ai",
+      "question": "Which rustic god’s sudden fear could rout armies?",
+      "answer": "Pan",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-137",
+      "category": "mythology-ai",
+      "question": "Which giant hunter became a constellation after death?",
+      "answer": "Orion",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-138",
+      "category": "mythology-ai",
+      "question": "In Greek cosmogony, who first emerged from Chaos as earth?",
+      "answer": "Gaia",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-139",
+      "category": "mythology-ai",
+      "question": "Who personifies the bright upper air in Greek myth?",
+      "answer": "Aether",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-140",
+      "category": "mythology-ai",
+      "question": "Which personification of day is the daughter of Night?",
+      "answer": "Hemera",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-141",
+      "category": "mythology-ai",
+      "question": "Which fire-breathing giant thief was slain near the Aventine?",
+      "answer": "Cacus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-142",
+      "category": "mythology-ai",
+      "question": "Which Roman dawn goddess parallels the Greek Eos?",
+      "answer": "Aurora",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-143",
+      "category": "mythology-ai",
+      "question": "What sacred deer did a hero chase for a year?",
+      "answer": "Ceryneian Hind",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-144",
+      "category": "mythology-ai",
+      "question": "What is the Greek name for the Furies?",
+      "answer": "Erinyes",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-145",
+      "category": "mythology-ai",
+      "question": "Which Fate measures each mortal’s span of life?",
+      "answer": "Lachesis",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-146",
+      "category": "mythology-ai",
+      "question": "Which Fate cuts the thread of life?",
+      "answer": "Atropos",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "mythology-ai-147",
+      "category": "mythology-ai",
+      "question": "Which Fate spins the thread of life?",
+      "answer": "Clotho",
+      "difficulty": "hard",
+      "points": 3
+    }
+  ]
+}

@@ -1,0 +1,1209 @@
+{
+  "id": "general-knowledge-ai",
+  "name": "General Knowledge",
+  "description": "A bit of everything.",
+  "color": "#c47bcd",
+  "source": "generated",
+  "questions": [
+    {
+      "id": "general-knowledge-ai-001",
+      "category": "general-knowledge-ai",
+      "question": "What does \"USB\" stand for?",
+      "answer": "Universal Serial Bus",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-002",
+      "category": "general-knowledge-ai",
+      "question": "The two raised bumps on the F and J keys are there to help you do what?",
+      "answer": "touch typing",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-003",
+      "category": "general-knowledge-ai",
+      "question": "The plastic tip at the end of a shoelace is called what?",
+      "answer": "aglet",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-004",
+      "category": "general-knowledge-ai",
+      "question": "What is Japan’s currency called?",
+      "answer": "yen",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-005",
+      "category": "general-knowledge-ai",
+      "question": "What does the symbol ™ indicate?",
+      "answer": "unregistered trademark",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-006",
+      "category": "general-knowledge-ai",
+      "question": "A chessboard contains how many squares?",
+      "answer": "64",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-007",
+      "category": "general-knowledge-ai",
+      "question": "Which object gave the colour name \"orange\"?",
+      "answer": "the fruit",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-008",
+      "category": "general-knowledge-ai",
+      "question": "What is the dot over a lowercase i or j called?",
+      "answer": "tittle",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-009",
+      "category": "general-knowledge-ai",
+      "question": "What does \"PDF\" stand for?",
+      "answer": "Portable Document Format",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-010",
+      "category": "general-knowledge-ai",
+      "question": "The small hole in a pen cap is designed to do what?",
+      "answer": "prevent choking",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-011",
+      "category": "general-knowledge-ai",
+      "question": "On ships, which side has the red navigation light at night?",
+      "answer": "port",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-012",
+      "category": "general-knowledge-ai",
+      "question": "What hand tool is designed for cross-head screws?",
+      "answer": "Phillips screwdriver",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-013",
+      "category": "general-knowledge-ai",
+      "question": "In Monopoly, which corner square pays you when you pass it?",
+      "answer": "GO",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-014",
+      "category": "general-knowledge-ai",
+      "question": "What does the circled R symbol mean?",
+      "answer": "registered trademark",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-015",
+      "category": "general-knowledge-ai",
+      "question": "The arrow next to a car’s fuel gauge points to what?",
+      "answer": "fuel filler side",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-016",
+      "category": "general-knowledge-ai",
+      "question": "What does \"PIN\" stand for?",
+      "answer": "personal identification number",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-017",
+      "category": "general-knowledge-ai",
+      "question": "One knot equals one what per hour?",
+      "answer": "nautical mile",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-018",
+      "category": "general-knowledge-ai",
+      "question": "How many cards are in a standard deck without jokers?",
+      "answer": "52",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-019",
+      "category": "general-knowledge-ai",
+      "question": "The metal band that holds a pencil’s eraser is called what?",
+      "answer": "ferrule",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-020",
+      "category": "general-knowledge-ai",
+      "question": "In timekeeping, what does \"AM\" stand for?",
+      "answer": "ante meridiem",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-021",
+      "category": "general-knowledge-ai",
+      "question": "On runways, what do the big numbers represent?",
+      "answer": "magnetic heading",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-022",
+      "category": "general-knowledge-ai",
+      "question": "Which currency does Switzerland use?\n\nA) Swiss franc\nB) Swiss euro\nC) Swiss mark\nD) Swiss lira",
+      "answer": "Swiss franc",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-023",
+      "category": "general-knowledge-ai",
+      "question": "The symbol \"&\" began as a ligature of which word?",
+      "answer": "et",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-024",
+      "category": "general-knowledge-ai",
+      "question": "What does \"RADAR\" stand for?",
+      "answer": "radio detection and ranging",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-025",
+      "category": "general-knowledge-ai",
+      "question": "What does \"GPS\" stand for?",
+      "answer": "Global Positioning System",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-026",
+      "category": "general-knowledge-ai",
+      "question": "The raised bump on the 5 key of a remote helps you do what?",
+      "answer": "orient by touch",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-027",
+      "category": "general-knowledge-ai",
+      "question": "What is the common name of the RJ45 plug used on Ethernet cables?",
+      "answer": "RJ45 connector",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-028",
+      "category": "general-knowledge-ai",
+      "question": "What does \"LED\" stand for?",
+      "answer": "light emitting diode",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-029",
+      "category": "general-knowledge-ai",
+      "question": "What unit equals 1/100 of a meter?",
+      "answer": "centimeter",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-030",
+      "category": "general-knowledge-ai",
+      "question": "What is Mexico’s currency called?",
+      "answer": "Mexican peso",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-031",
+      "category": "general-knowledge-ai",
+      "question": "What does \"RSVP\" stand for?",
+      "answer": "répondez s'il vous plaît",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-032",
+      "category": "general-knowledge-ai",
+      "question": "What is the three-arrow recycling symbol called?",
+      "answer": "Mobius loop",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-033",
+      "category": "general-knowledge-ai",
+      "question": "What does \"URL\" stand for?",
+      "answer": "uniform resource locator",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-034",
+      "category": "general-knowledge-ai",
+      "question": "In Scrabble, how many points does a blank tile score?",
+      "answer": "zero",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-035",
+      "category": "general-knowledge-ai",
+      "question": "What does \"ATM\" stand for (bank machines)?",
+      "answer": "automated teller machine",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-036",
+      "category": "general-knowledge-ai",
+      "question": "\"mph\" stands for what?",
+      "answer": "miles per hour",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-037",
+      "category": "general-knowledge-ai",
+      "question": "What three letters appear on many zipper pulls?",
+      "answer": "YKK",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-038",
+      "category": "general-knowledge-ai",
+      "question": "The tiny extra pocket in jeans was originally for what?",
+      "answer": "pocket watch",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-039",
+      "category": "general-knowledge-ai",
+      "question": "What does \"HTML\" stand for?",
+      "answer": "hypertext markup language",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-040",
+      "category": "general-knowledge-ai",
+      "question": "What is the United Kingdom’s currency called?\n\nA) Pound sterling\nB) British crown\nC) English lira\nD) UK shilling",
+      "answer": "Pound sterling",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-041",
+      "category": "general-knowledge-ai",
+      "question": "On prescriptions, Rx originally stood for what word?",
+      "answer": "recipe",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-042",
+      "category": "general-knowledge-ai",
+      "question": "The mesh in a microwave door lets you see while doing what?",
+      "answer": "blocking microwaves",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-043",
+      "category": "general-knowledge-ai",
+      "question": "What is Canada’s currency called?",
+      "answer": "Canadian dollar",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-044",
+      "category": "general-knowledge-ai",
+      "question": "What does \"DIY\" stand for?",
+      "answer": "do it yourself",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-045",
+      "category": "general-knowledge-ai",
+      "question": "The colored bands on a resistor indicate what?",
+      "answer": "resistance value",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-046",
+      "category": "general-knowledge-ai",
+      "question": "What is India’s currency called?",
+      "answer": "Indian rupee",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-047",
+      "category": "general-knowledge-ai",
+      "question": "What does \"e.g.\" stand for?",
+      "answer": "exempli gratia",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-048",
+      "category": "general-knowledge-ai",
+      "question": "On the web, what does HTTP 404 mean?",
+      "answer": "Not Found",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-049",
+      "category": "general-knowledge-ai",
+      "question": "What does \"aka\" stand for?",
+      "answer": "also known as",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-050",
+      "category": "general-knowledge-ai",
+      "question": "What is the proper name for the \"@\" character?",
+      "answer": "at sign",
+      "difficulty": "easy",
+      "points": 1
+    },
+    {
+      "id": "general-knowledge-ai-051",
+      "category": "general-knowledge-ai",
+      "question": "What does \"ZIP code\" stand for?",
+      "answer": "Zone Improvement Plan",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-052",
+      "category": "general-knowledge-ai",
+      "question": "The tiny hole in airplane windows serves for what?",
+      "answer": "pressure equalization",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-053",
+      "category": "general-knowledge-ai",
+      "question": "In a three-prong plug, what is the round prong for?",
+      "answer": "grounding",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-054",
+      "category": "general-knowledge-ai",
+      "question": "What is South Korea’s currency called?",
+      "answer": "won",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-055",
+      "category": "general-knowledge-ai",
+      "question": "What does the \"CE\" mark stand for?",
+      "answer": "Conformité Européenne",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-056",
+      "category": "general-knowledge-ai",
+      "question": "In US notebooks, how many binder holes are standard?",
+      "answer": "three",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-057",
+      "category": "general-knowledge-ai",
+      "question": "The color \"fuchsia\" was named after which botanist?",
+      "answer": "Leonhart Fuchs",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-058",
+      "category": "general-knowledge-ai",
+      "question": "What does \"i.e.\" stand for?",
+      "answer": "id est",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-059",
+      "category": "general-knowledge-ai",
+      "question": "A nautical mile equals exactly one what of latitude?",
+      "answer": "one minute of latitude",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-060",
+      "category": "general-knowledge-ai",
+      "question": "What does flux do in soldering?",
+      "answer": "remove oxides",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-061",
+      "category": "general-knowledge-ai",
+      "question": "In backgammon, how many checkers does each player start with?",
+      "answer": "15",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-062",
+      "category": "general-knowledge-ai",
+      "question": "In Japan, what is the customary form of greeting?",
+      "answer": "bowing",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-063",
+      "category": "general-knowledge-ai",
+      "question": "What hidden shape is in the FedEx logo?",
+      "answer": "arrow",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-064",
+      "category": "general-knowledge-ai",
+      "question": "When ending a landline call, what did \"hang up\" literally mean?",
+      "answer": "replace the receiver",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-065",
+      "category": "general-knowledge-ai",
+      "question": "What does \"ISBN\" stand for?",
+      "answer": "International Standard Book Number",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-066",
+      "category": "general-knowledge-ai",
+      "question": "The notch in a tape measure’s hook is designed to do what?",
+      "answer": "hook nails",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-067",
+      "category": "general-knowledge-ai",
+      "question": "What is the part of a key that you hold called?",
+      "answer": "bow",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-068",
+      "category": "general-knowledge-ai",
+      "question": "What is Indonesia’s currency called?",
+      "answer": "Indonesian rupiah",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-069",
+      "category": "general-knowledge-ai",
+      "question": "On engineering drawings, the \"⌀\" symbol indicates what?",
+      "answer": "diameter",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-070",
+      "category": "general-knowledge-ai",
+      "question": "How many bits are in a byte?",
+      "answer": "8",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-071",
+      "category": "general-knowledge-ai",
+      "question": "The colour name \"teal\" comes from which animal?\n\nA) Duck\nB) Lizard\nC) Fish\nD) Butterfly",
+      "answer": "Duck",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-072",
+      "category": "general-knowledge-ai",
+      "question": "The gemstone carat was historically based on what seed?",
+      "answer": "carob seed",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-073",
+      "category": "general-knowledge-ai",
+      "question": "On aircraft, what color are the rotating anti‑collision beacons?",
+      "answer": "red",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-074",
+      "category": "general-knowledge-ai",
+      "question": "A Torx screw uses what kind of driver?",
+      "answer": "star driver",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-075",
+      "category": "general-knowledge-ai",
+      "question": "In checkers, how many pieces does each player have?",
+      "answer": "12",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-076",
+      "category": "general-knowledge-ai",
+      "question": "In Germany, when clinking glasses, what should you do?",
+      "answer": "make eye contact",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-077",
+      "category": "general-knowledge-ai",
+      "question": "What does \"LEGO\" mean in Danish?\n\nA) Play well\nB) Build strong\nC) Smart toy\nD) Click bricks",
+      "answer": "Play well",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-078",
+      "category": "general-knowledge-ai",
+      "question": "Before computers, what did \"cut and paste\" literally use?",
+      "answer": "scissors and glue",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-079",
+      "category": "general-knowledge-ai",
+      "question": "What does \"SIM\" stand for?",
+      "answer": "subscriber identity module",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-080",
+      "category": "general-knowledge-ai",
+      "question": "The two side holes on some canvas sneakers are mainly for what?",
+      "answer": "ventilation",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-081",
+      "category": "general-knowledge-ai",
+      "question": "The bending plate in a stapler base is called the what?",
+      "answer": "anvil",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-082",
+      "category": "general-knowledge-ai",
+      "question": "Which currency does Egypt use?\n\nA) Egyptian pound\nB) Egyptian dinar\nC) Egyptian lira\nD) Egyptian rial",
+      "answer": "Egyptian pound",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-083",
+      "category": "general-knowledge-ai",
+      "question": "On packaging, the \"♻\" symbol with a percentage indicates what?",
+      "answer": "recycled content",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-084",
+      "category": "general-knowledge-ai",
+      "question": "A standard Sudoku grid contains how many cells?",
+      "answer": "81",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-085",
+      "category": "general-knowledge-ai",
+      "question": "Where did the colour name \"indigo\" originate?\n\nA) India\nB) Greece\nC) Persia\nD) Italy",
+      "answer": "India",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-086",
+      "category": "general-knowledge-ai",
+      "question": "Which letter does not appear in any chemical element symbol?",
+      "answer": "J",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-087",
+      "category": "general-knowledge-ai",
+      "question": "What old unit equals 220 yards?",
+      "answer": "furlong",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-088",
+      "category": "general-knowledge-ai",
+      "question": "What device measures an aircraft’s airspeed?",
+      "answer": "pitot tube",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-089",
+      "category": "general-knowledge-ai",
+      "question": "What is the claw on a hammer for?",
+      "answer": "removing nails",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-090",
+      "category": "general-knowledge-ai",
+      "question": "In Clue/Cluedo, besides the suspect and weapon, what must you identify?",
+      "answer": "the room",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-091",
+      "category": "general-knowledge-ai",
+      "question": "In UK dining etiquette, which utensil typically remains in the left hand?\n\nA) Fork\nB) Knife\nC) Spoon\nD) Chopsticks",
+      "answer": "Fork",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-092",
+      "category": "general-knowledge-ai",
+      "question": "The blue and white in the BMW logo come from which state’s flag?\n\nA) Bavaria\nB) Saxony\nC) Prussia\nD) Hesse",
+      "answer": "Bavaria",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-093",
+      "category": "general-knowledge-ai",
+      "question": "What did \"rewind\" originally do on cassette players?",
+      "answer": "wind tape backward",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-094",
+      "category": "general-knowledge-ai",
+      "question": "What does \"FTP\" stand for?",
+      "answer": "File Transfer Protocol",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-095",
+      "category": "general-knowledge-ai",
+      "question": "In typography, the space between a page’s text block and the binding is the what?",
+      "answer": "gutter",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-096",
+      "category": "general-knowledge-ai",
+      "question": "What does \"ETA\" stand for?",
+      "answer": "estimated time of arrival",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-097",
+      "category": "general-knowledge-ai",
+      "question": "On a lightbulb, what does the E in E27 stand for?\n\nA) Edison\nB) European\nC) External\nD) Edge",
+      "answer": "Edison",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-098",
+      "category": "general-knowledge-ai",
+      "question": "On a fuel pump, \"RON\" refers to what octane rating method?",
+      "answer": "Research Octane Number",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-099",
+      "category": "general-knowledge-ai",
+      "question": "On a compass, what does \"N\" indicate?",
+      "answer": "north",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-100",
+      "category": "general-knowledge-ai",
+      "question": "On power supplies, a solid line over a dashed line indicates what?",
+      "answer": "DC output",
+      "difficulty": "medium",
+      "points": 2
+    },
+    {
+      "id": "general-knowledge-ai-101",
+      "category": "general-knowledge-ai",
+      "question": "What does \"SONAR\" stand for?",
+      "answer": "sound navigation and ranging",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-102",
+      "category": "general-knowledge-ai",
+      "question": "On a cassette tape, the small top-shell holes relate to what feature?",
+      "answer": "write protection",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-103",
+      "category": "general-knowledge-ai",
+      "question": "What is the typographic name of the symbol ⁂?",
+      "answer": "asterism",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-104",
+      "category": "general-knowledge-ai",
+      "question": "What is Botswana’s currency?\n\nA) Pula\nB) Kwacha\nC) Shilling\nD) Dalasi",
+      "answer": "Pula",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-105",
+      "category": "general-knowledge-ai",
+      "question": "In legal writing, what does the symbol \"§\" denote?",
+      "answer": "section",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-106",
+      "category": "general-knowledge-ai",
+      "question": "How many players are there in a standard mahjong game?",
+      "answer": "4",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-107",
+      "category": "general-knowledge-ai",
+      "question": "The color name \"cerulean\" comes from Latin for what?",
+      "answer": "sky",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-108",
+      "category": "general-knowledge-ai",
+      "question": "What is the German letter \"ß\" called?",
+      "answer": "Eszett",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-109",
+      "category": "general-knowledge-ai",
+      "question": "A \"hand\" used to measure horse height equals how many inches?",
+      "answer": "4",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-110",
+      "category": "general-knowledge-ai",
+      "question": "In aviation, what does \"VFR\" stand for?",
+      "answer": "Visual Flight Rules",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-111",
+      "category": "general-knowledge-ai",
+      "question": "What two metals make up brass?",
+      "answer": "copper and zinc",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-112",
+      "category": "general-knowledge-ai",
+      "question": "In Go, how many liberties does a single stone on the edge have?",
+      "answer": "3",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-113",
+      "category": "general-knowledge-ai",
+      "question": "In which country is tipping at restaurants generally considered rude or unnecessary?\n\nA) Japan\nB) USA\nC) Canada\nD) Mexico",
+      "answer": "Japan",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-114",
+      "category": "general-knowledge-ai",
+      "question": "The brand name \"Adidas\" comes from whose name?\n\nA) Adi Dassler\nB) Adolf Adidas\nC) Adria Shoes\nD) Athletic Design AS",
+      "answer": "Adi Dassler",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-115",
+      "category": "general-knowledge-ai",
+      "question": "Originally, a \"deadline\" in prisons meant that crossing it led to what?\n\nA) Extra rations\nB) Solitary confinement\nC) Being shot\nD) Manual labor",
+      "answer": "Being shot",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-116",
+      "category": "general-knowledge-ai",
+      "question": "What does \"IC\" stand for on a microchip?",
+      "answer": "integrated circuit",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-117",
+      "category": "general-knowledge-ai",
+      "question": "The hole at the end of many pot handles is sized to do what?",
+      "answer": "hold a spoon",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-118",
+      "category": "general-knowledge-ai",
+      "question": "What is the name of the ¶ symbol?",
+      "answer": "pilcrow",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-119",
+      "category": "general-knowledge-ai",
+      "question": "What is Poland’s currency called?",
+      "answer": "zloty",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-120",
+      "category": "general-knowledge-ai",
+      "question": "On laundry labels, a triangle with an X through it means do not what?",
+      "answer": "bleach",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-121",
+      "category": "general-knowledge-ai",
+      "question": "In US house framing, what is the typical stud spacing?",
+      "answer": "sixteen inches",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-122",
+      "category": "general-knowledge-ai",
+      "question": "The color name \"magenta\" was named after a battle fought in which country?\n\nA) France\nB) Italy\nC) Spain\nD) Austria",
+      "answer": "Italy",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-123",
+      "category": "general-knowledge-ai",
+      "question": "Which letter does not appear in any US state name?",
+      "answer": "Q",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-124",
+      "category": "general-knowledge-ai",
+      "question": "Historically, a knot was measured with a rope and what timing device?",
+      "answer": "hourglass",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-125",
+      "category": "general-knowledge-ai",
+      "question": "In the airline \"Qantas\", the \"Q\" stands for which state?\n\nA) Queensland\nB) Quirindi\nC) Queens\nD) Quirky",
+      "answer": "Queensland",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-126",
+      "category": "general-knowledge-ai",
+      "question": "What is cyanoacrylate adhesive better known as?",
+      "answer": "super glue",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-127",
+      "category": "general-knowledge-ai",
+      "question": "In Othello/Reversi, which color moves first?",
+      "answer": "black",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-128",
+      "category": "general-knowledge-ai",
+      "question": "In which country is giving a clock as a gift considered bad luck?",
+      "answer": "China",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-129",
+      "category": "general-knowledge-ai",
+      "question": "The name \"Sony\" partly comes from which English slang word?",
+      "answer": "sonny",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-130",
+      "category": "general-knowledge-ai",
+      "question": "In early computing, what was the literal \"bug\" found in a system?",
+      "answer": "moth",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-131",
+      "category": "general-knowledge-ai",
+      "question": "What does \"SSID\" stand for (Wi‑Fi networks)?",
+      "answer": "Service Set Identifier",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-132",
+      "category": "general-knowledge-ai",
+      "question": "What are the scored lines on a snap-off utility blade called?",
+      "answer": "score line",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-133",
+      "category": "general-knowledge-ai",
+      "question": "What is the name of the † symbol?",
+      "answer": "dagger",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-134",
+      "category": "general-knowledge-ai",
+      "question": "What is Denmark’s currency called?",
+      "answer": "Danish krone",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-135",
+      "category": "general-knowledge-ai",
+      "question": "In electrical symbols, Ω represents which unit?",
+      "answer": "ohms",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-136",
+      "category": "general-knowledge-ai",
+      "question": "In a standard 15×15 crossword, how many squares are there?",
+      "answer": "225",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-137",
+      "category": "general-knowledge-ai",
+      "question": "The colour \"saffron\" is named after the stigma of which flower?",
+      "answer": "crocus",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-138",
+      "category": "general-knowledge-ai",
+      "question": "In Hebrew, writing runs in which direction?",
+      "answer": "right to left",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-139",
+      "category": "general-knowledge-ai",
+      "question": "Exactly how many meters is one nautical mile defined as?",
+      "answer": "1852 meters",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-140",
+      "category": "general-knowledge-ai",
+      "question": "A VOR navigation beacon operates in which band?",
+      "answer": "VHF",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-141",
+      "category": "general-knowledge-ai",
+      "question": "On a saw, the \"set\" of the teeth serves to do what?",
+      "answer": "widen kerf",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-142",
+      "category": "general-knowledge-ai",
+      "question": "In bridge, what is the highest contract level?",
+      "answer": "7",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-143",
+      "category": "general-knowledge-ai",
+      "question": "In which country is writing someone’s name in red ink traditionally avoided?\n\nA) South Korea\nB) Italy\nC) Sweden\nD) Brazil",
+      "answer": "South Korea",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-144",
+      "category": "general-knowledge-ai",
+      "question": "Which constellation appears in Subaru’s logo?",
+      "answer": "Pleiades",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-145",
+      "category": "general-knowledge-ai",
+      "question": "Originally, what did \"broadcast\" describe?",
+      "answer": "scattering seed",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-146",
+      "category": "general-knowledge-ai",
+      "question": "What does \"GIF\" stand for?",
+      "answer": "Graphics Interchange Format",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-147",
+      "category": "general-knowledge-ai",
+      "question": "On jeans, why were copper rivets added?",
+      "answer": "seam tearing",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-148",
+      "category": "general-knowledge-ai",
+      "question": "The metal plate a door latch clicks into is the what?",
+      "answer": "strike plate",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-149",
+      "category": "general-knowledge-ai",
+      "question": "What is Morocco’s currency called?",
+      "answer": "Moroccan dirham",
+      "difficulty": "hard",
+      "points": 3
+    },
+    {
+      "id": "general-knowledge-ai-150",
+      "category": "general-knowledge-ai",
+      "question": "The letter F in ℉ stands for which name?",
+      "answer": "Fahrenheit",
+      "difficulty": "hard",
+      "points": 3
+    }
+  ]
+}
