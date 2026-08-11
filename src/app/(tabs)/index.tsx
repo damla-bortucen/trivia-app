@@ -1,6 +1,5 @@
 import { GameState, StartValues } from "@/game/types";
-import { useEffect, useState } from "react";
-import { Alert } from "react-native";
+import { useState } from "react";
 
 import { QuestionCard } from "@/components/question_card";
 import { Results } from "@/components/results_screen";
