@@ -1,4 +1,6 @@
-# Trivia
+<p align="center">
+  <img alt="simple trivia" src="https://shieldcn.dev/header/surface.svg?title=simple%20trivia&subtitle=A%20pass-and-play%20trivia%20game%20for%202%20to%206%20players&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fdamla-bortucen%2Ftrivia-app%2Fmain%2Fassets%2Fimages%2Ftrivia-logo.png&bg=fcfaf7&titleColor=121212&subtitleColor=6B6B6B&border=false" />
+</p>
 
 <p align="center">
   <a href="https://github.com/damla-bortucen/trivia-app/blob/main/LICENSE">
