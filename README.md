@@ -1,5 +1,38 @@
 # Trivia
 
+<p align="center">
+  <a href="https://github.com/damla-bortucen/trivia-app/blob/main/LICENSE">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/github/license/damla-bortucen/trivia-app.svg?variant=secondary&size=sm&mode=dark" />
+      <img alt="License: MIT" src="https://shieldcn.dev/github/license/damla-bortucen/trivia-app.svg?variant=secondary&size=sm&mode=light" />
+    </picture>
+  </a>
+  <a href="https://docs.expo.dev/versions/v57.0.0/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Expo%20SDK-57-000000.svg?logo=expo&variant=secondary&size=sm&mode=dark" />
+      <img alt="Expo SDK 57" src="https://shieldcn.dev/badge/Expo%20SDK-57-000000.svg?logo=expo&variant=secondary&size=sm&mode=light" />
+    </picture>
+  </a>
+  <a href="https://react.dev">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/React-19.2-61DAFB.svg?logo=react&variant=secondary&size=sm&mode=dark" />
+      <img alt="React 19.2" src="https://shieldcn.dev/badge/React-19.2-61DAFB.svg?logo=react&variant=secondary&size=sm&mode=light" />
+    </picture>
+  </a>
+  <a href="https://www.typescriptlang.org">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/TypeScript-6.0-3178C6.svg?logo=typescript&variant=secondary&size=sm&mode=dark" />
+      <img alt="TypeScript 6.0" src="https://shieldcn.dev/badge/TypeScript-6.0-3178C6.svg?logo=typescript&variant=secondary&size=sm&mode=light" />
+    </picture>
+  </a>
+  <a href="https://github.com/damla-bortucen/trivia-app/commits">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/github/last-commit/damla-bortucen/trivia-app.svg?variant=secondary&size=sm&mode=dark" />
+      <img alt="Last commit" src="https://shieldcn.dev/github/last-commit/damla-bortucen/trivia-app.svg?variant=secondary&size=sm&mode=light" />
+    </picture>
+  </a>
+</p>
+
 A pass-and-play trivia game for 2 to 6 players. Everyone shares one phone: spin
 for a category, pick a difficulty, read the question aloud, and the group decides
 whether the answer counted.
