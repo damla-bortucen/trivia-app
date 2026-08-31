@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="simple trivia" src="https://shieldcn.dev/header/surface.svg?title=simple%20trivia&subtitle=A%20pass-and-play%20trivia%20game%20for%202%20to%206%20players&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fdamla-bortucen%2Ftrivia-app%2Fmain%2Fassets%2Fimages%2Ftrivia-logo.png&bg=fcfaf7&titleColor=121212&subtitleColor=6B6B6B&border=false" />
+  <img alt="simple trivia" src="https://shieldcn.dev/header/surface.svg?title=simple%20trivia&subtitle=Pass-and-play%20trivia%20for%202%20to%206%20players&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fdamla-bortucen%2Ftrivia-app%2Fmain%2Fassets%2Fimages%2Ftrivia-logo.png&bg=F7F7F5&titleColor=121212&subtitleColor=6B6B6B&border=false" />
 </p>
 
 <p align="center">
@@ -35,12 +35,22 @@
   </a>
 </p>
 
+## About
+
 A pass-and-play trivia game for 2 to 6 players. Everyone shares one phone: spin
 for a category, pick a difficulty, read the question aloud, and the group decides
 whether the answer counted.
 
 Built with Expo SDK 57, React Native 0.86 and expo-router. 18 packs, 2,501
 questions, all bundled with the app so it plays offline.
+
+### Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/home.png" width="250" alt="Home screen with players, winning score and selected categories" />
+  <img src="assets/screenshots/question.png" width="250" alt="A geography question with four options" />
+  <img src="assets/screenshots/question_answer.png" width="250" alt="The revealed answer with award and deduct buttons" />
+</p>
 
 ## Requirements
 
@@ -63,7 +73,7 @@ npm run android
 ```
 
 
-## How it fits together
+## Structure
 
 Routes live in `src/app/` (not `app/`), with `@/*` aliased to `src/*` and
 `@/assets/*` to `assets/*`.
@@ -113,9 +123,8 @@ node scripts/fetch-opentdb.js
 ```
 
 Rebuilds every OpenTDB pack from the table at the top of the script, which maps
-each pack to one or more OpenTDB category ids. It throttles itself with
-`API_DELAY_MS` to stay inside the rate limit, so a full run takes a while, and it
-overwrites the existing files.
+each pack to one or more OpenTDB category ids. Uses `API_DELAY_MS` to stay inside 
+the rate limit, so a full run takes a while, and it overwrites the existing files.
 
 ### Generating with AI
 
@@ -163,7 +172,7 @@ does not match is discarded rather than migrated. **Bump it whenever the shape o
 holds pack ids, and a renamed pack would resume into questions that no longer
 exist.
 
-## Licence and attribution
+## Licenses
 
 Questions in packs marked `opentdb` come from the
 [Open Trivia Database](https://opentdb.com), shared under
