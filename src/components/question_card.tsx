@@ -35,22 +35,22 @@ export function QuestionCard({ game, onFinishTurn, onQuit }: {
           <View style={styles.card}>
             <Text style={[styles.category, { color: accent }]}>{pack?.name}</Text>
 
+            {/* the answer takes the question's place once revealed */}
             <View style={styles.questionArea}>
               <Text
-                  style={text.title}
+                  style={[text.title, revealed && styles.answer]}
                   adjustsFontSizeToFit
                   numberOfLines={16}
                   minimumFontScale={0.6}
               >
-                  {q.question}
+                  {revealed ? q.answer : q.question}
               </Text>
             </View>
-    
+
             {!revealed ? (
               <Button label="Reveal answer" onPress={() => setRevealed(true)} />
             ) : (
               <>
-                <Text style={[text.heading, styles.answer]}>{q.answer}</Text>
                 <View style={styles.scoreRow}>
                   <Pressable
                     style={[styles.scoreButton, { backgroundColor: colors.easy }]}
