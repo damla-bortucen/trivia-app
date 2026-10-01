@@ -4,8 +4,14 @@ import { getWinners } from "@/game/game_logic";
 import { useTheme, Colors, spacing, radius, font } from "@/ui/theme";
 import { formatScore } from "@/ui/format";
 import { Button } from "@/components/button";
+import { Undo } from "@/components/game_screen";
 
-export function Results({ game, onPlayAgain, onRematch }: { game: GameState, onPlayAgain: () => void, onRematch: () => void }) {
+export function Results({ game, onPlayAgain, onRematch, undo }: {
+    game: GameState;
+    onPlayAgain: () => void;
+    onRematch: () => void;
+    undo?: Undo | null;
+}) {
     const { colors, text } = useTheme();
     const styles = makeStyles(colors);
 
@@ -33,6 +39,10 @@ export function Results({ game, onPlayAgain, onRematch }: { game: GameState, onP
 
             <Button label="Rematch" onPress={onRematch} />
             <Button label="New Game" variant="link" onPress={onPlayAgain} />
+            {/* a mis-tap on the last answer would otherwise hand someone the win */}
+            {undo && (
+                <Button label={`Undo ${undo.name}'s turn`} variant="link" onPress={undo.onPress} />
+            )}
         </View>
     );
 }

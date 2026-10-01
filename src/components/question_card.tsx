@@ -15,14 +15,16 @@ import { Button } from "@/components/button";
 import { Quit } from "@/components/quit";
 import { Scoreboard } from "@/components/scoreboard";
 
-export function QuestionCard({ game, onFinishTurn, onQuit }: { 
+// startRevealed reopens the card on the answer - used when a turn is undone
+export function QuestionCard({ game, onFinishTurn, onQuit, startRevealed = false }: { 
     game: GameState,
     onFinishTurn: (next: GameState) => void;
     onQuit: () => void;
+    startRevealed?: boolean;
 }) {
     const { colors, text } = useTheme();
     const styles = makeStyles(colors);
-    const [revealed, setRevealed] = useState(false);
+    const [revealed, setRevealed] = useState(startRevealed);
 
     const q = game.currentQuestion;
     if (!q) return null;

@@ -28,7 +28,8 @@ export default function HowToPlayScreen() {
         3. Read the question out, answer, then tap Reveal answer.{"\n"}
         4. Tap + if you got it right to win the points, or − if you got it
         wrong to lose half of them. Skip passes with no change, but a guess is
-        usually worth the risk.
+        usually worth the risk. Tapped the wrong one? Undo it before the next
+        player spins.
       </Text>
 
       <Text style={text.heading}>Winning</Text>

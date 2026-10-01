@@ -14,10 +14,15 @@ import { Scoreboard } from "@/components/scoreboard";
 import { Button } from "@/components/button";
 import { Quit } from "@/components/quit";
 
-export function GameScreen({ game, onDraw, onQuit }: {
+// lets the player who just went take their turn back - offered on the
+// screen that follows a marked answer
+export type Undo = { name: string; onPress: () => void };
+
+export function GameScreen({ game, onDraw, onQuit, undo }: {
     game: GameState;
     onDraw: (next: GameState) => void;
     onQuit: () => void;
+    undo?: Undo | null;
 }) {
     const { colors, text } = useTheme();
     const styles = makeStyles(colors);
@@ -45,7 +50,13 @@ export function GameScreen({ game, onDraw, onQuit }: {
             </Text>
 
             {category === null ? (
-            <Button label="Spin" onPress={() => setCategory(spinWheel(game))} />
+            <>
+                <Button label="Spin" onPress={() => setCategory(spinWheel(game))} />
+                {/* gone once the next player spins - by then they've moved on */}
+                {undo && (
+                    <Button label={`Undo ${undo.name}'s turn`} variant="link" onPress={undo.onPress} />
+                )}
+            </>
             ) : (
                 getAvailableDifficulties(game, category).map((d) => (
                 <Button

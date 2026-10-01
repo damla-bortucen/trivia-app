@@ -4,7 +4,7 @@ import { useState } from "react";
 import { QuestionCard } from "@/components/question_card";
 import { Results } from "@/components/results_screen";
 import { Start } from "@/components/start_screen";
-import { GameScreen } from "@/components/game_screen";
+import { GameScreen, Undo } from "@/components/game_screen";
 import { ResumePrompt } from "@/components/resume_prompt";
 import { loadGame, saveGame, clearGame } from "@/game/storage"
 
@@ -16,14 +16,48 @@ export default function Index() {
   const [game, setGameState] = useState<GameState | null>(null);
   const [prefill, setPrefill] = useState<StartValues | null>(null);
 
+  // the state just before the last answer was marked, so a mis-tap can be
+  // taken back. lives in memory only - an undo doesn't survive a relaunch
+  const [lastTurn, setLastTurn] = useState<GameState | null>(null);
+  // true when the question card is reopened by an undo, so it shows the answer
+  const [reopened, setReopened] = useState(false);
+
   // wrap setGame so every update persists or clears
   const setGame = (next: GameState | null) => {
     setGameState(next);
+    if (next == null) setLastTurn(null);   // leaving the game drops the undo
     if (next == null || next.status === "finished") {
       clearGame();
     } else {
       saveGame(next);
     }
+  };
+
+
+  // marking an answer remembers where we were before it
+  const finishTurn = (next: GameState) => {
+    setLastTurn(game);
+    setReopened(false);
+    setGame(next);
+  };
+
+  // drawing the next question commits the last turn for good
+  const startQuestion = (next: GameState) => {
+    setLastTurn(null);
+    setReopened(false);
+    setGame(next);
+  };
+
+  const undoTurn = () => {
+    if (lastTurn == null) return;
+    setGame(lastTurn);
+    setLastTurn(null);
+    setReopened(true);
+  };
+
+  const undo: Undo | null = lastTurn && {
+    name: lastTurn.players[lastTurn.currentPlayerIndex].name,
+    onPress: undoTurn,
   };
 
 
@@ -80,15 +114,15 @@ export default function Index() {
 
   // --------- Results Screen -----------
   if (game.status === "finished") {
-    return <Results game={game} onPlayAgain={playAgain} onRematch={startRematch} />;
+    return <Results game={game} onPlayAgain={playAgain} onRematch={startRematch} undo={undo} />;
   }
 
   // --------- Game Screen -----------
   if (game.currentQuestion) {
-    return <QuestionCard game={game} onFinishTurn={setGame} onQuit={quitGame} />;
+    return <QuestionCard game={game} onFinishTurn={finishTurn} onQuit={quitGame} startRevealed={reopened} />;
   }
 
-  return <GameScreen game={game} onDraw={setGame} onQuit={quitGame} />;
+  return <GameScreen game={game} onDraw={startQuestion} onQuit={quitGame} undo={undo} />;
 
 
 }
