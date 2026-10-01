@@ -1,13 +1,18 @@
 import { useState } from "react";
-import { Text, View, ScrollView, Pressable, StyleSheet, useColorScheme } from "react-native";
+import { Text, View, ScrollView, Pressable, StyleSheet, useColorScheme, Linking, Alert, Platform } from "react-native";
 import { Link } from "expo-router";
-import { Ionicons } from "@expo/vector-icons";
+import Constants from "expo-constants";
 import { Host, Picker, Text as SwiftText } from "@expo/ui/swift-ui";
 import { pickerStyle, tag } from "@expo/ui/swift-ui/modifiers";
 
 import { AppearanceChoice } from "@/game/types";
 import { loadAppearance, saveAppearance } from "@/game/storage";
 import { useTheme, applyAppearance, Colors, spacing, radius } from "@/ui/theme";
+
+// TODO: replace with the real feedback address before submitting
+const FEEDBACK_EMAIL = "feedback@example.com";
+
+const VERSION = Constants.expoConfig?.version ?? "";
 
 const APPEARANCES: { value: AppearanceChoice; label: string }[] = [
     { value: "system", label: "System" },
@@ -26,6 +31,17 @@ export default function SettingsScreen() {
         setAppearance(choice);
         saveAppearance(choice);
         applyAppearance(choice);
+    };
+
+    // version and iOS go in the subject so bug reports arrive with context
+    const sendFeedback = async () => {
+        const subject = encodeURIComponent(`simple trivia feedback (v${VERSION}, iOS ${Platform.Version})`);
+        try {
+            await Linking.openURL(`mailto:${FEEDBACK_EMAIL}?subject=${subject}`);
+        } catch {
+            // no mail app set up (and always on the simulator) - show the address instead
+            Alert.alert("No email app found", `You can reach us at ${FEEDBACK_EMAIL}`);
+        }
     };
 
     return (
@@ -58,6 +74,18 @@ export default function SettingsScreen() {
                     </Pressable>
                 </Link>
             </View>
+
+            <View style={styles.section}>
+                <Text style={text.label}>About</Text>
+                <Pressable
+                    style={({ pressed }) => [styles.row, pressed && styles.rowPressed]}
+                    onPress={sendFeedback}
+                >
+                    <Text style={text.body}>Send feedback</Text>
+                </Pressable>
+            </View>
+
+            <Text style={[text.label, styles.version]}>Version {VERSION}</Text>
         </ScrollView>
     );
 }
@@ -75,4 +103,5 @@ const makeStyles = (colors: Colors) => StyleSheet.create({
         backgroundColor: colors.surface,
     },
     rowPressed: { backgroundColor: colors.border },
+    version: { textAlign: "center" },
 });
