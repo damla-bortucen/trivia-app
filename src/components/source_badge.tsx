@@ -2,7 +2,7 @@ import { Text, View, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
 import { Source } from "@/game/types";
-import { colors, spacing, font, text } from "@/ui/theme";
+import { useTheme, spacing, font } from "@/ui/theme";
 
 const SOURCES: Record<Source, {
     icon: keyof typeof Ionicons.glyphMap;
@@ -22,6 +22,8 @@ export function sourceLabel(source: Source): string {
 
 // full spells the source out, for where there is room to say it
 export function SourceBadge({ source, full = false }: { source: Source; full?: boolean }) {
+    const { colors, text } = useTheme();
+
     const { icon, short, full: fullLabel } = SOURCES[source];
 
     return (

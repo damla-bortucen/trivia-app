@@ -1,8 +1,10 @@
 import { Pressable, View, Alert, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { colors, spacing } from "@/ui/theme";
+import { useTheme, spacing } from "@/ui/theme";
 
 export function Quit({ onQuit }: { onQuit: () => void }) {
+    const { colors } = useTheme();
+
     const confirmQuit = () =>
         Alert.alert("Quit game?", "Current scores will be lost.", [
             { text: "Cancel", style: "cancel" },

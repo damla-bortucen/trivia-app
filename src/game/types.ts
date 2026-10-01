@@ -51,3 +51,6 @@ export type StartValues = {
     winningScore: number;
     categories: Category[];
 };
+
+// "system" follows the phone; light and dark override it inside the app only
+export type AppearanceChoice = "system" | "light" | "dark";

@@ -1,23 +1,29 @@
 import { Pressable, Text, StyleSheet, StyleProp, ViewStyle } from "react-native";
-import { colors, spacing, radius, font } from "@/ui/theme";
+import { useTheme, Colors, spacing, radius, font } from "@/ui/theme";
 
-type Variant = "primary" | "link";
+// secondary is the quiet pill beside a primary action - same size, no shout
+type Variant = "primary" | "secondary" | "link";
 
 export function Button({
     label,
     onPress,
     variant = "primary",
     color,
+    textColor,
     disabled = false,
     style,
 }: {
     label: string;
     onPress: () => void;
     variant?: Variant;
-    color?: string;        
+    color?: string;
+    textColor?: string;    // pair with color when it is not light enough for accentText
     disabled?: boolean;
     style?: StyleProp<ViewStyle>;
 }) {
+    const { colors } = useTheme();
+    const styles = makeStyles(colors);
+
     if (variant === "link") {
         return (
             <Pressable onPress={onPress} disabled={disabled} style={style}>
@@ -32,17 +38,22 @@ export function Button({
             disabled={disabled}
             style={[
                 styles.button,
+                variant === "secondary" && styles.secondary,
                 color && { backgroundColor: color },
                 disabled && styles.disabled,
                 style,
             ]}
         >
-            <Text style={styles.buttonText}>{label}</Text>
+            <Text style={[
+                styles.buttonText,
+                variant === "secondary" && styles.secondaryText,
+                textColor && { color: textColor },
+            ]}>{label}</Text>
         </Pressable>
     );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
     button: {
         backgroundColor: colors.accent,
         paddingVertical: spacing.sm,
@@ -56,6 +67,8 @@ const styles = StyleSheet.create({
         fontWeight: font.weight.bold,
         textTransform: "capitalize",
     },
+    secondary: { backgroundColor: colors.border },
+    secondaryText: { color: colors.text, fontWeight: font.weight.regular },
     disabled: { opacity: 0.4 },
     link: { color: colors.textMuted, fontSize: font.sizes.body, textAlign: "center" },
 });

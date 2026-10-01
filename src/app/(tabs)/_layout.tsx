@@ -1,10 +1,12 @@
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 
-import { colors } from "@/ui/theme";
+import { useTheme } from "@/ui/theme";
 
 
 export default function TabLayout() {
+  const { colors } = useTheme();
+
   return (
     <Tabs
       screenOptions={{
@@ -38,11 +40,12 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="about"
+        name="settings"
         options={{
-          title: 'About',
+          title: 'Settings',
+          headerShown: false,   // settings has its own stack, which draws the header
           tabBarIcon: ({ color, focused }) => (
-            <Ionicons name={focused ? 'information-circle' : 'information-circle-outline'} color={color} size={24}/>
+            <Ionicons name={focused ? 'settings-sharp' : 'settings-outline'} color={color} size={24}/>
           ),
         }}
       />

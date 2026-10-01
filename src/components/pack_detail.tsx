@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, Pressable, Modal } from "react-native";
 import { Pack, ALL_DIFFICULTIES } from "@/game/types";
 import { MAX_PACKS } from "@/game/packs";
 import { filterByDifficulty } from "@/game/question"
-import { colors, spacing, radius, font, text } from "@/ui/theme";
+import { useTheme, Colors, spacing, radius, font } from "@/ui/theme";
 import { SourceBadge } from "@/components/source_badge";
 
 
@@ -14,6 +14,9 @@ export function PackDetail({ pack, selected, disabled, onToggle, onClose }: {
     onToggle: () => void;
     onClose: () => void;
 }) {
+    const { colors, text } = useTheme();
+    const styles = makeStyles(colors);
+
     const examples = [
         filterByDifficulty(pack.questions, "easy")[0],
         filterByDifficulty(pack.questions, "hard")[0],
@@ -63,7 +66,7 @@ export function PackDetail({ pack, selected, disabled, onToggle, onClose }: {
                             disabled && styles.actionDisabled,
                         ]}
                     >
-                        <Text style={text.caption}>{label}</Text>
+                        <Text style={[text.caption, selected && { color: colors.onPack }]}>{label}</Text>
                     </Pressable>
 
                     <Pressable onPress={onClose} hitSlop={10} style={styles.close}>
@@ -75,7 +78,7 @@ export function PackDetail({ pack, selected, disabled, onToggle, onClose }: {
     );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
     backdrop: {
         flex: 1,
         alignItems: "center",

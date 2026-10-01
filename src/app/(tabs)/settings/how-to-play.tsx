@@ -1,12 +1,13 @@
 import { Text, ScrollView, StyleSheet } from 'react-native';
 
-import { colors, spacing, text } from "@/ui/theme";
+import { useTheme, Colors, spacing } from "@/ui/theme";
 
-export default function AboutScreen() {
+export default function HowToPlayScreen() {
+  const { colors, text } = useTheme();
+  const styles = makeStyles(colors);
+
   return (
     <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
-      <Text style={[text.title, styles.title]}>How to Play</Text>
-
       <Text style={[text.body, styles.body]}>
         This is a pass-and-play game for 2 to 6 players. Add everyone on the start
         screen, set a winning score, then hand the phone around.
@@ -25,8 +26,10 @@ export default function AboutScreen() {
         2. Choose a difficulty. Easy questions are worth 1 point, medium 2 and
         hard 3.{"\n"}
         3. Read the question out, answer, then tap Reveal answer.{"\n"}
-        4. Tap + if you got it right, − if you got it wrong and lose the points,
-        or Skip to pass.
+        4. Tap + if you got it right to win the points, or − if you got it
+        wrong to lose half of them. Skip passes with no change, but a guess is
+        usually worth the risk. Tapped the wrong one? Undo it before the next
+        player spins.
       </Text>
 
       <Text style={text.heading}>Winning</Text>
@@ -50,7 +53,7 @@ export default function AboutScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
   screen: {
     flex: 1,
     backgroundColor: colors.background,
@@ -59,6 +62,5 @@ const styles = StyleSheet.create({
     padding: spacing.lg,
     gap: spacing.md,
   },
-  title: { marginBottom: spacing.sm },
   body: { lineHeight: 26 },   // long form reading needs more than the default
 });
