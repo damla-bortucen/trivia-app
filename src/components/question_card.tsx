@@ -37,7 +37,19 @@ export function QuestionCard({ game, onFinishTurn, onQuit }: {
 
         <View style={styles.cardScreen}>
           <View style={styles.card}>
-            <Text style={[styles.category, { color: accent }]}>{pack?.name}</Text>
+            {/* stakes up front, so the table knows what's riding on it
+                before anyone answers */}
+            <View style={styles.header}>
+              <Text style={[styles.category, styles.packName, { color: accent }]}>
+                {pack?.name}
+              </Text>
+              <View style={styles.stakes}>
+                <View style={[styles.dot, { backgroundColor: colors[q.difficulty] }]} />
+                <Text style={[styles.category, styles.stakesText]}>
+                  {q.difficulty} · {q.points} {q.points === 1 ? "pt" : "pts"}
+                </Text>
+              </View>
+            </View>
 
             {/* the answer takes the question's place once revealed */}
             <View style={styles.questionArea}>
@@ -139,6 +151,33 @@ const makeStyles = (colors: Colors) => StyleSheet.create({
     scorePoints: { fontWeight: font.weight.bold, fontVariant: ["tabular-nums"] },
     answer: {
         textAlign: "center",
+    },
+    header: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "flex-start", // stakes stay on the first line if the name wraps
+        gap: spacing.sm,
+    },
+    packName: { flexShrink: 1 },   // long pack names wrap rather than push the stakes off
+    stakes: {
+        flexDirection: "row",
+        alignItems: "center",
+        gap: spacing.xs,
+        marginTop: 2,             // 12pt beside 14pt - nudged to share a baseline
+    },
+    // the difficulty colours are too light to read as text, so they mark a dot
+    dot: {
+        width: 8,
+        height: 8,
+        borderRadius: radius.pill,
+    },
+    // quieter than the pack name - smaller and regular weight, so the name
+    // gets the room
+    stakesText: {
+        color: colors.textMuted,
+        fontSize: 12,
+        fontWeight: font.weight.regular,
+        letterSpacing: 1,
     },
     answerLabel: {
         color: colors.textMuted,

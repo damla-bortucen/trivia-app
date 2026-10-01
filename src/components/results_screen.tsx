@@ -1,7 +1,8 @@
 import { Text, View, StyleSheet } from "react-native";
 import { GameState } from "@/game/types";
 import { getWinners } from "@/game/game_logic";
-import { useTheme, Colors, spacing } from "@/ui/theme";
+import { useTheme, Colors, spacing, radius, font } from "@/ui/theme";
+import { formatScore } from "@/ui/format";
 import { Button } from "@/components/button";
 
 export function Results({ game, onPlayAgain, onRematch }: { game: GameState, onPlayAgain: () => void, onRematch: () => void }) {
@@ -11,15 +12,24 @@ export function Results({ game, onPlayAgain, onRematch }: { game: GameState, onP
     const winners = getWinners(game);
     const heading = winners.length === 1 ? `${winners[0].name} wins!` : "It's a tie!";
 
+    // highest first - sort is stable, so tied players keep seating order
+    const standings = [...game.players].sort((a, b) => b.score - a.score);
+
     return (
         <View style={styles.screen}>
             <Text style={text.title}>{heading}</Text>
 
-            {game.players.map((p) => (
-            <Text key={p.id} style={text.body}>
-                {p.name}: {p.score}
-            </Text>
-            ))}
+            <View style={styles.standings}>
+                {standings.map((p) => {
+                    const won = winners.includes(p);
+                    return (
+                        <View key={p.id} style={[styles.row, won && styles.rowWinner]}>
+                            <Text style={[text.body, styles.name, won && styles.bold]} numberOfLines={1}>{p.name}</Text>
+                            <Text style={[text.body, styles.score, won && styles.bold]}>{formatScore(p.score)}</Text>
+                        </View>
+                    );
+                })}
+            </View>
 
             <Button label="Rematch" onPress={onRematch} />
             <Button label="New Game" variant="link" onPress={onPlayAgain} />
@@ -35,4 +45,27 @@ const makeStyles = (colors: Colors) => StyleSheet.create({
         justifyContent: "center",
         gap: spacing.lg,
     },
+    standings: {
+        alignSelf: "stretch",
+        marginHorizontal: spacing.xl,
+        gap: spacing.xs,
+    },
+    row: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        gap: spacing.md,
+        paddingVertical: spacing.sm,
+        paddingHorizontal: spacing.md,
+        borderRadius: radius.md,
+        borderWidth: 1.5,
+        borderColor: "transparent",   // same box as the winner row, so names line up
+    },
+    // the winning row gets the card treatment, everyone else sits on the page
+    rowWinner: {
+        backgroundColor: colors.surface,
+        borderColor: colors.accent,
+    },
+    name: { flexShrink: 1 },   // long names truncate instead of pushing the score off
+    bold: { fontWeight: font.weight.bold },
+    score: { fontVariant: ["tabular-nums"] },
 });

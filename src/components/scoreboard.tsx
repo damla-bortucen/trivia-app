@@ -1,6 +1,7 @@
 import { Text, View, StyleSheet } from "react-native";
 import { GameState } from "@/game/types";
 import { useTheme, Colors, spacing, font, radius } from "@/ui/theme";
+import { formatScore } from "@/ui/format";
 
 export function Scoreboard({ game }: { game: GameState }) {
     const { colors, text } = useTheme();
@@ -15,7 +16,7 @@ export function Scoreboard({ game }: { game: GameState }) {
                     >
                         {p.name}
                     </Text>
-                    <Text style={text.heading}>{p.score}</Text>
+                    <Text style={text.heading}>{formatScore(p.score)}</Text>
                 </View>
             ))}
         </View>
