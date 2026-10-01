@@ -1,4 +1,5 @@
-import { useColorScheme } from "react-native";
+import { Appearance, useColorScheme } from "react-native";
+import { AppearanceChoice } from "@/game/types";
 
 const light = {
     // base
@@ -99,4 +100,10 @@ export type Theme = typeof themes.light;
 // follows the phone's appearance setting and re-renders when it changes
 export function useTheme(): Theme {
     return useColorScheme() === "dark" ? themes.dark : themes.light;
+}
+
+// overrides the scheme app-wide - useColorScheme, alerts, the keyboard and
+// the status bar all follow. "unspecified" hands control back to the phone
+export function applyAppearance(choice: AppearanceChoice) {
+    Appearance.setColorScheme(choice === "system" ? "unspecified" : choice);
 }

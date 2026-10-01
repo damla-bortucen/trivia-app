@@ -1,10 +1,11 @@
 import { createMMKV } from 'react-native-mmkv'
-import { GameState } from "@/game/types";
+import { GameState, AppearanceChoice } from "@/game/types";
 
 export const storage = createMMKV()
 
 const GAME_KEY = 'trivia:save';
 const PACKS_KEY = 'trivia:packs';
+const APPEARANCE_KEY = 'trivia:appearance';
 
 const SAVE_VERSION = 3; // to prevent changes from breaking with old aves
 
@@ -49,3 +50,12 @@ export function loadPacks(): string[] | null {
 }
 
 
+// --------------- Appearance -----------------
+export function saveAppearance(choice: AppearanceChoice) {
+    storage.set(APPEARANCE_KEY, choice);
+}
+
+export function loadAppearance(): AppearanceChoice {
+    const raw = storage.getString(APPEARANCE_KEY);
+    return raw === "light" || raw === "dark" ? raw : "system";
+}

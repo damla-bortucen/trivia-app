@@ -2,14 +2,12 @@ import { Text, ScrollView, StyleSheet } from 'react-native';
 
 import { useTheme, Colors, spacing } from "@/ui/theme";
 
-export default function AboutScreen() {
+export default function HowToPlayScreen() {
   const { colors, text } = useTheme();
   const styles = makeStyles(colors);
 
   return (
     <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
-      <Text style={[text.title, styles.title]}>How to Play</Text>
-
       <Text style={[text.body, styles.body]}>
         This is a pass-and-play game for 2 to 6 players. Add everyone on the start
         screen, set a winning score, then hand the phone around.
@@ -62,6 +60,5 @@ const makeStyles = (colors: Colors) => StyleSheet.create({
     padding: spacing.lg,
     gap: spacing.md,
   },
-  title: { marginBottom: spacing.sm },
   body: { lineHeight: 26 },   // long form reading needs more than the default
 });

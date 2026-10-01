@@ -2,7 +2,12 @@ import { Stack, ThemeProvider, DarkTheme, DefaultTheme } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useColorScheme } from 'react-native';
 
-import { useTheme } from "@/ui/theme";
+import { useTheme, applyAppearance } from "@/ui/theme";
+import { loadAppearance } from "@/game/storage";
+
+// runs once at load, before the first render, so a saved light/dark choice
+// never flashes the system scheme first
+applyAppearance(loadAppearance());
 
 export default function RootLayout() {
   const { colors } = useTheme();
