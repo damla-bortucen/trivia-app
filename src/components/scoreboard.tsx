@@ -1,8 +1,11 @@
 import { Text, View, StyleSheet } from "react-native";
 import { GameState } from "@/game/types";
-import { colors, spacing, font, radius, text } from "@/ui/theme";
+import { useTheme, Colors, spacing, font, radius } from "@/ui/theme";
 
 export function Scoreboard({ game }: { game: GameState }) {
+    const { colors, text } = useTheme();
+    const styles = makeStyles(colors);
+
     return (
         <View style={styles.scoreboard}>
             {game.players.map((p, i) => (
@@ -20,7 +23,7 @@ export function Scoreboard({ game }: { game: GameState }) {
 }
 
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
     scoreboard: {
         alignSelf: "stretch",
         flexDirection: "row",

@@ -3,13 +3,15 @@ import { Text, View, StyleSheet, Modal } from "react-native";
 import { GameState } from "@/game/types";
 import { Button } from "@/components/button";
 import { Scoreboard } from "@/components/scoreboard";
-import { colors, spacing, radius, font, text } from "@/ui/theme";
+import { useTheme, Colors, spacing, radius, font } from "@/ui/theme";
 
 export function ResumePrompt({ game, onContinue, onNew }: {
     game: GameState;
     onContinue: () => void;
     onNew: () => void;
 }) {
+    const { colors, text } = useTheme();
+    const styles = makeStyles(colors);
     const drawn = game.askedIds.length;
 
     return (
@@ -25,7 +27,7 @@ export function ResumePrompt({ game, onContinue, onNew }: {
 
                     <Scoreboard game={game} />
 
-                    <Button label="Continue" color={colors.border} onPress={onContinue} />
+                    <Button label="Continue" color={colors.border} textColor={colors.text} onPress={onContinue} />
                     <Button label="New game" variant="link" onPress={onNew} />
                 </View>
             </View>
@@ -33,7 +35,7 @@ export function ResumePrompt({ game, onContinue, onNew }: {
     );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
     backdrop: {
         flex: 1,
         alignItems: "center",

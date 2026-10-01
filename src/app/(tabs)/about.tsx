@@ -1,8 +1,11 @@
 import { Text, ScrollView, StyleSheet } from 'react-native';
 
-import { colors, spacing, text } from "@/ui/theme";
+import { useTheme, Colors, spacing } from "@/ui/theme";
 
 export default function AboutScreen() {
+  const { colors, text } = useTheme();
+  const styles = makeStyles(colors);
+
   return (
     <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
       <Text style={[text.title, styles.title]}>How to Play</Text>
@@ -50,7 +53,7 @@ export default function AboutScreen() {
   );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
   screen: {
     flex: 1,
     backgroundColor: colors.background,

@@ -7,7 +7,7 @@ import { startGame } from "@/game/game_logic";
 import { GameState, StartValues } from "@/game/types";
 import { getPacks, DEFAULT_PACK_IDS } from "@/game/packs";
 import { loadPacks } from "@/game/storage";
-import { colors, spacing, radius, font, text } from "@/ui/theme";
+import { useTheme, Colors, spacing, radius, font } from "@/ui/theme";
 import { Button } from "@/components/button";
 
 const MAX_PLAYERS = 6;
@@ -25,6 +25,9 @@ export function Start({ onStart, initial }: {
     onStart: (game: GameState) => void;
     initial?: StartValues | null;
 }) {
+    const { colors, text } = useTheme();
+    const styles = makeStyles(colors);
+
     const [names, setNames] = useState<string[]>(initial?.names ?? ["", ""]);
     const [winningScore, setWinningScore] = useState<number>(initial?.winningScore ?? DEFAULT_WINNING_SCORE);
 
@@ -102,6 +105,7 @@ export function Start({ onStart, initial }: {
                     colorLeft={colors.border}
                     colorPress={colors.accent}
                     buttonTextColor={colors.text}
+                    textColor={colors.text}
                 />
             </View>
 
@@ -113,7 +117,7 @@ export function Start({ onStart, initial }: {
                             key={p.id}
                             style={[styles.chip, { borderColor: p.color, backgroundColor: p.color }]}
                         >
-                            <Text style={text.caption}>{p.name}</Text>
+                            <Text style={[text.caption, { color: colors.onPack }]}>{p.name}</Text>
                         </View>
                     ))}
                 </View>
@@ -129,7 +133,7 @@ export function Start({ onStart, initial }: {
 }
 
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
     screen: {
         flex: 1,
         backgroundColor: colors.background,

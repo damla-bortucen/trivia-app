@@ -6,13 +6,16 @@ import { getPacks, MAX_PACKS, DEFAULT_PACK_IDS } from "@/game/packs";
 import { loadPacks, savePacks } from "@/game/storage";
 import { PackCard } from "@/components/pack_card";
 import { PackDetail } from "@/components/pack_detail";
-import { colors, spacing, text } from "@/ui/theme";
+import { useTheme, Colors, spacing } from "@/ui/theme";
 import { sourceLabel } from "@/components/source_badge";
 
 
 const PACKS = getPacks();
 
 export default function PacksScreen() {
+    const { colors, text } = useTheme();
+    const styles = makeStyles(colors);
+
     const [selected, setSelected] = useState<Category[]>(() => loadPacks() ?? DEFAULT_PACK_IDS);
     const [detail, setDetail] = useState<Pack | null>(null);
 
@@ -93,7 +96,7 @@ export default function PacksScreen() {
     );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
     screen: { flex: 1, backgroundColor: colors.background },
     content: { padding: spacing.md, gap: spacing.lg },
     grid: {

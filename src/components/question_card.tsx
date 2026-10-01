@@ -7,7 +7,7 @@ import {
     skip,
 } from "@/game/game_logic";
 import { getPackById } from "@/game/packs";
-import { colors, spacing, radius, font, text } from "@/ui/theme";
+import { useTheme, Colors, spacing, radius, font } from "@/ui/theme";
 
 import { Button } from "@/components/button";
 import { Quit } from "@/components/quit";
@@ -18,6 +18,8 @@ export function QuestionCard({ game, onFinishTurn, onQuit }: {
     onFinishTurn: (next: GameState) => void;
     onQuit: () => void;
 }) {
+    const { colors, text } = useTheme();
+    const styles = makeStyles(colors);
     const [revealed, setRevealed] = useState(false);
 
     const q = game.currentQuestion;
@@ -80,7 +82,7 @@ export function QuestionCard({ game, onFinishTurn, onQuit }: {
     );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
     screen: {
         flex: 1,
         backgroundColor: colors.background,

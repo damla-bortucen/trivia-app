@@ -1,7 +1,7 @@
 import { Text, View, StyleSheet, Pressable } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Pack } from "@/game/types";
-import { colors, spacing, radius, text } from "@/ui/theme";
+import { useTheme, Colors, spacing, radius } from "@/ui/theme";
 import { SourceBadge } from "@/components/source_badge";
 
 
@@ -12,6 +12,9 @@ export function PackCard({ pack, selected, disabled, onToggle, onPress}: {
     onToggle: () => void;
     onPress: () => void;
 }) {
+    const { colors, text } = useTheme();
+    const styles = makeStyles(colors);
+
     return (
         <View style={[styles.card, { borderColor: pack.color }, selected && styles.cardOn]}>
             <Pressable style={styles.body} onPress={onPress}>
@@ -36,7 +39,7 @@ export function PackCard({ pack, selected, disabled, onToggle, onPress}: {
     );
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
     card: {
         width: "48%",
         aspectRatio: 1.5,

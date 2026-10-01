@@ -8,7 +8,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { Category, GameState } from "@/game/types";
 import { getPackById } from "@/game/packs";
 
-import { colors, spacing, text } from "@/ui/theme";
+import { useTheme, Colors, spacing } from "@/ui/theme";
 
 import { Scoreboard } from "@/components/scoreboard";
 import { Button } from "@/components/button";
@@ -19,6 +19,8 @@ export function GameScreen({ game, onDraw, onQuit }: {
     onDraw: (next: GameState) => void;
     onQuit: () => void;
 }) {
+    const { colors, text } = useTheme();
+    const styles = makeStyles(colors);
     const [category, setCategory] = useState<Category | null>(null);
 
     const pack = category ? getPackById(category) : undefined;
@@ -59,7 +61,7 @@ export function GameScreen({ game, onDraw, onQuit }: {
 
 }
 
-const styles = StyleSheet.create({
+const makeStyles = (colors: Colors) => StyleSheet.create({
     screen: {
         flex: 1,
         backgroundColor: colors.background,
