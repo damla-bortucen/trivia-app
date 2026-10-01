@@ -37,8 +37,8 @@ export function Results({ game, onPlayAgain, onRematch, undo }: {
                 })}
             </View>
 
-            <Button label="Rematch" onPress={onRematch} />
-            <Button label="New Game" variant="link" onPress={onPlayAgain} />
+            <Button label="Rematch" onPress={onRematch} style={styles.action} />
+            <Button label="New Game" variant="secondary" onPress={onPlayAgain} style={styles.action} />
             {/* a mis-tap on the last answer would otherwise hand someone the win */}
             {undo && (
                 <Button label={`Undo ${undo.name}'s turn`} variant="link" onPress={undo.onPress} />
@@ -77,5 +77,7 @@ const makeStyles = (colors: Colors) => StyleSheet.create({
     },
     name: { flexShrink: 1 },   // long names truncate instead of pushing the score off
     bold: { fontWeight: font.weight.bold },
+    // both pills share one width so they stack as a pair, whatever the labels
+    action: { minWidth: 180 },
     score: { fontVariant: ["tabular-nums"] },
 });
