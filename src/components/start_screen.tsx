@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
 import { useFocusEffect } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import { Text, View, StyleSheet, TextInput, Pressable } from "react-native";
+import { Text, View, ScrollView, StyleSheet, TextInput, Pressable } from "react-native";
 import InputSpinner from "react-native-input-spinner";
 import { startGame } from "@/game/game_logic";
 import { GameState, StartValues } from "@/game/types";
@@ -70,64 +70,73 @@ export function Start({ onStart, initial }: {
                 )}
             </Pressable>
 
-            <Text style={text.title}>Trivia</Text>
+            {/* scrolls so six players fit on small phones; the keyboard insets
+                the content and a tap off an input dismisses it */}
+            <ScrollView
+                contentContainerStyle={styles.content}
+                keyboardShouldPersistTaps="handled"
+                keyboardDismissMode="interactive"
+                automaticallyAdjustKeyboardInsets
+            >
+                <Text style={text.title}>Trivia</Text>
 
-            <View style={styles.group}>
-                {names.map((name, i) => (
-                    <TextInput
-                        key={i}
-                        style={[styles.input, (names.length >= 4) && styles.inputCompact]}
-                        placeholder={`Player ${i + 1}`}
-                        placeholderTextColor={colors.textMuted}
-                        value={name}
-                        autoCorrect={false}
-                        onChangeText={(t) => updateName(i, t)}
-                    />
-                ))}
-
-                {names.length < MAX_PLAYERS && (
-                    <Button label="+ Add player" variant="link" onPress={addPlayer} />
-                )}
-            </View>
-            
-            
-            <View style={styles.group}>
-                <Text style={[text.label, styles.centred]}>Winning score</Text>
-                <InputSpinner
-                    min={1}
-                    step={1}
-                    colorMin={colors.surface}
-                    value={winningScore}
-                    onChange={setWinningScore}
-                    width={130}
-                    height={40}
-                    colorRight={colors.border}
-                    colorLeft={colors.border}
-                    colorPress={colors.accent}
-                    buttonTextColor={colors.text}
-                    textColor={colors.text}
-                />
-            </View>
-
-            <View style={styles.group}>
-                <Text style={[text.label, styles.centred]}>Categories ({packs.length})</Text>
-                <View style={styles.chips}>
-                    {packs.map((p) => (
-                        <View
-                            key={p.id}
-                            style={[styles.chip, { borderColor: p.color, backgroundColor: p.color }]}
-                        >
-                            <Text style={[text.caption, { color: colors.onPack }]}>{p.name}</Text>
-                        </View>
+                <View style={styles.group}>
+                    {names.map((name, i) => (
+                        <TextInput
+                            key={i}
+                            style={[styles.input, (names.length >= 4) && styles.inputCompact]}
+                            placeholder={`Player ${i + 1}`}
+                            placeholderTextColor={colors.textMuted}
+                            value={name}
+                            autoCorrect={false}
+                            onChangeText={(t) => updateName(i, t)}
+                        />
                     ))}
-                </View>
-            </View>
 
-            <Button
-                label="Play"
-                disabled={!canStart}
-                onPress={() => onStart(startGame(filledNames, winningScore, categories))}
-            />
+                    {names.length < MAX_PLAYERS && (
+                        <Button label="+ Add player" variant="link" onPress={addPlayer} />
+                    )}
+                </View>
+            
+            
+                <View style={styles.group}>
+                    <Text style={[text.label, styles.centred]}>Winning score</Text>
+                    <InputSpinner
+                        min={1}
+                        step={1}
+                        colorMin={colors.surface}
+                        value={winningScore}
+                        onChange={setWinningScore}
+                        width={130}
+                        height={40}
+                        colorRight={colors.border}
+                        colorLeft={colors.border}
+                        colorPress={colors.accent}
+                        buttonTextColor={colors.text}
+                        textColor={colors.text}
+                    />
+                </View>
+
+                <View style={styles.group}>
+                    <Text style={[text.label, styles.centred]}>Categories ({packs.length})</Text>
+                    <View style={styles.chips}>
+                        {packs.map((p) => (
+                            <View
+                                key={p.id}
+                                style={[styles.chip, { borderColor: p.color, backgroundColor: p.color }]}
+                            >
+                                <Text style={[text.caption, { color: colors.onPack }]}>{p.name}</Text>
+                            </View>
+                        ))}
+                    </View>
+                </View>
+
+                <Button
+                    label="Play"
+                    disabled={!canStart}
+                    onPress={() => onStart(startGame(filledNames, winningScore, categories))}
+                />
+            </ScrollView>
         </View>
     );
 }
@@ -137,9 +146,16 @@ const makeStyles = (colors: Colors) => StyleSheet.create({
     screen: {
         flex: 1,
         backgroundColor: colors.background,
+    },
+    // flexGrow keeps the form centred when it fits; paddingTop clears the
+    // refresh button once it scrolls
+    content: {
+        flexGrow: 1,
         alignItems: "center",
         justifyContent: "center",
         gap: spacing.lg,
+        paddingTop: spacing.xl,
+        paddingBottom: spacing.lg,
     },
     group: {
         gap: spacing.md
