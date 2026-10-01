@@ -88,6 +88,12 @@ export function getWinners(state: GameState): Player[] {
 }
 
 
+// a wrong answer costs half the question's worth
+export function wrongAnswerPenalty(question: Question): number {
+    return question.points / 2;
+}
+
+
 
 // -------- ACTION FUNCTIONS ----------
 
@@ -109,16 +115,16 @@ export function givePoints(state: GameState): GameState {
 }
 
 
-// reduce the question's points from current player due to wrong answer
+// reduce half the question's points from current player due to wrong answer
 // triggered when deduct points button (-) on question card is pressed by users
 // and end current players turn
 export function deductPoints(state: GameState): GameState {
     if (state.currentQuestion == null) return state;
 
-    const points = state.currentQuestion.points;
-    
+    const penalty = wrongAnswerPenalty(state.currentQuestion);
+
     const players = state.players.map((p, i) =>
-        i === state.currentPlayerIndex ? { ...p, score: p.score - points } : p
+        i === state.currentPlayerIndex ? { ...p, score: p.score - penalty } : p
     );
 
     return endTurn({ ...state, players });

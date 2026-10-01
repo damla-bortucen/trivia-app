@@ -17,6 +17,13 @@ const light = {
     // pack colours are pastels in both themes, so text on them stays dark
     onPack: "#121212",
 
+    // marking an answer - used as text and borders on the card surface, so
+    // darker than the difficulty colours to stay readable (4.5:1+)
+    correct: "#3D7A38",
+    wrong: "#B3352E",
+    correctFill: "#EAF4E8",  // a tint of the border behind the Correct pill
+    wrongFill: "#F8E1DF",
+
     // difficulty colors
     easy: "#6AAA64",         // green
     medium: "#C9A227",       // amber
@@ -35,6 +42,10 @@ const dark: Colors = {
     text: "#F2F2F2",
     textMuted: "#A0A0A0",
     textDarkMuted: "#C7C7C7", // headers sit a step brighter than muted
+    correct: "#7CC275",      // lifted so they read on the dark surface
+    wrong: "#F07067",
+    correctFill: "#22331F",  // dark tints - a light fill would glare here
+    wrongFill: "#3A2220",
 };
 
 export const spacing = {

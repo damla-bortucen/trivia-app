@@ -26,8 +26,9 @@ export default function HowToPlayScreen() {
         2. Choose a difficulty. Easy questions are worth 1 point, medium 2 and
         hard 3.{"\n"}
         3. Read the question out, answer, then tap Reveal answer.{"\n"}
-        4. Tap + if you got it right, − if you got it wrong and lose the points,
-        or Skip to pass.
+        4. Tap + if you got it right to win the points, or − if you got it
+        wrong to lose half of them. Skip passes with no change, but a guess is
+        usually worth the risk.
       </Text>
 
       <Text style={text.heading}>Winning</Text>
