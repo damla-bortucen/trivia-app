@@ -22,5 +22,5 @@
         "the origin of a brand name or logo, where it is settled and unchanging"
     ],
     "avoid": "anything the other packs cover, so no history dates, capital cities, sports rules, film and music, or food and drink, and no current events, advertising slogans, or questions where a regional variation would make a different answer correct",
-    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+    "counts": { "easy": 100, "medium": 100, "hard": 100 }
 }

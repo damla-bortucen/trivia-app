@@ -24,5 +24,5 @@
         "creatures people know from films and games but cannot place in a tradition"
     ],
     "avoid": "questions where two traditions' names for the same figure would both be right unless the question names the tradition, myths that survive in several incompatible versions where the answer depends which one you read, the doctrine and practice of living religions, names with several accepted English spellings, and film or game retellings treated as the source",
-    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+    "counts": { "easy": 100, "medium": 100, "hard": 100 }
 }

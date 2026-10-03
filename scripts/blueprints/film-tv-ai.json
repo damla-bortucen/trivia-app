@@ -22,5 +22,5 @@
         "the composer behind a score people recognise in three notes"
     ],
     "avoid": "anything released in the last two years, current viewing figures and box office totals, celebrity personal lives, plot spoilers, and questions where a remake and its original would both fit",
-    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+    "counts": { "easy": 100, "medium": 100, "hard": 100 }
 }

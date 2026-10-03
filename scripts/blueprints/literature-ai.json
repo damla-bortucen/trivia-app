@@ -23,5 +23,5 @@
         "authors who knew each other, married each other or fell out spectacularly"
     ],
     "avoid": "recent bestsellers and prize lists that change every year, plot spoilers for books people are still reading, anything needing a passage in front of you, questions of interpretation where two readings are both defensible, and titles that appear under different names in different translations",
-    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+    "counts": { "easy": 100, "medium": 100, "hard": 100 }
 }

@@ -38,6 +38,17 @@ function buildPrompt(blueprint, counts) {
         .map((a) => `- ${a}`)
         .join("\n")
 
+    // worked examples pin the difficulty bar far better than percentages do
+    const examples = blueprint.examples
+        ? `
+    EXAMPLES OF EACH LEVEL FOR THIS TOPIC
+    Match these levels. Do not reuse these questions.
+${LEVELS.map((level) =>
+    `    ${level}:\n${(blueprint.examples[level] ?? []).map((e) => `    - ${e}`).join("\n")}`
+).join("\n")}
+`
+        : "";
+
     return `You are writing trivia questions for a pass-and-play party game.
 
     HOW YOUR ANSWER IS USED
@@ -48,23 +59,27 @@ function buildPrompt(blueprint, counts) {
     TOPIC
     ${blueprint.theme}
 
+    WRITE ${total} QUESTIONS AS A DIFFICULTY LADDER
+    The players are ordinary adults at a pub quiz, not trivia enthusiasts.
+    - ${counts.easy} easy: about four in five players would get it. Ask well known
+    facts about a well known subject. Do not add a specific detail to make it harder.
+    - ${counts.medium} medium: roughly a quarter to half would get it. Someone with a
+    general interest knows it, others might reason their way there.
+    - ${counts.hard} hard: one in five or fewer would get it.
+
+    The difficulty levels must be clearly separated. A hard question should be one that a player
+    who answered every easy question correctly would still probably miss. If you
+    cannot decide between two levels, label it the harder one.
+    ${examples}
+    
     ANGLES
-    Come at the topic from these angles, and use every one at least once:
+    Use these angles for medium and hard questions, and use every one at least
+    once. Easy questions should cover the most famous facts of the topic instead.
+    No single angle may account for more than one in ten questions.
     ${angles}
 
     AVOID
     ${blueprint.avoid}
-
-    WRITE ${total} QUESTIONS AS A DIFFICULTY LADDER
-    - ${counts.easy} easy: about three in five players would get it, though it should
-    take a moment's recall rather than being automatic.
-    - ${counts.medium} medium: less than half would get it. Someone with a general
-    interest knows it, others might reason their way there.
-    - ${counts.hard} hard: less than or equal to one in five would get it.
-
-    The difficulty levels must be clearly separated. A hard question should be one that a player
-    who answered every easy question correctly would still probably miss. If you
-    cannot decide whether a question is easy or medium, label it easy.
 
     HOW TO MAKE A QUESTION HARDER
     Do not reach for a more obscure subject. Ask something more specific about a
@@ -86,8 +101,6 @@ function buildPrompt(blueprint, counts) {
     - No alternatives, no parenthetical notes, no explanations.
     - No question where a well informed person could reasonably give a different
     answer and still be right.
-    - An easy question should still be a question. If the answer is obvious to anyone who has 
-    heard of the subject, it is too easy.
     - Use ${total} different subjects. Never ask two questions about the same thing.
     - DO NOT mention the answer in the question
 
@@ -136,7 +149,8 @@ function loadBlueprint(name) {
 }
 
 
-async function generateQuestions(prompt) {
+// one chat call that must come back as a JSON object
+async function askModel(prompt) {
     const response = await fetch(API_URL, {
         method: "POST",
         headers: {
@@ -162,9 +176,79 @@ async function generateQuestions(prompt) {
         throw new Error("The model returned no content.");
     }
 
-    const parsed = JSON.parse(content);
+    return JSON.parse(content);
+}
+
+
+async function generateQuestions(prompt) {
+    const parsed = await askModel(prompt);
     return parsed.questions ?? [];
 }
+
+
+// --------------------------- DIFFICULTY CHECK ------------------------------
+// a writer grades its own questions generously, so a second call rates each
+// one cold - without seeing the label it was given - and the label is set
+// from that estimate instead
+const EASY_FROM = 70;   // at least this % of adults would get it
+const HARD_UPTO = 25;   // at most this %
+
+function buildCheckPrompt(questions) {
+    const list = questions
+        .map((q, i) => `${i}. ${q.question.replace(/\n+/g, " ")}\n   answer: ${q.answer}`)
+        .join("\n");
+
+    return `You are checking questions for a pub quiz trivia game played by ordinary
+    English-speaking adults, not trivia enthusiasts.
+
+    For each question, estimate the percentage of those adults who would give this
+    exact answer from memory, with no help beyond any options in the question.
+    Be realistic rather than generous: a fact being famous among quiz fans does not
+    make it widely known.
+
+    Also set "bad" to true if the answer is wrong, or if a well informed person
+    could give a different answer and reasonably expect to be marked right.
+
+    QUESTIONS
+    ${list}
+
+    OUTPUT
+    Return JSON only, one entry per question, in exactly this shape:
+    {"ratings":[{"i":0,"percent":85,"bad":false}]}`;
+}
+
+function levelFor(percent) {
+    if (percent >= EASY_FROM) return "easy";
+    if (percent <= HARD_UPTO) return "hard";
+    return "medium";
+}
+
+// relabels each question from its rating and drops the ones flagged bad
+async function checkDifficulty(questions) {
+    const { ratings = [] } = await askModel(buildCheckPrompt(questions));
+    const byIndex = new Map(ratings.map((r) => [r.i, r]));
+
+    const kept = [];
+    const rejected = [];
+    let moved = 0;
+
+    questions.forEach((q, i) => {
+        const rating = byIndex.get(i);
+
+        if (!rating || typeof rating.percent !== "number") {
+            rejected.push({ question: q.question, reason: "not rated by the check" });
+        } else if (rating.bad) {
+            rejected.push({ question: q.question, reason: "check flagged the answer as wrong or ambiguous" });
+        } else {
+            const difficulty = levelFor(rating.percent);
+            if (difficulty !== q.difficulty) moved++;
+            kept.push({ ...q, difficulty, percent: rating.percent, was: q.difficulty });
+        }
+    });
+
+    return { kept, rejected, moved };
+}
+
 
 
 // drop anything the app could not use, and say why
@@ -189,6 +273,13 @@ function validate(questions) {
         }
     }
     return { kept, rejected };
+}
+
+
+function countByLevel(questions) {
+    return Object.fromEntries(
+        LEVELS.map((level) => [level, questions.filter((q) => q.difficulty === level).length])
+    );
 }
 
 
@@ -220,8 +311,10 @@ function printQuestions(questions, rejected) {
         console.log(`\n${level.toUpperCase()} (${group.length})\n`);
 
         for (const question of group) {
-            console.log(`  ${question.question}`);
-            console.log(`    → ${question.answer}\n`);
+            const moved = question.was && question.was !== question.difficulty ? ` (was ${question.was})` : "";
+            const rated = question.percent === undefined ? "" : `[${question.percent}%] `;
+            console.log(`  ${rated}${question.question}`);
+            console.log(`    → ${question.answer}${moved}\n`);
         }
     }
 
@@ -248,9 +341,17 @@ async function main() {
     const counts = perLevel === null ? blueprint.counts : { easy: perLevel, medium: perLevel, hard: perLevel };
 
     const generated = await generateQuestions(buildPrompt(blueprint, counts));
-    const { kept, rejected } = validate(generated);
+    const valid = validate(generated);
+
+    console.log(`Checking difficulty of ${valid.kept.length} questions...`);
+    const checked = await checkDifficulty(valid.kept);
+
+    const kept = checked.kept;
+    const rejected = [...valid.rejected, ...checked.rejected];
 
     printQuestions(kept, rejected);
+    console.log(`${checked.moved} relabelled by the difficulty check.`);
+    console.log(`Target ${JSON.stringify(counts)}, got ${JSON.stringify(countByLevel(kept))}.`);
 
     if (!save) {
         console.log("\nNothing written. Re-run with --save once you are happy.");

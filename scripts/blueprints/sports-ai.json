@@ -22,5 +22,5 @@
         "national sports, and countries that dominate an unexpected one" 
     ],
     "avoid": "current standings and transfer news, anything from the ongoing season, records an active career could break this year, and questions that turn on a single season's statistics",
-    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+    "counts": { "easy": 100, "medium": 100, "hard": 100 }
 }

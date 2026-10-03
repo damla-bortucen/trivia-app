@@ -29,5 +29,5 @@
         "two musical terms listeners routinely mix up, and which is which"
     ],
     "avoid": "current charts and streaming numbers, anything released in the last two years, celebrity personal lives, chart positions that differ from one country to the next, theory beyond what a keen listener would know, anything needing a score or an instrument in front of you, and questions where a cover version and the original would both be right",
-    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+    "counts": { "easy": 100, "medium": 100, "hard": 100 }
 }

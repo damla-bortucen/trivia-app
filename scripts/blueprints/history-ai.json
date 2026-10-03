@@ -21,5 +21,5 @@
         "the surprisingly short or long duration of a well known thing"
     ],
     "avoid": "contested or politically live topics, atrocity and body counts, questions that turn on a date nobody could reason toward",
-    "counts": { "easy": 50, "medium": 50, "hard": 50 }
+    "counts": { "easy": 100, "medium": 100, "hard": 100 }
 }
